@@ -8,7 +8,17 @@
   body { font-family: system-ui, sans-serif; margin: 24px; background: #f6f4ef; color: #1c1a17; }
   h1 { font-size: 1.4rem; }
   .meta { color: #5c564e; }
-  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
+  .xpost, .notepost { margin-top: 10px; }
+  .xpost p, .notepost p { margin: 8px 0; white-space: pre-wrap; line-height: 1.5; }
+  .xlink { display: block; margin-top: 8px; border: 1px solid #e2ddd4; border-radius: 12px; overflow: hidden; text-decoration: none; color: inherit; }
+  .xlink .site { font-size: 12px; color: #5c564e; padding: 8px 10px 0; }
+  .xlink strong, .xlink .desc { display: block; padding: 2px 10px; }
+  .xlink .desc { color: #5c564e; font-size: 13px; padding-bottom: 10px; }
+  .notepost h2 { font-size: 1.35rem; line-height: 1.35; margin: 8px 0; }
+  .notepost .lead { font-size: 1.05rem; }
+  .cites { margin-top: 8px; font-size: 14px; }
+  .cites li { margin: 4px 0; }
   .card { background: #fff; border: 1px solid #e2ddd4; border-radius: 12px; padding: 14px; }
   .draft { margin-top: 10px; white-space: pre-wrap; font-size: 14px; line-height: 1.5; background: #f6f4ef; padding: 10px; border-radius: 8px; }
   .tag { display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 99px; background: #efeae2; margin-right: 6px; }
@@ -50,17 +60,73 @@ fetch("data/latest.json").then(r => r.json()).then(data => {
     el.className = "card";
     el.innerHTML = `<div><span class="tag">${card.channel}</span><span class="tag">${card.source}</span></div>
       <h3><a href="${card.url}">${card.title}</a></h3>`;
-    if (card.draft) {
+    const label = document.createElement("span");
+    label.className = "tag";
+    label.textContent = "投稿プレビュー";
+    if (card.channel === "X" && card.preview) {
+      const box = document.createElement("div");
+      box.className = "xpost";
+      box.appendChild(label);
+      const text = document.createElement("p");
+      text.textContent = card.preview.text || "";
+      box.appendChild(text);
+      const link = document.createElement("a");
+      link.className = "xlink";
+      link.href = card.preview.url || card.url;
+      link.target = "_blank";
+      const site = document.createElement("div");
+      site.className = "site";
+      site.textContent = card.preview.siteName || "";
+      const title = document.createElement("strong");
+      title.textContent = card.preview.title || "";
+      const desc = document.createElement("div");
+      desc.className = "desc";
+      desc.textContent = card.preview.description || "";
+      link.append(site, title, desc);
+      box.appendChild(link);
+      el.appendChild(box);
+    } else if (card.channel === "note" && card.preview) {
+      const box = document.createElement("div");
+      box.className = "notepost";
+      box.appendChild(label);
+      const h = document.createElement("h2");
+      h.textContent = card.preview.title || "";
+      const lead = document.createElement("p");
+      lead.className = "lead";
+      lead.textContent = card.preview.lead || "";
+      const body = document.createElement("p");
+      body.textContent = card.preview.bodyPreview || "";
+      box.append(h, lead, body);
+      el.appendChild(box);
+    } else if (card.draft) {
       const draft = document.createElement("div");
       draft.className = "draft";
-      const label = document.createElement("span");
-      label.className = "tag";
-      label.textContent = "投稿文の下書き";
+      const dlabel = document.createElement("span");
+      dlabel.className = "tag";
+      dlabel.textContent = "投稿文の下書き";
       const body = document.createElement("p");
       body.textContent = card.draft;
-      draft.appendChild(label);
-      draft.appendChild(body);
+      draft.append(dlabel, body);
       el.appendChild(draft);
+    }
+    if (card.citations && card.citations.length) {
+      const cites = document.createElement("div");
+      cites.className = "cites";
+      const cap = document.createElement("span");
+      cap.className = "tag";
+      cap.textContent = "引用元";
+      const ul = document.createElement("ul");
+      for (const cite of card.citations) {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = cite.url;
+        a.target = "_blank";
+        a.textContent = cite.siteName || cite.url;
+        li.appendChild(a);
+        ul.appendChild(li);
+      }
+      cites.append(cap, ul);
+      el.appendChild(cites);
     }
     const sel = document.createElement("select");
     for (const opt of ["未投稿", "投稿済み", "保留"]) {
