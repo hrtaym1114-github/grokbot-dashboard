@@ -23,7 +23,6 @@
   .draft { margin-top: 10px; white-space: pre-wrap; font-size: 14px; line-height: 1.5; background: #f6f4ef; padding: 10px; border-radius: 8px; }
   .tag { display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 99px; background: #efeae2; margin-right: 6px; }
   select { margin-top: 8px; }
-  button.approve { margin-top: 8px; margin-left: 8px; }
   table { width: 100%; border-collapse: collapse; background: #fff; }
   td, th { text-align: left; padding: 8px; border-bottom: 1px solid #eee; font-size: 14px; }
   a { color: #1d4e89; }
@@ -39,7 +38,7 @@
 <div class="grid" id="shelf"></div>
 <h2>履歴</h2>
 <table><thead><tr><th>日付</th><th>チャンネル</th><th>タイトル</th><th>状態</th></tr></thead><tbody id="history"></tbody></table>
-<p class="meta">選べるのは保留と承認だけ。未投稿と投稿済みは表示だけ。Xは承認のあと、次の07分に投稿される（0時台から3時台は止まっているので、その間は4時07分）。</p>
+<p class="meta">操作はプルダウンの保留と承認だけ。このページの選択はブラウザの表示だけを変える。毎時07分のジョブが見るのは、latest.json に書いた「承認」だけ。</p>
 <script>
 const KEY = "routing-status-overrides";
 function loadOverrides() {
@@ -195,17 +194,6 @@ fetch("data/latest.json").then(r => r.json()).then(data => {
     }
     sel.addEventListener("change", () => choose(sel.value));
     el.appendChild(sel);
-    if (card.channel === "X" || card.channel === "note") {
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "approve";
-      btn.textContent = "承認して投稿";
-      btn.addEventListener("click", () => {
-        sel.value = "承認";
-        choose("承認");
-      });
-      el.appendChild(btn);
-    }
     cards.appendChild(el);
   }
   const empty = document.getElementById("empty");
