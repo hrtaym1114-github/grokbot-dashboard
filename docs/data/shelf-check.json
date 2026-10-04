@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-05",
+  "items": [
+    {
+      "title": "未投稿のネタ",
+      "priority": "要対応",
+      "body": "2026-10-05 の振り分けは X 1本（ドキュメント駆動エージェント、Trend、未投稿）と note 1本（Gemini無料がFlash-Liteのみ、Borders、未投稿）。Zenn とブログはルールどおり 0本。ブックマーク当日分はなし。"
+    },
+    {
+      "title": "止まっているワークフロー",
+      "priority": "様子見",
+      "body": "Xブックマークの日次は bookmark-digest.yml が disabled。digest の最新は 2026-04-01。後継の bookmark-sync が毎日動いているかは未確認。x-daily-auto-post と x-follower-sprint は paused のまま未実行。"
+    },
+    {
+      "title": "収集の欠け",
+      "priority": "様子見",
+      "body": "10/1〜10/5 の trend.md と Borders ニュースは毎日ある。欠けた日はない。10/5 の Trend は Reddit 13本がログイン壁で 0件。ファイル自体は出ている。"
+    },
+    {
+      "title": "エージェントの役割",
+      "priority": "様子見",
+      "body": "役割の見直し結果はまだ出ていない。棚卸し時点では未実施。"
+    },
+    {
+      "title": "ゼロさんフォルダ",
+      "priority": "要対応",
+      "body": "obsidian-1 の全体と 03_Input を探したが、フォルダ名にもファイル名にも「ゼロさん」はない。別の保管庫か未 push のまま。進捗は未発見のまま。"
+    }
+  ]
+}

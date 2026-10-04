@@ -23,6 +23,8 @@
 <div class="grid" id="cards"></div>
 <h2>出ていないチャンネル</h2>
 <ul id="empty"></ul>
+<h2>棚卸し</h2>
+<div class="grid" id="shelf"></div>
 <h2>履歴</h2>
 <table><thead><tr><th>日付</th><th>チャンネル</th><th>タイトル</th><th>状態</th></tr></thead><tbody id="history"></tbody></table>
 <p class="meta">状態の切り替えはこのブラウザだけに残る。リポジトリの JSON は書き換えない。</p>
@@ -73,6 +75,22 @@ fetch("data/latest.json").then(r => r.json()).then(data => {
 }).catch(err => {
   document.getElementById("meta").textContent = "データを読めなかった: " + err;
 });
+
+fetch("data/shelf-check.json").then(r => r.json()).then(data => {
+  const box = document.getElementById("shelf");
+  if (!box) return;
+  const head = document.createElement("p");
+  head.className = "meta";
+  head.textContent = "棚卸し " + data.date;
+  box.before(head);
+  for (const item of data.items || []) {
+    const el = document.createElement("article");
+    el.className = "card";
+    el.innerHTML = `<span class="tag">${item.priority}</span> <strong>${item.title}</strong><p>${item.body}</p>`;
+    box.appendChild(el);
+  }
+}).catch(() => {});
+
 </script>
 </body>
 </html>
