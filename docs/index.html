@@ -23,6 +23,7 @@
   .draft { margin-top: 10px; white-space: pre-wrap; font-size: 14px; line-height: 1.5; background: #f6f4ef; padding: 10px; border-radius: 8px; }
   .tag { display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 99px; background: #efeae2; margin-right: 6px; }
   select { margin-top: 8px; }
+  button.approve { margin-top: 8px; margin-left: 8px; }
   table { width: 100%; border-collapse: collapse; background: #fff; }
   td, th { text-align: left; padding: 8px; border-bottom: 1px solid #eee; font-size: 14px; }
   a { color: #1d4e89; }
@@ -38,7 +39,7 @@
 <div class="grid" id="shelf"></div>
 <h2>履歴</h2>
 <table><thead><tr><th>日付</th><th>チャンネル</th><th>タイトル</th><th>状態</th></tr></thead><tbody id="history"></tbody></table>
-<p class="meta">状態の切り替えはこのブラウザだけに残る。リポジトリの JSON は書き換えない。</p>
+<p class="meta">画面の「承認」はこのブラウザだけに残る。投稿ジョブが見るのは latest.json の status が「承認」のカードだけ。未投稿のカードは投稿しない。</p>
 <script>
 const KEY = "routing-status-overrides";
 function loadOverrides() {
@@ -129,7 +130,7 @@ fetch("data/latest.json").then(r => r.json()).then(data => {
       el.appendChild(cites);
     }
     const sel = document.createElement("select");
-    for (const opt of ["未投稿", "投稿済み", "保留"]) {
+    for (const opt of ["未投稿", "承認", "投稿済み", "保留"]) {
       const o = document.createElement("option");
       o.value = opt; o.textContent = opt;
       if (opt === status) o.selected = true;
@@ -137,6 +138,17 @@ fetch("data/latest.json").then(r => r.json()).then(data => {
     }
     sel.addEventListener("change", () => saveOverride(card.id, sel.value));
     el.appendChild(sel);
+    if (card.channel === "X" || card.channel === "note") {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "approve";
+      btn.textContent = "承認して投稿";
+      btn.addEventListener("click", () => {
+        sel.value = "承認";
+        saveOverride(card.id, "承認");
+      });
+      el.appendChild(btn);
+    }
     cards.appendChild(el);
   }
   const empty = document.getElementById("empty");
