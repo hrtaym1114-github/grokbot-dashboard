@@ -39,16 +39,41 @@
 <div class="grid" id="shelf"></div>
 <h2>履歴</h2>
 <table><thead><tr><th>日付</th><th>チャンネル</th><th>タイトル</th><th>状態</th></tr></thead><tbody id="history"></tbody></table>
-<p class="meta">画面の「承認」はこのブラウザだけに残る。投稿ジョブが見るのは latest.json の status が「承認」のカードだけ。未投稿のカードは投稿しない。</p>
+<p class="meta">選べるのは保留と承認だけ。未投稿と投稿済みは表示だけ。Xは承認のあと、次の07分に投稿される（0時台から3時台は止まっているので、その間は4時07分）。</p>
 <script>
 const KEY = "routing-status-overrides";
 function loadOverrides() {
   try { return JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { return {}; }
 }
-function saveOverride(id, status) {
+function saveOverride(id, state) {
   const all = loadOverrides();
-  all[id] = status;
+  all[id] = state;
   localStorage.setItem(KEY, JSON.stringify(all));
+}
+function nextXSlot(from) {
+  const d = new Date(from.getTime());
+  d.setSeconds(0, 0);
+  for (let i = 0; i < 24 * 60; i++) {
+    d.setMinutes(d.getMinutes() + 1);
+    if (d.getMinutes() === 7 && d.getHours() >= 4) return d;
+  }
+  return d;
+}
+function fmtTime(d) {
+  return d.getHours() + "時" + String(d.getMinutes()).padStart(2, "0") + "分";
+}
+function statusLabel(card, state) {
+  const status = state.status || card.status;
+  if (status === "承認" && card.channel === "X") {
+    const when = state.scheduledAt ? new Date(state.scheduledAt) : nextXSlot(new Date());
+    return "承認（投稿待ち・" + fmtTime(when) + "予定）";
+  }
+  if (status === "承認") return "承認（投稿待ち）";
+  if (status === "投稿済み") {
+    const t = state.postedAt || card.postedAt;
+    return t ? "投稿済み（" + fmtTime(new Date(t)) + "）" : "投稿済み";
+  }
+  return status || "未投稿";
 }
 fetch("data/latest.json").then(r => r.json()).then(data => {
   const overrides = loadOverrides();
@@ -129,14 +154,46 @@ fetch("data/latest.json").then(r => r.json()).then(data => {
       cites.append(cap, ul);
       el.appendChild(cites);
     }
+    const raw = overrides[card.id];
+    const state = (raw && typeof raw === "object")
+      ? raw
+      : { status: (typeof raw === "string" ? raw : card.status), scheduledAt: card.scheduledAt || null, postedAt: card.postedAt || null };
+    const shown = document.createElement("p");
+    shown.className = "meta";
+    const note = document.createElement("p");
+    note.className = "meta";
+    function paint() {
+      shown.textContent = statusLabel(card, state);
+      if (card.channel === "X" && state.status === "承認") {
+        note.textContent = "承認から次の07分までに投稿されます。";
+      } else {
+        note.textContent = "";
+      }
+    }
+    paint();
+    el.appendChild(shown);
+    el.appendChild(note);
     const sel = document.createElement("select");
-    for (const opt of ["未投稿", "承認", "投稿済み", "保留"]) {
+    const blank = document.createElement("option");
+    blank.value = "";
+    blank.textContent = "選ぶ";
+    if (state.status !== "保留" && state.status !== "承認") blank.selected = true;
+    sel.appendChild(blank);
+    for (const opt of ["保留", "承認"]) {
       const o = document.createElement("option");
       o.value = opt; o.textContent = opt;
-      if (opt === status) o.selected = true;
+      if (opt === state.status) o.selected = true;
       sel.appendChild(o);
     }
-    sel.addEventListener("change", () => saveOverride(card.id, sel.value));
+    function choose(value) {
+      if (!value) return;
+      state.status = value;
+      if (value === "承認" && card.channel === "X") state.scheduledAt = nextXSlot(new Date()).toISOString();
+      if (value !== "承認") state.scheduledAt = null;
+      saveOverride(card.id, { status: state.status, scheduledAt: state.scheduledAt || null, postedAt: state.postedAt || null });
+      paint();
+    }
+    sel.addEventListener("change", () => choose(sel.value));
     el.appendChild(sel);
     if (card.channel === "X" || card.channel === "note") {
       const btn = document.createElement("button");
@@ -145,7 +202,7 @@ fetch("data/latest.json").then(r => r.json()).then(data => {
       btn.textContent = "承認して投稿";
       btn.addEventListener("click", () => {
         sel.value = "承認";
-        saveOverride(card.id, "承認");
+        choose("承認");
       });
       el.appendChild(btn);
     }

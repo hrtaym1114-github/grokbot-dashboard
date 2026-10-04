@@ -16,7 +16,9 @@
         "siteName": "liao.gg",
         "title": "Agents Don't Need Memory. They Need Documentation.",
         "description": "Why agents need project documentation instead of retrieval from old conversations."
-      }
+      },
+      "scheduledAt": null,
+      "postedAt": null
     },
     {
       "id": "20261005-note-gemini",
@@ -36,7 +38,9 @@
           "url": "https://www.itmedia.co.jp/news/article/2610/04/2000001987/",
           "siteName": "ITmedia NEWS"
         }
-      ]
+      ],
+      "scheduledAt": null,
+      "postedAt": null
     }
   ],
   "history": [
@@ -62,5 +66,14 @@
     "承認",
     "投稿済み",
     "保留"
-  ]
+  ],
+  "statusSelect": [
+    "保留",
+    "承認"
+  ],
+  "statusDisplayOnly": [
+    "未投稿",
+    "投稿済み"
+  ],
+  "xPost": "Xは承認後、次の毎時07分に投稿する。0時台から3時台はジョブが止まっているので、その間の承認は4時07分。"
 }
