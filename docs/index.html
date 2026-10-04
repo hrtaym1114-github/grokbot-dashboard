@@ -10,6 +10,7 @@
   .meta { color: #5c564e; }
   .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
   .card { background: #fff; border: 1px solid #e2ddd4; border-radius: 12px; padding: 14px; }
+  .draft { margin-top: 10px; white-space: pre-wrap; font-size: 14px; line-height: 1.5; background: #f6f4ef; padding: 10px; border-radius: 8px; }
   .tag { display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 99px; background: #efeae2; margin-right: 6px; }
   select { margin-top: 8px; }
   table { width: 100%; border-collapse: collapse; background: #fff; }
@@ -49,6 +50,18 @@ fetch("data/latest.json").then(r => r.json()).then(data => {
     el.className = "card";
     el.innerHTML = `<div><span class="tag">${card.channel}</span><span class="tag">${card.source}</span></div>
       <h3><a href="${card.url}">${card.title}</a></h3>`;
+    if (card.draft) {
+      const draft = document.createElement("div");
+      draft.className = "draft";
+      const label = document.createElement("span");
+      label.className = "tag";
+      label.textContent = "投稿文の下書き";
+      const body = document.createElement("p");
+      body.textContent = card.draft;
+      draft.appendChild(label);
+      draft.appendChild(body);
+      el.appendChild(draft);
+    }
     const sel = document.createElement("select");
     for (const opt of ["未投稿", "投稿済み", "保留"]) {
       const o = document.createElement("option");

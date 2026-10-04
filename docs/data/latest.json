@@ -8,7 +8,8 @@
       "source": "Trend",
       "channel": "X",
       "status": "未投稿",
-      "url": "https://news.ycombinator.com/item?id=49945933"
+      "url": "https://news.ycombinator.com/item?id=49945933",
+      "draft": "HNで「エージェントに要るのはメモリではなくドキュメント」という記事が議論になっている。記憶プラグインは古くなって文脈を汚す、だからカタログ付きの文書を正本にしろ、という主張。コメントは「コードが正本では」「文書も腐る」で割れている。"
     },
     {
       "id": "20261005-note-gemini",
@@ -16,7 +17,8 @@
       "source": "Borders",
       "channel": "note",
       "status": "未投稿",
-      "url": "https://www.itmedia.co.jp/news/article/2610/04/2000001987/"
+      "url": "https://www.itmedia.co.jp/news/article/2610/04/2000001987/",
+      "draft": "個人向けGemini、10/9から無料はFlash-Liteのみ\n\nGoogleは個人向けGeminiアプリで使えるモデルを契約プラン別に整理すると告知した。無料ユーザーは10月9日からFlash-Liteのみになり、FlashはGoogle AI Plus以上、ProはAI ProかUltraだけで使える。無料版自体は残るが、「無料のGeminiで十分」という前提は来週から変わる。"
     }
   ],
   "history": [
