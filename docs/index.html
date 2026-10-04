@@ -38,7 +38,7 @@
 <div class="grid" id="shelf"></div>
 <h2>履歴</h2>
 <table><thead><tr><th>日付</th><th>チャンネル</th><th>タイトル</th><th>状態</th></tr></thead><tbody id="history"></tbody></table>
-<p class="meta">操作はプルダウンの保留と承認だけ。このページの選択はブラウザの表示だけを変える。毎時07分のジョブが見るのは、latest.json に書いた「承認」だけ。</p>
+<p class="meta">プルダウンはこのブラウザの表示だけ。ファイルを承認にするには、GitHub にログインした状態で Actions の Approve card を実行し、カードIDを入れる。公開ページからは API を叩かない。</p>
 <script>
 const KEY = "routing-status-overrides";
 function loadOverrides() {
@@ -164,9 +164,9 @@ fetch("data/latest.json").then(r => r.json()).then(data => {
     function paint() {
       shown.textContent = statusLabel(card, state);
       if (card.channel === "X" && state.status === "承認") {
-        note.textContent = "承認から次の07分までに投稿されます。";
+        note.textContent = "表示上の予定。投稿されるのは latest.json が承認になったあと。";
       } else {
-        note.textContent = "";
+        note.textContent = "カードID: " + card.id;
       }
     }
     paint();
