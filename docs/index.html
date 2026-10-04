@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ネタ振り分け</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 24px; background: #f6f4ef; color: #1c1a17; }
+  h1 { font-size: 1.4rem; }
+  .meta { color: #5c564e; }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .card { background: #fff; border: 1px solid #e2ddd4; border-radius: 12px; padding: 14px; }
+  .tag { display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 99px; background: #efeae2; margin-right: 6px; }
+  select { margin-top: 8px; }
+  table { width: 100%; border-collapse: collapse; background: #fff; }
+  td, th { text-align: left; padding: 8px; border-bottom: 1px solid #eee; font-size: 14px; }
+  a { color: #1d4e89; }
+</style>
+</head>
+<body>
+<h1>日次のネタ振り分け</h1>
+<p class="meta" id="meta">読み込み中</p>
+<div class="grid" id="cards"></div>
+<h2>出ていないチャンネル</h2>
+<ul id="empty"></ul>
+<h2>履歴</h2>
+<table><thead><tr><th>日付</th><th>チャンネル</th><th>タイトル</th><th>状態</th></tr></thead><tbody id="history"></tbody></table>
+<p class="meta">状態の切り替えはこのブラウザだけに残る。リポジトリの JSON は書き換えない。</p>
+<script>
+const KEY = "routing-status-overrides";
+function loadOverrides() {
+  try { return JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { return {}; }
+}
+function saveOverride(id, status) {
+  const all = loadOverrides();
+  all[id] = status;
+  localStorage.setItem(KEY, JSON.stringify(all));
+}
+fetch("data/latest.json").then(r => r.json()).then(data => {
+  const overrides = loadOverrides();
+  document.getElementById("meta").textContent =
+    data.date + " / ブックマーク: " + (data.bookmarks === "skipped" ? "当日分なし" : "あり");
+  const cards = document.getElementById("cards");
+  for (const card of data.cards) {
+    const status = overrides[card.id] || card.status;
+    const el = document.createElement("article");
+    el.className = "card";
+    el.innerHTML = `<div><span class="tag">${card.channel}</span><span class="tag">${card.source}</span></div>
+      <h3><a href="${card.url}">${card.title}</a></h3>`;
+    const sel = document.createElement("select");
+    for (const opt of ["未投稿", "投稿済み", "保留"]) {
+      const o = document.createElement("option");
+      o.value = opt; o.textContent = opt;
+      if (opt === status) o.selected = true;
+      sel.appendChild(o);
+    }
+    sel.addEventListener("change", () => saveOverride(card.id, sel.value));
+    el.appendChild(sel);
+    cards.appendChild(el);
+  }
+  const empty = document.getElementById("empty");
+  for (const [ch, note] of Object.entries(data.empty || {})) {
+    const li = document.createElement("li");
+    li.textContent = ch + ": " + note;
+    empty.appendChild(li);
+  }
+  const body = document.getElementById("history");
+  for (const row of data.history || []) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${row.date}</td><td>${row.channel}</td><td>${row.title}</td><td>${overrides[row.date + "-" + row.channel] || row.status}</td>`;
+    body.appendChild(tr);
+  }
+}).catch(err => {
+  document.getElementById("meta").textContent = "データを読めなかった: " + err;
+});
+</script>
+</body>
+</html>
