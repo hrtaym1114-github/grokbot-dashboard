@@ -1,42 +1,43 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "bookmarks": "skipped",
   "cards": [
     {
-      "id": "20261005-x-docs",
-      "title": "エージェントに必要なのはメモリではなくドキュメント",
+      "id": "20261006-x-text-to-cad",
+      "title": "text-to-cad：エージェントにCADを書かせるOSSが急伸",
       "source": "Trend",
       "channel": "X",
-      "status": "未投稿",
-      "url": "https://news.ycombinator.com/item?id=49945933",
-      "draft": "HNで「エージェントに要るのはメモリではなくドキュメント」という記事が議論になっている。記憶プラグインは古くなって文脈を汚す、だからカタログ付きの文書を正本にしろ、という主張。コメントは「コードが正本では」「文書も腐る」で割れている。",
+      "status": "投稿済み",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "draft": "設計現場で、エージェントに部品を頼むとき、チャットの文章ではなくSTEPを受け取れるようになった。GitHubで一日に星が数百増え、累計は約1.7万の、エージェント向けCADスキル群だ。手元で3Dを作り、壁厚やオーバーハングなどの製造向け確認や、寸法入り図面も出せる、と書いてある。基盤は既存のCADカーネルで、Claude CodeやCursorなどに入れられる。\n\nCADが消える話ではない。寸法と公差を誰が確定し、図面を誰が承認するかは、これまでどおり設計側に残る。",
       "preview": {
-        "text": "HNで「エージェントに要るのはメモリではなくドキュメント」という記事が議論になっている。記憶プラグインは古くなって文脈を汚す、だからカタログ付きの文書を正本にしろ、という主張。コメントは「コードが正本では」「文書も腐る」で割れている。",
-        "url": "https://liao.gg/blog/agents-dont-need-memory",
-        "siteName": "liao.gg",
-        "title": "Agents Don't Need Memory. They Need Documentation.",
-        "description": "Why agents need project documentation instead of retrieval from old conversations."
+        "text": "設計現場で、エージェントに部品を頼むとき、チャットの文章ではなくSTEPを受け取れるようになった。GitHubで一日に星が数百増え、累計は約1.7万の、エージェント向けCADスキル群だ。手元で3Dを作り、壁厚やオーバーハングなどの製造向け確認や、寸法入り図面も出せる、と書いてある。基盤は既存のCADカーネルで、Claude CodeやCursorなどに入れられる。\n\nCADが消える話ではない。寸法と公差を誰が確定し、図面を誰が承認するかは、これまでどおり設計側に残る。",
+        "url": "https://github.com/earthtojake/text-to-cad",
+        "siteName": "GitHub",
+        "title": "GitHub - earthtojake/text-to-cad: Give your agent CAD superpowers.",
+        "description": "Give your agent CAD superpowers. Contribute to earthtojake/text-to-cad development by creating an account on GitHub."
       },
       "scheduledAt": null,
-      "postedAt": null
+      "postedAt": "2026-10-06T05:31:00+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2107207042897482064"
     },
     {
-      "id": "20261005-note-gemini",
-      "title": "個人向けGemini、10/9から無料はFlash-Liteのみ",
+      "id": "20261006-note-ai-attack",
+      "title": "AIエージェントでサイバー攻撃が激安に。数行の指示で27社に侵入",
       "source": "Borders",
       "channel": "note",
       "status": "未投稿",
-      "url": "https://www.itmedia.co.jp/news/article/2610/04/2000001987/",
-      "draft": "個人向けGemini、10/9から無料はFlash-Liteのみ\n\nGoogleは個人向けGeminiアプリで使えるモデルを契約プラン別に整理すると告知した。無料ユーザーは10月9日からFlash-Liteのみになり、FlashはGoogle AI Plus以上、ProはAI ProかUltraだけで使える。無料版自体は残るが、「無料のGeminiで十分」という前提は来週から変わる。",
+      "url": "https://weekly.ascii.jp/elem/000/004/439/4439882/",
+      "draft": "AIエージェントでサイバー攻撃が激安に。数行の指示で27社に侵入\n\nセキュリティ企業Gambit Securityの9月22日の報告によると、金銭目的の攻撃者が複数のオープンソースAIエージェントを使い、数百店のオンラインショップを攻撃した。9月10〜15日だけで105件の攻撃が実行され、少なくとも27社への侵入が確認された。",
       "preview": {
-        "title": "個人向けGemini、10/9から無料はFlash-Liteのみ",
-        "lead": "Googleは個人向けGeminiアプリで使えるモデルを、契約プラン別に整理すると告知した。無料ユーザーは10月9日からFlash-Liteのみになる。",
-        "bodyPreview": "FlashはGoogle AI Plus以上、最上位のProはGoogle AI ProまたはUltraだけで使える。各モデルは推論量をlow、medium、highから選べ、高いほど利用枠の消費が増える。\n\n対象は個人アカウント。無料版自体は残るが、「無料のGeminiで十分」という前提は来週から変わる。"
+        "title": "AIエージェントでサイバー攻撃が激安に。数行の指示で27社に侵入",
+        "lead": "セキュリティ企業Gambit Securityの9月22日の報告によると、金銭目的の攻撃者が複数のオープンソースAIエージェントを使い、数百店のオンラインショップを攻撃した。9月10〜15日だけで105件の攻撃が実行され、少なくとも27社への侵入が確認された。",
+        "bodyPreview": "2社からは60万件超のクレジットカード情報が流出し、19サイトには決済画面からカード情報を盗む不正スクリプトが仕込まれた。攻撃者は「管理画面に入って」といった短い指示を出すだけで、探索や攻撃の多くをAIに任せていた。\n\n101件のスキャンにかかったAI利用料は1社あたり平均25.46ドル。侵入まで1日未満、場合によっては数時間だった。既知の弱点が安く、速く、大量に探される以上、社外から触れるシステムの棚卸しとパッチの遅れが、そのまま被害の差になる。"
       },
       "citations": [
         {
-          "url": "https://www.itmedia.co.jp/news/article/2610/04/2000001987/",
-          "siteName": "ITmedia NEWS"
+          "url": "https://weekly.ascii.jp/elem/000/004/439/4439882/",
+          "siteName": "週刊アスキー"
         }
       ],
       "scheduledAt": null,
@@ -44,6 +45,18 @@
     }
   ],
   "history": [
+    {
+      "date": "2026-10-06",
+      "channel": "X",
+      "title": "text-to-cad：エージェントにCADを書かせるOSSが急伸",
+      "status": "投稿済み"
+    },
+    {
+      "date": "2026-10-06",
+      "channel": "note",
+      "title": "AIエージェントでサイバー攻撃が激安に。数行の指示で27社に侵入",
+      "status": "未投稿"
+    },
     {
       "date": "2026-10-05",
       "channel": "X",
