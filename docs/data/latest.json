@@ -1,43 +1,42 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "bookmarks": "skipped",
   "cards": [
     {
-      "id": "20261006-x-text-to-cad",
-      "title": "text-to-cad：エージェントにCADを書かせるOSSが急伸",
+      "id": "20261007-x-mistral-large-4",
+      "title": "Mistral Large 4：総1兆・アクティブ490億、重みは10月末公開予定",
       "source": "Trend",
       "channel": "X",
-      "status": "投稿済み",
-      "url": "https://github.com/earthtojake/text-to-cad",
-      "draft": "設計現場で、エージェントに部品を頼むとき、チャットの文章ではなくSTEPを受け取れるようになった。GitHubで一日に星が数百増え、累計は約1.7万の、エージェント向けCADスキル群だ。手元で3Dを作り、壁厚やオーバーハングなどの製造向け確認や、寸法入り図面も出せる、と書いてある。基盤は既存のCADカーネルで、Claude CodeやCursorなどに入れられる。\n\nCADが消える話ではない。寸法と公差を誰が確定し、図面を誰が承認するかは、これまでどおり設計側に残る。",
+      "status": "未投稿",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "draft": "Mistralが「Mistral Large 4」をパブリックプレビューで公開した。総1兆パラメータで推論時に動くのは490億のMoE、画像も読める。いまはAPIだけで、重みは10月末に公開予定。発表には、技術図面で機械部品を確かめるデモや、CAD分野の人手評価でGLM-5.3より好まれた結果も載っている。\n\nただ1兆は手元のPCでは回らない。社内に置けるかは、重みと必要な計算資源が出てから決めたい。",
       "preview": {
-        "text": "設計現場で、エージェントに部品を頼むとき、チャットの文章ではなくSTEPを受け取れるようになった。GitHubで一日に星が数百増え、累計は約1.7万の、エージェント向けCADスキル群だ。手元で3Dを作り、壁厚やオーバーハングなどの製造向け確認や、寸法入り図面も出せる、と書いてある。基盤は既存のCADカーネルで、Claude CodeやCursorなどに入れられる。\n\nCADが消える話ではない。寸法と公差を誰が確定し、図面を誰が承認するかは、これまでどおり設計側に残る。",
-        "url": "https://github.com/earthtojake/text-to-cad",
-        "siteName": "GitHub",
-        "title": "GitHub - earthtojake/text-to-cad: Give your agent CAD superpowers.",
-        "description": "Give your agent CAD superpowers. Contribute to earthtojake/text-to-cad development by creating an account on GitHub."
+        "text": "Mistralが「Mistral Large 4」をパブリックプレビューで公開した。総1兆パラメータで推論時に動くのは490億のMoE、画像も読める。いまはAPIだけで、重みは10月末に公開予定。発表には、技術図面で機械部品を確かめるデモや、CAD分野の人手評価でGLM-5.3より好まれた結果も載っている。\n\nただ1兆は手元のPCでは回らない。社内に置けるかは、重みと必要な計算資源が出てから決めたい。",
+        "url": "https://mistral.ai/news/mistral-large-4/",
+        "siteName": "Mistral",
+        "title": "Introducing Mistral Large 4 | Mistral",
+        "description": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models."
       },
       "scheduledAt": null,
-      "postedAt": "2026-10-06T05:31:00+09:00",
-      "tweet": "https://x.com/Amu_Lab__/status/2107207042897482064"
+      "postedAt": null
     },
     {
-      "id": "20261006-note-ai-attack",
-      "title": "AIエージェントでサイバー攻撃が激安に。数行の指示で27社に侵入",
+      "id": "20261007-note-token-waste",
+      "title": "「トークン単価は8割下がったのに請求は増えた」AIエージェントの見えない浪費",
       "source": "Borders",
       "channel": "note",
       "status": "未投稿",
-      "url": "https://weekly.ascii.jp/elem/000/004/439/4439882/",
-      "draft": "AIエージェントでサイバー攻撃が激安に。数行の指示で27社に侵入\n\nセキュリティ企業Gambit Securityの9月22日の報告によると、金銭目的の攻撃者が複数のオープンソースAIエージェントを使い、数百店のオンラインショップを攻撃した。9月10〜15日だけで105件の攻撃が実行され、少なくとも27社への侵入が確認された。",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/06/news004.html",
+      "draft": "「トークン単価は8割下がったのに請求は増えた」AIエージェントの見えない浪費\n\n＠ITの10月6日の記事によると、LLMのトークン単価は2025年から2026年にかけておおよそ8割下がった一方、LLM APIへの支出は2025年に84億ドルを超え、なお倍増のペースにある。数十人の試験導入で、月末の請求が想定の3倍になる例も珍しくないという。",
       "preview": {
-        "title": "AIエージェントでサイバー攻撃が激安に。数行の指示で27社に侵入",
-        "lead": "セキュリティ企業Gambit Securityの9月22日の報告によると、金銭目的の攻撃者が複数のオープンソースAIエージェントを使い、数百店のオンラインショップを攻撃した。9月10〜15日だけで105件の攻撃が実行され、少なくとも27社への侵入が確認された。",
-        "bodyPreview": "2社からは60万件超のクレジットカード情報が流出し、19サイトには決済画面からカード情報を盗む不正スクリプトが仕込まれた。攻撃者は「管理画面に入って」といった短い指示を出すだけで、探索や攻撃の多くをAIに任せていた。\n\n101件のスキャンにかかったAI利用料は1社あたり平均25.46ドル。侵入まで1日未満、場合によっては数時間だった。既知の弱点が安く、速く、大量に探される以上、社外から触れるシステムの棚卸しとパッチの遅れが、そのまま被害の差になる。"
+        "title": "「トークン単価は8割下がったのに請求は増えた」AIエージェントの見えない浪費",
+        "lead": "＠ITの10月6日の記事によると、LLMのトークン単価は2025年から2026年にかけておおよそ8割下がった一方、LLM APIへの支出は2025年に84億ドルを超え、なお倍増のペースにある。数十人の試験導入で、月末の請求が想定の3倍になる例も珍しくないという。",
+        "bodyPreview": "原因は、安くなった分だけはるかに多く使うことだ。エージェントは計画、ツール呼び出し、結果の読み込みを繰り返し、1つのタスクでモデルを数十回から200回近く呼ぶこともある。記事が引くAnthropicの研究では、エージェント型は通常のチャットの約4倍、複数のエージェントが連携する構成では約15倍のトークンを使う。\n\nツールの説明文も、仕事の前に文脈を埋める。GitHubの公式MCPサーバは、ツール定義を並べるだけで約4万2000トークンを消費するという。記事は、APIの全エンドポイントを機械的にツール化せず、エージェントが本当に使う操作だけを10〜30ほどに絞ることを勧め、これは価格ではなくガバナンスの問題だと整理している。"
       },
       "citations": [
         {
-          "url": "https://weekly.ascii.jp/elem/000/004/439/4439882/",
-          "siteName": "週刊アスキー"
+          "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/06/news004.html",
+          "siteName": "＠IT"
         }
       ],
       "scheduledAt": null,
@@ -45,6 +44,18 @@
     }
   ],
   "history": [
+    {
+      "date": "2026-10-07",
+      "channel": "X",
+      "title": "Mistral Large 4：総1兆・アクティブ490億、重みは10月末公開予定",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-07",
+      "channel": "note",
+      "title": "「トークン単価は8割下がったのに請求は増えた」AIエージェントの見えない浪費",
+      "status": "未投稿"
+    },
     {
       "date": "2026-10-06",
       "channel": "X",
