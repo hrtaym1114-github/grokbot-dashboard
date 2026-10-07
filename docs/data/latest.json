@@ -1,42 +1,42 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "bookmarks": "skipped",
   "cards": [
     {
-      "id": "20261007-x-mistral-large-4",
-      "title": "Mistral Large 4：総1兆・アクティブ490億、重みは10月末公開予定",
+      "id": "20261008-x-small-decision-models",
+      "title": "判断だけ小さいモデルに任せる：Strands Decider 2BとOpenAI Decisions API",
       "source": "Trend",
       "channel": "X",
       "status": "未投稿",
-      "url": "https://mistral.ai/news/mistral-large-4/",
-      "draft": "Mistralが「Mistral Large 4」をパブリックプレビューで公開した。総1兆パラメータで推論時に動くのは490億のMoE、画像も読める。いまはAPIだけで、重みは10月末に公開予定。発表には、技術図面で機械部品を確かめるデモや、CAD分野の人手評価でGLM-5.3より好まれた結果も載っている。\n\nただ1兆は手元のPCでは回らない。社内に置けるかは、重みと必要な計算資源が出てから決めたい。",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+      "draft": "「エージェントの判断だけ小さいモデルに任せる」動きが同じ週に重なった。StrandsはOSSの判断専用モデル「Strands Decider 2B」を重みごと公開し、RTX 3090で判断の中央値は約115ms。OpenAIは確率・選択・採点を返す「Decisions API」をパブリックベータで出した。\n\nどちらも文章は書けず、複雑な推論は苦手。ツール選びや振り分けのような小さい判断を、生成と分けて置く設計になる。",
       "preview": {
-        "text": "Mistralが「Mistral Large 4」をパブリックプレビューで公開した。総1兆パラメータで推論時に動くのは490億のMoE、画像も読める。いまはAPIだけで、重みは10月末に公開予定。発表には、技術図面で機械部品を確かめるデモや、CAD分野の人手評価でGLM-5.3より好まれた結果も載っている。\n\nただ1兆は手元のPCでは回らない。社内に置けるかは、重みと必要な計算資源が出てから決めたい。",
-        "url": "https://mistral.ai/news/mistral-large-4/",
-        "siteName": "Mistral",
-        "title": "Introducing Mistral Large 4 | Mistral",
-        "description": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models."
+        "text": "「エージェントの判断だけ小さいモデルに任せる」動きが同じ週に重なった。StrandsはOSSの判断専用モデル「Strands Decider 2B」を重みごと公開し、RTX 3090で判断の中央値は約115ms。OpenAIは確率・選択・採点を返す「Decisions API」をパブリックベータで出した。\n\nどちらも文章は書けず、複雑な推論は苦手。ツール選びや振り分けのような小さい判断を、生成と分けて置く設計になる。",
+        "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+        "siteName": "Strands Agents",
+        "title": "Introducing Strands Decider 2B: a small, open source, decision model",
+        "description": "Strands Decider 2B is a small, open source, decision model optimized for fast experimentation, local development, and innovation."
       },
       "scheduledAt": null,
       "postedAt": null
     },
     {
-      "id": "20261007-note-token-waste",
-      "title": "「トークン単価は8割下がったのに請求は増えた」AIエージェントの見えない浪費",
+      "id": "20261008-note-windows-hybrid-mxc",
+      "title": "Windowsが「ローカルとクラウドのAIを使い分ける」基盤に。エージェント隔離のMXCも正式提供",
       "source": "Borders",
       "channel": "note",
       "status": "未投稿",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/06/news004.html",
-      "draft": "「トークン単価は8割下がったのに請求は増えた」AIエージェントの見えない浪費\n\n＠ITの10月6日の記事によると、LLMのトークン単価は2025年から2026年にかけておおよそ8割下がった一方、LLM APIへの支出は2025年に84億ドルを超え、なお倍増のペースにある。数十人の試験導入で、月末の請求が想定の3倍になる例も珍しくないという。",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/08/2000002111/",
+      "draft": "Windowsが「ローカルとクラウドのAIを使い分ける」基盤に。エージェント隔離のMXCも正式提供\n\nITmedia AI＋の10月8日の記事によると、米Microsoftは10月7日（現地時間）、AIエージェントを必要に応じて手元のPCで動かし、より大きな能力が要るときだけクラウドを使う仕組みをOSレベルで整える方針を発表した。ユーザーのAI利用ニーズがクラウド予算を上回りつつあるとし、ローカルと組み合わせてトークン消費を抑えられるとしている。",
       "preview": {
-        "title": "「トークン単価は8割下がったのに請求は増えた」AIエージェントの見えない浪費",
-        "lead": "＠ITの10月6日の記事によると、LLMのトークン単価は2025年から2026年にかけておおよそ8割下がった一方、LLM APIへの支出は2025年に84億ドルを超え、なお倍増のペースにある。数十人の試験導入で、月末の請求が想定の3倍になる例も珍しくないという。",
-        "bodyPreview": "原因は、安くなった分だけはるかに多く使うことだ。エージェントは計画、ツール呼び出し、結果の読み込みを繰り返し、1つのタスクでモデルを数十回から200回近く呼ぶこともある。記事が引くAnthropicの研究では、エージェント型は通常のチャットの約4倍、複数のエージェントが連携する構成では約15倍のトークンを使う。\n\nツールの説明文も、仕事の前に文脈を埋める。GitHubの公式MCPサーバは、ツール定義を並べるだけで約4万2000トークンを消費するという。記事は、APIの全エンドポイントを機械的にツール化せず、エージェントが本当に使う操作だけを10〜30ほどに絞ることを勧め、これは価格ではなくガバナンスの問題だと整理している。"
+        "title": "Windowsが「ローカルとクラウドのAIを使い分ける」基盤に。エージェント隔離のMXCも正式提供",
+        "lead": "ITmedia AI＋の10月8日の記事によると、米Microsoftは10月7日（現地時間）、AIエージェントを必要に応じて手元のPCで動かし、より大きな能力が要るときだけクラウドを使う仕組みをOSレベルで整える方針を発表した。ユーザーのAI利用ニーズがクラウド予算を上回りつつあるとし、ローカルと組み合わせてトークン消費を抑えられるとしている。",
+        "bodyPreview": "統制の面では、エージェント向けの実行環境「Microsoft Execution Containers」（MXC）の一般提供を始めた。エージェントがアクセスできるファイルやネットワークを組織が決め、実行時に強制できる。OpenAIのCodexやGitHub Copilot、LM Studioなどが対応済みで、Claude Codeも対応予定。Agent 365やIntuneと連携して、どのエージェントが何をしたかを組織全体で管理できるようにする。\n\nローカル側では、GitHubの「HydraFusion」でPC上のモデルも振り分け先に加え、10月中に実験的プレビューを出す予定。Windows MLはllama.cppのサポートも発表した。最大128GBのメモリを積む「Surface Laptop Ultra」は24GBモデルが51万3480円から。データを社外に出しにくい現場にとって、手元のPCでエージェントを動かして統制する選択肢が公式に出てきた。"
       },
       "citations": [
         {
-          "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/06/news004.html",
-          "siteName": "＠IT"
+          "url": "https://www.itmedia.co.jp/aiplus/article/2610/08/2000002111/",
+          "siteName": "ITmedia AI＋"
         }
       ],
       "scheduledAt": null,
@@ -44,6 +44,18 @@
     }
   ],
   "history": [
+    {
+      "date": "2026-10-08",
+      "channel": "X",
+      "title": "判断だけ小さいモデルに任せる：Strands Decider 2BとOpenAI Decisions API",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-08",
+      "channel": "note",
+      "title": "Windowsが「ローカルとクラウドのAIを使い分ける」基盤に。エージェント隔離のMXCも正式提供",
+      "status": "未投稿"
+    },
     {
       "date": "2026-10-07",
       "channel": "X",
@@ -66,18 +78,6 @@
       "date": "2026-10-06",
       "channel": "note",
       "title": "AIエージェントでサイバー攻撃が激安に。数行の指示で27社に侵入",
-      "status": "未投稿"
-    },
-    {
-      "date": "2026-10-05",
-      "channel": "X",
-      "title": "エージェントに必要なのはメモリではなくドキュメント",
-      "status": "未投稿"
-    },
-    {
-      "date": "2026-10-05",
-      "channel": "note",
-      "title": "個人向けGemini、10/9から無料はFlash-Liteのみ",
       "status": "未投稿"
     }
   ],
