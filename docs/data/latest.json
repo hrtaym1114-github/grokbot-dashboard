@@ -1,42 +1,43 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "bookmarks": "skipped",
   "cards": [
     {
-      "id": "20261008-x-small-decision-models",
-      "title": "判断だけ小さいモデルに任せる：Strands Decider 2BとOpenAI Decisions API",
+      "id": "20261009-x-claude-haiku-5-5",
+      "title": "Claude Haiku 5.5 — 価格と置き場所（閉域の線引き）",
       "source": "Trend",
       "channel": "X",
-      "status": "未投稿",
-      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
-      "draft": "「エージェントの判断だけ小さいモデルに任せる」動きが同じ週に重なった。StrandsはOSSの判断専用モデル「Strands Decider 2B」を重みごと公開し、RTX 3090で判断の中央値は約115ms。OpenAIは確率・選択・採点を返す「Decisions API」をパブリックベータで出した。\n\nどちらも文章は書けず、複雑な推論は苦手。ツール選びや振り分けのような小さい判断を、生成と分けて置く設計になる。",
+      "status": "投稿済み",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "draft": "「クラウドAIは高いからローカルで」と決めていた要約・仕分けのうち、閉域の外に出してよいデータの分は、費用の前提が変わりました。10月7日にAnthropicが出したClaude Haiku 5.5の料金表では、10万トークン以下のリクエストで入力100万トークンあたり0.10ドル、出力0.50ドル。Haiku 4.5の10分の1の単価です。1件あたり入力2,000・出力200トークンを1日1万件回すと、API単価だけの試算で1日約3ドル（Haiku 4.5なら約30ドル）。トークナイザー変更で使うトークンが少し増えるため、公式の平均削減率は約75%です。\n\n図面や品質記録など閉域から出せないデータは、これまでどおり16GBのPCで動くローカルモデルの担当で、ここは変わりません。どのデータを外に出してよいかを種類ごとに一覧にしておくと、後任も同じ線引きで使い分けられます。",
       "preview": {
-        "text": "「エージェントの判断だけ小さいモデルに任せる」動きが同じ週に重なった。StrandsはOSSの判断専用モデル「Strands Decider 2B」を重みごと公開し、RTX 3090で判断の中央値は約115ms。OpenAIは確率・選択・採点を返す「Decisions API」をパブリックベータで出した。\n\nどちらも文章は書けず、複雑な推論は苦手。ツール選びや振り分けのような小さい判断を、生成と分けて置く設計になる。",
-        "url": "https://strandsagents.com/blog/introducing-strands-decider/",
-        "siteName": "Strands Agents",
-        "title": "Introducing Strands Decider 2B: a small, open source, decision model",
-        "description": "Strands Decider 2B is a small, open source, decision model optimized for fast experimentation, local development, and innovation."
+        "text": "「クラウドAIは高いからローカルで」と決めていた要約・仕分けのうち、閉域の外に出してよいデータの分は、費用の前提が変わりました。10月7日にAnthropicが出したClaude Haiku 5.5の料金表では、10万トークン以下のリクエストで入力100万トークンあたり0.10ドル、出力0.50ドル。Haiku 4.5の10分の1の単価です。1件あたり入力2,000・出力200トークンを1日1万件回すと、API単価だけの試算で1日約3ドル（Haiku 4.5なら約30ドル）。トークナイザー変更で使うトークンが少し増えるため、公式の平均削減率は約75%です。\n\n図面や品質記録など閉域から出せないデータは、これまでどおり16GBのPCで動くローカルモデルの担当で、ここは変わりません。どのデータを外に出してよいかを種類ごとに一覧にしておくと、後任も同じ線引きで使い分けられます。",
+        "url": "https://www.anthropic.com/claude-haiku-5-5",
+        "siteName": "Anthropic",
+        "title": "Introducing Claude Haiku 5.5",
+        "description": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released."
       },
       "scheduledAt": null,
-      "postedAt": null
+      "postedAt": "2026-10-09T06:03:00+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2108302278759506309"
     },
     {
-      "id": "20261008-note-windows-hybrid-mxc",
-      "title": "Windowsが「ローカルとクラウドのAIを使い分ける」基盤に。エージェント隔離のMXCも正式提供",
+      "id": "20261009-note-sakura-ai-engine-pe",
+      "title": "さくらインターネット、GPU専有・定額の「さくらのAI Engine プライベートエディション」提供開始",
       "source": "Borders",
       "channel": "note",
       "status": "未投稿",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/08/2000002111/",
-      "draft": "Windowsが「ローカルとクラウドのAIを使い分ける」基盤に。エージェント隔離のMXCも正式提供\n\nITmedia AI＋の10月8日の記事によると、米Microsoftは10月7日（現地時間）、AIエージェントを必要に応じて手元のPCで動かし、より大きな能力が要るときだけクラウドを使う仕組みをOSレベルで整える方針を発表した。ユーザーのAI利用ニーズがクラウド予算を上回りつつあるとし、ローカルと組み合わせてトークン消費を抑えられるとしている。",
+      "url": "https://www.publickey1.jp/blog/26/gpuai_engine.html",
+      "draft": "さくらインターネット、GPU専有・定額の「さくらのAI Engine プライベートエディション」提供開始\n\nPublickeyの10月9日の記事によると、さくらインターネットは10月8日、企業がGPUを専有して使える「さくらのAI Engine プライベートエディション」の提供開始を発表した。従来の従量課金型「さくらのAI Engine」とは異なり、定額制・専有型でトークン消費量を気にせず利用できるとする。",
       "preview": {
-        "title": "Windowsが「ローカルとクラウドのAIを使い分ける」基盤に。エージェント隔離のMXCも正式提供",
-        "lead": "ITmedia AI＋の10月8日の記事によると、米Microsoftは10月7日（現地時間）、AIエージェントを必要に応じて手元のPCで動かし、より大きな能力が要るときだけクラウドを使う仕組みをOSレベルで整える方針を発表した。ユーザーのAI利用ニーズがクラウド予算を上回りつつあるとし、ローカルと組み合わせてトークン消費を抑えられるとしている。",
-        "bodyPreview": "統制の面では、エージェント向けの実行環境「Microsoft Execution Containers」（MXC）の一般提供を始めた。エージェントがアクセスできるファイルやネットワークを組織が決め、実行時に強制できる。OpenAIのCodexやGitHub Copilot、LM Studioなどが対応済みで、Claude Codeも対応予定。Agent 365やIntuneと連携して、どのエージェントが何をしたかを組織全体で管理できるようにする。\n\nローカル側では、GitHubの「HydraFusion」でPC上のモデルも振り分け先に加え、10月中に実験的プレビューを出す予定。Windows MLはllama.cppのサポートも発表した。最大128GBのメモリを積む「Surface Laptop Ultra」は24GBモデルが51万3480円から。データを社外に出しにくい現場にとって、手元のPCでエージェントを動かして統制する選択肢が公式に出てきた。"
+        "title": "さくらインターネット、GPU専有・定額の「さくらのAI Engine プライベートエディション」提供開始",
+        "lead": "Publickeyの10月9日の記事によると、さくらインターネットは10月8日、企業がGPUを専有して使える「さくらのAI Engine プライベートエディション」の提供開始を発表した。従来の従量課金型「さくらのAI Engine」とは異なり、定額制・専有型でトークン消費量を気にせず利用できるとする。",
+        "bodyPreview": "独自開発モデルやファインチューニング済みモデル、オープンウェイトモデルなどを、さくらのGPU基盤上にホスティングしAPI経由で利用する。基盤の構築・運用・監視はさくら側が担うフルマネージド形態だ。国内データセンター運用のため、入力データやモデル資産を外部に出しにくい構成や閉域接続にも対応する。料金はGPU単位の月額定額制で、個別見積もり。機密データを扱いながら社内LLM基盤を持ちたい部門にとって、自前GPU運用と従量課金の公開APIの中間選択肢が増えた。"
       },
       "citations": [
         {
-          "url": "https://www.itmedia.co.jp/aiplus/article/2610/08/2000002111/",
-          "siteName": "ITmedia AI＋"
+          "url": "https://www.publickey1.jp/blog/26/gpuai_engine.html",
+          "siteName": "Publickey"
         }
       ],
       "scheduledAt": null,
@@ -45,22 +46,34 @@
   ],
   "history": [
     {
+      "date": "2026-10-09",
+      "channel": "X",
+      "title": "Claude Haiku 5.5 — 価格と置き場所（閉域の線引き）",
+      "status": "投稿済み"
+    },
+    {
+      "date": "2026-10-09",
+      "channel": "note",
+      "title": "さくらインターネット、GPU専有・定額の「さくらのAI Engine プライベートエディション」提供開始",
+      "status": "未投稿"
+    },
+    {
       "date": "2026-10-08",
       "channel": "X",
       "title": "判断だけ小さいモデルに任せる：Strands Decider 2BとOpenAI Decisions API",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-08",
       "channel": "note",
       "title": "Windowsが「ローカルとクラウドのAIを使い分ける」基盤に。エージェント隔離のMXCも正式提供",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-07",
       "channel": "X",
       "title": "Mistral Large 4：総1兆・アクティブ490億、重みは10月末公開予定",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-07",
