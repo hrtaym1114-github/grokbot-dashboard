@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261010-x-open-code-review",
+      "title": "Open Code Review（Alibaba）",
+      "source": "Desk",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://github.com/alibaba/open-code-review",
+      "draft": "AIにコードレビューを任せると、大きな変更ほどファイルを読み飛ばしたり、指摘の行番号がずれたりします。Alibabaが社内で2年使ってきたレビューCLI「Open Code Review」は、見るファイル・当てるルール・指摘を付ける行をプログラムで固定し、LLMには中身の読み取りだけを任せる作りで、Apache-2.0で公開されました。\n\nAlibaba自身の比較では、同じモデル同士でトークンは約5分の1〜15分の1に減り、誤検知の割合も下がりました。ただし正解の指摘を拾えたのは12〜20%で、人のレビューを置き換える数字ではありません。第三者の検証や、小さいローカルモデルでの数字はまだありません。社外に出せないコードなら接続先に社内のモデルを指定し、前任者が残したツールを1本レビューさせて、直すべき指摘が何割あるか数えるのが最初の確認になります。",
+      "preview": {
+        "text": "AIにコードレビューを任せると、大きな変更ほどファイルを読み飛ばしたり、指摘の行番号がずれたりします。Alibabaが社内で2年使ってきたレビューCLI「Open Code Review」は、見るファイル・当てるルール・指摘を付ける行をプログラムで固定し、LLMには中身の読み取りだけを任せる作りで、Apache-2.0で公開されました。\n\nAlibaba自身の比較では、同じモデル同士でトークンは約5分の1〜15分の1に減り、誤検知の割合も下がりました。ただし正解の指摘を拾えたのは12〜20%で、人のレビューを置き換える数字ではありません。第三者の検証や、小さいローカルモデルでの数字はまだありません。社外に出せないコードなら接続先に社内のモデルを指定し、前任者が残したツールを1本レビューさせて、直すべき指摘が何割あるか数えるのが最初の確認になります。",
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      "replies": [
+        "alibaba/open-code-review（GitHub）\nhttps://github.com/alibaba/open-code-review"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261010-x-bigarrow",
       "title": "bigarrow — エージェントが「人が押す一手」だけ画面上の矢印で指す",
       "source": "Trend",
