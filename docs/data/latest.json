@@ -1,50 +1,33 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "bookmarks": "skipped",
   "cards": [
     {
-      "id": "20261009-x-claude-haiku-5-5",
-      "title": "Claude Haiku 5.5 — 価格と置き場所（閉域の線引き）",
+      "id": "20261010-x-bigarrow",
+      "title": "bigarrow — エージェントが「人が押す一手」だけ画面上の矢印で指す",
       "source": "Trend",
       "channel": "X",
-      "status": "投稿済み",
-      "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "draft": "「クラウドAIは高いからローカルで」と決めていた要約・仕分けのうち、閉域の外に出してよいデータの分は、費用の前提が変わりました。10月7日にAnthropicが出したClaude Haiku 5.5の料金表では、10万トークン以下のリクエストで入力100万トークンあたり0.10ドル、出力0.50ドル。Haiku 4.5の10分の1の単価です。1件あたり入力2,000・出力200トークンを1日1万件回すと、API単価だけの試算で1日約3ドル（Haiku 4.5なら約30ドル）。トークナイザー変更で使うトークンが少し増えるため、公式の平均削減率は約75%です。\n\n図面や品質記録など閉域から出せないデータは、これまでどおり16GBのPCで動くローカルモデルの担当で、ここは変わりません。どのデータを外に出してよいかを種類ごとに一覧にしておくと、後任も同じ線引きで使い分けられます。",
-      "preview": {
-        "text": "「クラウドAIは高いからローカルで」と決めていた要約・仕分けのうち、閉域の外に出してよいデータの分は、費用の前提が変わりました。10月7日にAnthropicが出したClaude Haiku 5.5の料金表では、10万トークン以下のリクエストで入力100万トークンあたり0.10ドル、出力0.50ドル。Haiku 4.5の10分の1の単価です。1件あたり入力2,000・出力200トークンを1日1万件回すと、API単価だけの試算で1日約3ドル（Haiku 4.5なら約30ドル）。トークナイザー変更で使うトークンが少し増えるため、公式の平均削減率は約75%です。\n\n図面や品質記録など閉域から出せないデータは、これまでどおり16GBのPCで動くローカルモデルの担当で、ここは変わりません。どのデータを外に出してよいかを種類ごとに一覧にしておくと、後任も同じ線引きで使い分けられます。",
-        "url": "https://www.anthropic.com/claude-haiku-5-5",
-        "siteName": "Anthropic",
-        "title": "Introducing Claude Haiku 5.5",
-        "description": "Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released."
-      },
-      "scheduledAt": null,
-      "postedAt": "2026-10-09T06:03:00+09:00",
-      "tweet": "https://x.com/Amu_Lab__/status/2108302278759506309"
-    },
-    {
-      "id": "20261009-note-sakura-ai-engine-pe",
-      "title": "さくらインターネット、GPU専有・定額の「さくらのAI Engine プライベートエディション」提供開始",
-      "source": "Borders",
-      "channel": "note",
       "status": "未投稿",
-      "url": "https://www.publickey1.jp/blog/26/gpuai_engine.html",
-      "draft": "さくらインターネット、GPU専有・定額の「さくらのAI Engine プライベートエディション」提供開始\n\nPublickeyの10月9日の記事によると、さくらインターネットは10月8日、企業がGPUを専有して使える「さくらのAI Engine プライベートエディション」の提供開始を発表した。従来の従量課金型「さくらのAI Engine」とは異なり、定額制・専有型でトークン消費量を気にせず利用できるとする。",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "draft": "エージェントに任せた作業の途中、「ダイアログのAllowを押して」という頼みは、人が見ていないターミナルに文字で出るだけ。HNで261ptのbigarrowは、その一手を画面上の大きな矢印と文字で指すmacOS用CLIで、Claude Code／Codex向けスキル付き。クリックは下に通り、矢印は自分で消える。中にAIは入っていない。sudoのようにエージェントに打たせないコマンドは、コピーボタン付きで人に渡せる。承認の一手だけ人が持つ運用が、そのまま画面の上に出る。MITライセンス。",
       "preview": {
-        "title": "さくらインターネット、GPU専有・定額の「さくらのAI Engine プライベートエディション」提供開始",
-        "lead": "Publickeyの10月9日の記事によると、さくらインターネットは10月8日、企業がGPUを専有して使える「さくらのAI Engine プライベートエディション」の提供開始を発表した。従来の従量課金型「さくらのAI Engine」とは異なり、定額制・専有型でトークン消費量を気にせず利用できるとする。",
-        "bodyPreview": "独自開発モデルやファインチューニング済みモデル、オープンウェイトモデルなどを、さくらのGPU基盤上にホスティングしAPI経由で利用する。基盤の構築・運用・監視はさくら側が担うフルマネージド形態だ。国内データセンター運用のため、入力データやモデル資産を外部に出しにくい構成や閉域接続にも対応する。料金はGPU単位の月額定額制で、個別見積もり。機密データを扱いながら社内LLM基盤を持ちたい部門にとって、自前GPU運用と従量課金の公開APIの中間選択肢が増えた。"
+        "text": "エージェントに任せた作業の途中、「ダイアログのAllowを押して」という頼みは、人が見ていないターミナルに文字で出るだけ。HNで261ptのbigarrowは、その一手を画面上の大きな矢印と文字で指すmacOS用CLIで、Claude Code／Codex向けスキル付き。クリックは下に通り、矢印は自分で消える。中にAIは入っていない。sudoのようにエージェントに打たせないコマンドは、コピーボタン付きで人に渡せる。承認の一手だけ人が持つ運用が、そのまま画面の上に出る。MITライセンス。",
+        "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+        "siteName": "GitHub",
+        "title": "GitHub - franzenzenhofer/big-arrow-on-the-screen: Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT.",
+        "description": "Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT. - franzenzenhofer/big-arrow-on-the-screen"
       },
-      "citations": [
-        {
-          "url": "https://www.publickey1.jp/blog/26/gpuai_engine.html",
-          "siteName": "Publickey"
-        }
-      ],
       "scheduledAt": null,
       "postedAt": null
     }
   ],
   "history": [
+    {
+      "date": "2026-10-10",
+      "channel": "X",
+      "title": "bigarrow — エージェントが「人が押す一手」だけ画面上の矢印で指す",
+      "status": "未投稿"
+    },
     {
       "date": "2026-10-09",
       "channel": "X",
@@ -80,21 +63,10 @@
       "channel": "note",
       "title": "「トークン単価は8割下がったのに請求は増えた」AIエージェントの見えない浪費",
       "status": "未投稿"
-    },
-    {
-      "date": "2026-10-06",
-      "channel": "X",
-      "title": "text-to-cad：エージェントにCADを書かせるOSSが急伸",
-      "status": "投稿済み"
-    },
-    {
-      "date": "2026-10-06",
-      "channel": "note",
-      "title": "AIエージェントでサイバー攻撃が激安に。数行の指示で27社に侵入",
-      "status": "未投稿"
     }
   ],
   "empty": {
+    "note": "今日は0本（土曜。noteは平日1本）",
     "Zenn": "今日は0本（検証原稿なし）",
     "ブログ": "今日は0本（ローカルLLMの実測なし）"
   },
