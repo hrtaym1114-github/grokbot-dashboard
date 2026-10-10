@@ -26,6 +26,11 @@
   table { width: 100%; border-collapse: collapse; background: #fff; }
   td, th { text-align: left; padding: 8px; border-bottom: 1px solid #eee; font-size: 14px; }
   a { color: #1d4e89; }
+  .card.wide { grid-column: 1 / -1; }
+  .shelf-rows { overflow-x: auto; margin-top: 8px; }
+  .shelf-rows table { min-width: 720px; }
+  .shelf-rows th.group { background: #efeae2; font-weight: 600; }
+  .shelf-rows td { vertical-align: top; line-height: 1.45; }
 </style>
 </head>
 <body>
@@ -223,6 +228,34 @@ fetch("data/shelf-check.json").then(r => r.json()).then(data => {
     const el = document.createElement("article");
     el.className = "card";
     el.innerHTML = `<span class="tag">${item.priority}</span> <strong>${item.title}</strong><p>${item.body}</p>`;
+    if (item.wide || item.rows) el.classList.add("wide");
+    if (Array.isArray(item.rows) && item.rows.length) {
+      const wrap = document.createElement("div");
+      wrap.className = "shelf-rows";
+      const table = document.createElement("table");
+      const thead = document.createElement("thead");
+      const hr = document.createElement("tr");
+      for (const h of ["名前", "何をするか", "いつ（JST）", "最終成功", "状態"]) {
+        const th = document.createElement("th"); th.textContent = h; hr.appendChild(th);
+      }
+      thead.appendChild(hr); table.appendChild(thead);
+      const tbody = document.createElement("tbody");
+      let group = null;
+      for (const row of item.rows) {
+        if (row.group && row.group !== group) {
+          group = row.group;
+          const gr = document.createElement("tr");
+          const th = document.createElement("th"); th.colSpan = 5; th.className = "group"; th.textContent = group;
+          gr.appendChild(th); tbody.appendChild(gr);
+        }
+        const tr = document.createElement("tr");
+        for (const k of ["name", "what", "when", "last", "state"]) {
+          const td = document.createElement("td"); td.textContent = row[k] || ""; tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+      }
+      table.appendChild(tbody); wrap.appendChild(table); el.appendChild(wrap);
+    }
     box.appendChild(el);
   }
 }).catch(() => {});
