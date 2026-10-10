@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "bookmarks": "skipped",
   "cards": [
     {
@@ -39,32 +39,26 @@
       "scheduledAt": null,
       "postedAt": null,
       "tweet": null
-    },
-    {
-      "id": "20261010-x-bigarrow",
-      "title": "bigarrow — エージェントが「人が押す一手」だけ画面上の矢印で指す",
-      "source": "Trend",
-      "channel": "X",
-      "status": "未投稿",
-      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-      "draft": "エージェントに任せた作業の途中、「ダイアログのAllowを押して」という頼みは、人が見ていないターミナルに文字で出るだけ。HNで261ptのbigarrowは、その一手を画面上の大きな矢印と文字で指すmacOS用CLIで、Claude Code／Codex向けスキル付き。クリックは下に通り、矢印は自分で消える。中にAIは入っていない。sudoのようにエージェントに打たせないコマンドは、コピーボタン付きで人に渡せる。承認の一手だけ人が持つ運用が、そのまま画面の上に出る。MITライセンス。",
-      "preview": {
-        "text": "エージェントに任せた作業の途中、「ダイアログのAllowを押して」という頼みは、人が見ていないターミナルに文字で出るだけ。HNで261ptのbigarrowは、その一手を画面上の大きな矢印と文字で指すmacOS用CLIで、Claude Code／Codex向けスキル付き。クリックは下に通り、矢印は自分で消える。中にAIは入っていない。sudoのようにエージェントに打たせないコマンドは、コピーボタン付きで人に渡せる。承認の一手だけ人が持つ運用が、そのまま画面の上に出る。MITライセンス。",
-        "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-        "siteName": "GitHub",
-        "title": "GitHub - franzenzenhofer/big-arrow-on-the-screen: Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT.",
-        "description": "Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT. - franzenzenhofer/big-arrow-on-the-screen"
-      },
-      "scheduledAt": null,
-      "postedAt": null
     }
   ],
   "history": [
     {
+      "date": "2026-10-11",
+      "channel": "X",
+      "title": "Microsoft MXC（Execution Containers）一般提供",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-10",
+      "channel": "X",
+      "title": "Open Code Review（Alibaba）",
+      "status": "投稿済み"
+    },
+    {
       "date": "2026-10-10",
       "channel": "X",
       "title": "bigarrow — エージェントが「人が押す一手」だけ画面上の矢印で指す",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-09",
@@ -89,22 +83,10 @@
       "channel": "note",
       "title": "Windowsが「ローカルとクラウドのAIを使い分ける」基盤に。エージェント隔離のMXCも正式提供",
       "status": "投稿済み"
-    },
-    {
-      "date": "2026-10-07",
-      "channel": "X",
-      "title": "Mistral Large 4：総1兆・アクティブ490億、重みは10月末公開予定",
-      "status": "投稿済み"
-    },
-    {
-      "date": "2026-10-07",
-      "channel": "note",
-      "title": "「トークン単価は8割下がったのに請求は増えた」AIエージェントの見えない浪費",
-      "status": "未投稿"
     }
   ],
   "empty": {
-    "note": "今日は0本（土曜。noteは平日1本）",
+    "note": "今日は0本（日曜。noteは平日1本）",
     "Zenn": "今日は0本（検証原稿なし）",
     "ブログ": "今日は0本（ローカルLLMの実測なし）"
   },
