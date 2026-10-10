@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261011-x-mxc",
+      "title": "Microsoft MXC（Execution Containers）一般提供",
+      "source": "Desk",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+      "draft": "現場PCでエージェントを動かすとき、「図面フォルダは読ませたいが、設備の設定ファイルには触らせたくない」をエージェント任せにせず、OSの側で止められるようになります。MicrosoftのMXC（Microsoft Execution Containers）が10月7日に一般提供になりました。\n\n公式ブログによると、Windows 11では対応エージェントをAppContainerで包み、書ける・読むだけ・触れないフォルダと外への通信の可否をJSONのポリシーで決めて、実行時に止めます。ポリシーはエージェントの外にあり、エージェント自身は権限を広げられません。対応済みの中にはLM Studioもあり、ローカルモデルと組み合わせて外への通信を切る構成が取れます。Claude Codeは対応予定、Intuneでの一括管理は「近日」です。\n\n16GBのPCでどれだけ重くなるかは、公式に数字がなく、私もまだ試していません。最初は止めずに記録だけするモードで触ろうとしたフォルダの一覧を取り、そこから絞ったJSONを残しておけば、後任も同じ範囲で動かせます。",
+      "preview": {
+        "text": "現場PCでエージェントを動かすとき、「図面フォルダは読ませたいが、設備の設定ファイルには触らせたくない」をエージェント任せにせず、OSの側で止められるようになります。MicrosoftのMXC（Microsoft Execution Containers）が10月7日に一般提供になりました。\n\n公式ブログによると、Windows 11では対応エージェントをAppContainerで包み、書ける・読むだけ・触れないフォルダと外への通信の可否をJSONのポリシーで決めて、実行時に止めます。ポリシーはエージェントの外にあり、エージェント自身は権限を広げられません。対応済みの中にはLM Studioもあり、ローカルモデルと組み合わせて外への通信を切る構成が取れます。Claude Codeは対応予定、Intuneでの一括管理は「近日」です。\n\n16GBのPCでどれだけ重くなるかは、公式に数字がなく、私もまだ試していません。最初は止めずに記録だけするモードで触ろうとしたフォルダの一覧を取り、そこから絞ったJSONを残しておけば、後任も同じ範囲で動かせます。",
+        "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/"
+      },
+      "replies": [
+        "Microsoft Execution Containers（Windows Developer Blog）\nhttps://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261010-x-open-code-review",
       "title": "Open Code Review（Alibaba）",
       "source": "Desk",
