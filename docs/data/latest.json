@@ -1,7 +1,48 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "bookmarks": "skipped",
   "cards": [
+    {
+      "id": "20261012-x-hayamimi",
+      "title": "早耳（hayamimi）— CPUだけ・メモリ2GB未満でリアルタイム字幕と翻訳",
+      "source": "Trend",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://github.com/oboroge0/hayamimi",
+      "draft": "会議や朝礼の音声をクラウドに出さず、手元のPCで字幕にしたい現場向けのOSSです。「早耳（hayamimi）」はGPUもクラウドAPIも使わず、CPUだけ・メモリ2GB未満で、リアルタイム字幕・話者ラベル・翻訳字幕まで出します。言語ごとに専用モデルへ振り分ける作りで、テレビ放送の日本語で文字誤り率3.8%は作者の測定です。工場の騒音下での数字はまだないので、まず社内の会議録音で試すのが順番です。MITライセンス。",
+      "preview": {
+        "text": "会議や朝礼の音声をクラウドに出さず、手元のPCで字幕にしたい現場向けのOSSです。「早耳（hayamimi）」はGPUもクラウドAPIも使わず、CPUだけ・メモリ2GB未満で、リアルタイム字幕・話者ラベル・翻訳字幕まで出します。言語ごとに専用モデルへ振り分ける作りで、テレビ放送の日本語で文字誤り率3.8%は作者の測定です。工場の騒音下での数字はまだないので、まず社内の会議録音で試すのが順番です。MITライセンス。",
+        "url": "https://github.com/oboroge0/hayamimi",
+        "siteName": "GitHub",
+        "title": "GitHub - oboroge0/hayamimi: 早耳 - Real-time multilingual speech-to-text on CPU only. Live subtitles, browser dashboard, speaker labels, translation. No GPU, no cloud.",
+        "description": "早耳 - Real-time multilingual speech-to-text on CPU only. Live subtitles, browser dashboard, speaker labels, translation. No GPU, no cloud. - oboroge0/hayamimi"
+      },
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null
+    },
+    {
+      "id": "20261012-note-mitsubishi-ceatec-physical-ai",
+      "title": "三菱電機、CEATEC 2026で「フィジカルAI」による無人化工場を提示——熟練者並みのねじ締めや人型ロボットの棚入れを実演",
+      "source": "Borders",
+      "channel": "note",
+      "status": "未投稿",
+      "url": "https://robotstart.info/article/2026/10/08/382500.html",
+      "draft": "三菱電機、CEATEC 2026で「フィジカルAI」による無人化工場を提示——熟練者並みのねじ締めや人型ロボットの棚入れを実演\n\nロボスタの10月8日の記事によると、三菱電機グループは10月13日（火）から16日（金）まで幕張メッセで開かれる「CEATEC 2026」に、「フィジカルAIでつくる、産業のミライ。」をテーマに出展する（ホール8、ブース番号8H412）。",
+      "preview": {
+        "title": "三菱電機、CEATEC 2026で「フィジカルAI」による無人化工場を提示——熟練者並みのねじ締めや人型ロボットの棚入れを実演",
+        "lead": "ロボスタの10月8日の記事によると、三菱電機グループは10月13日（火）から16日（金）まで幕張メッセで開かれる「CEATEC 2026」に、「フィジカルAIでつくる、産業のミライ。」をテーマに出展する（ホール8、ブース番号8H412）。",
+        "bodyPreview": "目玉の一つは、自動化が難しいとされる組み立て工程で、熟練作業者と同等の自律的な判断・行動を目指すフィジカルAIだ。部品の状態を見極めながら力加減や作業角度を調整するねじ締めを題材に、ロボットアームなどを自律制御するデモを行う。もう一つは社外パートナーとの共創で、人型ロボットが形や大きさの違う物品を棚に配置するデモ。デジタル基盤「Serendie」とOTセキュリティを組み合わせた基盤、自律型の無人化工場、製造現場をリアルタイムに可視化するアプリ群、AIエージェント群、異常音や人の声を聞き分ける音源分離技術なども展示する。"
+      },
+      "citations": [
+        {
+          "url": "https://robotstart.info/article/2026/10/08/382500.html",
+          "siteName": "ロボスタ"
+        }
+      ],
+      "scheduledAt": null,
+      "postedAt": null
+    },
     {
       "id": "20261011-x-mxc",
       "title": "Microsoft MXC（Execution Containers）一般提供",
@@ -43,10 +84,22 @@
   ],
   "history": [
     {
+      "date": "2026-10-12",
+      "channel": "X",
+      "title": "早耳（hayamimi）— CPUだけ・メモリ2GB未満でリアルタイム字幕と翻訳",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-12",
+      "channel": "note",
+      "title": "三菱電機、CEATEC 2026で「フィジカルAI」による無人化工場を提示——熟練者並みのねじ締めや人型ロボットの棚入れを実演",
+      "status": "未投稿"
+    },
+    {
       "date": "2026-10-11",
       "channel": "X",
       "title": "Microsoft MXC（Execution Containers）一般提供",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-10",
@@ -86,7 +139,6 @@
     }
   ],
   "empty": {
-    "note": "今日は0本（日曜。noteは平日1本）",
     "Zenn": "今日は0本（検証原稿なし）",
     "ブログ": "今日は0本（ローカルLLMの実測なし）"
   },
