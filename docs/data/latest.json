@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261013-x-geiger",
+      "title": "20261013_geiger",
+      "source": "Desk",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://github.com/Atomburstofficial/geiger",
+      "draft": "長年使ってきたClaude Codeに、いつ何を足したか覚えていますか。MCPサーバー、フック、プラグイン、スキルが積み重なると、設定ファイルを開かない限り、どれがコマンドを実行でき、どれが鍵を持っているのか分からなくなります。\n\n9月6日に公開されたMITライセンスのOSS、Geigerは、npx geiger-scan の1コマンドでこれを一覧にします。Claude CodeのほかCursor、Codex CLI、Ollama、ブラウザのAI拡張まで、設定ファイルを読み取り専用で調べ、それぞれに「コマンド実行」「秘密情報を保持」「広いファイルアクセス」のラベルを付けます。外部送信はなく、鍵は種類だけ表示して中身は出しません。試しに手元のLinux機で流すと1秒ほどで終わり、コマンドを実行できるもの2件を挙げました。\n\n会社のPCでも確かめられます。最初の結果を基準として保存し、次からは新しく増えた実行権限だけを差分で警告できます。ただしREADME自身が書くとおり、見ているのは既知の場所にある設定で、標準外の場所に入れたものは見落とし、実際の挙動も監視しません。スターは約160で、第三者の検証はまだありません。まず自分のPCで1回流し、基準のJSONを残すところから始められます。",
+      "preview": {
+        "text": "長年使ってきたClaude Codeに、いつ何を足したか覚えていますか。MCPサーバー、フック、プラグイン、スキルが積み重なると、設定ファイルを開かない限り、どれがコマンドを実行でき、どれが鍵を持っているのか分からなくなります。\n\n9月6日に公開されたMITライセンスのOSS、Geigerは、npx geiger-scan の1コマンドでこれを一覧にします。Claude CodeのほかCursor、Codex CLI、Ollama、ブラウザのAI拡張まで、設定ファイルを読み取り専用で調べ、それぞれに「コマンド実行」「秘密情報を保持」「広いファイルアクセス」のラベルを付けます。外部送信はなく、鍵は種類だけ表示して中身は出しません。試しに手元のLinux機で流すと1秒ほどで終わり、コマンドを実行できるもの2件を挙げました。\n\n会社のPCでも確かめられます。最初の結果を基準として保存し、次からは新しく増えた実行権限だけを差分で警告できます。ただしREADME自身が書くとおり、見ているのは既知の場所にある設定で、標準外の場所に入れたものは見落とし、実際の挙動も監視しません。スターは約160で、第三者の検証はまだありません。まず自分のPCで1回流し、基準のJSONを残すところから始められます。",
+        "url": "https://github.com/Atomburstofficial/geiger"
+      },
+      "replies": [
+        "1/2 Geiger（GitHub）\nhttps://github.com/Atomburstofficial/geiger",
+        "2/2 GIGAZINE\nhttps://gigazine.net/news/20261012-geiger/"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261012-x-clef-omni",
       "title": "Cloudflare Clef-omni（判断モデルが音声・動画に）",
       "source": "Desk",
