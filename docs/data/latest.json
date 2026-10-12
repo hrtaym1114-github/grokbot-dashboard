@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261012-x-clef-omni",
+      "title": "Cloudflare Clef-omni（判断モデルが音声・動画に）",
+      "source": "Desk",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+      "draft": "「設備の異音をAIで判定できないか」と上から聞かれたときの答え方が、少し変わりました。「いつもと違う音か」は、if文やしきい値では書きにくい判断です。生成AIは作るだけでなく、Jevのように曖昧な材料から選択肢で答える「判断」にも使えるようになってきました。\n\nCloudflareのClef-omni（10月9日公開）は、その判断を音声と動画まで広げました。運転音や動画をそのまま渡すと「異音はないか」にはい・いいえで答え、21秒の動画を約1.5秒で判定するとしています。数字はCloudflare自身のもので、異音を聞き分ける精度はまだ測られていません。30B級なので16GBのPCでは動かず、録音を社外に出せないなら、公開された重みを社内のGPUサーバーに置けるかが先の判断です。今すぐできるのは、設備ごとに正常な音と異常だった音の録音を日付付きで残すこと。それが自社の評価データになり、後任にも引き継げます。",
+      "preview": {
+        "text": "「設備の異音をAIで判定できないか」と上から聞かれたときの答え方が、少し変わりました。「いつもと違う音か」は、if文やしきい値では書きにくい判断です。生成AIは作るだけでなく、Jevのように曖昧な材料から選択肢で答える「判断」にも使えるようになってきました。\n\nCloudflareのClef-omni（10月9日公開）は、その判断を音声と動画まで広げました。運転音や動画をそのまま渡すと「異音はないか」にはい・いいえで答え、21秒の動画を約1.5秒で判定するとしています。数字はCloudflare自身のもので、異音を聞き分ける精度はまだ測られていません。30B級なので16GBのPCでは動かず、録音を社外に出せないなら、公開された重みを社内のGPUサーバーに置けるかが先の判断です。今すぐできるのは、設備ごとに正常な音と異常だった音の録音を日付付きで残すこと。それが自社の評価データになり、後任にも引き継げます。",
+        "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/"
+      },
+      "replies": [
+        "1/2 Cloudflareのブログ（Clef-omni）\nhttps://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+        "2/2 Cloudflareの発表ポスト\nhttps://x.com/Cloudflare/status/2108696873510850758"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261012-x-hayamimi",
       "title": "早耳（hayamimi）— CPUだけ・メモリ2GB未満でリアルタイム字幕と翻訳",
       "source": "Trend",
