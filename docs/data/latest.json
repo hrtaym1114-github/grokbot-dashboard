@@ -1,7 +1,53 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "bookmarks": "skipped",
   "cards": [
+    {
+      "id": "20261014-x-a2b",
+      "title": "A2B攻撃 — 公開アプリの解析から裏のサーバーを狙う手口、NICTが注意喚起",
+      "source": "Trend",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://www.nict.go.jp/press/2026/10/13-1.html",
+      "draft": "「うちの点検アプリは外に出していないデータしか扱わないから大丈夫」と思っているなら、確認の順番が変わります。アプリ自体に穴がなくても、裏のサーバーの認証や入力チェックに不備があれば、そこから漏れるからです。\n\nNICTは10月13日、公開されたAndroidアプリを解析して接続先APIの仕様を調べ、サーバーを狙い撃つ「A2B攻撃」を、国内で相次ぐ情報漏えいの原因の一つとして注意喚起しました。iOSやWebのAPIでも起こりうるとし、AIで解析が効率化され、狙われる範囲が広がる可能性にも触れています。どの事案が該当するかは名指ししていません。\n\nNICTのお願いは3つです。公開APIを洗い出してアクセスログに不審な取得がないかを確かめること、認可不備（IDOR/BOLA）、SSRF、SQLインジェクションなどを重点的に点検すること、不要なAPIの停止や認証情報の再発行などで当面しのぐこと。まずは自社アプリがつながるサーバーとAPIの一覧を作り、担当が替わっても残る台帳にしておくところから始められます。",
+      "preview": {
+        "text": "「うちの点検アプリは外に出していないデータしか扱わないから大丈夫」と思っているなら、確認の順番が変わります。アプリ自体に穴がなくても、裏のサーバーの認証や入力チェックに不備があれば、そこから漏れるからです。\n\nNICTは10月13日、公開されたAndroidアプリを解析して接続先APIの仕様を調べ、サーバーを狙い撃つ「A2B攻撃」を、国内で相次ぐ情報漏えいの原因の一つとして注意喚起しました。iOSやWebのAPIでも起こりうるとし、AIで解析が効率化され、狙われる範囲が広がる可能性にも触れています。どの事案が該当するかは名指ししていません。\n\nNICTのお願いは3つです。公開APIを洗い出してアクセスログに不審な取得がないかを確かめること、認可不備（IDOR/BOLA）、SSRF、SQLインジェクションなどを重点的に点検すること、不要なAPIの停止や認証情報の再発行などで当面しのぐこと。まずは自社アプリがつながるサーバーとAPIの一覧を作り、担当が替わっても残る台帳にしておくところから始められます。",
+        "url": "https://www.nict.go.jp/press/2026/10/13-1.html",
+        "siteName": "NICT-情報通信研究機構",
+        "title": "【注意喚起】 相次ぐ情報漏えい、その原因の一つは「アプリ解析からのサーバ攻撃」｜2026年｜NICT-情報通信研究機構",
+        "description": "国立研究開発法人情報通信研究機構（NICT（エヌアイシーティー）、理事長: 大野 英男）の脅威情報分析チームLETTICE（レティス）は、国内で相次ぐ情報漏えい事案の原因の一つとして、一般に公開されているAndroidアプリを解析し、その情報を悪用してアプリの接続先であるバックエンドサーバを攻撃する手法を特定しました。"
+      },
+      "replies": [
+        "1/2 NICT プレスリリース\nhttps://www.nict.go.jp/press/2026/10/13-1.html",
+        "2/2 CYNEX Library 注意喚起\nhttps://cynex.nict.go.jp/library/261013-01.html"
+      ],
+      "note": "ユーザーが選んだ今日のXネタ（@Doing/20261014_a2b.md、本文はそのまま）。画像付きで手動投稿の予定なので、手動で出すなら承認しない（承認すると画像なしで自動投稿される）。",
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null
+    },
+    {
+      "id": "20261014-note-gemini-4-argon-robotics",
+      "title": "「Gemini 4 Argon for Robotics」——ロボット制御・シミュレーション再現・作業評価を1モデルで、実機の成功率を56％→75％に",
+      "source": "Borders",
+      "channel": "note",
+      "status": "未投稿",
+      "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+      "draft": "「Gemini 4 Argon for Robotics」——ロボット制御・シミュレーション再現・作業評価を1モデルで、実機の成功率を56％→75％に\n\nGoogleは10月13日、汎用モデル「Gemini 4 Argon」をロボット開発の全工程に使う例をまとめた「Gemini 4 Argon for Robotics」をGoogle Developers Blogで公開した。机上の写真1枚からシミュレーション環境を組み立てて練習データを作り、実機ロボットの成功率を56％から75％に上げたという。",
+      "preview": {
+        "title": "「Gemini 4 Argon for Robotics」——ロボット制御・シミュレーション再現・作業評価を1モデルで、実機の成功率を56％→75％に",
+        "lead": "Googleは10月13日、汎用モデル「Gemini 4 Argon」をロボット開発の全工程に使う例をまとめた「Gemini 4 Argon for Robotics」をGoogle Developers Blogで公開した。机上の写真1枚からシミュレーション環境を組み立てて練習データを作り、実機ロボットの成功率を56％から75％に上げたという。",
+        "bodyPreview": "3D空間での物理的な問題解決を測るベンチマーク「ERQA」では87％で、ほかの最先端モデルを上回ったとしている。紹介された用途は、ロボットの制御、ロボットのカメラ映像・人の作業動画・手描きのスケッチからのシミュレーション再現、作業動画のラベル付けと進み具合の評価、シミュレーションや実機での自己改善の4領域。Boston Dynamicsの四足ロボット「Spot」がペダル式ゴミ箱の踏み方をシミュレーションで練習してから空き缶を捨てる例や、4,500件超の練習データで作業時間を35秒から24秒に縮めた例を示した。数字はいずれもGoogle自身の検証で、Gemini APIの有料枠ではモデルID「gemini-4-argon」で使える。"
+      },
+      "citations": [
+        {
+          "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+          "siteName": "Google Developers Blog"
+        }
+      ],
+      "scheduledAt": null,
+      "postedAt": null
+    },
     {
       "id": "20261011-x-agent-docs-lint-v010-announce",
       "title": "X.com 投稿文 - エージェント手順書ズレ検査 v0.1.0",
@@ -166,16 +212,46 @@
   ],
   "history": [
     {
+      "date": "2026-10-14",
+      "channel": "X",
+      "title": "A2B攻撃 — 公開アプリの解析から裏のサーバーを狙う手口、NICTが注意喚起",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-14",
+      "channel": "note",
+      "title": "「Gemini 4 Argon for Robotics」——ロボット制御・シミュレーション再現・作業評価を1モデルで、実機の成功率を56％→75％に",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-13",
+      "channel": "X",
+      "title": "20261013_geiger",
+      "status": "投稿済み"
+    },
+    {
+      "date": "2026-10-13",
+      "channel": "note",
+      "title": "富士ソフト×ダイドー、話しかけると協働ロボットが動く「フィジカルAIスタートパッケージ」を名古屋で実演（10/13・14）",
+      "status": "未投稿"
+    },
+    {
       "date": "2026-10-12",
       "channel": "X",
       "title": "早耳（hayamimi）— CPUだけ・メモリ2GB未満でリアルタイム字幕と翻訳",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-12",
       "channel": "note",
       "title": "三菱電機、CEATEC 2026で「フィジカルAI」による無人化工場を提示——熟練者並みのねじ締めや人型ロボットの棚入れを実演",
       "status": "未投稿"
+    },
+    {
+      "date": "2026-10-12",
+      "channel": "X",
+      "title": "Cloudflare Clef-omni（判断モデルが音声・動画に）",
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-11",
