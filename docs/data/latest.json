@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261011-x-agent-docs-lint-v010-announce",
+      "title": "X.com 投稿文 - エージェント手順書ズレ検査 v0.1.0",
+      "source": "Desk",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://github.com/hrtaym1114-github/agent-docs-lint",
+      "draft": "AGENTS.mdが指すdocs/missing-guide.mdはもう無く、リンク先の見出し#missing-sectionも消え、計画用のモデルはgpt-4oと決め打ちのまま。v0.1.0は、エージェントを動かす前にこの手順書のズレをexit 1で返す。\n\n見るのは4つ。リンク先やスラッシュコマンドの実体が無い、Markdownの見出しアンカーが無い、モデル名の決め打ち（一覧は設定で変えられる）、どこからも名前を呼ばれていないagent/skillファイル。LLMもネットワークも使わず、Python 3.10以上の標準ライブラリだけで動くので、GPUの無い16GBのノートでもCIでも同じ判定になる。ズレ無しは0、設定や実行の誤りは2。\n\n2〜3年後に引き継いだ人が最初に見るのは、exit 1の各行に出る「ファイル名:行番号: 種類」で、直すか設定で外すかをそこで決める。",
+      "preview": {
+        "text": "AGENTS.mdが指すdocs/missing-guide.mdはもう無く、リンク先の見出し#missing-sectionも消え、計画用のモデルはgpt-4oと決め打ちのまま。v0.1.0は、エージェントを動かす前にこの手順書のズレをexit 1で返す。\n\n見るのは4つ。リンク先やスラッシュコマンドの実体が無い、Markdownの見出しアンカーが無い、モデル名の決め打ち（一覧は設定で変えられる）、どこからも名前を呼ばれていないagent/skillファイル。LLMもネットワークも使わず、Python 3.10以上の標準ライブラリだけで動くので、GPUの無い16GBのノートでもCIでも同じ判定になる。ズレ無しは0、設定や実行の誤りは2。\n\n2〜3年後に引き継いだ人が最初に見るのは、exit 1の各行に出る「ファイル名:行番号: 種類」で、直すか設定で外すかをそこで決める。",
+        "url": "https://github.com/hrtaym1114-github/agent-docs-lint"
+      },
+      "replies": [
+        "1/2 リポジトリ\nhttps://github.com/hrtaym1114-github/agent-docs-lint",
+        "2/2 きっかけのHN議論\nhttps://news.ycombinator.com/item?id=49945933"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261013-x-geiger",
       "title": "20261013_geiger",
       "source": "Desk",
