@@ -29,7 +29,7 @@
       "title": "A2B攻撃 — 公開アプリの解析から裏のサーバーを狙う手口、NICTが注意喚起",
       "source": "Trend",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://www.nict.go.jp/press/2026/10/13-1.html",
       "draft": "「うちの点検アプリは外に出していないデータしか扱わないから大丈夫」と思っているなら、確認の順番が変わります。アプリ自体に穴がなくても、裏のサーバーの認証や入力チェックに不備があれば、そこから漏れるからです。\n\nNICTは10月13日、公開されたAndroidアプリを解析して接続先APIの仕様を調べ、サーバーを狙い撃つ「A2B攻撃」を、国内で相次ぐ情報漏えいの原因の一つとして注意喚起しました。iOSやWebのAPIでも起こりうるとし、AIで解析が効率化され、狙われる範囲が広がる可能性にも触れています。どの事案が該当するかは名指ししていません。\n\nNICTのお願いは3つです。公開APIを洗い出してアクセスログに不審な取得がないかを確かめること、認可不備（IDOR/BOLA）、SSRF、SQLインジェクションなどを重点的に点検すること、不要なAPIの停止や認証情報の再発行などで当面しのぐこと。まずは自社アプリがつながるサーバーとAPIの一覧を作り、担当が替わっても残る台帳にしておくところから始められます。",
       "preview": {
@@ -43,10 +43,10 @@
         "1/2 NICT プレスリリース\nhttps://www.nict.go.jp/press/2026/10/13-1.html",
         "2/2 CYNEX Library 注意喚起\nhttps://cynex.nict.go.jp/library/261013-01.html"
       ],
-      "note": "ユーザーが選んだ今日のXネタ（@Doing/20261014_a2b.md、本文はそのまま）。画像付きで手動投稿の予定なので、手動で出すなら承認しない（承認すると画像なしで自動投稿される）。",
+      "note": "投稿済み確認（@Amu_Lab__）。画像付き手動投稿経路で公開済み。再承認しない。",
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-14T00:07:16.000Z",
+      "tweet": "https://x.com/Amu_Lab__/status/2110160475262742799"
     },
     {
       "id": "20261014-note-gemini-4-argon-robotics",
@@ -95,7 +95,7 @@
       "title": "20261013_geiger",
       "source": "Desk",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://github.com/Atomburstofficial/geiger",
       "draft": "長年使ってきたClaude Codeに、いつ何を足したか覚えていますか。MCPサーバー、フック、プラグイン、スキルが積み重なると、設定ファイルを開かない限り、どれがコマンドを実行でき、どれが鍵を持っているのか分からなくなります。\n\n9月6日に公開されたMITライセンスのOSS、Geigerは、npx geiger-scan の1コマンドでこれを一覧にします。Claude CodeのほかCursor、Codex CLI、Ollama、ブラウザのAI拡張まで、設定ファイルを読み取り専用で調べ、それぞれに「コマンド実行」「秘密情報を保持」「広いファイルアクセス」のラベルを付けます。外部送信はなく、鍵は種類だけ表示して中身は出しません。試しに手元のLinux機で流すと1秒ほどで終わり、コマンドを実行できるもの2件を挙げました。\n\n会社のPCでも確かめられます。最初の結果を基準として保存し、次からは新しく増えた実行権限だけを差分で警告できます。ただしREADME自身が書くとおり、見ているのは既知の場所にある設定で、標準外の場所に入れたものは見落とし、実際の挙動も監視しません。スターは約160で、第三者の検証はまだありません。まず自分のPCで1回流し、基準のJSONを残すところから始められます。",
       "preview": {
@@ -107,8 +107,8 @@
         "2/2 GIGAZINE\nhttps://gigazine.net/news/20261012-geiger/"
       ],
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-12T23:07:01.000Z",
+      "tweet": "https://x.com/Amu_Lab__/status/2109782921720779114"
     },
     {
       "id": "20261013-note-fsi-daido-physical-ai",
@@ -137,7 +137,7 @@
       "title": "Cloudflare Clef-omni（判断モデルが音声・動画に）",
       "source": "Desk",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
       "draft": "「設備の異音をAIで判定できないか」と上から聞かれたときの答え方が、少し変わりました。「いつもと違う音か」は、if文やしきい値では書きにくい判断です。生成AIは作るだけでなく、Jevのように曖昧な材料から選択肢で答える「判断」にも使えるようになってきました。\n\nCloudflareのClef-omni（10月9日公開）は、その判断を音声と動画まで広げました。運転音や動画をそのまま渡すと「異音はないか」にはい・いいえで答え、21秒の動画を約1.5秒で判定するとしています。数字はCloudflare自身のもので、異音を聞き分ける精度はまだ測られていません。30B級なので16GBのPCでは動かず、録音を社外に出せないなら、公開された重みを社内のGPUサーバーに置けるかが先の判断です。今すぐできるのは、設備ごとに正常な音と異常だった音の録音を日付付きで残すこと。それが自社の評価データになり、後任にも引き継げます。",
       "preview": {
@@ -149,15 +149,15 @@
         "2/2 Cloudflareの発表ポスト\nhttps://x.com/Cloudflare/status/2108696873510850758"
       ],
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-12T05:07:18.000Z",
+      "tweet": "https://x.com/Amu_Lab__/status/2109511204897226885"
     },
     {
       "id": "20261012-x-hayamimi",
       "title": "早耳（hayamimi）— CPUだけ・メモリ2GB未満でリアルタイム字幕と翻訳",
       "source": "Trend",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://github.com/oboroge0/hayamimi",
       "draft": "会議や朝礼の音声をクラウドに出さず、手元のPCで字幕にしたい現場向けのOSSです。「早耳（hayamimi）」はGPUもクラウドAPIも使わず、CPUだけ・メモリ2GB未満で、リアルタイム字幕・話者ラベル・翻訳字幕まで出します。言語ごとに専用モデルへ振り分ける作りで、テレビ放送の日本語で文字誤り率3.8%は作者の測定です。工場の騒音下での数字はまだないので、まず社内の会議録音で試すのが順番です。MITライセンス。",
       "preview": {
@@ -168,8 +168,8 @@
         "description": "早耳 - Real-time multilingual speech-to-text on CPU only. Live subtitles, browser dashboard, speaker labels, translation. No GPU, no cloud. - oboroge0/hayamimi"
       },
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-12T00:07:26.000Z",
+      "tweet": "https://x.com/Amu_Lab__/status/2109435739243216999"
     },
     {
       "id": "20261012-note-mitsubishi-ceatec-physical-ai",
@@ -198,7 +198,7 @@
       "title": "Microsoft MXC（Execution Containers）一般提供",
       "source": "Desk",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
       "draft": "現場PCでエージェントを動かすとき、「図面フォルダは読ませたいが、設備の設定ファイルには触らせたくない」をエージェント任せにせず、OSの側で止められるようになります。MicrosoftのMXC（Microsoft Execution Containers）が10月7日に一般提供になりました。\n\n公式ブログによると、Windows 11では対応エージェントをAppContainerで包み、書ける・読むだけ・触れないフォルダと外への通信の可否をJSONのポリシーで決めて、実行時に止めます。ポリシーはエージェントの外にあり、エージェント自身は権限を広げられません。対応済みの中にはLM Studioもあり、ローカルモデルと組み合わせて外への通信を切る構成が取れます。Claude Codeは対応予定、Intuneでの一括管理は「近日」です。\n\n16GBのPCでどれだけ重くなるかは、公式に数字がなく、私もまだ試していません。最初は止めずに記録だけするモードで触ろうとしたフォルダの一覧を取り、そこから絞ったJSONを残しておけば、後任も同じ範囲で動かせます。",
       "preview": {
@@ -209,15 +209,15 @@
         "Microsoft Execution Containers（Windows Developer Blog）\nhttps://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/"
       ],
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-10T22:07:15.000Z",
+      "tweet": "https://x.com/Amu_Lab__/status/2109043108222837175"
     },
     {
       "id": "20261010-x-open-code-review",
       "title": "Open Code Review（Alibaba）",
       "source": "Desk",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://github.com/alibaba/open-code-review",
       "draft": "AIにコードレビューを任せると、大きな変更ほどファイルを読み飛ばしたり、指摘の行番号がずれたりします。Alibabaが社内で2年使ってきたレビューCLI「Open Code Review」は、見るファイル・当てるルール・指摘を付ける行をプログラムで固定し、LLMには中身の読み取りだけを任せる作りで、Apache-2.0で公開されました。\n\nAlibaba自身の比較では、同じモデル同士でトークンは約5分の1〜15分の1に減り、誤検知の割合も下がりました。ただし正解の指摘を拾えたのは12〜20%で、人のレビューを置き換える数字ではありません。第三者の検証や、小さいローカルモデルでの数字はまだありません。社外に出せないコードなら接続先に社内のモデルを指定し、前任者が残したツールを1本レビューさせて、直すべき指摘が何割あるか数えるのが最初の確認になります。",
       "preview": {
@@ -228,8 +228,8 @@
         "alibaba/open-code-review（GitHub）\nhttps://github.com/alibaba/open-code-review"
       ],
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-10T02:07:26.000Z",
+      "tweet": "https://x.com/Amu_Lab__/status/2108741162962223404"
     }
   ],
   "history": [
