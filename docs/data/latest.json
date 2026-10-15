@@ -1,7 +1,48 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "bookmarks": "skipped",
   "cards": [
+    {
+      "id": "20261016-x-lfm2-5-24b-a2b",
+      "title": "Liquid AI「LFM2.5-24B-A2B」— 全体24B・動くのは約2B、端末でツールを呼ぶエージェント向け",
+      "source": "Trend",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "draft": "社外に出せないデータのまま、手元でツールを呼ぶエージェントを回したい人への新しい選択肢です。Liquid AIは10月13日、全体24B・1トークンで動くのは約2BのMoEモデル「LFM2.5-24B-A2B」をオープンウェイトで公開しました。同社の計測では、エージェント系ベンチ8つ中5つでQwen3.6-35B-A3Bと同等以上（AutomationBench 27.69対8.72）ですが、SWE-Bench Verifiedは51対66.2で下回ります。184 tok/sはM5 Maxの値で、16GBのPCでの使い勝手や日本語の性能は未確認です。",
+      "preview": {
+        "text": "社外に出せないデータのまま、手元でツールを呼ぶエージェントを回したい人への新しい選択肢です。Liquid AIは10月13日、全体24B・1トークンで動くのは約2BのMoEモデル「LFM2.5-24B-A2B」をオープンウェイトで公開しました。同社の計測では、エージェント系ベンチ8つ中5つでQwen3.6-35B-A3Bと同等以上（AutomationBench 27.69対8.72）ですが、SWE-Bench Verifiedは51対66.2で下回ります。184 tok/sはM5 Maxの値で、16GBのPCでの使い勝手や日本語の性能は未確認です。",
+        "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+        "siteName": "Liquid AI",
+        "title": "LFM2.5-24B-A2B: Built for Fast On-Device Agents | Blog",
+        "description": "LFM2.5-24B-A2B: an open-weight 24B reasoning model with 2B active parameters, built for fast, private on-device agents. Beats Qwen3.6-35B-A3B on LiveClaw."
+      },
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null
+    },
+    {
+      "id": "20261016-note-seibu-ugo-mini-substation",
+      "title": "西武鉄道、変電所にフィジカルAIロボット「ugo mini」を常駐——1日3回の自動巡回でメーターを読み取り、「状態基準」の保全へ",
+      "source": "Borders",
+      "channel": "note",
+      "status": "未投稿",
+      "url": "https://robotstart.info/article/2026/10/15/382521.html",
+      "draft": "西武鉄道、変電所にフィジカルAIロボット「ugo mini」を常駐——1日3回の自動巡回でメーターを読み取り、「状態基準」の保全へ\n\n西武鉄道は、ugo（ユーゴー）の国産フィジカルAIロボット「ugo mini」を池袋変電所に常駐させる実証実験を10月1日から進めている。期間は2027年3月31日まで。変電所にこうしたロボットを常駐させるのは業界初だという。",
+      "preview": {
+        "title": "西武鉄道、変電所にフィジカルAIロボット「ugo mini」を常駐——1日3回の自動巡回でメーターを読み取り、「状態基準」の保全へ",
+        "lead": "西武鉄道は、ugo（ユーゴー）の国産フィジカルAIロボット「ugo mini」を池袋変電所に常駐させる実証実験を10月1日から進めている。期間は2027年3月31日まで。変電所にこうしたロボットを常駐させるのは業界初だという。",
+        "bodyPreview": "同社は沿線34カ所に変電設備を持ち、約20人で保守している。これまでは2人1組で月2回ほど現地を巡回していたが、遠い変電所は事務所から往復約2時間かかる。導入の目的は人を減らすことではなく、移動時間を減らし、その時間を修繕計画やデータ分析に振り向けることだと説明している。ugo miniは重さ約16kgの小型ロボットで、伸縮するカメラ部は高さ約180cmまで上がり、4Kカメラでアナログ・デジタルのメーターを読み取って数値にし、異常値があれば自動で知らせる。現在は7時・13時・19時の1日3回巡回している。決められた期間ごとに点検・交換する「時間基準保全（TBM）」から、設備の状態を見て修繕時期を決める「状態基準保全（CBM）」への転換を目指し、固定式センサーを設置する方法との費用対効果も比べている。"
+      },
+      "citations": [
+        {
+          "url": "https://robotstart.info/article/2026/10/15/382521.html",
+          "siteName": "ロボスタ"
+        }
+      ],
+      "scheduledAt": null,
+      "postedAt": null
+    },
     {
       "id": "20261015-x-hermes-agent",
       "title": "20261015_hermes-agent",
@@ -276,6 +317,18 @@
   ],
   "history": [
     {
+      "date": "2026-10-16",
+      "channel": "X",
+      "title": "Liquid AI「LFM2.5-24B-A2B」— 全体24B・動くのは約2B、端末でツールを呼ぶエージェント向け",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-16",
+      "channel": "note",
+      "title": "西武鉄道、変電所にフィジカルAIロボット「ugo mini」を常駐——1日3回の自動巡回でメーターを読み取り、「状態基準」の保全へ",
+      "status": "未投稿"
+    },
+    {
       "date": "2026-10-15",
       "channel": "X",
       "title": "20261015_digup",
@@ -373,7 +426,6 @@
     }
   ],
   "empty": {
-    "X": "ここではカードを作らない。今日はユーザーが選んだ朝ネタ#2（ScutumのAIエージェント攻撃）をX対話デスクで仕上げ中で、Xカードはデスクから追加される",
     "Zenn": "今日は0本（検証原稿なし）",
     "ブログ": "今日は0本（ローカルLLMの実測なし）"
   },
