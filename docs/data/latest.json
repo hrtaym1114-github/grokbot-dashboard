@@ -74,7 +74,7 @@
       "title": "「Gemini 4 Argon for Robotics」——ロボット制御・シミュレーション再現・作業評価を1モデルで、実機の成功率を56％→75％に",
       "source": "Borders",
       "channel": "note",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
       "draft": "「Gemini 4 Argon for Robotics」——ロボット制御・シミュレーション再現・作業評価を1モデルで、実機の成功率を56％→75％に\n\nGoogleは10月13日、汎用モデル「Gemini 4 Argon」をロボット開発の全工程に使う例をまとめた「Gemini 4 Argon for Robotics」をGoogle Developers Blogで公開した。机上の写真1枚からシミュレーション環境を組み立てて練習データを作り、実機ロボットの成功率を56％から75％に上げたという。",
       "preview": {
@@ -89,7 +89,8 @@
         }
       ],
       "scheduledAt": null,
-      "postedAt": null
+      "postedAt": "2026-10-15T06:06:45.000Z",
+      "note": "投稿済み確認（note.com API 2026-10-15 15:06 JST）。再承認しない。"
     },
     {
       "id": "20261011-x-agent-docs-lint-v010-announce",
@@ -276,7 +277,7 @@
       "date": "2026-10-14",
       "channel": "note",
       "title": "「Gemini 4 Argon for Robotics」——ロボット制御・シミュレーション再現・作業評価を1モデルで、実機の成功率を56％→75％に",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-13",
