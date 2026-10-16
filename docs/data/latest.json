@@ -7,7 +7,7 @@
       "title": "Liquid AI「LFM2.5-24B-A2B」— 全体24B・動くのは約2B、端末でツールを呼ぶエージェント向け",
       "source": "Trend",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
       "draft": "社外に出せないデータのまま、手元でツールを呼ぶエージェントを回したい人への新しい選択肢です。Liquid AIは10月13日、全体24B・1トークンで動くのは約2BのMoEモデル「LFM2.5-24B-A2B」をオープンウェイトで公開しました。同社の計測では、エージェント系ベンチ8つ中5つでQwen3.6-35B-A3Bと同等以上（AutomationBench 27.69対8.72）ですが、SWE-Bench Verifiedは51対66.2で下回ります。184 tok/sはM5 Maxの値で、16GBのPCでの使い勝手や日本語の性能は未確認です。",
       "preview": {
@@ -18,8 +18,9 @@
         "description": "LFM2.5-24B-A2B: an open-weight 24B reasoning model with 2B active parameters, built for fast, private on-device agents. Beats Qwen3.6-35B-A3B on LiveClaw."
       },
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-16T06:07:02.000Z",
+      "tweet": "https://x.com/Amu_Lab__/status/2110975788741013977",
+      "note": "投稿済み確認（VPS 15:07 JST / @Amu_Lab__）。再承認しない。"
     },
     {
       "id": "20261016-note-seibu-ugo-mini-substation",
@@ -48,7 +49,7 @@
       "title": "20261015_hermes-agent",
       "source": "Desk",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0",
       "draft": "「ローカルLLMを試したいけど、どのモデルなら自分のPCで動くのか分からない」。そこで止まっていたなら、最初の一歩がだいぶ軽くなりました。\n\nNous ResearchのHermes Agentは10月13日のv0.22.0で、ローカルモデルの機能を入れました。手元のGPUとRAMを見て、カタログのモデルから収まる中で一番品質の高い版を選び、機体に合ったllama.cpp（CPU、CUDA、Metal、Vulkan、ROCm）も自動で入れて保守します。ローカルモデルで使うなら、アカウントもAPIキーも要りません。Windows、macOS、Linuxで使え、GPUのないPCならCPU版が入ります。リリースノートによれば、ダウンロードは中断と再開ができ、モデルのサーバーはHermesと一緒に起動・停止します。GitHubのスターは約25万のOSSです。\n\nただし外に出ないのは、ローカルモデルを選んだときだけです。初回の案内チャットはNousのクラウドのお試しモデルで動き、外部アプリとの連携もNousの中継を通ります。ここまではNous自身の説明だけで、16GBのPCでどのモデルが選ばれ、ツール呼び出しが実用になるかを第三者が測った結果はまだありません。社外に出せない資料を渡す前に、GPUのない16GBのPCで1回動かし、選ばれたモデル名と速さを記録しておくと、次の担当も同じ判断から始められます。",
       "preview": {
@@ -60,8 +61,9 @@
         "2/2 Nous Research の投稿\nhttps://x.com/NousResearch/status/2110385143643091204"
       ],
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-15T14:07:02.000Z",
+      "tweet": "https://x.com/Amu_Lab__/status/2110734196817993838",
+      "note": "投稿済み確認（VPS 23:07 JST / @Amu_Lab__）。再承認しない。"
     },
     {
       "id": "20261015-x-digup",
@@ -320,7 +322,7 @@
       "date": "2026-10-16",
       "channel": "X",
       "title": "Liquid AI「LFM2.5-24B-A2B」— 全体24B・動くのは約2B、端末でツールを呼ぶエージェント向け",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-16",
