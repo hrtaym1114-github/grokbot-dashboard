@@ -1,43 +1,43 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-17",
   "items": [
     {
       "title": "未投稿のネタ",
       "priority": "要対応",
-      "body": "10/10 の X カードは2本で、どちらも公開データ上は未投稿です。bigarrow（Trend）と Open Code Review（X対話デスク経由の Desk カード）。VPS ダッシュボード側の承認・投稿の状態は未確認。note は 10/9 のさくらのAI Engine プライベートエディションと 10/7 のトークン浪費の記事が履歴上は未投稿のまま。10/10 は土曜なので note は0本、Zenn とブログも0本。ブックマーク当日分はスキップ。"
+      "body": "公開データ上、note の Borders カードが5本未投稿のままです。10/16 西武鉄道の ugo mini、10/15 オムロンの OnLogic 買収、10/13 富士ソフト×ダイドー、10/12 三菱電機の CEATEC、10/9 さくらの AI Engine プライベートエディション。X は 10/11 の agent-docs-lint v0.1.0 告知（Desk カード）が未投稿。ほかの X カードは 10/16 の LFM2.5 まですべて投稿済みです。10/17 の X は Ricoh LMM_35B-A3B を X対話デスクに渡し済みで、カードはまだありません。製造業×AI週次の W42 原稿は 10/19 08:00 予定で @Doing にあります。ブログは 10/17 の Umios 需要予測の記事が WordPress 下書き 5426 で、公開は未確認。VPS ダッシュボード側の承認状態は未確認。"
     },
     {
       "title": "止まっているワークフロー",
       "priority": "要対応",
-      "body": "ChangeWatch は最後の収集コミットが 2026-09-06 06:39 で、それ以降の出力はありません。note 週末版は 10/10 の実行記録が状態ファイルにありません（平日版の最後の成功は 10/9 09:17）。Grok 側では x-daily-auto-post と x-follower-sprint が一時停止のまま未実行、longform-sameday-guard が一時停止（最後の実行 10/8 18:32）。obsidian-1 の Actions は16本が手動で停止中。Xブックマークの古い日次は削除済み。"
+      "body": "obsidian-1 の Weekly X Manufacturing-AI News Digest が 10/17 10:03 の定期実行で失敗しました。10/16 15:40 に W42 原稿が先に作られていたため、既存の下書きに上書きしない仕組みが止めたもので、原稿そのものは残っています。ChangeWatch は最後の収集コミットが 2026-09-06 06:39 のままです。note 週末版は 10/10 が失敗、10/17 は記録がありません（Mac がオフラインなら未記録なだけの可能性があります）。平日版は 10/12 09:00 に一度失敗し、同日 18:44 に再実行で成功、最後の成功は 10/16 14:57。Grok 側では x-daily-auto-post と x-follower-sprint が一時停止のまま未実行、longform-sameday-guard が一時停止（最後の実行 10/8 18:32）。obsidian-1 の Actions は16本が手動で停止中。Xブックマークの古い日次は削除済み。"
     },
     {
       "title": "収集の欠け",
       "priority": "要対応",
-      "body": "10/6〜10/10 の trend.md と Borders ニュースは毎日あり、欠けた日はありません。ただし Reddit（13サブレッド）は 10/6〜10/10 の5日とも取得0件で、old.reddit.com がログイン画面に飛ばすためです。Wiz ブログは 10/7 だけ 403 で取れず、10/8 からは取れています。"
+      "body": "10/11〜10/17 の trend.md と Borders ニュースは毎日あり、欠けた日はありません。ただし Reddit（13サブレッド）は7日とも取得0件で、old.reddit.com がログイン画面に飛ばすためです（10/3 から同じ）。はてブのカテゴリ別 RSS は 404 で、HTML から代わりに取っています。Aikido と Wiz は7日とも取得できています。10/17 はフォロワー数の記録が取れませんでした（ボックスに X の認証がないため、最後の記録は 10/16 の57）。"
     },
     {
       "title": "エージェントの役割",
       "priority": "様子見",
-      "body": "役割の見直し結果はまだ見つかっていません。note・Zenn・ブログのデスク憲章（提案、10/6）はあります。各デスクは動いていて、X対話デスクは 10/10 に事実確認のルールを追加、Zenn の引き継ぎ確認は 10/7 に候補2本、ブログ鮮度確認は 10/8、note の昼確認は 10/10 に実行。デスク週報は 10/12（月）が初回です。"
+      "body": "今週は担当が2つ増えました。10/15 に GMAP学習デスク（問題作り）、10/17 にブログ選定・執筆・審査の3デスクと日次ブログのルーチン2本。10/14 からは Claude Code を夜間と平日日中に使うルーチンが7本動いています。デスク週報は 10/12 に初回が出て、次は 10/19。役割をまとめて見直した記録はまだ見つかっていません。ツール工場の出荷は 10/12 の api-budget-guard v0.1.0 が最後です。"
     },
     {
       "title": "ゼロさんフォルダ",
       "priority": "要対応",
-      "body": "obsidian-1 の main（origin/master）をファイル名とフォルダ名で探しましたが、「ゼロさん」はまだありません。「zero」で当たるのは 1password-zero-exposure の画像だけです。別の保管庫にあるか、まだ push されていない可能性があります。"
+      "body": "obsidian-1 の master（10/17 13:06 時点）をファイル名とフォルダ名で探しましたが、「ゼロさん」はまだありません。「zero」で当たるのは 1password-zero-exposure の画像だけです。別の保管庫にあるか、まだ push されていない可能性があります。"
     },
     {
       "title": "スケジュール実行の一覧確認",
       "priority": "要対応",
       "wide": true,
-      "body": "定期で動くものを下の表に並べました。どれを残してどれを止めるか、行ごとに教えてください。返事があるまで何も止めません。時刻はすべて JST。最終成功は GitHub の実行記録、vault の状態ファイル、Grok のルーチン状態で確認できたものだけ書き、確認できなかったものは未確認としています。ほかのボット（X対話デスクなど）が持つルーチンはここからは見えないので含めていません。",
+      "body": "定期で動くものを下の表に並べました。どれを残してどれを止めるか、行ごとに教えてください。返事があるまで何も止めません。時刻はすべて JST。最終成功は GitHub の実行記録、vault の状態ファイル、Grok のルーチン状態で確認できたものだけ書き、確認できなかったものは未確認としています。今週は製造業×AI週次の定期実行が失敗しているので、原稿を手で作る週は自動生成を止めるか残すかも決めてください。先週から増えたのは Claude Code のルーチン7本、ブックマークの2本、日次ブログの2本、Mac の libecity-hints です。ほかのボットのルーチンはここからは見えないので、分かっている名前だけ未確認で載せています。",
       "rows": [
         {
           "group": "GitHub Actions（obsidian-1）",
           "name": "X.com Auto Post",
           "what": "@Doing の下書きを Post Studio に同期（公開はしない）",
           "when": "毎時07分（4:07〜23:07、0〜3時台は空く）",
-          "last": "2026-10-10 14:36",
+          "last": "2026-10-17 19:31",
           "state": "有効"
         },
         {
@@ -45,7 +45,7 @@
           "name": "Weekly X Manufacturing-AI News Digest",
           "what": "製造業×AIの週次ニュースを生成",
           "when": "土曜 08:00",
-          "last": "2026-10-10 11:05",
+          "last": "2026-10-10 11:05（10/17 10:03 の定期実行は失敗。W42 原稿が 10/16 15:40 に先に作られていて、既存の下書きへの上書きを拒否して停止）",
           "state": "有効"
         },
         {
@@ -53,7 +53,7 @@
           "name": "Weekly X Mfg AI News Final Notice",
           "what": "週次ニュースの最終通知",
           "when": "日曜 20:00",
-          "last": "2026-10-05 00:41",
+          "last": "2026-10-12 01:34",
           "state": "有効"
         },
         {
@@ -122,7 +122,7 @@
         },
         {
           "group": "GitHub Actions（obsidian-1）",
-          "name": "X Daily Auto Post / X Follower Sprint",
+          "name": "X Daily Auto Post / X Follower Sprint ほか6本",
           "what": "cron なし（手動か push のみ）",
           "when": "なし",
           "last": "未確認",
@@ -148,8 +148,8 @@
           "group": "GitHub Actions（ほかのリポジトリ）",
           "name": "codey-daily / Changelog Sync",
           "what": "CHANGELOG の日次確認",
-          "when": "毎日 09:00（実際の起動は 13時台が多い）",
-          "last": "2026-10-10 13:45",
+          "when": "毎日 09:00（実際の起動は 12〜13時台が多い）",
+          "last": "2026-10-17 12:21",
           "state": "有効"
         },
         {
@@ -157,7 +157,7 @@
           "name": "dx-weekly-report / DX Weekly Report Generator",
           "what": "週次レポート",
           "when": "月曜 05:00",
-          "last": "schedule の成功なし（最後の成功は 2026-01-13 05:51 の手動実行）",
+          "last": "schedule の成功なし（最後の成功は 2026-01-13 05:51 の手動実行、最後の定期実行は 2026-03-16 05:20 に失敗）",
           "state": "放置で自動停止"
         },
         {
@@ -173,7 +173,7 @@
           "name": "note-news-routine（Mac launchd）",
           "what": "note日次ニュース（記事・音声・note下書き）",
           "when": "毎日 09:00",
-          "last": "2026-10-09 09:17",
+          "last": "2026-10-16 14:57",
           "state": "登録状況は未確認"
         },
         {
@@ -181,7 +181,15 @@
           "name": "note-news-weekend-routine（Mac launchd）",
           "what": "note週末版（土曜以外はスキップ）",
           "when": "毎日 09:00",
-          "last": "未確認（10/10 の記録なし）",
+          "last": "未確認（10/10 は失敗、10/17 の記録なし）",
+          "state": "登録状況は未確認"
+        },
+        {
+          "group": "リポジトリ内の定期実行（Mac launchd・VPS timer）",
+          "name": "libecity-hints（Mac launchd）",
+          "what": "リベシティの副業ヒント日次収集",
+          "when": "毎朝 06:23",
+          "last": "未確認",
           "state": "登録状況は未確認"
         },
         {
@@ -210,10 +218,10 @@
         },
         {
           "group": "リポジトリ内の定期実行（Mac launchd・VPS timer）",
-          "name": "dashboard-post.timer（VPS、ソースは Mac の ~/dev/vps-dashboard）",
+          "name": "dashboard-post.timer（VPS）",
           "what": "承認済みの X カードを投稿",
           "when": "毎時07分（4〜23時）",
-          "last": "未確認",
+          "last": "未確認（公開データ上の最後の投稿は 2026-10-16 15:07）",
           "state": "有効（記録上）"
         },
         {
@@ -221,7 +229,7 @@
           "name": "neta-trend-daily",
           "what": "技術トレンド収集",
           "when": "毎日 01:13",
-          "last": "2026-10-10 01:40",
+          "last": "2026-10-17 01:16",
           "state": "有効"
         },
         {
@@ -229,7 +237,7 @@
           "name": "neta-borders-daily",
           "what": "Borders向けニュース収集",
           "when": "毎日 06:13",
-          "last": "2026-10-10 06:21",
+          "last": "2026-10-17 06:21",
           "state": "有効"
         },
         {
@@ -237,7 +245,23 @@
           "name": "daily-channel-routing",
           "what": "日次のチャンネル振り分け",
           "when": "毎日 06:40",
-          "last": "2026-10-10 06:50",
+          "last": "2026-10-17 06:41",
+          "state": "有効"
+        },
+        {
+          "group": "Grok Bot ルーチン",
+          "name": "x-bookmarks-morning",
+          "what": "Xブックマークの取り込みと朝のまとめ",
+          "when": "毎日 07:30ごろ",
+          "last": "2026-10-17 07:31",
+          "state": "有効"
+        },
+        {
+          "group": "Grok Bot ルーチン",
+          "name": "x-bookmarks-backfill",
+          "what": "過去ブックマークの分類（1晩約600件）",
+          "when": "毎日 00:50ごろ",
+          "last": "2026-10-17 00:56",
           "state": "有効"
         },
         {
@@ -245,7 +269,23 @@
           "name": "note-desk-midday-check",
           "what": "note下書きの昼確認",
           "when": "毎日 11:45",
-          "last": "2026-10-10 11:54",
+          "last": "2026-10-17 11:50",
+          "state": "有効"
+        },
+        {
+          "group": "Grok Bot ルーチン",
+          "name": "blog-daily-weekday",
+          "what": "Borders ニュースからブログ1本（12:00 公開目標、WP 下書きまで）",
+          "when": "平日 09:05ごろ",
+          "last": "まだ実行なし（初回は 10/19 の予定）",
+          "state": "有効"
+        },
+        {
+          "group": "Grok Bot ルーチン",
+          "name": "blog-daily-weekend",
+          "what": "Borders ニュースからブログ1本（10:00 公開目標、WP 下書きまで）",
+          "when": "土日 06:30ごろ",
+          "last": "まだ実行なし（初回は 10/18 の予定）",
           "state": "有効"
         },
         {
@@ -253,7 +293,7 @@
           "name": "x-rival-watch",
           "what": "ライバル投稿の短い消化",
           "when": "平日 12:24",
-          "last": "2026-10-09 12:34",
+          "last": "2026-10-16 12:25",
           "state": "有効"
         },
         {
@@ -261,7 +301,7 @@
           "name": "x-engagement-pdca",
           "what": "自投稿の指標と学び",
           "when": "月曜・木曜 09:24",
-          "last": "2026-10-08 09:24",
+          "last": "2026-10-15 09:29",
           "state": "有効"
         },
         {
@@ -269,7 +309,7 @@
           "name": "tool-factory-demand-scout",
           "what": "ツール需要の探索",
           "when": "月曜 09:12",
-          "last": "2026-10-05 09:21",
+          "last": "2026-10-12 09:22",
           "state": "有効"
         },
         {
@@ -277,7 +317,7 @@
           "name": "tool-factory-pdca-weekly",
           "what": "ツール工場の週次PDCA",
           "when": "日曜 21:12",
-          "last": "2026-10-04 21:13",
+          "last": "2026-10-11 21:20",
           "state": "有効"
         },
         {
@@ -285,7 +325,7 @@
           "name": "note-desk-weekly / zenn-desk-weekly / blog-desk-weekly",
           "what": "各デスクの週報",
           "when": "月曜 08:30 / 08:40 / 08:50",
-          "last": "まだ実行なし（初回は 10/12）",
+          "last": "2026-10-12 08:34 / 08:46 / 08:53",
           "state": "有効"
         },
         {
@@ -293,7 +333,7 @@
           "name": "zenn-desk-handoff-scan",
           "what": "Zenn向けの引き継ぎ候補探し",
           "when": "水曜 21:00",
-          "last": "2026-10-07 21:09",
+          "last": "2026-10-14 21:04",
           "state": "有効"
         },
         {
@@ -301,7 +341,63 @@
           "name": "blog-desk-freshness",
           "what": "ブログ在庫の鮮度確認",
           "when": "木曜 21:00",
-          "last": "2026-10-08 21:03",
+          "last": "2026-10-15 21:09",
+          "state": "有効"
+        },
+        {
+          "group": "Grok Bot ルーチン",
+          "name": "claude-night-second-opinion",
+          "what": "夜間に Claude Code で前日の出荷を見直す",
+          "when": "毎日 00:10",
+          "last": "2026-10-17 00:19",
+          "state": "有効"
+        },
+        {
+          "group": "Grok Bot ルーチン",
+          "name": "claude-claimcheck-prep",
+          "what": "翌朝のネタ候補の主張チェック下調べ",
+          "when": "毎日 01:40",
+          "last": "2026-10-17 01:44",
+          "state": "有効"
+        },
+        {
+          "group": "Grok Bot ルーチン",
+          "name": "claude-codex-review",
+          "what": "Codex の実装コミットを Claude Code でレビュー",
+          "when": "毎日 02:30",
+          "last": "2026-10-17 02:31",
+          "state": "有効"
+        },
+        {
+          "group": "Grok Bot ルーチン",
+          "name": "claude-usage-log",
+          "what": "Claude の使用量を記録",
+          "when": "毎日 04:35",
+          "last": "2026-10-17 04:35",
+          "state": "有効"
+        },
+        {
+          "group": "Grok Bot ルーチン",
+          "name": "claude-day-build-assist",
+          "what": "日中の実装手伝い（Claude Code）",
+          "when": "平日 10:05",
+          "last": "2026-10-16 10:09",
+          "state": "有効"
+        },
+        {
+          "group": "Grok Bot ルーチン",
+          "name": "claude-day-zenn-prep",
+          "what": "Zenn 記事の下準備（Claude Code）",
+          "when": "平日 13:10",
+          "last": "2026-10-16 13:11",
+          "state": "有効"
+        },
+        {
+          "group": "Grok Bot ルーチン",
+          "name": "claude-day-neta-deepdive",
+          "what": "ネタの深掘り（Claude Code）",
+          "when": "平日 15:20",
+          "last": "2026-10-16 15:25",
           "state": "有効"
         },
         {
@@ -309,13 +405,13 @@
           "name": "weekly-shelf-check",
           "what": "この棚卸し",
           "when": "土曜 21:00",
-          "last": "今回（10/10 21:07 開始）が初回",
+          "last": "2026-10-10 21:07（今回は 10/17 21:08 開始）",
           "state": "有効"
         },
         {
           "group": "Grok Bot ルーチン",
           "name": "grokbot-inbox-watch",
-          "what": "hrtaym1114@mail.grokbot.com の受信を要約",
+          "what": "Grok Bot 専用メールの受信を要約",
           "when": "メールが届いたとき",
           "last": "まだ実行なし",
           "state": "有効"
@@ -343,6 +439,22 @@
           "when": "毎日 03:00",
           "last": "まだ実行なし",
           "state": "一時停止"
+        },
+        {
+          "group": "ほかのボットのルーチン（このボットからは見えない）",
+          "name": "gmap-question-factory（GMAP学習デスク）",
+          "what": "@gmap-bf の字幕からオリジナル問題を作ってキューに置く",
+          "when": "毎日 03:10ごろ・平日 11:20ごろ",
+          "last": "未確認",
+          "state": "未確認"
+        },
+        {
+          "group": "ほかのボットのルーチン（このボットからは見えない）",
+          "name": "X対話デスク・ブログ選定/執筆/審査デスクなど",
+          "what": "各ボットが持つルーチン",
+          "when": "未確認",
+          "last": "未確認",
+          "state": "未確認"
         }
       ]
     }
