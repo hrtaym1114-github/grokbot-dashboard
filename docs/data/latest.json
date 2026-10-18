@@ -1,7 +1,53 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "bookmarks": "skipped",
   "cards": [
+    {
+      "id": "20261019-x-nvidia-aspire",
+      "title": "NVIDIA ASPIRE v1.0 — ロボットの「学習済みモデル」が、重みではなくスキルのリポジトリになる",
+      "source": "Trend",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://github.com/NVlabs/ASPIRE",
+      "draft": "ロボットの「学習済みモデル」が、重みではなくスキルのリポジトリになる。NVIDIAのASPIRE v1.0は、ロボット制御のコードをコーディングエージェントに書かせて直し、検証済みの修正をスキルとして溜めていく研究プロジェクトで、Claude CodeとCodexのスキルとして公開されています。LIBERO-Proの80タスクで99%成功とあるものの、NVIDIA自身のシミュレーションの報告で、未見の長期タスクは31%。著者も「完全自律の実環境学習器ではまだない」と書いています。生成コードはサンドボックスなしで動くので、試すなら認証情報のない隔離環境で。",
+      "preview": {
+        "text": "ロボットの「学習済みモデル」が、重みではなくスキルのリポジトリになる。NVIDIAのASPIRE v1.0は、ロボット制御のコードをコーディングエージェントに書かせて直し、検証済みの修正をスキルとして溜めていく研究プロジェクトで、Claude CodeとCodexのスキルとして公開されています。LIBERO-Proの80タスクで99%成功とあるものの、NVIDIA自身のシミュレーションの報告で、未見の長期タスクは31%。著者も「完全自律の実環境学習器ではまだない」と書いています。生成コードはサンドボックスなしで動くので、試すなら認証情報のない隔離環境で。",
+        "url": "https://github.com/NVlabs/ASPIRE",
+        "siteName": "GitHub",
+        "title": "GitHub - NVlabs/ASPIRE: ASPIRE: Agentic /Skills Discovery for Robotics",
+        "description": "ASPIRE: Agentic /Skills Discovery for Robotics. Contribute to NVlabs/ASPIRE development by creating an account on GitHub."
+      },
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null,
+      "note": "Trend shortlist #1（ユーザー選択前の既定）。別のネタを選んだらX対話デスクのカードを優先し、このカードは保留へ。今週はagent-docs-lint発表カードも未投稿なので、Xは1日1本の枠でどちらか1枚だけ承認する。"
+    },
+    {
+      "id": "20261019-note-mazak-abeja-physical-ai",
+      "title": "ヤマザキマザックとABEJA、工作機械に「フィジカルAI」——図面から加工工程を、現場の状況から生産スケジュールをAIが提案、2028年度内の製品化へ",
+      "source": "Borders",
+      "channel": "note",
+      "status": "未投稿",
+      "url": "https://it.impress.co.jp/articles/-/29900",
+      "draft": "ヤマザキマザックとABEJA、工作機械に「フィジカルAI」——図面から加工工程を、現場の状況から生産スケジュールをAIが提案、2028年度内の製品化へ\n\n工作機械メーカーのヤマザキマザックは10月16日、ABEJAと業務連携し、部品を加工する工程と生産スケジュールをAIが提案する仕組みを開発すると発表した。AI運用基盤には「ABEJA Platform」を使い、2028年度内の製品化を目指す。顧客は工作機械の納入後、自社のデータでモデルを追加学習できる。",
+      "preview": {
+        "title": "ヤマザキマザックとABEJA、工作機械に「フィジカルAI」——図面から加工工程を、現場の状況から生産スケジュールをAIが提案、2028年度内の製品化へ",
+        "lead": "工作機械メーカーのヤマザキマザックは10月16日、ABEJAと業務連携し、部品を加工する工程と生産スケジュールをAIが提案する仕組みを開発すると発表した。AI運用基盤には「ABEJA Platform」を使い、2028年度内の製品化を目指す。顧客は工作機械の納入後、自社のデータでモデルを追加学習できる。",
+        "bodyPreview": "開発するAIエージェントは2つ。1つは、部品の図面や3Dモデルから加工方法・加工順序・切削条件を決めて提案する。学習データには、同社独自の対話型プログラミング言語「MAZATROL（マザトロール）」のプログラムを使う。一般的なGコードは工具や機械の動きを書くもので、「何をどう削るか」という意図は機械の動きに書き換えた時点で失われる。MAZATROLは素材・加工の種類・工具・加工形状などを対話形式で入力するため、加工の意図が構造化されて残り、熟練者の工程設計の判断を学ばせやすいという。もう1つは、生産計画・設備の稼働状況・部材の在庫・現場の運用ノウハウを踏まえ、工作機械とロボット、パレット搬送、AGVなど自動化設備のスケジュールを提案するエージェント。設備停止や欠品といった想定外の事態で、熟練者が何を優先し何を後回しにしたかを、その時点の稼働状況・在庫・シフトとともに学習する。"
+      },
+      "citations": [
+        {
+          "url": "https://it.impress.co.jp/articles/-/29900",
+          "siteName": "IT Leaders"
+        },
+        {
+          "url": "https://www.abejainc.com/news/20261016/2",
+          "siteName": "ABEJA, Inc."
+        }
+      ],
+      "scheduledAt": null,
+      "postedAt": null
+    },
     {
       "id": "20261016-x-lfm2-5-24b-a2b",
       "title": "Liquid AI「LFM2.5-24B-A2B」— 全体24B・動くのは約2B、端末でツールを呼ぶエージェント向け",
@@ -319,6 +365,18 @@
   ],
   "history": [
     {
+      "date": "2026-10-19",
+      "channel": "X",
+      "title": "NVIDIA ASPIRE v1.0 — ロボットの「学習済みモデル」が、重みではなくスキルのリポジトリになる",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-19",
+      "channel": "note",
+      "title": "ヤマザキマザックとABEJA、工作機械に「フィジカルAI」——図面から加工工程を、現場の状況から生産スケジュールをAIが提案、2028年度内の製品化へ",
+      "status": "未投稿"
+    },
+    {
       "date": "2026-10-16",
       "channel": "X",
       "title": "Liquid AI「LFM2.5-24B-A2B」— 全体24B・動くのは約2B、端末でツールを呼ぶエージェント向け",
@@ -428,8 +486,6 @@
     }
   ],
   "empty": {
-    "X": "今日はX対話デスクで仕上げ中（ユーザー選択: DeepSeek-V4.1-Flash）。カードはデスクが追加する",
-    "note": "今日は0本（日曜。noteは平日1本）",
     "Zenn": "今日は0本（検証原稿なし）",
     "ブログ": "今日は0本（ローカルLLMの実測なし）"
   },
