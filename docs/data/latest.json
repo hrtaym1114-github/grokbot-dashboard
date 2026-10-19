@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "bookmarks": "skipped",
   "cards": [
     {
@@ -22,11 +22,41 @@
       "tweet": null
     },
     {
+      "id": "20261020-note-agc-smartlogger-voice",
+      "title": "AGC、熟練者の「しゃべり」を生成AIで手順書・判断フローに——音声で作業ログを残す「SmartLogger Voice」、作業分析時間は10分の1以下に",
+      "source": "Borders",
+      "channel": "note",
+      "status": "未投稿",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/19/news015.html",
+      "draft": "AGC、熟練者の「しゃべり」を生成AIで手順書・判断フローに——音声で作業ログを残す「SmartLogger Voice」、作業分析時間は10分の1以下に\n\nAGCは10月15日、シーイーシーと共同で、製造現場の作業記録を音声で集めるシステム「SmartLogger Voice」を開発したと発表した。作業者が話した内容を文字にし、生成AIで整理・分析することで、現場のノウハウや判断の記録をデジタル資産にする。AGCの製造現場での実証では、作業分析にかかる時間が従来の10分の1以下になったという。",
+      "preview": {
+        "title": "AGC、熟練者の「しゃべり」を生成AIで手順書・判断フローに——音声で作業ログを残す「SmartLogger Voice」、作業分析時間は10分の1以下に",
+        "lead": "AGCは10月15日、シーイーシーと共同で、製造現場の作業記録を音声で集めるシステム「SmartLogger Voice」を開発したと発表した。作業者が話した内容を文字にし、生成AIで整理・分析することで、現場のノウハウや判断の記録をデジタル資産にする。AGCの製造現場での実証では、作業分析にかかる時間が従来の10分の1以下になったという。",
+        "bodyPreview": "これまでストップウォッチやビデオカメラで行っていた作業分析を、作業者が作業内容を声で記録し、生成AIが自動で整理・分析する形に変えた。もう1つの使い方は技能伝承で、熟練者が現場での判断ポイントや着眼点を声で説明すると、生成AIが伝承資料・判断フロー・Q&Aとして文字にまとめる。あらかじめ登録したキーワードの発話をきっかけに録音を始めるため、端末を操作せず、作業の流れを止めずに記録できる。常に録音し続ける方式と違い、分析に必要な情報だけを集めるので、整理の手間も減るとしている。シーイーシーによると、熟練技能者の作業分析と技能伝承の資料化にかかる時間は、それぞれ従来の10分の1以下になった。役割は、シーイーシーが音声認識と収集システム、AGCが音声データの言語変換とデータ生成のソフトの開発。両社は2016年から作業ログ記録の「SmartLogger」を共同で開発してきた。AGCは今後、安全活動や設備保全、ナレッジマネジメントにも広げる。"
+      },
+      "citations": [
+        {
+          "url": "https://monoist.itmedia.co.jp/mn/articles/2610/19/news015.html",
+          "siteName": "MONOist"
+        },
+        {
+          "url": "https://www.agc.com/news/detail/1212357_2148.html",
+          "siteName": "AGC"
+        },
+        {
+          "url": "https://www.cec-ltd.co.jp/news/2026/7416.html",
+          "siteName": "シーイーシー"
+        }
+      ],
+      "scheduledAt": null,
+      "postedAt": null
+    },
+    {
       "id": "20261019-x-nvidia-aspire",
       "title": "NVIDIA ASPIRE v1.0 — ロボットの「学習済みモデル」が、重みではなくスキルのリポジトリになる",
       "source": "Trend",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://github.com/NVlabs/ASPIRE",
       "draft": "ロボットの「学習済みモデル」が、重みではなくスキルのリポジトリになる。NVIDIAのASPIRE v1.0は、ロボット制御のコードをコーディングエージェントに書かせて直し、検証済みの修正をスキルとして溜めていく研究プロジェクトで、Claude CodeとCodexのスキルとして公開されています。LIBERO-Proの80タスクで99%成功とあるものの、NVIDIA自身のシミュレーションの報告で、未見の長期タスクは31%。著者も「完全自律の実環境学習器ではまだない」と書いています。生成コードはサンドボックスなしで動くので、試すなら認証情報のない隔離環境で。",
       "preview": {
@@ -37,9 +67,9 @@
         "description": "ASPIRE: Agentic /Skills Discovery for Robotics. Contribute to NVlabs/ASPIRE development by creating an account on GitHub."
       },
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null,
-      "note": "Trend shortlist #1（ユーザー選択前の既定）。別のネタを選んだらX対話デスクのカードを優先し、このカードは保留へ。今週はagent-docs-lint発表カードも未投稿なので、Xは1日1本の枠でどちらか1枚だけ承認する。"
+      "postedAt": "2026-10-18T23:07:02.000Z",
+      "tweet": "https://x.com/Amu_Lab__/status/2111957253964333088",
+      "note": "投稿済み確認（10/19 08:07 JST / @Amu_Lab__）。再承認しない。"
     },
     {
       "id": "20261019-note-mazak-abeja-physical-ai",
@@ -384,10 +414,22 @@
   ],
   "history": [
     {
+      "date": "2026-10-20",
+      "channel": "X",
+      "title": "X.com 投稿文 - 自前のLLMプロキシ（Jared Siegel ブログ）",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-20",
+      "channel": "note",
+      "title": "AGC、熟練者の「しゃべり」を生成AIで手順書・判断フローに——音声で作業ログを残す「SmartLogger Voice」、作業分析時間は10分の1以下に",
+      "status": "未投稿"
+    },
+    {
       "date": "2026-10-19",
       "channel": "X",
       "title": "NVIDIA ASPIRE v1.0 — ロボットの「学習済みモデル」が、重みではなくスキルのリポジトリになる",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-19",
@@ -506,7 +548,8 @@
   ],
   "empty": {
     "Zenn": "今日は0本（検証原稿なし）",
-    "ブログ": "今日は0本（ローカルLLMの実測なし）"
+    "ブログ": "今日は0本（ローカルLLMの実測なし）",
+    "X": "今日のXはX対話デスクのカード1本（ユーザー選択#2 自前LLMプロキシ）。Trendの既定カードは足さない。agent-docs-lint発表カードも未投稿なので、1日1本の枠でどちらか1枚だけ承認する。"
   },
   "statuses": [
     "未投稿",
