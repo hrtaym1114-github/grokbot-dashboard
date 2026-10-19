@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261020-x-llm-proxy",
+      "title": "X.com 投稿文 - 自前のLLMプロキシ（Jared Siegel ブログ）",
+      "source": "Desk",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "draft": "「月末の請求が跳ねても、どのエージェントのせいかは後で調べればいい」と思っているなら、プロバイダの画面に残るのは合計だけ、ということがよくあります。\n\n日報の要約、不良報告の分類、図面の検索。現場でエージェントを何本も回し始めると、全部が同じ本体キーで呼ばれ、どれがいつキャッシュを外したのか見分けられなくなります。\n\n10/18、開発者のJared Siegelさんがブログで、それなら自前のLLMプロキシを1枚挟めばいいと書きました。エージェントごとに仮想キーを配るので、本体のキーをあちこちに置かずに済みます。どのキーがどのモデルをいつ呼んだかが自分のログに残るので、キャッシュミスの理由もすぐ追えます。特定の製品は勧めていない、1人の経験からの意見です。\n\n分かれ目は、「この請求はどのエージェントのどの呼び出しか」を、引き継いだ人がログを見て答えられるかです。",
+      "preview": {
+        "text": "「月末の請求が跳ねても、どのエージェントのせいかは後で調べればいい」と思っているなら、プロバイダの画面に残るのは合計だけ、ということがよくあります。\n\n日報の要約、不良報告の分類、図面の検索。現場でエージェントを何本も回し始めると、全部が同じ本体キーで呼ばれ、どれがいつキャッシュを外したのか見分けられなくなります。\n\n10/18、開発者のJared Siegelさんがブログで、それなら自前のLLMプロキシを1枚挟めばいいと書きました。エージェントごとに仮想キーを配るので、本体のキーをあちこちに置かずに済みます。どのキーがどのモデルをいつ呼んだかが自分のログに残るので、キャッシュミスの理由もすぐ追えます。特定の製品は勧めていない、1人の経験からの意見です。\n\n分かれ目は、「この請求はどのエージェントのどの呼び出しか」を、引き継いだ人がログを見て答えられるかです。",
+        "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/"
+      },
+      "replies": [
+        "ブログ本文（Jared Siegel、10/18）\nhttps://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261019-x-nvidia-aspire",
       "title": "NVIDIA ASPIRE v1.0 — ロボットの「学習済みモデル」が、重みではなくスキルのリポジトリになる",
       "source": "Trend",
