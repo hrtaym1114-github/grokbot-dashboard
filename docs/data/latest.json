@@ -1,13 +1,58 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "bookmarks": "skipped",
   "cards": [
+    {
+      "id": "20261021-x-cloudflare-security-audit-skill",
+      "title": "Cloudflare security-audit-skill — AIの脆弱性指摘を、別のエージェントが反証しにいく",
+      "source": "Trend",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "draft": "AIが出した脆弱性の指摘を、別のAIが反証しにいく。CloudflareがMITライセンスで公開したセキュリティ監査スキルは、候補ごとに見つけた役とは別の新しいエージェントが反証を試み、結果をconfirmed／needs_validation／rejectedの3つに分けます。最終的な主張も、さらに別のエージェントが確かめ直します。READMEでは社内の脆弱性発見ハーネスの出発点になった単一リポジトリ版と説明され、成果数やベンチマークは載っていません。AIの指摘を誰がどう裏取りするかの段取りとして読めます。",
+      "preview": {
+        "text": "AIが出した脆弱性の指摘を、別のAIが反証しにいく。CloudflareがMITライセンスで公開したセキュリティ監査スキルは、候補ごとに見つけた役とは別の新しいエージェントが反証を試み、結果をconfirmed／needs_validation／rejectedの3つに分けます。最終的な主張も、さらに別のエージェントが確かめ直します。READMEでは社内の脆弱性発見ハーネスの出発点になった単一リポジトリ版と説明され、成果数やベンチマークは載っていません。AIの指摘を誰がどう裏取りするかの段取りとして読めます。",
+        "url": "https://github.com/cloudflare/security-audit-skill",
+        "siteName": "GitHub",
+        "title": "GitHub - cloudflare/security-audit-skill: A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings - cloudflare/security-audit-skill"
+      },
+      "replies": [
+        "GitHub（cloudflare/security-audit-skill、MIT）\nhttps://github.com/cloudflare/security-audit-skill"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null,
+      "note": "Trend shortlist 10/21 #1（ユーザー選択前の既定カード）。ユーザーが別のネタを選んだら、このカードは保留にする。10/20にCloudflareのキャッシュの投稿が出ているので、同じ社名が2日続く点に注意。数字（成果数・検出率）は書かない。"
+    },
+    {
+      "id": "20261021-note-holo-lab-arm-pilot-melfa",
+      "title": "ホロラボ、XRゴーグルの手の動きで三菱電機の産業用ロボット「MELFA」を遠隔操作する「arm-pilot」を提供開始——操作データはフィジカルAIの学習用にも",
+      "source": "Borders",
+      "channel": "note",
+      "status": "未投稿",
+      "url": "https://robotstart.info/article/2026/10/19/382537.html",
+      "draft": "ホロラボ、XRゴーグルの手の動きで三菱電機の産業用ロボット「MELFA」を遠隔操作する「arm-pilot」を提供開始——操作データはフィジカルAIの学習用にも\n\nホロラボは、三菱電機の産業用・協働ロボット「MELFA」のパートナー制度「MELFAロボットパートナー」にソフトウェアパートナーとして参画し、XR機器のハンドトラッキングでMELFAを遠隔操作するソフトウェア「arm-pilot（アームパイロット）」の提供を始めた。対応デバイスはMeta Quest 3。遠隔操作の記録は、人の操作を学習してロボットが自律的に作業する「フィジカルAI」の学習データとしても使えるとしている。",
+      "preview": {
+        "title": "ホロラボ、XRゴーグルの手の動きで三菱電機の産業用ロボット「MELFA」を遠隔操作する「arm-pilot」を提供開始——操作データはフィジカルAIの学習用にも",
+        "lead": "ホロラボは、三菱電機の産業用・協働ロボット「MELFA」のパートナー制度「MELFAロボットパートナー」にソフトウェアパートナーとして参画し、XR機器のハンドトラッキングでMELFAを遠隔操作するソフトウェア「arm-pilot（アームパイロット）」の提供を始めた。対応デバイスはMeta Quest 3。遠隔操作の記録は、人の操作を学習してロボットが自律的に作業する「フィジカルAI」の学習データとしても使えるとしている。",
+        "bodyPreview": "XR機器で手の位置と姿勢を読み取り、ロボットを手の動きに追従させる。制御は、MELFAのロボットコントローラーが備えるリアルタイム外部制御機能を通じて行う。想定する活用シーンは、高温・有害物質・クリーンルームなど危険・過酷な環境での遠隔作業、ティーチングが難しい非定型・少量多品種の作業、そして操作データを集めてフィジカルAIの学習データにする使い方の3つ。製造・物流の現場では、ティーチングが難しい非定型作業や人の判断を要する作業がいまも人の手に残っており、テレオペレーションは遠隔操作の手段であると同時に、AIが学ぶためのデータを集める手段としても重要性を増しているという。MELFAロボットパートナーは、三菱電機とパートナー企業がロボットシステムの導入から保守までを支援する制度で、ホロラボはシミュレータや解析ツールなどを対象とする「ソフトウェアパートナー」として登録された。今後は三菱電機や各パートナー企業と連携し、arm-pilotを使った遠隔操作ソリューションの導入を進める。"
+      },
+      "citations": [
+        {
+          "url": "https://robotstart.info/article/2026/10/19/382537.html",
+          "siteName": "ロボスタ"
+        }
+      ],
+      "scheduledAt": null,
+      "postedAt": null
+    },
     {
       "id": "20261020-x-cloudflare-cache",
       "title": "X.com 投稿文 - Cloudflare AIコードレビューのキャッシュ（最初の1回）",
       "source": "Desk",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
       "draft": "AIに毎回同じ前置きを送っているなら、その分は「キャッシュ」で安くなるはずです。でも、実際には効いていないことがあります。\n\nCloudflareは社内のAIコードレビューで、毎回同じ前置きを送っていたのに、最初の呼び出しでキャッシュが効いたのは14〜26%だけでした。原因は、作業フォルダや日付のような毎回変わる情報を、前置きと同じかたまりに入れていたこと。少しでも違うと、そこから先は別物として扱われます。\n\nそこを分け、モデルの選び方も見直して、1回のレビュー代を2.43ドルから0.77ドルに下げたと自社の実測で報告しています。\n\n自分のMacのClaude Codeで直近30日を数えると、全体では9割がキャッシュからの読み出しでしたが、各セッションの最初の1回だけだと22%でした。間を空けて始める個人作業なので条件は違いますが、平均だけでは見えない差です。\n\n見るべきは平均のヒット率ではなく、「最初の1回」です。",
       "preview": {
@@ -18,15 +63,16 @@
         "Cloudflareのブログ（10/19）\nhttps://blog.cloudflare.com/obsessive-inference-optimization/"
       ],
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-20T08:07:23.000Z",
+      "tweet": "https://x.com/Amu_Lab__/status/2112455627159281667",
+      "note": "投稿済み確認（10/20 17:07 JST / @Amu_Lab__）。再承認しない。"
     },
     {
       "id": "20261020-x-llm-proxy",
       "title": "X.com 投稿文 - 自前のLLMプロキシ（Jared Siegel ブログ）",
       "source": "Desk",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
       "draft": "「月末の請求が跳ねても、どのエージェントのせいかは後で調べればいい」と思っているなら、プロバイダの画面に残るのは合計だけ、ということがよくあります。\n\n日報の要約、不良報告の分類、図面の検索。現場でエージェントを何本も回し始めると、全部が同じ本体キーで呼ばれ、どれがいつキャッシュを外したのか見分けられなくなります。\n\n10/18、開発者のJared Siegelさんがブログで、それなら自前のLLMプロキシを1枚挟めばいいと書きました。エージェントごとに仮想キーを配るので、本体のキーをあちこちに置かずに済みます。どのキーがどのモデルをいつ呼んだかが自分のログに残るので、キャッシュミスの理由もすぐ追えます。特定の製品は勧めていない、1人の経験からの意見です。\n\n分かれ目は、「この請求はどのエージェントのどの呼び出しか」を、引き継いだ人がログを見て答えられるかです。",
       "preview": {
@@ -37,8 +83,9 @@
         "ブログ本文（Jared Siegel、10/18）\nhttps://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/"
       ],
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-19T22:07:00.000Z",
+      "tweet": "https://x.com/Amu_Lab__/status/2112304536677384688",
+      "note": "投稿済み確認（10/20 07:07 JST / @Amu_Lab__）。再承認しない。"
     },
     {
       "id": "20261020-note-agc-smartlogger-voice",
@@ -433,10 +480,28 @@
   ],
   "history": [
     {
+      "date": "2026-10-21",
+      "channel": "X",
+      "title": "Cloudflare security-audit-skill — AIの脆弱性指摘を、別のエージェントが反証しにいく",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-21",
+      "channel": "note",
+      "title": "ホロラボ、XRゴーグルの手の動きで三菱電機の産業用ロボット「MELFA」を遠隔操作する「arm-pilot」を提供開始——操作データはフィジカルAIの学習用にも",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-20",
+      "channel": "X",
+      "title": "X.com 投稿文 - Cloudflare AIコードレビューのキャッシュ（最初の1回）",
+      "status": "投稿済み"
+    },
+    {
       "date": "2026-10-20",
       "channel": "X",
       "title": "X.com 投稿文 - 自前のLLMプロキシ（Jared Siegel ブログ）",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-20",
@@ -568,7 +633,7 @@
   "empty": {
     "Zenn": "今日は0本（検証原稿なし）",
     "ブログ": "今日は0本（ローカルLLMの実測なし）",
-    "X": "今日のXはX対話デスクのカード1本（ユーザー選択#2 自前LLMプロキシ）。Trendの既定カードは足さない。agent-docs-lint発表カードも未投稿なので、1日1本の枠でどちらか1枚だけ承認する。"
+    "X": "今日のXはTrend shortlist #1（Cloudflare security-audit-skill）を既定カードで1本。まだユーザーの選択はない。別のネタを選んだらこのカードは保留にする。agent-docs-lint発表カードとSOLIDWORKS引用ポスト（X対話デスクで確認中）も控えているので、1日1本の枠でどれか1枚だけ承認する。"
   },
   "statuses": [
     "未投稿",
