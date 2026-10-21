@@ -9,9 +9,9 @@
       "channel": "X",
       "status": "未投稿",
       "url": "https://github.com/cloudflare/security-audit-skill",
-      "draft": "AIが出した脆弱性の指摘を、別のAIが反証しにいく。CloudflareがMITライセンスで公開したセキュリティ監査スキルは、候補ごとに見つけた役とは別の新しいエージェントが反証を試み、結果をconfirmed／needs_validation／rejectedの3つに分けます。最終的な主張も、さらに別のエージェントが確かめ直します。READMEでは社内の脆弱性発見ハーネスの出発点になった単一リポジトリ版と説明され、成果数やベンチマークは載っていません。AIの指摘を誰がどう裏取りするかの段取りとして読めます。",
+      "draft": "AIが出した脆弱性の指摘を、別のAIが反証しにいく。CloudflareがMITライセンスで公開したセキュリティ監査スキルは、候補ごとに見つけた役とは別の新しいエージェントが反証を試み、結果をconfirmed／needs_validation／rejectedの3つに分けます。最終的な主張も、さらに別のエージェントが確かめ直します。READMEでは社内の脆弱性発見ハーネスの出発点になった単一リポジトリ版と説明され、成果数やベンチマークは載っていません。ただし同社の試験では、1回の実行で見つかった脆弱性は、繰り返し実行して見つかった合計のおよそ半分だったとしています。AIの指摘を誰がどう裏取りするかの段取りとして読めます。",
       "preview": {
-        "text": "AIが出した脆弱性の指摘を、別のAIが反証しにいく。CloudflareがMITライセンスで公開したセキュリティ監査スキルは、候補ごとに見つけた役とは別の新しいエージェントが反証を試み、結果をconfirmed／needs_validation／rejectedの3つに分けます。最終的な主張も、さらに別のエージェントが確かめ直します。READMEでは社内の脆弱性発見ハーネスの出発点になった単一リポジトリ版と説明され、成果数やベンチマークは載っていません。AIの指摘を誰がどう裏取りするかの段取りとして読めます。",
+        "text": "AIが出した脆弱性の指摘を、別のAIが反証しにいく。CloudflareがMITライセンスで公開したセキュリティ監査スキルは、候補ごとに見つけた役とは別の新しいエージェントが反証を試み、結果をconfirmed／needs_validation／rejectedの3つに分けます。最終的な主張も、さらに別のエージェントが確かめ直します。READMEでは社内の脆弱性発見ハーネスの出発点になった単一リポジトリ版と説明され、成果数やベンチマークは載っていません。ただし同社の試験では、1回の実行で見つかった脆弱性は、繰り返し実行して見つかった合計のおよそ半分だったとしています。AIの指摘を誰がどう裏取りするかの段取りとして読めます。",
         "url": "https://github.com/cloudflare/security-audit-skill",
         "siteName": "GitHub",
         "title": "GitHub - cloudflare/security-audit-skill: A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
@@ -23,7 +23,7 @@
       "scheduledAt": null,
       "postedAt": null,
       "tweet": null,
-      "note": "Trend shortlist 10/21 #1（ユーザー選択前の既定カード）。ユーザーが別のネタを選んだら、このカードは保留にする。10/20にCloudflareのキャッシュの投稿が出ているので、同じ社名が2日続く点に注意。数字（成果数・検出率）は書かない。"
+      "note": "Trend shortlist 10/21 #1（ユーザー選択前の既定カード）。ユーザーが別のネタを選んだら、このカードは保留にする。10/20にCloudflareのキャッシュの投稿が出ているので、同じ社名が2日続く点に注意。数字（成果数・検出率）は書かない。 10/21 21:35 JST ユーザー指示でREADMEの『1回の実行は繰り返し実行の合計のおよそ半分』を追記（更新済み）。"
     },
     {
       "id": "20261021-note-holo-lab-arm-pilot-melfa",
