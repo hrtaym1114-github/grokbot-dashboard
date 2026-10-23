@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261023-x-litellm-latest",
+      "title": "X.com 投稿文 - LiteLLM v1.107.0 改ざん（latestタグも対象）",
+      "source": "Desk",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026",
+      "draft": "LiteLLMの公式Dockerイメージが、latestタグごと、鍵を盗む版に差し替えられていました。\n\nLiteLLM公式の報告によると、10/21の夜（日本時間20:46〜23:20）、latestタグなどが改ざんされたv1.107.0を指していました。PyPI版も約2時間公開されています。セキュリティ企業StepSecurityの解析では、3月に続き今年2回目です。\n\n同じ解析によると、この版はPythonが起動するたびに、SSH鍵、クラウドの鍵、Claude CodeやCursorなどの設定、プロキシに保存した各社のAPIキーを外へ送ります。importしなくても動きます。版を固定せずlatestで追っていた環境は、その時間に取り直すか再起動しただけで対象です。\n\n工場の日報要約や問い合わせ分類のために、社内でLLMの中継サーバーを置いている現場ほど、ここに各社のキーが集まっています。\n\n公式は、感染した環境で確認のつもりでpipを実行しないよう注意しています。pip自体もPythonなので、また動いてしまうからです。案内は、1.106.2への固定と、その環境から届く鍵の総入れ替えです。",
+      "preview": {
+        "text": "LiteLLMの公式Dockerイメージが、latestタグごと、鍵を盗む版に差し替えられていました。\n\nLiteLLM公式の報告によると、10/21の夜（日本時間20:46〜23:20）、latestタグなどが改ざんされたv1.107.0を指していました。PyPI版も約2時間公開されています。セキュリティ企業StepSecurityの解析では、3月に続き今年2回目です。\n\n同じ解析によると、この版はPythonが起動するたびに、SSH鍵、クラウドの鍵、Claude CodeやCursorなどの設定、プロキシに保存した各社のAPIキーを外へ送ります。importしなくても動きます。版を固定せずlatestで追っていた環境は、その時間に取り直すか再起動しただけで対象です。\n\n工場の日報要約や問い合わせ分類のために、社内でLLMの中継サーバーを置いている現場ほど、ここに各社のキーが集まっています。\n\n公式は、感染した環境で確認のつもりでpipを実行しないよう注意しています。pip自体もPythonなので、また動いてしまうからです。案内は、1.106.2への固定と、その環境から届く鍵の総入れ替えです。",
+        "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026"
+      },
+      "replies": [
+        "1/2 LiteLLM公式の報告（10/21）\nhttps://docs.litellm.ai/blog/security-incident-oct-21-2026",
+        "2/2 StepSecurityの解析（10/21）\nhttps://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261023-x-claude-duet",
       "title": "Claude Duet — 毎朝まとめて報告し、あとは黙って、要所だけOKを待つエージェント",
       "source": "Trend",
