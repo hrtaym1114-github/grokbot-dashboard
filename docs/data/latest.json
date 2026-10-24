@@ -1,7 +1,30 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "bookmarks": "skipped",
   "cards": [
+    {
+      "id": "20261025-x-fold-subagents",
+      "title": "サブエージェントは足すほど良い？ — Anthropic「メインループに畳む」判断",
+      "source": "Trend",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+      "draft": "「サブエージェントを足すほど良くなる」とは限らない、という記事をAnthropicが10/22に出しています。\n\n複数の企業デプロイを比べると、スキルで必要なときだけコンテキストを読み込む単一エージェントが、ルーター・プランナー・ドメイン別サブエージェントの構成より品質で上回ることが多く、コストと遅延も低めだったそうです。\n\nただし検証・並列作業・権限分離にはサブエージェントが有効とも明記。\n\nチームごとに1体ずつ足すと、構成が組織図のコピーになる。この指摘は覚えておきたいです。",
+      "preview": {
+        "text": "「サブエージェントを足すほど良くなる」とは限らない、という記事をAnthropicが10/22に出しています。\n\n複数の企業デプロイを比べると、スキルで必要なときだけコンテキストを読み込む単一エージェントが、ルーター・プランナー・ドメイン別サブエージェントの構成より品質で上回ることが多く、コストと遅延も低めだったそうです。\n\nただし検証・並列作業・権限分離にはサブエージェントが有効とも明記。\n\nチームごとに1体ずつ足すと、構成が組織図のコピーになる。この指摘は覚えておきたいです。",
+        "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+        "siteName": "Claude",
+        "title": "Building agents: When to fold subagents into your main agent loop",
+        "description": "When to consider using fewer subagents and how to migrate the into your main loop."
+      },
+      "replies": [
+        "Anthropic（Claude）の記事（2026年10月22日公開）\nhttps://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null,
+      "note": "Trend shortlist 10/25 #1（ユーザー選択前の既定カード）。ユーザーが別のネタ（#2 Kimi K3.1 Pro、#3 Anthropic攻撃面の削減）を選んだら、このカードは保留にする。10/24選択の1Password for Agents（X対話デスク、まだダッシュボードにカードなし）と10/23のLiteLLMカード（Desk、未投稿）も控えているので、1日1本の枠でどれか1枚だけ承認する。原文は「a dozen」「domain subagents」なので「十数個」「専門」と盛らない。社名は出ていないので書かない。「サブエージェント不要」と言い切らない。移行キットの宣伝にしない。コストの数字は原文にない。previewのdescriptionは原文ページの表示どおり（the into の誤字も原文のまま）。"
+    },
     {
       "id": "20261023-x-litellm-latest",
       "title": "X.com 投稿文 - LiteLLM v1.107.0 改ざん（latestタグも対象）",
@@ -567,6 +590,12 @@
   ],
   "history": [
     {
+      "date": "2026-10-25",
+      "channel": "X",
+      "title": "サブエージェントは足すほど良い？ — Anthropic「メインループに畳む」判断",
+      "status": "未投稿"
+    },
+    {
       "date": "2026-10-23",
       "channel": "X",
       "title": "Claude Duet — 毎朝まとめて報告し、あとは黙って、要所だけOKを待つエージェント",
@@ -736,8 +765,8 @@
     }
   ],
   "empty": {
-    "X": "今日（10/24 土）のXは、ユーザーが選んだTrend shortlist #3「1Password for Agents」をX対話デスクが仕上げ中なので、振り分けのカードは追加しない。デスクのカードを1日1本の枠で承認する。使用感は書かない（まだ使えない）。「数日以内」はMeta MuseとGrok Botだけで他は「近日」、1Password.eu/.caは対象外、の2点を残す。10/23のLiteLLMカード（Desk、未投稿）も控えているので、承認はどちらか1枚だけ。",
-    "note": "今日は0本（土曜。noteは平日のみ）",
+    "X": "今日（10/25 日）のXはTrend shortlist #1（サブエージェントをメインループに畳む話）を既定カードで1本。まだユーザーの選択はない。別のネタを選んだらこのカードは保留にする。10/24選択の1Password for Agents（X対話デスク）と10/23のLiteLLMカード（Desk、未投稿）も控えているので、承認はどれか1枚だけ。",
+    "note": "今日は0本（日曜。noteは平日のみ）",
     "Zenn": "今日は0本（検証原稿なし）",
     "ブログ": "今日は0本（ローカルLLMの実測なし）"
   },
