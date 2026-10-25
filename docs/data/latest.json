@@ -1,7 +1,53 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "bookmarks": "skipped",
   "cards": [
+    {
+      "id": "20261026-x-claude-code-review-bottleneck",
+      "title": "承認祭りの次はレビュー祭り — 「ガチで放置できるClaude Code実行環境」登壇",
+      "source": "Trend",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://dev.classmethod.jp/articles/devio2026-tokyo-claude-code-automode-unattended-environment/",
+      "draft": "「auto modeのおかげで承認祭りからは解放されましたが、その先で待っていたのはレビュー祭りでした」\n\nDevelopersIO 2026 Tokyo（10/24）で、Claude Codeを放置して動かす環境づくりを話した登壇者の一言です。\n\n公式ドキュメントでも、auto modeは実行前に別のモデルが各操作を見て許可プロンプトを減らす仕組みで、安全を保証するものではないとされています。\n\nエージェントに任せる範囲が広がるほど、最後に詰まるのは成果物を読む人の時間。そこをどう設計するかが次の課題だと思います。",
+      "preview": {
+        "text": "「auto modeのおかげで承認祭りからは解放されましたが、その先で待っていたのはレビュー祭りでした」\n\nDevelopersIO 2026 Tokyo（10/24）で、Claude Codeを放置して動かす環境づくりを話した登壇者の一言です。\n\n公式ドキュメントでも、auto modeは実行前に別のモデルが各操作を見て許可プロンプトを減らす仕組みで、安全を保証するものではないとされています。\n\nエージェントに任せる範囲が広がるほど、最後に詰まるのは成果物を読む人の時間。そこをどう設計するかが次の課題だと思います。",
+        "url": "https://dev.classmethod.jp/articles/devio2026-tokyo-claude-code-automode-unattended-environment/",
+        "siteName": "クラスメソッド発「やってみた」系技術メディア | DevelopersIO",
+        "title": "DevelopersIO 2026 TOKYO で「ガチで放置できる Claude Code実行環境の作り方」というタイトルで登壇しました #devio2026 | DevelopersIO",
+        "description": "DevelopersIO 2026 Tokyoでの登壇資料を共有します。Claude Codeを安全かつ効率的に自動実行させるための環境構築と、自動化の先に残る課題についてお話ししました。ぜひ参考にしてみてください。"
+      },
+      "replies": [
+        "DevelopersIO 2026 Tokyo 登壇記事（10/24）\nhttps://dev.classmethod.jp/articles/devio2026-tokyo-claude-code-automode-unattended-environment/",
+        "Claude Code公式：permission modes（auto mode）\nhttps://code.claude.com/docs/en/permission-modes"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null,
+      "note": "Trend shortlist 10/26 #1（ユーザー選択前の既定カード）。ユーザーが別のネタ（#2 VoiceStudio、#3 Farol）を選んだら、このカードは保留にする。10/23のLiteLLMカード（Desk、未投稿）も控えているので、1日1本の枠でどれか1枚だけ承認する。スライド本体は未確認なのでTipsを列挙しない。「ボトルネックが人間のレビューに移る」は登壇者の主張で一次データはない。「auto modeは安全」「レビュー不要」と書かない。はてブ数はページに出ていないので使わない。"
+    },
+    {
+      "id": "20261026-note-teradyne-sereact-physical-ai",
+      "title": "Teradyne Robotics（Universal Robots）とSereactが提携——1つのAIモデルで返品処理やピッキングを自動化、欧州で数百台稼働",
+      "source": "Borders",
+      "channel": "note",
+      "status": "未投稿",
+      "url": "https://www.universal-robots.com/news-and-media/news-center/teradyne-robotics-and-sereact-partner-to-scale-physical-ai-solutions-for-retail-and-logistics/",
+      "draft": "Teradyne Robotics（Universal Robots）とSereactが提携——1つのAIモデルで返品処理やピッキングを自動化、欧州で数百台稼働\n\n協働ロボット大手Universal Robotsを傘下に持つTeradyne Roboticsと、ロボット向けフィジカルAIを手がける独Sereactは2026年10月21日、正式な提携を発表した。SereactのAI基盤「Cortex」でUniversal Robotsのロボットアームを動かし、返品処理やピッキングのような、形や包装がばらばらで自動化しにくかった作業を小売・物流・製造の現場で自動化する。両社はすでに双腕システムとして数百台のURロボットを欧州の顧客拠点に出荷している。",
+      "preview": {
+        "title": "Teradyne Robotics（Universal Robots）とSereactが提携——1つのAIモデルで返品処理やピッキングを自動化、欧州で数百台稼働",
+        "lead": "協働ロボット大手Universal Robotsを傘下に持つTeradyne Roboticsと、ロボット向けフィジカルAIを手がける独Sereactは2026年10月21日、正式な提携を発表した。SereactのAI基盤「Cortex」でUniversal Robotsのロボットアームを動かし、返品処理やピッキングのような、形や包装がばらばらで自動化しにくかった作業を小売・物流・製造の現場で自動化する。両社はすでに双腕システムとして数百台のURロボットを欧州の顧客拠点に出荷している。",
+        "bodyPreview": "Cortexは画像と言葉から動作を決めるVLA（視覚・言語・行動）モデルで、返品処理、店舗補充、ピッキングと仕分け、機械への部品投入、キッティング、梱包などを、品目や作業ごとの再学習なしに同じモデルでこなすという。SereactのCEOは「1つの頭脳がすべてのロボットを動かし、1台が学んだことを全台が生かせる」と述べている。ZalandoのドイツのGreven、ポーランドのŚwiebodzinの物流センターでは、CEVA Logisticsと組んで返品された衣料品の処理をロボットが自動で行っており、欧州で返品自動化を広げる第1段階と位置づける。モデルはNVIDIAのIsaac SimとCosmosで学習し、Isaac Labで強化学習による追加学習をしたうえで、現場ではNVIDIA Jetson Thorで動かす。Sereactはこの夏ボストンに米国本社を開き、北米にも展開する。工場の部品投入やキッティングも用途に挙がっており、製造業の自動化計画にも関わる話だ。"
+      },
+      "citations": [
+        {
+          "url": "https://www.universal-robots.com/news-and-media/news-center/teradyne-robotics-and-sereact-partner-to-scale-physical-ai-solutions-for-retail-and-logistics/",
+          "siteName": "Universal Robots"
+        }
+      ],
+      "scheduledAt": null,
+      "postedAt": null
+    },
     {
       "id": "20261025-x-openai-brotli",
       "title": "X.com 投稿文 - OpenAI学習環境脱出とBrotli RCE",
@@ -620,6 +666,18 @@
   ],
   "history": [
     {
+      "date": "2026-10-26",
+      "channel": "X",
+      "title": "承認祭りの次はレビュー祭り — 「ガチで放置できるClaude Code実行環境」登壇",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-26",
+      "channel": "note",
+      "title": "Teradyne Robotics（Universal Robots）とSereactが提携——1つのAIモデルで返品処理やピッキングを自動化、欧州で数百台稼働",
+      "status": "未投稿"
+    },
+    {
       "date": "2026-10-25",
       "channel": "X",
       "title": "サブエージェントは足すほど良い？ — Anthropic「メインループに畳む」判断",
@@ -802,8 +860,8 @@
     }
   ],
   "empty": {
-    "X": "今日（10/25 日）のXはTrend shortlist #1（サブエージェントをメインループに畳む話）を既定カードで1本。まだユーザーの選択はない。別のネタを選んだらこのカードは保留にする。10/24選択の1Password for Agents（X対話デスク）と10/23のLiteLLMカード（Desk、未投稿）も控えているので、承認はどれか1枚だけ。",
-    "note": "今日は0本（日曜。noteは平日のみ）",
+    "X": "今日（10/26 月）のXはTrend shortlist #1（Claude Codeの承認祭りの次はレビュー祭り）を既定カードで1本。まだユーザーの選択はない。別のネタ（#2 VoiceStudio、#3 Farol）を選んだらこのカードは保留にする。10/23のLiteLLMカード（Desk、未投稿）も控えているので、承認はどれか1枚だけ。",
+    "note": "今日はBordersからTeradyne×Sereact（フィジカルAI、欧州で数百台稼働）を1本。未投稿。",
     "Zenn": "今日は0本（検証原稿なし）",
     "ブログ": "今日は0本（ローカルLLMの実測なし）"
   },
