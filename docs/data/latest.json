@@ -7,7 +7,7 @@
       "title": "サブエージェントは足すほど良い？ — Anthropic「メインループに畳む」判断",
       "source": "Trend",
       "channel": "X",
-      "status": "未投稿",
+      "status": "保留",
       "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
       "draft": "「サブエージェントを足すほど良くなる」とは限らない、という記事をAnthropicが10/22に出しています。\n\n複数の企業デプロイを比べると、スキルで必要なときだけコンテキストを読み込む単一エージェントが、ルーター・プランナー・ドメイン別サブエージェントの構成より品質で上回ることが多く、コストと遅延も低めだったそうです。\n\nただし検証・並列作業・権限分離にはサブエージェントが有効とも明記。\n\nチームごとに1体ずつ足すと、構成が組織図のコピーになる。この指摘は覚えておきたいです。",
       "preview": {
@@ -23,7 +23,8 @@
       "scheduledAt": null,
       "postedAt": null,
       "tweet": null,
-      "note": "Trend shortlist 10/25 #1（ユーザー選択前の既定カード）。ユーザーが別のネタ（#2 Kimi K3.1 Pro、#3 Anthropic攻撃面の削減）を選んだら、このカードは保留にする。10/24選択の1Password for Agents（X対話デスク、まだダッシュボードにカードなし）と10/23のLiteLLMカード（Desk、未投稿）も控えているので、1日1本の枠でどれか1枚だけ承認する。原文は「a dozen」「domain subagents」なので「十数個」「専門」と盛らない。社名は出ていないので書かない。「サブエージェント不要」と言い切らない。移行キットの宣伝にしない。コストの数字は原文にない。previewのdescriptionは原文ページの表示どおり（the into の誤字も原文のまま）。"
+      "note": "Trend shortlist 10/25 #1（ユーザー選択前の既定カード）。ユーザーが別のネタ（#2 Kimi K3.1 Pro、#3 Anthropic攻撃面の削減）を選んだら、このカードは保留にする。10/24選択の1Password for Agents（X対話デスク、まだダッシュボードにカードなし）と10/23のLiteLLMカード（Desk、未投稿）も控えているので、1日1本の枠でどれか1枚だけ承認する。原文は「a dozen」「domain subagents」なので「十数個」「専門」と盛らない。社名は出ていないので書かない。「サブエージェント不要」と言い切らない。移行キットの宣伝にしない。コストの数字は原文にない。previewのdescriptionは原文ページの表示どおり（the into の誤字も原文のまま）。",
+      "heldAt": "2026-10-25T10:15:00+09:00"
     },
     {
       "id": "20261023-x-litellm-latest",
@@ -43,7 +44,8 @@
       ],
       "scheduledAt": null,
       "postedAt": null,
-      "tweet": null
+      "tweet": null,
+      "note": "今週投稿予定（10/25 ユーザー判断で残す・捨て候補外）"
     },
     {
       "id": "20261023-x-claude-duet",
@@ -433,7 +435,7 @@
       "title": "X.com 投稿文 - エージェント手順書ズレ検査 v0.1.0",
       "source": "Desk",
       "channel": "X",
-      "status": "未投稿",
+      "status": "捨て済み",
       "url": "https://github.com/hrtaym1114-github/agent-docs-lint",
       "draft": "「AGENTS.mdは一度書けば、エージェントがずっと正しく読んでくれる」と思っているなら、半年後にはリンク先のファイルが消え、モデル名もgpt-4oのまま、ということがよくあります。\n\nそのズレを、エージェントを動かす前に見つける小さなCLIを公開しました。見るのは4つです。リンク先やスラッシュコマンドの実体が無い、Markdownの見出しアンカーが無い、モデル名の決め打ち（一覧は設定で変えられる）、どこからも呼ばれていないagent/skillファイル。LLMもネットワークも使わず、Pythonの標準ライブラリだけで動くので、GPUの無い16GBのノートでもCIでも同じ結果になります。ズレがあればexit 1です。\n\n引き継いだ人が最初に見るのは、各行に出る「ファイル名:行番号: 種類」です。直すか、設定で外すかをそこで決められます。",
       "preview": {
@@ -446,7 +448,8 @@
       ],
       "scheduledAt": null,
       "postedAt": null,
-      "tweet": null
+      "tweet": null,
+      "discardedAt": "2026-10-25T10:15:00+09:00"
     },
     {
       "id": "20261013-x-geiger",
@@ -597,7 +600,7 @@
       "date": "2026-10-25",
       "channel": "X",
       "title": "サブエージェントは足すほど良い？ — Anthropic「メインループに畳む」判断",
-      "status": "未投稿"
+      "status": "保留"
     },
     {
       "date": "2026-10-23",
