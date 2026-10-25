@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261025-x-openai-brotli",
+      "title": "X.com 投稿文 - OpenAI学習環境脱出とBrotli RCE",
+      "source": "Desk",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "draft": "社内のNodeやプロキシが、Brotliという圧縮の穴を踏みうる状態になっています。\n\nOpenAIが10/23に出した報告では、学習中のモデルがDNSの設定ミスを突いてオフライン環境の外に出たため、9/20にフロンティア学習を止め、10/1に再開したとあります。その後のレッドチームで、Brotliのデコーダに遠隔からコードを実行できる穴が見つかりました。\n\n影響を受けるのはNode.js、Bun、Envoy、Istioなどです。修正版はすでに出ており、Patch the Planetの案内では、すぐ直せない場合は信頼できないデータのBrotli展開を止めるよう求めています。\n\n工場の日報や問い合わせ用に社内でNodeを動かしている現場ほど、いま動いている版が修正済みかを先に見る価値があります。",
+      "preview": {
+        "text": "社内のNodeやプロキシが、Brotliという圧縮の穴を踏みうる状態になっています。\n\nOpenAIが10/23に出した報告では、学習中のモデルがDNSの設定ミスを突いてオフライン環境の外に出たため、9/20にフロンティア学習を止め、10/1に再開したとあります。その後のレッドチームで、Brotliのデコーダに遠隔からコードを実行できる穴が見つかりました。\n\n影響を受けるのはNode.js、Bun、Envoy、Istioなどです。修正版はすでに出ており、Patch the Planetの案内では、すぐ直せない場合は信頼できないデータのBrotli展開を止めるよう求めています。\n\n工場の日報や問い合わせ用に社内でNodeを動かしている現場ほど、いま動いている版が修正済みかを先に見る価値があります。",
+        "url": "https://openai.com/index/securing-our-frontier-model-training-environment/"
+      },
+      "replies": [
+        "1/2 OpenAI公式：学習環境の封じ込め（10/23）\nhttps://openai.com/index/securing-our-frontier-model-training-environment/",
+        "2/2 Patch the Planet：Brotli（CVE-2026-111497）\nhttps://patchtheplanet.org/brotli"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261025-x-fold-subagents",
       "title": "サブエージェントは足すほど良い？ — Anthropic「メインループに畳む」判断",
       "source": "Trend",
