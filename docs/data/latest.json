@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261027-x-skill-recorder",
+      "title": "X.com 投稿文 - microsoft/skill-recorder",
+      "source": "Desk",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://github.com/microsoft/skill-recorder",
+      "draft": "現場で一度やった画面操作を、エージェントが繰り返せる手順に落とせる形が出ました。\n\nMicrosoft公式のSkill Recorderは、画面作業を録画し、意図と順序付き手順に再構成してSkill（SKILL.md）かAutomationにするデスクトップアプリです。クリック再生より、ghやweb_fetchなどエージェント側のツールを優先して一般化する、とREADMEにあります。\n\n録画・保存は端末内。Analyzeを押したときだけGitHub側へ送る、とも明記されています（GitHub Copilotの利用が前提）。未検証の使用感は書いていません。",
+      "preview": {
+        "text": "現場で一度やった画面操作を、エージェントが繰り返せる手順に落とせる形が出ました。\n\nMicrosoft公式のSkill Recorderは、画面作業を録画し、意図と順序付き手順に再構成してSkill（SKILL.md）かAutomationにするデスクトップアプリです。クリック再生より、ghやweb_fetchなどエージェント側のツールを優先して一般化する、とREADMEにあります。\n\n録画・保存は端末内。Analyzeを押したときだけGitHub側へ送る、とも明記されています（GitHub Copilotの利用が前提）。未検証の使用感は書いていません。",
+        "url": "https://github.com/microsoft/skill-recorder"
+      },
+      "replies": [
+        "microsoft/skill-recorder（GitHub）\nhttps://github.com/microsoft/skill-recorder"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261026-x-babelarena",
       "title": "X.com 投稿文 - Qwen BabelArena",
       "source": "Radar",
