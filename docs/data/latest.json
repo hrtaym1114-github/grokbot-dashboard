@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261026-x-babelarena",
+      "title": "X.com 投稿文 - Qwen BabelArena",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://huggingface.co/datasets/Qwen/BabelArena",
+      "draft": "英語前提のエージェント評価では見えない差が、同じタスクを23言語で測れる形で公開されました。\n\nQwenがHugging Faceに出したBabelArenaは、プロンプト・ツール説明・実行環境まで現地語化した多言語エージェント用ベンチです。データセット記載では約1.6万インスタンス（標準サブセットは約1.2万）。比較した5モデルは系統ごとに首位が分かれ、低リソース言語ではツール呼び出しや制御の失敗が増え、同じタスクでも英語よりトークンが増える、と報告されています。\n\n数字はHugging Faceのデータセット説明に基づきます。",
+      "preview": {
+        "text": "英語前提のエージェント評価では見えない差が、同じタスクを23言語で測れる形で公開されました。\n\nQwenがHugging Faceに出したBabelArenaは、プロンプト・ツール説明・実行環境まで現地語化した多言語エージェント用ベンチです。データセット記載では約1.6万インスタンス（標準サブセットは約1.2万）。比較した5モデルは系統ごとに首位が分かれ、低リソース言語ではツール呼び出しや制御の失敗が増え、同じタスクでも英語よりトークンが増える、と報告されています。\n\n数字はHugging Faceのデータセット説明に基づきます。",
+        "url": "https://huggingface.co/datasets/Qwen/BabelArena"
+      },
+      "replies": [
+        "1/2 Hugging Face：Qwen/BabelArena\nhttps://huggingface.co/datasets/Qwen/BabelArena",
+        "2/2 論文（arXiv）\nhttps://arxiv.org/abs/2609.23490"
+      ],
+      "scheduledAt": "2026-10-26T22:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261026-x-replit-japanese",
       "title": "X.com 投稿文 - Replit日本語対応",
       "source": "Radar",
