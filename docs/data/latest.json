@@ -27,7 +27,7 @@
       "title": "X.com 投稿文 - Replit日本語対応",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://x.com/Replit/status/2114587332137664535",
       "draft": "ブラウザ上の開発環境で、画面・プロンプト・出力を日本語のまま使える状態になっています。\n\nReplit公式が10/26、「画面もプロンプトもアウトプットも全て日本語でご利用いただけます」と告知しました。日本向けのプロモーション動画もあわせて公開しています。",
       "preview": {
@@ -38,8 +38,8 @@
         "Replit公式告知（2026-10-26）\nhttps://x.com/Replit/status/2114587332137664535"
       ],
       "scheduledAt": "2026-10-26T22:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-26T22:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2114705380488155535"
     },
     {
       "id": "20261026-x-claude-code-review-bottleneck",
