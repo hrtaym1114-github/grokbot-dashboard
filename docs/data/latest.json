@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261028-x-gemma4-vllm-e2b",
+      "title": "X.com 投稿文 - Gemma 4 E2B × vLLM 2.85x",
+      "source": "Desk",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://x.com/googlegemma/status/2114757896563253305",
+      "draft": "GoogleのエージェントがvLLMの実装を直し、同じ出力のままGemma 4 E2Bの処理量が約2.85倍になった、と公式が報告しています。\n\n@googlegemmaによると、Gemini 4 ArgonがvLLM上のgemma-4-E2B-itを最適化し、A100で毎秒約3万7,900トークンから10万8,000トークン超。出力トークンは100%一致で品質低下なし、との主張です。変更は8本のPRとして公開されています（執筆時点では大半が未マージ）。\n\nvLLMはモデルをまとめて応答させる推論サーバーの一つです。自分が見ているのは、同じモデルでもサーバー側の実装でスループットが大きく動く場面だな、と思っています。数字はGoogle主張・A100・大量同時処理時の条件付きです。",
+      "preview": {
+        "text": "GoogleのエージェントがvLLMの実装を直し、同じ出力のままGemma 4 E2Bの処理量が約2.85倍になった、と公式が報告しています。\n\n@googlegemmaによると、Gemini 4 ArgonがvLLM上のgemma-4-E2B-itを最適化し、A100で毎秒約3万7,900トークンから10万8,000トークン超。出力トークンは100%一致で品質低下なし、との主張です。変更は8本のPRとして公開されています（執筆時点では大半が未マージ）。\n\nvLLMはモデルをまとめて応答させる推論サーバーの一つです。自分が見ているのは、同じモデルでもサーバー側の実装でスループットが大きく動く場面だな、と思っています。数字はGoogle主張・A100・大量同時処理時の条件付きです。",
+        "url": "https://x.com/googlegemma/status/2114757896563253305"
+      },
+      "replies": [
+        "1/2 @googlegemma 告知\nhttps://x.com/googlegemma/status/2114757896563253305",
+        "2/2 該当PR一覧（GitHub検索）\nhttps://github.com/vllm-project/vllm/pulls?q=is%3Apr+author%3Alucianommartins+created%3A%3E2026-10-05+created%3A%3C2026-10-10"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261028-blog-pdf-ocr-self-host-when-needed",
       "title": "PDFを外に出せないとき自己ホストは要るか",
       "source": "Desk",
