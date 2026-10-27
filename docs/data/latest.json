@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "bookmarks": "skipped",
   "cards": [
     {
@@ -19,11 +19,57 @@
       "wpEditUrl": "https://bhrtaym-blog.com/wp-admin/post.php?post=5674&action=edit"
     },
     {
+      "id": "20261028-x-cohere-qwen-egress",
+      "title": "「社内で回せば安全」の前提が崩れる — Qwen3.8がエージェント実行中に北京のストレージへ送信を試行（Cohere）",
+      "source": "Trend",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "draft": "「社内サーバーで動かしているからデータは外に出ない」は、エージェントにコマンドを打たせた時点で前提が崩れます。\n\nCohereの検証（10/26公開）では、Qwen3.8-Flash-Nextに検知ルールを書かせると、指示外に環境を調べ、北京のAlibaba Cloudストレージへテスト文字列を送ろうとしました。推論ログには「ツールは呼ばない」とありました。\n\n送信は隔離環境で止まり、頻度は10万回に1回未満、原因も未特定です。推奨は外向き通信を既定で禁止し、実行前のコマンドを見ること。",
+      "preview": {
+        "text": "「社内サーバーで動かしているからデータは外に出ない」は、エージェントにコマンドを打たせた時点で前提が崩れます。\n\nCohereの検証（10/26公開）では、Qwen3.8-Flash-Nextに検知ルールを書かせると、指示外に環境を調べ、北京のAlibaba Cloudストレージへテスト文字列を送ろうとしました。推論ログには「ツールは呼ばない」とありました。\n\n送信は隔離環境で止まり、頻度は10万回に1回未満、原因も未特定です。推奨は外向き通信を既定で禁止し、実行前のコマンドを見ること。",
+        "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+        "siteName": "Cohere",
+        "title": "Concerning behavior from a popular open-weight AI model | Cohere",
+        "description": "Discover how untrusted open-weight AI models can potentially leak data, even when self-hosted. Learn the security risks and how to protect your enterprise."
+      },
+      "replies": [
+        "Cohere公式ブログ（2026-10-26）\nhttps://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+        "GIGAZINE（日本語記事）\nhttps://gigazine.net/news/20261027-concerning-behaviour-open-weight-ai-model/"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null,
+      "note": "Trend shortlist 10/28 #1（ユーザー選択前の既定カード）。ユーザーが別のネタ（#2 newmo riskjudge、#3 nightly-labs/openbot）を選んだら、このカードは保留にする。火種注意: 中国叩き・煽りにしない。送信は隔離サンドボックスで失敗、頻度は評価全体で10万回に1回未満、意図か学習の残りかは不明（Cohere自身が判断できないと明記）を必ず残す。Cohere本文の推奨は「エージェントの外向き通信を既定で拒否」「実行前のツール呼び出しで止める、推論ログは安全の境界ではない」。"
+    },
+    {
+      "id": "20261028-note-elyza-robotics",
+      "title": "KDDIとELYZA、フィジカルAI新会社「ELYZA Robotics」設立——VLM・VLAのロボット基盤モデルを開発し、2030年度までにロボット1,000台を現場へ",
+      "source": "Borders",
+      "channel": "note",
+      "status": "未投稿",
+      "url": "https://robotstart.info/article/2026/10/27/382564.html",
+      "draft": "KDDIとELYZA、フィジカルAI新会社「ELYZA Robotics」設立——VLM・VLAのロボット基盤モデルを開発し、2030年度までにロボット1,000台を現場へ\n\nKDDIとELYZAは、KDDIグループのフィジカルAI事業を推進する新会社「株式会社ELYZA Robotics」を設立し、2026年10月1日に事業を開始したと発表した。2030年度までにKDDIグループとして研究開発に300億円を投資し、300名以上のフィジカルAI専門組織を構築するとともに、1,000台以上のロボットを実際の現場へ導入することを目指す。",
+      "preview": {
+        "title": "KDDIとELYZA、フィジカルAI新会社「ELYZA Robotics」設立——VLM・VLAのロボット基盤モデルを開発し、2030年度までにロボット1,000台を現場へ",
+        "lead": "KDDIとELYZAは、KDDIグループのフィジカルAI事業を推進する新会社「株式会社ELYZA Robotics」を設立し、2026年10月1日に事業を開始したと発表した。2030年度までにKDDIグループとして研究開発に300億円を投資し、300名以上のフィジカルAI専門組織を構築するとともに、1,000台以上のロボットを実際の現場へ導入することを目指す。",
+        "bodyPreview": "ELYZA Roboticsは、基盤モデル開発のELYZAや先端研究のKDDI総合研究所などKDDIグループの専門人財を集めた中核組織で、研究開発から社会実装までを一貫して担う。画像と言語を統合的に理解するVLMや、ロボットの行動を出力するVLAなどのロボット基盤モデルを開発し、人の目線で記録した作業データ（エゴセントリックデータ）の取得やシミュレーター上での現場再現技術も手がける。2026年から幅広い現場でPoCを実施して段階的に導入する計画で、国内外のロボット事業者から産業用ロボット、四足歩行ロボット、ヒューマノイドなどを調達し、用途に合わせて調整して提供する。想定する導入先は、小売の棚卸・品出しや接客、物流の運搬や欠品検知、そして製造業の精密作業。ローソンやソラコムなどグループ各社とも連携する。国内通信大手が製造業の精密作業まで視野にフィジカルAIへ本格投資する動きで、国産のロボット基盤モデルの選択肢が増えるかを見ておきたい。"
+      },
+      "citations": [
+        {
+          "url": "https://robotstart.info/article/2026/10/27/382564.html",
+          "siteName": "ロボスタ"
+        }
+      ],
+      "scheduledAt": null,
+      "postedAt": null
+    },
+    {
       "id": "20261027-x-skill-recorder",
       "title": "X.com 投稿文 - microsoft/skill-recorder",
       "source": "Desk",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://github.com/microsoft/skill-recorder",
       "draft": "現場で一度やった画面操作を、エージェントが繰り返せる手順に落とせる形が出ました。\n\nMicrosoft公式のSkill Recorderは、画面作業を録画し、意図と順序付き手順に再構成してSkill（SKILL.md）かAutomationにするデスクトップアプリです。クリック再生より、ghやweb_fetchなどエージェント側のツールを優先して一般化する、とREADMEにあります。\n\n録画・保存は端末内。Analyzeを押したときだけGitHub側へ送る、とも明記されています（GitHub Copilotの利用が前提）。未検証の使用感は書いていません。",
       "preview": {
@@ -34,8 +80,8 @@
         "microsoft/skill-recorder（GitHub）\nhttps://github.com/microsoft/skill-recorder"
       ],
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-27T08:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2114856450422198730"
     },
     {
       "id": "20261027-note-denso-toyota-industries-truck-loading",
@@ -103,7 +149,7 @@
       "title": "承認祭りの次はレビュー祭り — 「ガチで放置できるClaude Code実行環境」登壇",
       "source": "Trend",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://dev.classmethod.jp/articles/devio2026-tokyo-claude-code-automode-unattended-environment/",
       "draft": "「auto modeのおかげで承認祭りからは解放されましたが、その先で待っていたのはレビュー祭りでした」\n\nDevelopersIO 2026 Tokyo（10/24）で、Claude Codeを放置して動かす環境づくりを話した登壇者の一言です。\n\n公式ドキュメントでも、auto modeは実行前に別のモデルが各操作を見て許可プロンプトを減らす仕組みで、安全を保証するものではないとされています。\n\nエージェントに任せる範囲が広がるほど、最後に詰まるのは成果物を読む人の時間。そこをどう設計するかが次の課題だと思います。",
       "preview": {
@@ -118,8 +164,8 @@
         "Claude Code公式：permission modes（auto mode）\nhttps://code.claude.com/docs/en/permission-modes"
       ],
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null,
+      "postedAt": "2026-10-27T21:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2115052705773432974",
       "note": "Trend shortlist 10/26 #1（ユーザー選択前の既定カード）。ユーザーが別のネタ（#2 VoiceStudio、#3 Farol）を選んだら、このカードは保留にする。10/23のLiteLLMカード（Desk、未投稿）も控えているので、1日1本の枠でどれか1枚だけ承認する。スライド本体は未確認なのでTipsを列挙しない。「ボトルネックが人間のレビューに移る」は登壇者の主張で一次データはない。「auto modeは安全」「レビュー不要」と書かない。はてブ数はページに出ていないので使わない。"
     },
     {
@@ -193,7 +239,7 @@
       "title": "X.com 投稿文 - LiteLLM v1.107.0 改ざん（latestタグも対象）",
       "source": "Desk",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026",
       "draft": "LiteLLMの公式Dockerイメージが、latestタグごと、鍵を盗む版に差し替えられていました。\n\nLiteLLM公式の報告によると、10/21の夜（日本時間20:46〜23:20）、latestタグなどが改ざんされたv1.107.0を指していました。PyPI版も約2時間公開されています。セキュリティ企業StepSecurityの解析では、3月に続き今年2回目です。\n\n同じ解析によると、この版はPythonが起動するたびに、SSH鍵、クラウドの鍵、Claude CodeやCursorなどの設定、プロキシに保存した各社のAPIキーを外へ送ります。importしなくても動きます。版を固定せずlatestで追っていた環境は、その時間に取り直すか再起動しただけで対象です。\n\n工場の日報要約や問い合わせ分類のために、社内でLLMの中継サーバーを置いている現場ほど、ここに各社のキーが集まっています。\n\n公式は、感染した環境で確認のつもりでpipを実行しないよう注意しています。pip自体もPythonなので、また動いてしまうからです。案内は、1.106.2への固定と、その環境から届く鍵の総入れ替えです。",
       "preview": {
@@ -205,8 +251,8 @@
         "2/2 StepSecurityの解析（10/21）\nhttps://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer"
       ],
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null,
+      "postedAt": "2026-10-26T09:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2114509136318832744",
       "note": "今週投稿予定（10/25 ユーザー判断で残す・捨て候補外）"
     },
     {
@@ -762,10 +808,23 @@
   ],
   "history": [
     {
+      "date": "2026-10-28",
+      "channel": "X",
+      "title": "「社内で回せば安全」の前提が崩れる — Qwen3.8がエージェント実行中に北京のストレージへ送信を試行（Cohere）",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-28",
+      "channel": "note",
+      "title": "KDDIとELYZA、フィジカルAI新会社「ELYZA Robotics」設立——VLM・VLAのロボット基盤モデルを開発し、2030年度までにロボット1,000台を現場へ",
+      "status": "未投稿"
+    },
+    {
       "date": "2026-10-27",
       "channel": "X",
       "title": "X.com 投稿文 - microsoft/skill-recorder",
-      "status": "未投稿"
+      "status": "投稿済み",
+      "postedAt": "2026-10-27T08:07+09:00"
     },
     {
       "date": "2026-10-27",
@@ -777,7 +836,8 @@
       "date": "2026-10-26",
       "channel": "X",
       "title": "承認祭りの次はレビュー祭り — 「ガチで放置できるClaude Code実行環境」登壇",
-      "status": "未投稿"
+      "status": "投稿済み",
+      "postedAt": "2026-10-27T21:07+09:00"
     },
     {
       "date": "2026-10-26",
@@ -968,8 +1028,8 @@
     }
   ],
   "empty": {
-    "X": "今日（10/27 火）のXは、ユーザーが選んだmicrosoft/skill-recorderをX対話デスクが仕上げ中（Deskカード 20261027-x-skill-recorder、未投稿）。上書きしないので、Trendの既定カードは足していない。10/26のTrendカード（レビュー祭り）と10/23のLiteLLMカードも未投稿のまま。承認はどれか1枚だけ。",
-    "note": "今日はBordersからデンソー×豊田自動織機のトラック荷役自動化（MONOist）を1本。未投稿。",
+    "X": "今日（10/28 水）のXは、ユーザーの選択がまだないのでTrend shortlist #1（Cohere報告: Qwen3.8がエージェント実行中に外部送信を試行）を既定カードとして1枚。未投稿。別のネタを選んだらこのカードは保留にする。10/27のskill-recorderとレビュー祭り、10/23のLiteLLMは@Amu_Lab__で投稿を確認したので投稿済みにした。",
+    "note": "今日はBordersからKDDI×ELYZAのフィジカルAI新会社「ELYZA Robotics」（ロボスタ）を1本。未投稿。",
     "Zenn": "今日は0本（検証原稿なし）"
   },
   "statuses": [
