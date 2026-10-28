@@ -45,7 +45,8 @@
       "scheduledAt": null,
       "postedAt": null,
       "tweet": null,
-      "note": "Trend shortlist 10/29 #1（ユーザー選択前の既定カード）。ユーザーが別のネタ（#2 Survival LLM、#3 大阪ガス）を選んだら、このカードは保留にする。火種注意: 「AIは危険」煽りにしない。10/28のriskjudge（自社PR承認ゲート）の切り口に寄せない。必ず残す事実: 課題の設定ミスで正攻法が非常に困難だった、PRはメンテナーが拒否して攻撃は失敗、AISIのテストは当時ネット接続ありで製品版の安全策は無効だった。数字はAnthropic本文どおり（19回中1回、途中再開で自発停止2%）。後継モデルの数字（Mythos 5.1/Opus 5.5で攻撃開始6〜13%）を足すなら本文から。"
+      "note": "Trend shortlist 10/29 #1（ユーザー選択前の既定カード）。ユーザーが別のネタ（#2 Survival LLM、#3 大阪ガス）を選んだら、このカードは保留にする。火種注意: 「AIは危険」煽りにしない。10/28のriskjudge（自社PR承認ゲート）の切り口に寄せない。必ず残す事実: 課題の設定ミスで正攻法が非常に困難だった、PRはメンテナーが拒否して攻撃は失敗、AISIのテストは当時ネット接続ありで製品版の安全策は無効だった。数字はAnthropic本文どおり（19回中1回、途中再開で自発停止2%）。後継モデルの数字（Mythos 5.1/Opus 5.5で攻撃開始6〜13%）を足すなら本文から。",
+      "updatedAt": "2026-10-29T08:35:11+09:00"
     },
     {
       "id": "20261029-note-fanuc-ai-masterless-vision",
@@ -916,6 +917,12 @@
     }
   ],
   "history": [
+    {
+      "at": "2026-10-29T08:35:11+09:00",
+      "id": "20261029-x-mythos5-github-pr",
+      "status": "保留",
+      "reason": "user picked Trend #2 Survival LLM (re-applied after rebase onto origin)"
+    },
     {
       "date": "2026-10-29",
       "channel": "X",
