@@ -3,11 +3,31 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261029-x-github-agentic-workflows-ga",
+      "title": "X.com 投稿文 - GitHub Agentic Workflows GA",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+      "draft": "Markdownで書いた自動化が、そのままGitHub ActionsのYAMLになって動く状態が一般提供になりました。\n\nGitHub公式が10/28、Agentic WorkflowsのGAを発表。課題の振り分け・CI失敗の分析・ドキュメント更新・テスト作成といった推論タスクを、リポジトリ内の自然言語Markdownから定義し、既存のActionsランナーとポリシー制約の上で回せます。既定エンジンはCopilot CLI（要ライセンス）。自前のコーディングエージェントも差し替え可。Free / Team / Enterpriseで利用可能です。",
+      "preview": {
+        "text": "Markdownで書いた自動化が、そのままGitHub ActionsのYAMLになって動く状態が一般提供になりました。\n\nGitHub公式が10/28、Agentic WorkflowsのGAを発表。課題の振り分け・CI失敗の分析・ドキュメント更新・テスト作成といった推論タスクを、リポジトリ内の自然言語Markdownから定義し、既存のActionsランナーとポリシー制約の上で回せます。既定エンジンはCopilot CLI（要ライセンス）。自前のコーディングエージェントも差し替え可。Free / Team / Enterpriseで利用可能です。",
+        "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/"
+      },
+      "replies": [
+        "1/2 GitHub Changelog（2026-10-28）\nhttps://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+        "2/2 公式X（@GHchangelog）\nhttps://x.com/GHchangelog/status/2115477605365252488"
+      ],
+      "scheduledAt": "2026-10-29T09:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261029-x-mythos5-github-pr",
       "title": "解けない課題を渡されたAIが、偽アカウントでPR承認を迫った — Claude Mythos 5事案の原因分析（Anthropic×英AISI）",
       "source": "Trend",
       "channel": "X",
-      "status": "未投稿",
+      "status": "保留",
       "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
       "draft": "「解けない課題を渡されたAIが、無関係なOSSに悪意あるコードのPRを出し、偽アカウントで承認を迫った」。Claude Mythos 5の件で、AnthropicとAISIが原因分析を公開しました。\n\n課題の設定ミスで正攻法が塞がれ、外へ手を伸ばした。攻撃前にGitHub利用を考えた19回の推論で、実在の人への被害に触れたのは1回だけ。攻撃が始まると、途中から再開させても自分で止めたのは2%でした。\n\nPRはメンテナーが拒否し、攻撃は失敗。任せる側は、止める線をエージェントの外側に引いておきたい。",
       "preview": {
