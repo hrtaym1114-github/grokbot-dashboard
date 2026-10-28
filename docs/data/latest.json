@@ -3,6 +3,27 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261028-x-lfm3-1.7b",
+      "title": "X.com 投稿文 - Liquid AI LFM3 1.7B",
+      "source": "Desk",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "draft": "ブラウザ操作エージェントを1.7Bで常駐させる話が、9B超えの数字まで来た。Liquid公式のLFM3はWebArena-Verified 38.42、Qwen3.5-9Bは28.94（いずれもLiquid自社評価・vLLM BF16）。\n業務アプリ自動操作のAutomationBenchも41.29対15.10で上回る。一方ツール連携MCP-Atlasは32.57対42.67、長文脈RULER 128Kは65.56対87.11で負ける。\n小さいモデルでも全部勝つ話ではなく、どのエージェント仕事で効くかが分かれる表だと思う。\n重みの4bitは約1GB。ただし128K文脈の作業メモリだけで約1.6GB追加と公式なので、長文を載せた実測メモリから確認したい。",
+      "preview": {
+        "text": "ブラウザ操作エージェントを1.7Bで常駐させる話が、9B超えの数字まで来た。Liquid公式のLFM3はWebArena-Verified 38.42、Qwen3.5-9Bは28.94（いずれもLiquid自社評価・vLLM BF16）。\n業務アプリ自動操作のAutomationBenchも41.29対15.10で上回る。一方ツール連携MCP-Atlasは32.57対42.67、長文脈RULER 128Kは65.56対87.11で負ける。\n小さいモデルでも全部勝つ話ではなく、どのエージェント仕事で効くかが分かれる表だと思う。\n重みの4bitは約1GB。ただし128K文脈の作業メモリだけで約1.6GB追加と公式なので、長文を載せた実測メモリから確認したい。",
+        "url": "https://www.liquid.ai/blog/lfm3"
+      },
+      "replies": [
+        "1/3 Liquid公式ブログ\nhttps://www.liquid.ai/blog/lfm3",
+        "2/3 Hugging Face LFM3-1.7B\nhttps://huggingface.co/LiquidAI/LFM3-1.7B",
+        "3/3 @liquidai 告知\nhttps://x.com/liquidai/status/2115128329003303107"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261028-x-gemma4-vllm-e2b",
       "title": "X.com 投稿文 - Gemma 4 E2B × vLLM 2.85x",
       "source": "Desk",
