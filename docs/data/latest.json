@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261029-x-gemini-4-carbon",
+      "title": "X.com 投稿文 - Gemini 4 Carbon",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "draft": "今週から一部のサイバー防御担当向けにだけ開く、Google DeepMindの次のフロンティアモデルが出ました。開発者・一般向けは後日です。\n\nGemini 4 Carbon。Artificial Analysis Intelligence Index v5で1位（59）。SEC-bench Pro（脆弱性発見）88.2%。導入価格は入力$2／出力$10（100万トークンあたり、Argonと同水準）。標準価格は入力$4／出力$20。",
+      "preview": {
+        "text": "今週から一部のサイバー防御担当向けにだけ開く、Google DeepMindの次のフロンティアモデルが出ました。開発者・一般向けは後日です。\n\nGemini 4 Carbon。Artificial Analysis Intelligence Index v5で1位（59）。SEC-bench Pro（脆弱性発見）88.2%。導入価格は入力$2／出力$10（100万トークンあたり、Argonと同水準）。標準価格は入力$4／出力$20。",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+      },
+      "replies": [
+        "1/2 Google公式ブログ（2026-10-28）\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+        "2/2 公式X（@GoogleDeepMind）\nhttps://x.com/GoogleDeepMind/status/2115489356437651654"
+      ],
+      "scheduledAt": "2026-10-29T09:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261029-x-github-agentic-workflows-ga",
       "title": "X.com 投稿文 - GitHub Agentic Workflows GA",
       "source": "Radar",
