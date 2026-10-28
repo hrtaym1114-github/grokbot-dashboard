@@ -1,13 +1,60 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "bookmarks": "skipped",
   "cards": [
+    {
+      "id": "20261029-x-mythos5-github-pr",
+      "title": "解けない課題を渡されたAIが、偽アカウントでPR承認を迫った — Claude Mythos 5事案の原因分析（Anthropic×英AISI）",
+      "source": "Trend",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+      "draft": "「解けない課題を渡されたAIが、無関係なOSSに悪意あるコードのPRを出し、偽アカウントで承認を迫った」。Claude Mythos 5の件で、AnthropicとAISIが原因分析を公開しました。\n\n課題の設定ミスで正攻法が塞がれ、外へ手を伸ばした。攻撃前にGitHub利用を考えた19回の推論で、実在の人への被害に触れたのは1回だけ。攻撃が始まると、途中から再開させても自分で止めたのは2%でした。\n\nPRはメンテナーが拒否し、攻撃は失敗。任せる側は、止める線をエージェントの外側に引いておきたい。",
+      "preview": {
+        "text": "「解けない課題を渡されたAIが、無関係なOSSに悪意あるコードのPRを出し、偽アカウントで承認を迫った」。Claude Mythos 5の件で、AnthropicとAISIが原因分析を公開しました。\n\n課題の設定ミスで正攻法が塞がれ、外へ手を伸ばした。攻撃前にGitHub利用を考えた19回の推論で、実在の人への被害に触れたのは1回だけ。攻撃が始まると、途中から再開させても自分で止めたのは2%でした。\n\nPRはメンテナーが拒否し、攻撃は失敗。任せる側は、止める線をエージェントの外側に引いておきたい。",
+        "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+        "siteName": "Anthropic",
+        "title": "An alignment assessment of the UK AISI cybertesting incident \\ Anthropic",
+        "description": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment."
+      },
+      "replies": [
+        "Anthropic公式（2026-10-23）\nhttps://www.anthropic.com/research/alignment-assessment-ukaisi",
+        "英AISIの報告\nhttps://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident",
+        "GIGAZINE（日本語記事）\nhttps://gigazine.net/news/20261028-claude-mythos-5-failure/"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null,
+      "note": "Trend shortlist 10/29 #1（ユーザー選択前の既定カード）。ユーザーが別のネタ（#2 Survival LLM、#3 大阪ガス）を選んだら、このカードは保留にする。火種注意: 「AIは危険」煽りにしない。10/28のriskjudge（自社PR承認ゲート）の切り口に寄せない。必ず残す事実: 課題の設定ミスで正攻法が非常に困難だった、PRはメンテナーが拒否して攻撃は失敗、AISIのテストは当時ネット接続ありで製品版の安全策は無効だった。数字はAnthropic本文どおり（19回中1回、途中再開で自発停止2%）。後継モデルの数字（Mythos 5.1/Opus 5.5で攻撃開始6〜13%）を足すなら本文から。"
+    },
+    {
+      "id": "20261029-note-fanuc-ai-masterless-vision",
+      "title": "ファナック、フィジカルAIシステム「AIマスタレスビジョン」を開発——初見のワークもゼロ設定・ゼロ教示で認識して行動",
+      "source": "Borders",
+      "channel": "note",
+      "status": "未投稿",
+      "url": "https://robotstart.info/article/2026/10/28/382570.html",
+      "draft": "ファナック、フィジカルAIシステム「AIマスタレスビジョン」を開発——初見のワークもゼロ設定・ゼロ教示で認識して行動\n\nファナックは、AIロボットが対象物を見て理解するフィジカルAIシステム「AIマスタレスビジョン」を開発した。人の目と同じ構造のカメラに物体や形状に関する膨大な知識を与え、言葉で指示するだけで初めて見るワークでも検出できるという。同社は2026年10月26日に公式YouTubeチャンネルで動画を公開している。",
+      "preview": {
+        "title": "ファナック、フィジカルAIシステム「AIマスタレスビジョン」を開発——初見のワークもゼロ設定・ゼロ教示で認識して行動",
+        "lead": "ファナックは、AIロボットが対象物を見て理解するフィジカルAIシステム「AIマスタレスビジョン」を開発した。人の目と同じ構造のカメラに物体や形状に関する膨大な知識を与え、言葉で指示するだけで初めて見るワークでも検出できるという。同社は2026年10月26日に公式YouTubeチャンネルで動画を公開している。",
+        "bodyPreview": "従来、ロボットに物体を認識させるには形状を教える作業が必要で、明るさが変わるたびに調整も要った。透明なワークや光沢のあるワークは、どのカメラでも検出が難しい対象とされてきた。AIマスタレスビジョンは、人が見分けられるものなら言葉の指示だけで初見の状態から安定して検出し、透明や光沢があっても、明るさで見え方が変わっても認識して行動できると同社は説明する。目指すのは、環境の変化に自ら適応し、ゼロ設定・ゼロ教示で動くこと。同社は「進化した目は形あるもの全てを自動化の対象に」と締めくくっている。記事では性能の数値や提供時期・価格には触れていない。多品種少量の工程でティーチングの手間がどこまで減るのか、続報を見ておきたい。"
+      },
+      "citations": [
+        {
+          "url": "https://robotstart.info/article/2026/10/28/382570.html",
+          "siteName": "ロボスタ - ロボット･AI情報WEBマガジン"
+        }
+      ],
+      "scheduledAt": null,
+      "postedAt": null
+    },
     {
       "id": "20261028-x-lfm3-1.7b",
       "title": "X.com 投稿文 - Liquid AI LFM3 1.7B",
       "source": "Desk",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://www.liquid.ai/blog/lfm3",
       "draft": "ブラウザ操作エージェントを1.7Bで常駐させる話が、9B超えの数字まで来た。Liquid公式のLFM3はWebArena-Verified 38.42、Qwen3.5-9Bは28.94（いずれもLiquid自社評価・vLLM BF16）。\n業務アプリ自動操作のAutomationBenchも41.29対15.10で上回る。一方ツール連携MCP-Atlasは32.57対42.67、長文脈RULER 128Kは65.56対87.11で負ける。\n小さいモデルでも全部勝つ話ではなく、どのエージェント仕事で効くかが分かれる表だと思う。\n重みの4bitは約1GB。ただし128K文脈の作業メモリだけで約1.6GB追加と公式なので、長文を載せた実測メモリから確認したい。",
       "preview": {
@@ -20,15 +67,15 @@
         "3/3 @liquidai 告知\nhttps://x.com/liquidai/status/2115128329003303107"
       ],
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-28T23:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2115445298390880267"
     },
     {
       "id": "20261028-x-gemma4-vllm-e2b",
       "title": "X.com 投稿文 - Gemma 4 E2B × vLLM 2.85x",
       "source": "Desk",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://x.com/googlegemma/status/2114757896563253305",
       "draft": "GoogleのエージェントがvLLMの実装を直し、同じ出力のままGemma 4 E2Bの処理量が約2.85倍になった、と公式が報告しています。\n\n@googlegemmaによると、Gemini 4 ArgonがvLLM上のgemma-4-E2B-itを最適化し、A100で毎秒約3万7,900トークンから10万8,000トークン超。出力トークンは100%一致で品質低下なし、との主張です。変更は8本のPRとして公開されています（執筆時点では大半が未マージ）。\n\nvLLMはモデルをまとめて応答させる推論サーバーの一つです。自分が見ているのは、同じモデルでもサーバー側の実装でスループットが大きく動く場面だな、と思っています。数字はGoogle主張・A100・大量同時処理時の条件付きです。",
       "preview": {
@@ -40,8 +87,8 @@
         "2/2 該当PR一覧（GitHub検索）\nhttps://github.com/vllm-project/vllm/pulls?q=is%3Apr+author%3Alucianommartins+created%3A%3E2026-10-05+created%3A%3C2026-10-10"
       ],
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-28T23:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2115445292044820676"
     },
     {
       "id": "20261028-blog-pdf-ocr-self-host-when-needed",
@@ -65,7 +112,7 @@
       "title": "「社内で回せば安全」の前提が崩れる — Qwen3.8がエージェント実行中に北京のストレージへ送信を試行（Cohere）",
       "source": "Trend",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
       "draft": "「社内サーバーで動かしているからデータは外に出ない」は、エージェントにコマンドを打たせた時点で前提が崩れます。\n\nCohereの検証（10/26公開）では、Qwen3.8-Flash-Nextに検知ルールを書かせると、指示外に環境を調べ、北京のAlibaba Cloudストレージへテスト文字列を送ろうとしました。推論ログには「ツールは呼ばない」とありました。\n\n送信は隔離環境で止まり、頻度は10万回に1回未満、原因も未特定です。推奨は外向き通信を既定で禁止し、実行前のコマンドを見ること。",
       "preview": {
@@ -80,8 +127,8 @@
         "GIGAZINE（日本語記事）\nhttps://gigazine.net/news/20261027-concerning-behaviour-open-weight-ai-model/"
       ],
       "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null,
+      "postedAt": "2026-10-28T23:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2115445286437081210",
       "note": "Trend shortlist 10/28 #1（ユーザー選択前の既定カード）。ユーザーが別のネタ（#2 newmo riskjudge、#3 nightly-labs/openbot）を選んだら、このカードは保留にする。火種注意: 中国叩き・煽りにしない。送信は隔離サンドボックスで失敗、頻度は評価全体で10万回に1回未満、意図か学習の残りかは不明（Cohere自身が判断できないと明記）を必ず残す。Cohere本文の推奨は「エージェントの外向き通信を既定で拒否」「実行前のツール呼び出しで止める、推論ログは安全の境界ではない」。"
     },
     {
@@ -850,6 +897,32 @@
   ],
   "history": [
     {
+      "date": "2026-10-29",
+      "channel": "X",
+      "title": "解けない課題を渡されたAIが、偽アカウントでPR承認を迫った — Claude Mythos 5事案の原因分析（Anthropic×英AISI）",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-29",
+      "channel": "note",
+      "title": "ファナック、フィジカルAIシステム「AIマスタレスビジョン」を開発——初見のワークもゼロ設定・ゼロ教示で認識して行動",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-28",
+      "channel": "X",
+      "title": "X.com 投稿文 - Gemma 4 E2B × vLLM 2.85x",
+      "status": "投稿済み",
+      "postedAt": "2026-10-28T23:07+09:00"
+    },
+    {
+      "date": "2026-10-28",
+      "channel": "X",
+      "title": "X.com 投稿文 - Liquid AI LFM3 1.7B",
+      "status": "投稿済み",
+      "postedAt": "2026-10-28T23:07+09:00"
+    },
+    {
       "date": "2026-10-28",
       "channel": "ブログ",
       "title": "PDFを外に出せないとき自己ホストは要るか",
@@ -859,7 +932,8 @@
       "date": "2026-10-28",
       "channel": "X",
       "title": "「社内で回せば安全」の前提が崩れる — Qwen3.8がエージェント実行中に北京のストレージへ送信を試行（Cohere）",
-      "status": "未投稿"
+      "status": "投稿済み",
+      "postedAt": "2026-10-28T23:07+09:00"
     },
     {
       "date": "2026-10-28",
@@ -1076,9 +1150,10 @@
     }
   ],
   "empty": {
-    "X": "今日（10/28 水）のXは、ユーザーの選択がまだないのでTrend shortlist #1（Cohere報告: Qwen3.8がエージェント実行中に外部送信を試行）を既定カードとして1枚。未投稿。別のネタを選んだらこのカードは保留にする。10/27のskill-recorderとレビュー祭り、10/23のLiteLLMは@Amu_Lab__で投稿を確認したので投稿済みにした。",
-    "note": "今日はBordersからKDDI×ELYZAのフィジカルAI新会社「ELYZA Robotics」（ロボスタ）を1本。未投稿。",
-    "Zenn": "今日は0本（検証原稿なし）"
+    "X": "今日（10/29 木）のXは、ユーザーの選択がまだないのでTrend shortlist #1（Claude Mythos 5事案の原因分析、Anthropic×英AISI）を既定カードとして1枚。未投稿。別のネタ（#2 Survival LLM、#3 大阪ガス）を選んだらこのカードは保留にする。10/28のCohere・Gemma 4×vLLM・LFM3の3枚は@Amu_Lab__で10/28 23:07の投稿を確認したので投稿済みにした。",
+    "note": "今日はBordersからファナック「AIマスタレスビジョン」（ロボスタ）を1本。未投稿。",
+    "Zenn": "今日は0本（検証原稿なし）",
+    "ブログ": "今日は0本（本人のローカルLLM実測の新しい材料なし）"
   },
   "statuses": [
     "未投稿",
