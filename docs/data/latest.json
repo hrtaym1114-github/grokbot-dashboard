@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261030-x-jules-antigravity",
+      "title": "X.com 投稿文 - Jules 終了 → Antigravity へ統合",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://x.com/julesagent/status/2115883717705261283",
+      "draft": "GoogleのJulesで非同期のコーディング作業を回している人は、移行先を考える段階に入りました。Jules公式によると、Julesは提供を段階的に終える（winding down）とのこと。\n\nJulesの知見はGoogleのAntigravityに取り込む作業中で、狙いは「リモートでのバックグラウンド実行」と「エージェント前提の開発環境」を1つにまとめること。終了日や移行手順は、この発表では示されていません。",
+      "preview": {
+        "text": "GoogleのJulesで非同期のコーディング作業を回している人は、移行先を考える段階に入りました。Jules公式によると、Julesは提供を段階的に終える（winding down）とのこと。\n\nJulesの知見はGoogleのAntigravityに取り込む作業中で、狙いは「リモートでのバックグラウンド実行」と「エージェント前提の開発環境」を1つにまとめること。終了日や移行手順は、この発表では示されていません。",
+        "url": "https://x.com/julesagent/status/2115883717705261283"
+      },
+      "replies": [
+        "一次情報（@julesagent）\nhttps://x.com/julesagent/status/2115883717705261283"
+      ],
+      "scheduledAt": "2026-10-30T08:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261030-x-mistral-large-4-open-weights",
       "title": "X.com 投稿文 - Mistral Large 4 オープンウェイト公開",
       "source": "Radar",
