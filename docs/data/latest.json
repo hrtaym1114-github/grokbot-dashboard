@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261029-x-survival-llm",
+      "title": "X.com 投稿文 - Survival LLM（オフライン・出典つきローカルLLM）",
+      "source": "Desk",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://www.brangus.io/survival-llm",
+      "draft": "ネットが切れても、答えごとに出典の該当箇所をハイライトしてくれるローカルLLMが無料OSSで出た。\n\nメモリ量でモデルを自動選択。Mac 32–96GBならQwen3.8 27Bで自社テスト22問中21問、16–31GBならGranite 4.2 8Bで14問（停電・応急）。セットアップ後は回線不要。\n\n答えは必ず出典を見せる前提。回線のない現場・災害時向け。",
+      "preview": {
+        "text": "ネットが切れても、答えごとに出典の該当箇所をハイライトしてくれるローカルLLMが無料OSSで出た。\n\nメモリ量でモデルを自動選択。Mac 32–96GBならQwen3.8 27Bで自社テスト22問中21問、16–31GBならGranite 4.2 8Bで14問（停電・応急）。セットアップ後は回線不要。\n\n答えは必ず出典を見せる前提。回線のない現場・災害時向け。",
+        "url": "https://www.brangus.io/survival-llm"
+      },
+      "replies": [
+        "Survival LLM 公式（brangus）\nhttps://www.brangus.io/survival-llm"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261029-x-nemotron-3-5-transcribe",
       "title": "X.com 投稿文 - NVIDIA Nemotron 3.5 Transcribe",
       "source": "Radar",
