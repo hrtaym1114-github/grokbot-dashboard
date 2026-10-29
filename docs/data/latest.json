@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "bookmarks": "skipped",
   "cards": [
     {
@@ -39,6 +39,53 @@
       "scheduledAt": "2026-10-30T07:07+09:00",
       "postedAt": null,
       "tweet": null
+    },
+    {
+      "id": "20261030-x-agents-judgment-calls",
+      "title": "AIが推す案をコイントスで決めても、専門家の86%が同調 — Anthropic「AIエージェントは専門家の判断をどう左右するか」",
+      "source": "Trend",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "draft": "「AIエージェントが推す選択肢を、コイントスで決めておいた」。Anthropicが分析の専門家61人で試した実験です。\n\nデータを偽らない条件でも、4つの分析判断で専門家がAIと同じ側を選んだのは平均86%。先に自分の案を出していても、AIが反対すると60%が乗り換えました。経験年数や専門性では、誰が引きずられるかを予測できなかった。\n\n「最後は人が判断」は、その判断が本当に自分のものである前提で成り立つ。",
+      "preview": {
+        "text": "「AIエージェントが推す選択肢を、コイントスで決めておいた」。Anthropicが分析の専門家61人で試した実験です。\n\nデータを偽らない条件でも、4つの分析判断で専門家がAIと同じ側を選んだのは平均86%。先に自分の案を出していても、AIが反対すると60%が乗り換えました。経験年数や専門性では、誰が引きずられるかを予測できなかった。\n\n「最後は人が判断」は、その判断が本当に自分のものである前提で成り立つ。",
+        "url": "https://www.anthropic.com/research/agents-judgment-calls",
+        "siteName": "Anthropic",
+        "title": "How AI agents shape experts’ judgment calls \\ Anthropic",
+        "description": "In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work."
+      },
+      "replies": [
+        "Anthropic公式\nhttps://www.anthropic.com/research/agents-judgment-calls",
+        "GIGAZINE（日本語記事）\nhttps://gigazine.net/news/20261029-anthropic-agents-judgment-calls/"
+      ],
+      "scheduledAt": null,
+      "postedAt": null,
+      "tweet": null,
+      "note": "Trend shortlist 10/30 #1（ユーザー選択前の既定カード）。ユーザーが別のネタ（#2 フィンガープリントスクリプトの危険ワードでAI解析妨害、#3 Ollama＋Open WebUIの社内共有）を選んだら、このカードは保留にする。数字はAnthropic本文どおり（61人中11人はエージェント不使用で分析から除外、4判断の一致率92/82/81/90%で合計86%、事前に意見を出した38件で反対されると60%が変更・賛成時6%、最終提言は54%対36%で約17ポイント差）。60%は38件だけの推定で信頼区間が広い点に注意。火種注意: 「専門家はAIに流される」と揶揄しない。Borders 10/30 No.4と同じ話なので、noteはこの話を使わない。同日のRadarカード（Mistral Large 4、Jules→Antigravity）とは別枠。",
+      "updatedAt": "2026-10-30T06:47:02+09:00"
+    },
+    {
+      "id": "20261030-note-aeon-mujin-kawaguchi-xd",
+      "title": "イオン川口東XDが稼働——MujinのフィジカルAIで、毎回条件が違う「混載積み付け」まで自動化",
+      "source": "Borders",
+      "channel": "note",
+      "status": "未投稿",
+      "url": "https://robotstart.info/article/2026/10/29/382582.html",
+      "draft": "イオン川口東XDが稼働——MujinのフィジカルAIで、毎回条件が違う「混載積み付け」まで自動化\n\nイオン、イオングローバルSCM、Mujinは10月29日、埼玉県川口市の物流センター「イオン川口東XD」を本稼働した。仕分けから積み付けまでを一連で自動化し、これまで人手に頼ってきた店舗別の混載積み付けにロボットを使う。",
+      "preview": {
+        "title": "イオン川口東XDが稼働——MujinのフィジカルAIで、毎回条件が違う「混載積み付け」まで自動化",
+        "lead": "イオン、イオングローバルSCM、Mujinは10月29日、埼玉県川口市の物流センター「イオン川口東XD」を本稼働した。仕分けから積み付けまでを一連で自動化し、これまで人手に頼ってきた店舗別の混載積み付けにロボットを使う。",
+        "bodyPreview": "カートラックへの積み付けは、商品のサイズや重さ、組み合わせが毎回違い、積んでいる途中でも位置ずれや荷崩れで状態が変わる。そのため自動化が難しく、身体的な負担の大きい工程だった。新センターでは、出荷オーダーごとに積み付けを事前にシミュレーションして計画を立て、作業中は3Dビジョンで積載状態を確かめながら、問題が起きてもその時点の状態に応じてロボットの動作を変えて作業を続ける。設備と人をつなぐのは共同開発のWES（倉庫運用管理システム）で、ロボットアームやAGV、シャトルの動きと、ハンディ端末を通じた作業者への指示を、店舗別の出荷情報や締切時刻に合わせて一元管理し、進捗や稼働率をリアルタイムに見える化する。2024年7月稼働のイオン福岡XDが出庫からソーター投入までだったのに対し、今回は都市型小型スーパー向けの複雑な店舗別出荷まで踏み込んだ。「毎回条件が違う作業」を計画と現場の状態でつなぐ考え方は、工場の部品供給や出荷にもそのまま当てはめて考えられる。"
+      },
+      "citations": [
+        {
+          "url": "https://robotstart.info/article/2026/10/29/382582.html",
+          "siteName": "ロボスタ - ロボット･AI情報WEBマガジン"
+        }
+      ],
+      "scheduledAt": null,
+      "postedAt": null
     },
     {
       "id": "20261029-x-survival-llm",
@@ -1033,6 +1080,18 @@
   ],
   "history": [
     {
+      "date": "2026-10-30",
+      "channel": "X",
+      "title": "AIが推す案をコイントスで決めても、専門家の86%が同調 — Anthropic「AIエージェントは専門家の判断をどう左右するか」",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-10-30",
+      "channel": "note",
+      "title": "イオン川口東XDが稼働——MujinのフィジカルAIで、毎回条件が違う「混載積み付け」まで自動化",
+      "status": "未投稿"
+    },
+    {
       "at": "2026-10-29T08:35:11+09:00",
       "id": "20261029-x-mythos5-github-pr",
       "status": "保留",
@@ -1292,8 +1351,8 @@
     }
   ],
   "empty": {
-    "X": "今日（10/29 木）のXは、ユーザーの選択がまだないのでTrend shortlist #1（Claude Mythos 5事案の原因分析、Anthropic×英AISI）を既定カードとして1枚。未投稿。別のネタ（#2 Survival LLM、#3 大阪ガス）を選んだらこのカードは保留にする。10/28のCohere・Gemma 4×vLLM・LFM3の3枚は@Amu_Lab__で10/28 23:07の投稿を確認したので投稿済みにした。",
-    "note": "今日はBordersからファナック「AIマスタレスビジョン」（ロボスタ）を1本。未投稿。",
+    "X": "今日（10/30 金）のXは、ユーザーの選択がまだないのでTrend shortlist #1（Anthropic「AIエージェントは専門家の判断をどう左右するか」、コイントスで決めたAIの推しに86%が同調）を既定カードとして1枚。未投稿。別のネタ（#2 危険ワードでAI解析を妨害するスクリプト、#3 Ollama＋Open WebUIの社内共有）を選んだらこのカードは保留にする。Radar経由のMistral Large 4（07:07）とJules→Antigravity（08:07）は別枠で承認済み。10/29のSurvival LLMデスクカードは未投稿のまま触っていない。",
+    "note": "今日はBordersからイオン川口東XD×MujinのフィジカルAI混載積み付け（ロボスタ）を1本。未投稿。富士ソフト×ダイドーは10/13に扱ったので外した。",
     "Zenn": "今日は0本（検証原稿なし）",
     "ブログ": "今日は0本（本人のローカルLLM実測の新しい材料なし）"
   },
