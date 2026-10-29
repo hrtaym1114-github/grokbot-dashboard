@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261030-x-mistral-large-4-open-weights",
+      "title": "X.com 投稿文 - Mistral Large 4 オープンウェイト公開",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://x.com/MistralAI/status/2115811242556137820",
+      "draft": "Mistral Large 4が、APIで試すだけのモデルから、重みを落として自社のGPUサーバーで動かせるモデルになりました。これまではプレビューAPIのみでしたが、Hugging Faceで重みが公開されています。\n\n総1.05T／実働52BのMoE、コンテキスト100万トークン、画像入力対応。Artificial Analysis Intelligence Index v5は26でプレビュー（25）から+1、中国以外で開発されたオープンウェイトでは僅差の首位。API価格は100万トークンあたり入力$0.70／出力$2.10で、プレビュー比約半額。\n\nライセンスはMEOW License。モデルをAPIサービスとして提供する事業（MaaS）には、別途Mistralとの商用ライセンスが必要です。",
+      "preview": {
+        "text": "Mistral Large 4が、APIで試すだけのモデルから、重みを落として自社のGPUサーバーで動かせるモデルになりました。これまではプレビューAPIのみでしたが、Hugging Faceで重みが公開されています。\n\n総1.05T／実働52BのMoE、コンテキスト100万トークン、画像入力対応。Artificial Analysis Intelligence Index v5は26でプレビュー（25）から+1、中国以外で開発されたオープンウェイトでは僅差の首位。API価格は100万トークンあたり入力$0.70／出力$2.10で、プレビュー比約半額。\n\nライセンスはMEOW License。モデルをAPIサービスとして提供する事業（MaaS）には、別途Mistralとの商用ライセンスが必要です。",
+        "url": "https://x.com/MistralAI/status/2115811242556137820"
+      },
+      "replies": [
+        "一次情報（@MistralAI）\nhttps://x.com/MistralAI/status/2115811242556137820"
+      ],
+      "scheduledAt": "2026-10-30T07:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261029-x-survival-llm",
       "title": "X.com 投稿文 - Survival LLM（オフライン・出典つきローカルLLM）",
       "source": "Desk",
