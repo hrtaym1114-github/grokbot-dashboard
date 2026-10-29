@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261029-x-nemotron-3-5-transcribe",
+      "title": "X.com 投稿文 - NVIDIA Nemotron 3.5 Transcribe",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://x.com/NVIDIAAI/status/2115462300241141882",
+      "draft": "会議の録音から「誰が何を言ったか」付きの文字起こしを、自前のGPUで動くオープンウェイトのモデル1つで出せます。NVIDIA Nemotron 3.5 Transcribeは日本語を含む40言語の文字起こし・話者分離・英語との翻訳に対応。\n\nMoEで推論時に動くのは約4B（モデルカード表記は総34B／アクティブ4.3B、音声エンコーダ込み）。Artificial Analysisの誤り率（WER）は2.81%で、Voxtral Small（2.77%）とほぼ同水準。録音は最長1時間で、リアルタイム向けではなくファイル処理用。動作確認はBF16でH100 80GB×1、RTX 5090はNVFP4版。ライセンスはOpenMDW-1.1で商用利用可。",
+      "preview": {
+        "text": "会議の録音から「誰が何を言ったか」付きの文字起こしを、自前のGPUで動くオープンウェイトのモデル1つで出せます。NVIDIA Nemotron 3.5 Transcribeは日本語を含む40言語の文字起こし・話者分離・英語との翻訳に対応。\n\nMoEで推論時に動くのは約4B（モデルカード表記は総34B／アクティブ4.3B、音声エンコーダ込み）。Artificial Analysisの誤り率（WER）は2.81%で、Voxtral Small（2.77%）とほぼ同水準。録音は最長1時間で、リアルタイム向けではなくファイル処理用。動作確認はBF16でH100 80GB×1、RTX 5090はNVFP4版。ライセンスはOpenMDW-1.1で商用利用可。",
+        "url": "https://x.com/NVIDIAAI/status/2115462300241141882"
+      },
+      "replies": [
+        "Hugging Face モデルカード（NVIDIA）\nhttps://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+      ],
+      "scheduledAt": "2026-10-29T14:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261029-x-openai-chatgpt-api-credits",
       "title": "X.com 投稿文 - ChatGPT Pro/Business の API クレジット（最大$500/月）",
       "source": "Radar",
