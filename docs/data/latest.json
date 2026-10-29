@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261029-x-openai-chatgpt-api-credits",
+      "title": "X.com 投稿文 - ChatGPT Pro/Business の API クレジット（最大$500/月）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://x.com/OpenAIDevs/status/2115583698074755078",
+      "draft": "ChatGPT Pro／Businessの対象アカウントなら、OpenAI APIのクレジットを毎月最大$500受け取れるようになりました。自動では付かず、ChatGPTの請求設定から申請してAPI組織にひも付ける必要があります。\n\n額はプラン次第。Proは$100／$200／$500のプラン別、Businessは有料席1つにつき$20（Standard）／$100（Premium）で、ワークスペース合計の上限が$500。条件は有料契約が7日以上、契約とAPI組織の両方のオーナーで同じメールアドレス。Plus・無料トライアル・Enterprise・Eduは対象外。未使用分は請求期間末で失効し繰り越しなし。ChatGPTやCodexの利用枠が増えるわけではありません。",
+      "preview": {
+        "text": "ChatGPT Pro／Businessの対象アカウントなら、OpenAI APIのクレジットを毎月最大$500受け取れるようになりました。自動では付かず、ChatGPTの請求設定から申請してAPI組織にひも付ける必要があります。\n\n額はプラン次第。Proは$100／$200／$500のプラン別、Businessは有料席1つにつき$20（Standard）／$100（Premium）で、ワークスペース合計の上限が$500。条件は有料契約が7日以上、契約とAPI組織の両方のオーナーで同じメールアドレス。Plus・無料トライアル・Enterprise・Eduは対象外。未使用分は請求期間末で失効し繰り越しなし。ChatGPTやCodexの利用枠が増えるわけではありません。",
+        "url": "https://x.com/OpenAIDevs/status/2115583698074755078"
+      },
+      "replies": [
+        "OpenAI ヘルプセンター（対象・条件・申請手順）\nhttps://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions"
+      ],
+      "scheduledAt": "2026-10-29T13:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261029-x-gemini-4-carbon",
       "title": "X.com 投稿文 - Gemini 4 Carbon",
       "source": "Radar",
