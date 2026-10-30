@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261030-x-litellm-cve-2026-114612",
+      "title": "X.com 投稿文 - LiteLLM CVE-2026-114612（internal_user → proxy_admin 昇格・RCE）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/advisories/GHSA-7hp6-4w63-5g45",
+      "draft": "社内でLiteLLMプロキシを動かしているなら、internal_user権限のユーザーがproxy_adminに昇格し、ホスト上で任意のコマンドを実行できる脆弱性（CVE-2026-114612、High）の対象か確認が必要です。\n\nGitHubのアドバイザリによると、原因は1つの暗号鍵を、保存データの暗号化とセッショントークンの発行に兼用していたこと。\n\n対象は既定設定で1.91.0以降。1.87.0〜1.90.xは EXPERIMENTAL_UI_LOGIN=true を明示していた場合のみ。修正版は系列ごとに1.100.4／1.101.3／1.102.2／1.103.1／1.104.0rc2。\n\nまず動いているバージョンを確かめて修正版へ。すぐ上げられない場合の回避策は EXPERIMENTAL_UI_LOGIN=false ですが、CLIのSSOとClaude Codeのゲートウェイ経由ログインが使えなくなります。",
+      "preview": {
+        "text": "社内でLiteLLMプロキシを動かしているなら、internal_user権限のユーザーがproxy_adminに昇格し、ホスト上で任意のコマンドを実行できる脆弱性（CVE-2026-114612、High）の対象か確認が必要です。\n\nGitHubのアドバイザリによると、原因は1つの暗号鍵を、保存データの暗号化とセッショントークンの発行に兼用していたこと。\n\n対象は既定設定で1.91.0以降。1.87.0〜1.90.xは EXPERIMENTAL_UI_LOGIN=true を明示していた場合のみ。修正版は系列ごとに1.100.4／1.101.3／1.102.2／1.103.1／1.104.0rc2。\n\nまず動いているバージョンを確かめて修正版へ。すぐ上げられない場合の回避策は EXPERIMENTAL_UI_LOGIN=false ですが、CLIのSSOとClaude Codeのゲートウェイ経由ログインが使えなくなります。",
+        "url": "https://github.com/advisories/GHSA-7hp6-4w63-5g45"
+      },
+      "replies": [
+        "GitHub Security Advisory（GHSA-7hp6-4w63-5g45）\nhttps://github.com/advisories/GHSA-7hp6-4w63-5g45"
+      ],
+      "scheduledAt": "2026-10-30T19:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261030-x-cursor-claude-code-extension-incident",
       "title": "X.com 投稿文 - Cursor拡張マーケットプレイスの改ざん版Claude Code拡張（2.1.313）",
       "source": "Radar",
