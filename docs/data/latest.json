@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261030-x-factory-droid-1-0",
+      "title": "X.com 投稿文 - Factory Droid 1.0",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://x.com/FactoryAI/status/2115934579446182213",
+      "draft": "Factoryのコーディングエージェントは、ツールを1回ずつ呼ぶ代わりに、エージェントが書いたプログラムが1回のモデル呼び出しで最大数百のツール呼び出しをまとめて実行するのが標準になりました。\n\nDroid 1.0。Factory自社のTerminal-Bench 4比較（同じモデル同士）では、GPT-6.1 SolでCodexより3.5ポイント高く、コストは12%低い。Claude Opus 5.5ではClaude Codeより1タスクあたりの時間が26%短く、トークンは17%少ない。一方GPT-6.1 SolではCodexより時間が10%長い。\n\nこのScript方式だけでOpus 5.5のコストは15%減、と同社。数値はいずれもFactory自社計測。",
+      "preview": {
+        "text": "Factoryのコーディングエージェントは、ツールを1回ずつ呼ぶ代わりに、エージェントが書いたプログラムが1回のモデル呼び出しで最大数百のツール呼び出しをまとめて実行するのが標準になりました。\n\nDroid 1.0。Factory自社のTerminal-Bench 4比較（同じモデル同士）では、GPT-6.1 SolでCodexより3.5ポイント高く、コストは12%低い。Claude Opus 5.5ではClaude Codeより1タスクあたりの時間が26%短く、トークンは17%少ない。一方GPT-6.1 SolではCodexより時間が10%長い。\n\nこのScript方式だけでOpus 5.5のコストは15%減、と同社。数値はいずれもFactory自社計測。",
+        "url": "https://x.com/FactoryAI/status/2115934579446182213"
+      },
+      "replies": [
+        "一次情報（@FactoryAI）\nhttps://x.com/FactoryAI/status/2115934579446182213"
+      ],
+      "scheduledAt": "2026-10-30T13:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261030-blog-ollama-outbound-traffic-check",
       "title": "Ollamaの安全性、社外へ何を送るか宛先を実測",
       "source": "Desk",
