@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261030-x-cursor-claude-code-extension-incident",
+      "title": "X.com 投稿文 - Cursor拡張マーケットプレイスの改ざん版Claude Code拡張（2.1.313）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+      "draft": "CursorでClaude Code拡張を使っている人は、10/29 18:27〜10/30 05:35（日本時間）にバージョン2.1.313を入れた・更新したかを確認してください。\n\nCursorによると、この時間帯にCursorの拡張機能マーケットプレイスで、改ざんされたClaude Code拡張（2.1.313）が配布されていました。Anthropicが開発したものではない、とCursorは明記しています。影響は最大5,000ユーザーで、Cursorから個別に連絡するとのこと。\n\nこの版はSSHのバックドアを仕込もうとします。確認は、SSHのauthorized_keysに「svc-telemetry」というラベルの鍵が追加されていないかを見る方法（macOS・Windows別の確認コマンドと削除スクリプトはリプ欄の告知に）。見つかった場合、拡張のアンインストールだけでは不十分で、削除スクリプトの実行と認証情報の入れ替えが案内されています。\n\n攻撃者のサーバーはクラウド事業者と連携して停止済み、ほかの拡張に改ざんはなかったと確認した、としています。",
+      "preview": {
+        "text": "CursorでClaude Code拡張を使っている人は、10/29 18:27〜10/30 05:35（日本時間）にバージョン2.1.313を入れた・更新したかを確認してください。\n\nCursorによると、この時間帯にCursorの拡張機能マーケットプレイスで、改ざんされたClaude Code拡張（2.1.313）が配布されていました。Anthropicが開発したものではない、とCursorは明記しています。影響は最大5,000ユーザーで、Cursorから個別に連絡するとのこと。\n\nこの版はSSHのバックドアを仕込もうとします。確認は、SSHのauthorized_keysに「svc-telemetry」というラベルの鍵が追加されていないかを見る方法（macOS・Windows別の確認コマンドと削除スクリプトはリプ欄の告知に）。見つかった場合、拡張のアンインストールだけでは不十分で、削除スクリプトの実行と認証情報の入れ替えが案内されています。\n\n攻撃者のサーバーはクラウド事業者と連携して停止済み、ほかの拡張に改ざんはなかったと確認した、としています。",
+        "url": "https://cursor.com/blog/claude-code-extension-security-notice"
+      },
+      "replies": [
+        "Cursor公式のセキュリティ告知（確認コマンド・削除スクリプト）\nhttps://cursor.com/blog/claude-code-extension-security-notice"
+      ],
+      "scheduledAt": "2026-10-30T18:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261030-x-factory-droid-1-0",
       "title": "X.com 投稿文 - Factory Droid 1.0",
       "source": "Radar",
