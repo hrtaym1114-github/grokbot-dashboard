@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261030-x-claude-code-2-1-314",
+      "title": "X.com 投稿文 - Claude Code v2.1.314（作業ディレクトリ外への書き込みブロック）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+      "draft": "Claude Codeで、作業ディレクトリの外にあるファイルへの書き込みを、どの権限モードでも止められるようになりました。\n\nv2.1.314で追加された設定 permissions.blockWritesOutsideWorkingDirectories。リリースノートによると、Write・Edit・NotebookEditの3ツールが作業ディレクトリ外のパスを拒否します。Bashなどほかのツールについての記載はありません。\n\n確かめるなら、claude --version で2.1.314以降かを見てから、この設定を入れて作業ディレクトリ外のファイルの編集を頼み、拒否されるかを試すのが早いです。",
+      "preview": {
+        "text": "Claude Codeで、作業ディレクトリの外にあるファイルへの書き込みを、どの権限モードでも止められるようになりました。\n\nv2.1.314で追加された設定 permissions.blockWritesOutsideWorkingDirectories。リリースノートによると、Write・Edit・NotebookEditの3ツールが作業ディレクトリ外のパスを拒否します。Bashなどほかのツールについての記載はありません。\n\n確かめるなら、claude --version で2.1.314以降かを見てから、この設定を入れて作業ディレクトリ外のファイルの編集を頼み、拒否されるかを試すのが早いです。",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314"
+      },
+      "replies": [
+        "リリースノート（anthropics/claude-code v2.1.314）\nhttps://github.com/anthropics/claude-code/releases/tag/v2.1.314"
+      ],
+      "scheduledAt": "2026-10-30T20:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261030-x-litellm-cve-2026-114612",
       "title": "X.com 投稿文 - LiteLLM CVE-2026-114612（internal_user → proxy_admin 昇格・RCE）",
       "source": "Radar",
