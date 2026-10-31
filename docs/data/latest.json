@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - 読んでいないコードを私たちはどれだけ信頼できるのか（ymotongpoo）",
       "source": "Trend",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://ymotongpoo.hatenablog.com/entry/2026/10/30/093000",
       "draft": "AIが書いたテストが全部通っても、読んでいないコードを信じてよいのか。\n\nGrafana Labsのymotongpooさんは、テストの合格は仕様どおりかの確認で、仕様が現実に合っているかまでは保証しない、と整理しています。\n\n紹介されている論文では、テストを変更したコミットのうちモックを追加した割合は、エージェント36%、それ以外26%。\n\n提案は、戻せる変更を一部にだけ出し、SLOと本番の観測で展開を判断すること。",
       "preview": {
@@ -16,14 +16,17 @@
         "siteName": "YAMAGUCHI::weblog",
         "title": "読んでいないコードを私たちはどれだけ信頼できるのか - YAMAGUCHI::weblog",
         "description": "はじめに こんにちは、Grafana Labsでデベロッパーアドボケイトをしているものです。 私は2018年前後から、SRE*1の啓蒙に携わってきました。SREの実践では本番環境のオブザーバビリティは欠かせず、私もその重要性を強く主張しています。そういった背景もあり『SLO サービスレベル目標』や『オブザーバビリティ・エンジニアリング』をはじめ、SRE関連の本を何冊か翻訳してきました。 そして、ここ1年ほど、生成AIのコーディングエージェントでPoCを作るたびに、テストが通ったコードをどこまで信じてよいのかが気になっていました。エージェントが書いたコードを、私は1行ずつすべて読んでいるわけでは…"
-      }
+      },
+      "postedAt": "2026-10-31T16:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2116426750834221506",
+      "scheduledAt": "2026-10-31T16:07+09:00"
     },
     {
       "id": "20261030-x-claude-code-2-1-314",
       "title": "X.com 投稿文 - Claude Code v2.1.314（作業ディレクトリ外への書き込みブロック）",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
       "draft": "Claude Codeで、作業ディレクトリの外にあるファイルへの書き込みを、どの権限モードでも止められるようになりました。\n\nv2.1.314で追加された設定 permissions.blockWritesOutsideWorkingDirectories。リリースノートによると、Write・Edit・NotebookEditの3ツールが作業ディレクトリ外のパスを拒否します。Bashなどほかのツールについての記載はありません。\n\n確かめるなら、claude --version で2.1.314以降かを見てから、この設定を入れて作業ディレクトリ外のファイルの編集を頼み、拒否されるかを試すのが早いです。",
       "preview": {
@@ -34,15 +37,15 @@
         "リリースノート（anthropics/claude-code v2.1.314）\nhttps://github.com/anthropics/claude-code/releases/tag/v2.1.314"
       ],
       "scheduledAt": "2026-10-30T20:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-30T20:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2116124758203064504"
     },
     {
       "id": "20261030-x-litellm-cve-2026-114612",
       "title": "X.com 投稿文 - LiteLLM CVE-2026-114612（internal_user → proxy_admin 昇格・RCE）",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.com/advisories/GHSA-7hp6-4w63-5g45",
       "draft": "社内でLiteLLMプロキシを動かしているなら、internal_user権限のユーザーがproxy_adminに昇格し、ホスト上で任意のコマンドを実行できる脆弱性（CVE-2026-114612、High）の対象か確認が必要です。\n\nGitHubのアドバイザリによると、原因は1つの暗号鍵を、保存データの暗号化とセッショントークンの発行に兼用していたこと。\n\n対象は既定設定で1.91.0以降。1.87.0〜1.90.xは EXPERIMENTAL_UI_LOGIN=true を明示していた場合のみ。修正版は系列ごとに1.100.4／1.101.3／1.102.2／1.103.1／1.104.0rc2。\n\nまず動いているバージョンを確かめて修正版へ。すぐ上げられない場合の回避策は EXPERIMENTAL_UI_LOGIN=false ですが、CLIのSSOとClaude Codeのゲートウェイ経由ログインが使えなくなります。",
       "preview": {
@@ -53,15 +56,15 @@
         "GitHub Security Advisory（GHSA-7hp6-4w63-5g45）\nhttps://github.com/advisories/GHSA-7hp6-4w63-5g45"
       ],
       "scheduledAt": "2026-10-30T19:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-30T19:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2116109700983054646"
     },
     {
       "id": "20261030-x-cursor-claude-code-extension-incident",
       "title": "X.com 投稿文 - Cursor拡張マーケットプレイスの改ざん版Claude Code拡張（2.1.313）",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://cursor.com/blog/claude-code-extension-security-notice",
       "draft": "CursorでClaude Code拡張を使っている人は、10/29 18:27〜10/30 05:35（日本時間）にバージョン2.1.313を入れた・更新したかを確認してください。\n\nCursorによると、この時間帯にCursorの拡張機能マーケットプレイスで、改ざんされたClaude Code拡張（2.1.313）が配布されていました。Anthropicが開発したものではない、とCursorは明記しています。影響は最大5,000ユーザーで、Cursorから個別に連絡するとのこと。\n\nこの版はSSHのバックドアを仕込もうとします。確認は、SSHのauthorized_keysに「svc-telemetry」というラベルの鍵が追加されていないかを見る方法（macOS・Windows別の確認コマンドと削除スクリプトはリプ欄の告知に）。見つかった場合、拡張のアンインストールだけでは不十分で、削除スクリプトの実行と認証情報の入れ替えが案内されています。\n\n攻撃者のサーバーはクラウド事業者と連携して停止済み、ほかの拡張に改ざんはなかったと確認した、としています。",
       "preview": {
@@ -72,15 +75,15 @@
         "Cursor公式のセキュリティ告知（確認コマンド・削除スクリプト）\nhttps://cursor.com/blog/claude-code-extension-security-notice"
       ],
       "scheduledAt": "2026-10-30T18:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-30T18:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2116094513454420333"
     },
     {
       "id": "20261030-x-factory-droid-1-0",
       "title": "X.com 投稿文 - Factory Droid 1.0",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://x.com/FactoryAI/status/2115934579446182213",
       "draft": "Factoryのコーディングエージェントは、ツールを1回ずつ呼ぶ代わりに、エージェントが書いたプログラムが1回のモデル呼び出しで最大数百のツール呼び出しをまとめて実行するのが標準になりました。\n\nDroid 1.0。Factory自社のTerminal-Bench 4比較（同じモデル同士）では、GPT-6.1 SolでCodexより3.5ポイント高く、コストは12%低い。Claude Opus 5.5ではClaude Codeより1タスクあたりの時間が26%短く、トークンは17%少ない。一方GPT-6.1 SolではCodexより時間が10%長い。\n\nこのScript方式だけでOpus 5.5のコストは15%減、と同社。数値はいずれもFactory自社計測。",
       "preview": {
@@ -91,15 +94,15 @@
         "一次情報（@FactoryAI）\nhttps://x.com/FactoryAI/status/2115934579446182213"
       ],
       "scheduledAt": "2026-10-30T13:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-30T13:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2116019061205475563"
     },
     {
       "id": "20261030-blog-ollama-outbound-traffic-check",
       "title": "Ollamaの安全性、社外へ何を送るか宛先を実測",
       "source": "Desk",
       "channel": "ブログ",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://bhrtaym-blog.com/local-llm-complete-guide-2026/",
       "draft": "# Ollamaの安全性、社外へ何を送るか宛先を実測\n\n> この記事は「[ローカルLLM完全ガイド](https://bhrtaym-blog.com/local-llm-complete-guide-2026/)」の一部です。\n\nOllamaは、ローカルのモデルだけで使えば推論中に社外へ1本も接続しませんでした。ただし既定のままだと起動したときにollama.comへ2本つなぎ、`:cloud`付きのモデルを指定するとプロンプトをollama.comへ中継します。`OLLAMA_NO_CLOUD=1`で両方とも止まり、外向きを全部遮断しても推論は動きました。\n\n「ローカルLLMだからデータは外に出ません」と稟議に書く前に、何がどこへ出るのかを宛先の名前で確かめた記録です。受け側（ポート11434を他のPCに開ける話）は別の記事にあるので、ここでは**出ていく側**だけを扱います。\n\n## 結論（30秒）\n\n- **ローカル推論中の社外への接続は0本**。社外秘の目印を入れたプロンプトで計13回試し、新しい外向き接続は1本も出なかった（Ollama 0.40.13、2026年10月30日に測定）\n- **既定のままでは、起動時にollama.comへ2本つなぐ**。おすすめモデル一覧とクラウドモデル情報の取得で、プロンプトは含まない（ソースで確認）\n- **`:cloud`付きのモデルを指定すると、プロンプトを含むリクエストがollama.comに届く**。未サインインでも送られ、`Unauthorized`が返った\n- **`OLLAMA_NO_CLOUD=1`で起動時の接続も`:cloud`も0本になる**。外へ出るのは`ollama pull`のときのregistry.ollama.aiと配布用CDNだけになる\n\n製造業の社内IT担当として、「社内でOllamaを使ってよいか」と聞かれる立場から書いています。測ったのはLinux版のサーバーだけで、Mac・WindowsのアプリとDocker版は測っていません。\n\n## 何を測ったか：場面4つ×設定3つ\n\nこの節の要点: 宛先を記録するプロキシをOllamaの外側に置き、通る宛先をすべてログに残しました。プロキシを通らずに外へつなぐ接続も別に見張りました。\n\n社内のプロキシ経由でしか外に出られないPCを想定して、次の形にしました。\n\n- 検証用のLinux VM（Debian 13、8 vCPU、メモリ16GB、GPUなし）に、GitHub ReleaseのOllama 0.40.13（2026年10月29日公開）を置いた。設定ファイルが何もない新しい状態から始めた\n- `ollama serve`に`HTTPS_PROXY=http://127.0.0.1:3128`を渡し、その先に**宛先のホスト名・送受信バイト数・接続時間を記録する小さなプロキシ**を置いた\n- 同時に、Ollamaのプロセスが持つ接続を0.2秒ごとに一覧にして、127.0.0.1以外へ直接つなぐもの（プロキシの迂回）がないかを見た\n- 待ち受けは毎回`ss -ltnp`で`127.0.0.1:11434`だった（既定のまま）\n\n場面は「起動直後」「モデルの取得（`ollama pull`）」「ローカル推論」「`:cloud`モデルの指定」の4つです。設定は「既定」「`OLLAMA_NO_CLOUD=1`」「プロキシが全部の宛先を403で断る（全遮断）」の3つにしました。推論のプロンプトには「社外秘-CANARY-7Q3X」という目印の文字列を入れています。モデルは`qwen2.5:0.5b`（ディスク380MB）です。\n\n見ていないものも書いておきます。暗号化（TLS）の中身は見ていません。分かるのは宛先とバイト数だけです。0.2秒より短く終わる直接接続は見落とす可能性があります（プロキシを通ったものはすべて記録されます）。\n\n## 比較表：どの場面で、どこへ出たか\n\n![推論中は0本。外へ出るのは起動・pull・:cloudだけ](05_Output/Areas/Content-Creation/Images/@Completed/20261030_fig1_ollama-outbound-traffic-check.jpg)\n\n| 場面 | 既定（クラウド機能オン） | `OLLAMA_NO_CLOUD=1` | 全遮断プロキシ（既定設定） |\n|---|---|---|---|\n| 起動直後 | ollama.comへ2本（上り8,398バイト／下り37,850バイト） | 0本 | ollama.comへの2本を遮断。起動は正常 |\n| 起動後の待機（60〜75秒） | 新しい接続0本 | 0本 | — |\n| `ollama pull` | registry.ollama.ai 2本＋`*.r2.cloudflarestorage.com` 8本（下り398,412,684バイト） | registry.ollama.ai 2本＋同じCDN 8本。ollama.comは0本 | 失敗（エラー文は後の表） |\n| ローカル推論（目印入りプロンプト） | 5回とも応答、接続0本。起動時の接続が閉じた後にもう5回、0本 | 3回とも応答、0本 | 3回とも応答、0本 |\n| `:cloud`モデルを指定 | ollama.comへ1本 → `{\"error\":\"Unauthorized\"}` | 接続0本 → `{\"error\":\"ollama cloud is disabled: remote model is unavailable\"}` | `Forbidden`で失敗 |\n| プロキシを迂回した直接接続 | 0件 | 0件 | 0件 |\n\n前提: Ollama 0.40.13（Linux、CPU）、2026年10月30日9時21分〜9時38分（日本時間）に測定。宛先記録プロキシと接続一覧で確認し、TLSの中身は見ていない。pullしたのは既定で`qwen2.5:0.5b`、NO_CLOUDで`smollm2:135m`。`:cloud`は`deepseek-v4-flash:cloud`を未サインインで指定。\n\nこの表で押さえるのは2つです。1つは、**推論そのものは外と話さない**こと。全部遮断した状態でも3回とも答えが返りました。もう1つは、**何も指定しなくても起動時にollama.comへは出ていく**ことです。社内プロキシのログにollama.comが出てきても、それだけで「プロンプトが漏れた」とは言えません。逆に「ローカルだから外とは一切通信しない」とも書けません。\n\n## 起動時の2本は何か：おすすめ一覧とクラウドモデル情報\n\nこの節の要点: 2本ともOllamaのクラウド機能のための取得で、プロンプトは含みません。どちらも`OLLAMA_NO_CLOUD`で止まります。\n\n1本目は、ソースの`server/model_recommendations.go`にある**おすすめモデル一覧の取得**です。宛先は`https://ollama.com/api/experimental/model-recommendations`で、既定では4時間ごとに取り直します（タイムアウト3秒）。デバッグログ（`OLLAMA_DEBUG=1`）でも、起動直後にこのURLを取りに行き、次回を「3時間18分後」に予約したことが出ていました。間隔に揺らぎを足す作りなので、ちょうど4時間にはなりません。\n\n2本目は`server/model_show_cache.go`の**クラウドモデル情報のキャッシュ**です。ollama.com側のモデル一覧（`/api/tags`）と各モデルの情報（`/api/show`）を取ります。この処理は成功してもログに行が出ないので、ソースからの判断です。\n\nどちらの処理も、クラウド機能が無効なら「cloud disabled」として何もしない作りになっています。実測でもNO_CLOUDのときは起動時の接続が0本でした。ログには公式FAQのとおり`Ollama cloud disabled: true`が出ます。\n\n送っているのはモデル名の一覧を取るためのリクエストで、社内の文書や質問は含みません。それでも、外向き通信を申請制にしている会社では「ollama.comへ定期的に出る」こと自体が申請の対象になります。使わないなら止めておくほうが説明は短く済みます。\n\n## `:cloud`を指定すると、プロンプトは外へ出る\n\nこの節の要点: モデル名の末尾が`:cloud`なら、ローカルのOllamaは中継役になり、質問の本文をollama.comへ送ります。\n\n今のOllamaは、ローカルのモデルに加えて、ollama.com側で動く「クラウドモデル」とWeb検索も使えます。クラウドモデルはモデル名に`:cloud`が付きます。送り先が手元の`http://127.0.0.1:11434`でも、モデル名が`:cloud`なら同じです。Ollamaはリクエストの本文をそのままollama.comへ渡します（`server/cloud_proxy.go`の中継処理）。\n\n今回、サインインしていない状態で`:cloud`のモデルを指定すると、ollama.comへの接続が1本出て`{\"error\":\"Unauthorized\"}`が返りました。断られたのはollama.com側です。つまり、**断られる前にリクエストはollama.comまで届いています**。\n\n公式FAQには、クラウドのモデルを使うとプロンプトと応答を処理するが、保存・記録はせず学習にも使わない、とあります（2026年10月30日確認）。会社としてこれを受け入れるかは規程の問題です。困るのは、受け入れていないのに、誰かが社内ツールの設定に`:cloud`付きのモデル名を書いてしまう場合です。ローカルの窓口に投げているので、使っている本人も外に出ているとは気づきにくい。`OLLAMA_NO_CLOUD=1`を入れておけば、同じ指定は接続0本のまま`ollama cloud is disabled: remote model is unavailable`で止まりました。\n\n## 自分の環境で確かめる手順（Linux／Mac／Windows）\n\nこの節の要点: 設定を入れたら、ログの1行と接続一覧の2つで効いているかを確かめます。\n\n### 1. クラウド機能を止める\n\n公式FAQの方法は2つです（2026年10月30日確認）。どちらも入れたあとOllamaを再起動します。\n\n`~/.ollama/server.json`に書く場合:\n\n```json\n{\n  \"disable_ollama_cloud\": true\n}\n```\n\n環境変数で渡す場合（Linux、systemdで動かしているとき）:\n\n```bash\nsudo systemctl edit ollama.service\n# [Service] の下に次の1行を足して保存\n# Environment=\"OLLAMA_NO_CLOUD=1\"\nsudo systemctl restart ollama\n```\n\n```bash\n# Mac（アプリで動かしている場合。FAQ の環境変数の渡し方）\nlaunchctl setenv OLLAMA_NO_CLOUD 1\n# そのあと Ollama アプリを再起動\n```\n\nWindowsは、Ollamaをタスクバーから終了し、「アカウントの環境変数を編集」で`OLLAMA_NO_CLOUD`に`1`を足してから起動し直します（FAQの手順）。\n\n### 2. 効いているかを見る\n\n```bash\n# Linux: 起動ログに cloud disabled の行が出るか\njournalctl -u ollama --no-pager | grep \"cloud disabled\"\n# 期待する表示: msg=\"Ollama cloud disabled: true\"\n\n# Linux: Ollama が持っている外向きの接続\nsudo ss -tnp | grep ollama\n```\n\n```bash\n# Mac: Ollama が持っている接続\nlsof -nP -i | grep -i ollama\n```\n\n```powershell\n# Windows: Ollama のプロセスが持っている接続\nGet-NetTCPConnection -OwningProcess (Get-Process ollama).Id\n```\n\n今回の検証機では`ollama serve`を手で起動したので、確かめたのは環境変数で渡した`OLLAMA_NO_CLOUD=1`と、ログの`Ollama cloud disabled: true`の行、`ss`の出力までです。systemdの設定手順と`server.json`、Mac・Windowsのコマンドは公式FAQと各OSの標準の方法を載せたもので、この記事では試していません。社内プロキシのログが見られるなら、それがいちばん確かです。Ollamaを再起動した直後にollama.comが出てこなければ、起動時の2本は止まっています。\n\n## 判断表：社内プロキシで何を許可するか\n\n![クラウドを切れば、許可先はpullの2つだけ](05_Output/Areas/Content-Creation/Images/@Completed/20261030_fig2_ollama-outbound-traffic-check.jpg)\n\n| あなたの条件 | Ollamaの設定 | 社内プロキシで許可する宛先 | 外へ出るもの |\n|---|---|---|---|\n| ローカルモデルだけ使う。モデルはこのPCでpullする | `OLLAMA_NO_CLOUD=1`、`HTTPS_PROXY` | registry.ollama.aiと、pullで使われる配布用CDN（今回は`*.r2.cloudflarestorage.com`） | pullのときのモデル取得だけ |\n| ローカルモデルだけ。外向きは一切認めない | `OLLAMA_NO_CLOUD=1` | なし | なし（モデルは別のPCで取得して持ち込む） |\n| クラウドモデルやWeb検索も使う | 既定のまま、サインイン | 上の2つ＋ollama.com | 起動時の取得、`:cloud`の質問と応答 |\n| まだ決めていない | まず`OLLAMA_NO_CLOUD=1` | pullするときだけ上の2つ | pullのときだけ |\n\n前提: Ollama 0.40.13（Linux）で2026年10月30日に観測した宛先。配布用CDNのホスト名はOllama側の都合で変わりうるので、許可する前に自社のプロキシログで確認する。プロキシは公式FAQのとおり`HTTPS_PROXY`で渡し、`HTTP_PROXY`は設定しない（クライアントからの接続を妨げることがある）。\n\npullを許可しない形にすると、外向きの許可は0になります。その代わり、モデルの持ち込みとハッシュの照合を社内の手順にする必要があります。この重さは「[PDFを外に出せないとき自己ホストは要るか](https://bhrtaym-blog.com/pdf-ocr-self-host-when-needed/)」で書いた「置き場所と量で決める」判断と同じです。\n\n### 症状→原因→直す場所\n\n| 症状（表示そのまま） | 原因 | 直す場所 |\n|---|---|---|\n| `Error: pull model manifest: Get \"https://registry.ollama.ai/v2/library/smollm2/manifests/135m\": Forbidden` | 社内プロキシがregistry.ollama.aiを通していない | プロキシの許可リスト。許可しない方針なら別PCで取得して持ち込む |\n| `{\"error\":\"Unauthorized\"}`（`:cloud`を指定したとき） | 未サインインで`:cloud`を指定。リクエストはollama.comまで届いている | 使わないなら`OLLAMA_NO_CLOUD=1`。使うならサインインと、入力してよい情報の決まり |\n| `{\"error\":\"Post \\\"https://ollama.com:443/api/chat?ts=…\\\": Forbidden\"}` | プロキシがollama.comを止めている状態で`:cloud`を指定 | 同上。止めたいだけなら`OLLAMA_NO_CLOUD=1`にすると外へ出る前に止まる |\n| `{\"error\":\"ollama cloud is disabled: remote model is unavailable\"}` | NO_CLOUDが効いている状態で`:cloud`を指定 | 正常な止まり方。社内ツールの設定からモデル名の`:cloud`を外す |\n| 起動ログが`Ollama cloud disabled: false`のまま | 環境変数がサービスに渡っていない（シェルでexportしただけ、など） | systemdの`Environment=`、Macの`launchctl setenv`、または`server.json`。入れたら再起動 |\n\n前提: エラー文は2026年10月30日にOllama 0.40.13で実際に出たもの。\n\n## 導入前に確かめること（チェックリスト）\n\n- [ ]社内で使うモデルは`:cloud`の付かないものだけか（社内ツールの設定ファイルも含めて）\n- [ ] `OLLAMA_NO_CLOUD=1`か`server.json`の`disable_ollama_cloud`を、サービスの起動設定に入れたか\n- [ ]再起動後のログに`Ollama cloud disabled: true`が出たか\n- [ ] pullをこのPCでするか、別PCで取得して持ち込むかを決めたか\n- [ ] pullするなら、プロキシの許可先をregistry.ollama.aiと配布用CDNに絞り、実際のログで確認したか\n- [ ] Mac・Windowsのアプリは自動で更新を取りに行く（公式FAQ）。その通信を認めるか、更新の手順を決めたか\n- [ ]待ち受けは`127.0.0.1:11434`のままか（他のPCに開けるなら、受け側の対策を別に決める）\n- [ ]前に置くチャット画面や社内アプリが、別に外へ通信していないか\n\n### やってはいけないこと\n\n- **`HTTP_PROXY`だけ設定して終わりにする**。公式FAQは、モデルの取得はHTTPSだけで、`HTTP_PROXY`はクライアントの接続を妨げることがあるとしています。`HTTPS_PROXY`を使います\n- **プロキシのログにollama.comが出たのを見て「プロンプトが漏れた」と報告する**。既定のままなら起動時に2本出ます。プロンプトが出るのは`:cloud`を指定したときです。まず起動の時刻と突き合わせます\n- **シェルで`export OLLAMA_NO_CLOUD=1`しただけでサービス版にも効いたと思う**。サービスとして動くOllamaには、サービス側の設定で渡します\n\n## FAQ\n\n### Q1. Ollamaはプロンプトを外部に送信しますか？\nA. ローカルのモデルで推論しているあいだは送りません。今回の測定では、目印入りのプロンプトで計13回試して、外向きの接続は0本でした。送るのは`:cloud`付きのモデルを指定したときで、そのときはプロンプトを含むリクエストがollama.comへ中継されます。\n\n### Q2. Ollamaを完全オフライン（インターネット遮断）で使えますか？\nA. 推論は使えます。外向きを全部遮断した状態でも、取得済みのモデルは3回とも応答しました。使えなくなるのはモデルの取得（`ollama pull`）とクラウドモデルです。モデルは別のPCで取得して持ち込みます。\n\n### Q3. 社内プロキシでOllamaに許可する宛先はどこですか？\nA. ローカルモデルだけなら、`OLLAMA_NO_CLOUD=1`にしたうえで、pullに使うregistry.ollama.aiと配布用CDN（今回の観測では`*.r2.cloudflarestorage.com`）の2つです。クラウドモデルも使うならollama.comが加わります。CDNの名前は変わりうるので、許可の前に自社のログで確かめてください。\n\n### Q4. Ollamaのクラウド機能を無効にする方法は？\nA. `~/.ollama/server.json`に`\"disable_ollama_cloud\": true`を書くか、環境変数`OLLAMA_NO_CLOUD=1`を設定して再起動します。効いていればログに`Ollama cloud disabled: true`が出ます。クラウドモデルとWeb検索は使えなくなります。\n\n### Q5. ollama.comに起動時に送っている内容は何ですか？\nA. おすすめモデルの一覧と、クラウドモデルの一覧・情報を取りに行くリクエストです（v0.40.13のソースで確認）。社内の文書や質問は含みません。今回の測定では、2本で上り合計8,398バイトでした。\n\n## まとめ\n\nOllamaの安全性を「出ていく側」で見ると、推論そのものは外と話しませんでした。外へ出るのは起動時の取得とpullと`:cloud`の3つで、`OLLAMA_NO_CLOUD=1`を入れるとpullだけが残ります。稟議には「ローカルだから出ない」ではなく、「この設定で、この宛先だけを許可した」と書けます。\n\nまだ確かめていないのは、Mac・WindowsのアプリとDocker版の通信です。アプリは自動で更新を取りに行く（公式FAQ）ので、Linuxと同じ結果になるとは限りません。受け側の話（11434を他のPCに開ける場合）は、下の関連記事を読んでください。\n\n### 関連記事\n\n- [Ollamaを他のPCから安全に使うには（0.0.0.0を使わない5つの方法）](https://bhrtaym-blog.com/ollama-external-access-security-guide-2026/)\n- [Ollamaの認証がないまま公開されるとどうなるか（31%問題と認証の3パターン）](https://bhrtaym-blog.com/ollama-authentication-security-guide-2026/)\n- [機密データを外に出さずに生成AIを使うには（Geminiオンプレは要るか）](https://bhrtaym-blog.com/gemini-on-premises-confidential-data/)\n- [PDFを外に出せないとき自己ホストは要るか](https://bhrtaym-blog.com/pdf-ocr-self-host-when-needed/)\n- ハブ: [ローカルLLM完全ガイド](https://bhrtaym-blog.com/local-llm-complete-guide-2026/)\n\n### 参考（一次ソース）\n\n- [Ollama FAQ（クラウド機能の無効化・プロキシ・プロンプトの扱い・既定の待ち受け）](https://docs.ollama.com/faq)（2026年10月30日確認）\n- [Ollama v0.40.13 Release（2026年10月29日公開）](https://github.com/ollama/ollama/releases/tag/v0.40.13)（2026年10月30日確認）\n- [envconfig/config.go（OLLAMA_NO_CLOUD・OLLAMA_REMOTESの説明）](https://github.com/ollama/ollama/blob/v0.40.13/envconfig/config.go)（2026年10月30日確認）\n- [server/model_recommendations.go（おすすめ一覧の取得先と4時間の間隔）](https://github.com/ollama/ollama/blob/v0.40.13/server/model_recommendations.go)（2026年10月30日確認）\n- [server/model_show_cache.go（クラウドモデル情報のキャッシュ）](https://github.com/ollama/ollama/blob/v0.40.13/server/model_show_cache.go)（2026年10月30日確認）\n- [server/cloud_proxy.go（:cloudリクエストの中継）](https://github.com/ollama/ollama/blob/v0.40.13/server/cloud_proxy.go)（2026年10月30日確認）\n\n### 更新履歴\n\n- 2026-10-30: 初版（Ollama 0.40.13・Linuxで測定）\n\n*確認日: 2026-10-30*",
       "preview": {
@@ -108,14 +111,16 @@
         "body": "# Ollamaの安全性、社外へ何を送るか宛先を実測\n\n> この記事は「[ローカルLLM完全ガイド](https://bhrtaym-blog.com/local-llm-complete-guide-2026/)」の一部です。\n\nOllamaは、ローカルのモデルだけで使えば推論中に社外へ1本も接続しませんでした。ただし既定のままだと起動したときにollama.comへ2本つなぎ、`:cloud`付きのモデルを指定するとプロンプトをollama.comへ中継します。`OLLAMA_NO_CLOUD=1`で両方とも止まり、外向きを全部遮断しても推論は動きました。\n\n「ローカルLLMだからデータは外に出ません」と稟議に書く前に、何がどこへ出るのかを宛先の名前で確かめた記録です。受け側（ポート11434を他のPCに開ける話）は別の記事にあるので、ここでは**出ていく側**だけを扱います。\n\n## 結論（30秒）\n\n- **ローカル推論中の社外への接続は0本**。社外秘の目印を入れたプロンプトで計13回試し、新しい外向き接続は1本も出なかった（Ollama 0.40.13、2026年10月30日に測定）\n- **既定のままでは、起動時にollama.comへ2本つなぐ**。おすすめモデル一覧とクラウドモデル情報の取得で、プロンプトは含まない（ソースで確認）\n- **`:cloud`付きのモデルを指定すると、プロンプトを含むリクエストがollama.comに届く**。未サインインでも送られ、`Unauthorized`が返った\n- **`OLLAMA_NO_CLOUD=1`で起動時の接続も`:cloud`も0本になる**。外へ出るのは`ollama pull`のときのregistry.ollama.aiと配布用CDNだけになる\n\n製造業の社内IT担当として、「社内でOllamaを使ってよいか」と聞かれる立場から書いています。測ったのはLinux版のサーバーだけで、Mac・WindowsのアプリとDocker版は測っていません。\n\n## 何を測ったか：場面4つ×設定3つ\n\nこの節の要点: 宛先を記録するプロキシをOllamaの外側に置き、通る宛先をすべてログに残しました。プロキシを通らずに外へつなぐ接続も別に見張りました。\n\n社内のプロキシ経由でしか外に出られないPCを想定して、次の形にしました。\n\n- 検証用のLinux VM（Debian 13、8 vCPU、メモリ16GB、GPUなし）に、GitHub ReleaseのOllama 0.40.13（2026年10月29日公開）を置いた。設定ファイルが何もない新しい状態から始めた\n- `ollama serve`に`HTTPS_PROXY=http://127.0.0.1:3128`を渡し、その先に**宛先のホスト名・送受信バイト数・接続時間を記録する小さなプロキシ**を置いた\n- 同時に、Ollamaのプロセスが持つ接続を0.2秒ごとに一覧にして、127.0.0.1以外へ直接つなぐもの（プロキシの迂回）がないかを見た\n- 待ち受けは毎回`ss -ltnp`で`127.0.0.1:11434`だった（既定のまま）\n\n場面は「起動直後」「モデルの取得（`ollama pull`）」「ローカル推論」「`:cloud`モデルの指定」の4つです。設定は「既定」「`OLLAMA_NO_CLOUD=1`」「プロキシが全部の宛先を403で断る（全遮断）」の3つにしました。推論のプロンプトには「社外秘-CANARY-7Q3X」という目印の文字列を入れています。モデルは`qwen2.5:0.5b`（ディスク380MB）です。\n\n見ていないものも書いておきます。暗号化（TLS）の中身は見ていません。分かるのは宛先とバイト数だけです。0.2秒より短く終わる直接接続は見落とす可能性があります（プロキシを通ったものはすべて記録されます）。\n\n## 比較表：どの場面で、どこへ出たか\n\n![推論中は0本。外へ出るのは起動・pull・:cloudだけ](05_Output/Areas/Content-Creation/Images/@Completed/20261030_fig1_ollama-outbound-traffic-check.jpg)\n\n| 場面 | 既定（クラウド機能オン） | `OLLAMA_NO_CLOUD=1` | 全遮断プロキシ（既定設定） |\n|---|---|---|---|\n| 起動直後 | ollama.comへ2本（上り8,398バイト／下り37,850バイト） | 0本 | ollama.comへの2本を遮断。起動は正常 |\n| 起動後の待機（60〜75秒） | 新しい接続0本 |"
       },
       "wpPostId": 5816,
-      "wpEditUrl": "https://bhrtaym-blog.com/wp-admin/post.php?post=5816&action=edit"
+      "wpEditUrl": "https://bhrtaym-blog.com/wp-admin/post.php?post=5816&action=edit",
+      "postedAt": "2026-10-30T17:57+09:00",
+      "tweet": null
     },
     {
       "id": "20261030-x-jules-antigravity",
       "title": "X.com 投稿文 - Jules 終了 → Antigravity へ統合",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://x.com/julesagent/status/2115883717705261283",
       "draft": "GoogleのJulesで非同期のコーディング作業を回している人は、移行先を考える段階に入りました。Jules公式によると、Julesは提供を段階的に終える（winding down）とのこと。\n\nJulesの知見はGoogleのAntigravityに取り込む作業中で、狙いは「リモートでのバックグラウンド実行」と「エージェント前提の開発環境」を1つにまとめること。終了日や移行手順は、この発表では示されていません。",
       "preview": {
@@ -126,15 +131,15 @@
         "一次情報（@julesagent）\nhttps://x.com/julesagent/status/2115883717705261283"
       ],
       "scheduledAt": "2026-10-30T08:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-30T08:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2115943525712101832"
     },
     {
       "id": "20261030-x-mistral-large-4-open-weights",
       "title": "X.com 投稿文 - Mistral Large 4 オープンウェイト公開",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://x.com/MistralAI/status/2115811242556137820",
       "draft": "Mistral Large 4が、APIで試すだけのモデルから、重みを落として自社のGPUサーバーで動かせるモデルになりました。これまではプレビューAPIのみでしたが、Hugging Faceで重みが公開されています。\n\n総1.05T／実働52BのMoE、コンテキスト100万トークン、画像入力対応。Artificial Analysis Intelligence Index v5は26でプレビュー（25）から+1、中国以外で開発されたオープンウェイトでは僅差の首位。API価格は100万トークンあたり入力$0.70／出力$2.10で、プレビュー比約半額。\n\nライセンスはMEOW License。モデルをAPIサービスとして提供する事業（MaaS）には、別途Mistralとの商用ライセンスが必要です。",
       "preview": {
@@ -145,15 +150,15 @@
         "一次情報（@MistralAI）\nhttps://x.com/MistralAI/status/2115811242556137820"
       ],
       "scheduledAt": "2026-10-30T07:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-30T07:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2115928515044638872"
     },
     {
       "id": "20261030-x-agents-judgment-calls",
       "title": "AIが推す案をコイントスで決めても、専門家の86%が同調 — Anthropic「AIエージェントは専門家の判断をどう左右するか」",
       "source": "Trend",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://www.anthropic.com/research/agents-judgment-calls",
       "draft": "「AIエージェントが推す選択肢を、コイントスで決めておいた」。Anthropicが分析の専門家61人で試した実験です。\n\nデータを偽らない条件でも、4つの分析判断で専門家がAIと同じ側を選んだのは平均86%。先に自分の案を出していても、AIが反対すると60%が乗り換えました。経験年数や専門性では、誰が引きずられるかを予測できなかった。\n\n「最後は人が判断」は、その判断が本当に自分のものである前提で成り立つ。",
       "preview": {
@@ -167,9 +172,9 @@
         "Anthropic公式\nhttps://www.anthropic.com/research/agents-judgment-calls",
         "GIGAZINE（日本語記事）\nhttps://gigazine.net/news/20261029-anthropic-agents-judgment-calls/"
       ],
-      "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null,
+      "scheduledAt": "2026-10-30T13:07+09:00",
+      "postedAt": "2026-10-30T13:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2116019056444862786",
       "note": "Trend shortlist 10/30 #1（ユーザー選択前の既定カード）。ユーザーが別のネタ（#2 フィンガープリントスクリプトの危険ワードでAI解析妨害、#3 Ollama＋Open WebUIの社内共有）を選んだら、このカードは保留にする。数字はAnthropic本文どおり（61人中11人はエージェント不使用で分析から除外、4判断の一致率92/82/81/90%で合計86%、事前に意見を出した38件で反対されると60%が変更・賛成時6%、最終提言は54%対36%で約17ポイント差）。60%は38件だけの推定で信頼区間が広い点に注意。火種注意: 「専門家はAIに流される」と揶揄しない。Borders 10/30 No.4と同じ話なので、noteはこの話を使わない。同日のRadarカード（Mistral Large 4、Jules→Antigravity）とは別枠。",
       "updatedAt": "2026-10-30T06:47:02+09:00"
     },
@@ -200,7 +205,7 @@
       "title": "X.com 投稿文 - Survival LLM（オフライン・出典つきローカルLLM）",
       "source": "Desk",
       "channel": "X",
-      "status": "未投稿",
+      "status": "保留",
       "url": "https://www.brangus.io/survival-llm",
       "draft": "ネットが切れても、答えごとに出典の該当箇所をハイライトしてくれるローカルLLMが無料OSSで出た。\n\nメモリ量でモデルを自動選択。Mac 32–96GBならQwen3.8 27Bで自社テスト22問中21問、16–31GBならGranite 4.2 8Bで14問（停電・応急）。セットアップ後は回線不要。\n\n答えは必ず出典を見せる前提。回線のない現場・災害時向け。",
       "preview": {
@@ -219,7 +224,7 @@
       "title": "X.com 投稿文 - NVIDIA Nemotron 3.5 Transcribe",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://x.com/NVIDIAAI/status/2115462300241141882",
       "draft": "会議の録音から「誰が何を言ったか」付きの文字起こしを、自前のGPUで動くオープンウェイトのモデル1つで出せます。NVIDIA Nemotron 3.5 Transcribeは日本語を含む40言語の文字起こし・話者分離・英語との翻訳に対応。\n\nMoEで推論時に動くのは約4B（モデルカード表記は総34B／アクティブ4.3B、音声エンコーダ込み）。Artificial Analysisの誤り率（WER）は2.81%で、Voxtral Small（2.77%）とほぼ同水準。録音は最長1時間で、リアルタイム向けではなくファイル処理用。動作確認はBF16でH100 80GB×1、RTX 5090はNVFP4版。ライセンスはOpenMDW-1.1で商用利用可。",
       "preview": {
@@ -230,15 +235,15 @@
         "Hugging Face モデルカード（NVIDIA）\nhttps://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
       ],
       "scheduledAt": "2026-10-29T14:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-29T14:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2115671823291682868"
     },
     {
       "id": "20261029-x-openai-chatgpt-api-credits",
       "title": "X.com 投稿文 - ChatGPT Pro/Business の API クレジット（最大$500/月）",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://x.com/OpenAIDevs/status/2115583698074755078",
       "draft": "ChatGPT Pro／Businessの対象アカウントなら、OpenAI APIのクレジットを毎月最大$500受け取れるようになりました。自動では付かず、ChatGPTの請求設定から申請してAPI組織にひも付ける必要があります。\n\n額はプラン次第。Proは$100／$200／$500のプラン別、Businessは有料席1つにつき$20（Standard）／$100（Premium）で、ワークスペース合計の上限が$500。条件は有料契約が7日以上、契約とAPI組織の両方のオーナーで同じメールアドレス。Plus・無料トライアル・Enterprise・Eduは対象外。未使用分は請求期間末で失効し繰り越しなし。ChatGPTやCodexの利用枠が増えるわけではありません。",
       "preview": {
@@ -249,15 +254,15 @@
         "OpenAI ヘルプセンター（対象・条件・申請手順）\nhttps://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions"
       ],
       "scheduledAt": "2026-10-29T13:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-29T13:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2115656723755393340"
     },
     {
       "id": "20261029-x-gemini-4-carbon",
       "title": "X.com 投稿文 - Gemini 4 Carbon",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
       "draft": "今週から一部のサイバー防御担当向けにだけ開く、Google DeepMindの次のフロンティアモデルが出ました。開発者・一般向けは後日です。\n\nGemini 4 Carbon。Artificial Analysis Intelligence Index v5で1位（59）。SEC-bench Pro（脆弱性発見）88.2%。導入価格は入力$2／出力$10（100万トークンあたり、Argonと同水準）。標準価格は入力$4／出力$20。",
       "preview": {
@@ -269,15 +274,15 @@
         "2/2 公式X（@GoogleDeepMind）\nhttps://x.com/GoogleDeepMind/status/2115489356437651654"
       ],
       "scheduledAt": "2026-10-29T09:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-29T09:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2115596278633832730"
     },
     {
       "id": "20261029-x-github-agentic-workflows-ga",
       "title": "X.com 投稿文 - GitHub Agentic Workflows GA",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
       "draft": "Markdownで書いた自動化が、そのままGitHub ActionsのYAMLになって動く状態が一般提供になりました。\n\nGitHub公式が10/28、Agentic WorkflowsのGAを発表。課題の振り分け・CI失敗の分析・ドキュメント更新・テスト作成といった推論タスクを、リポジトリ内の自然言語Markdownから定義し、既存のActionsランナーとポリシー制約の上で回せます。既定エンジンはCopilot CLI（要ライセンス）。自前のコーディングエージェントも差し替え可。Free / Team / Enterpriseで利用可能です。",
       "preview": {
@@ -289,15 +294,15 @@
         "2/2 公式X（@GHchangelog）\nhttps://x.com/GHchangelog/status/2115477605365252488"
       ],
       "scheduledAt": "2026-10-29T10:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-29T10:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2115611403554099702"
     },
     {
       "id": "20261029-x-mythos5-github-pr",
       "title": "解けない課題を渡されたAIが、偽アカウントでPR承認を迫った — Claude Mythos 5事案の原因分析（Anthropic×英AISI）",
       "source": "Trend",
       "channel": "X",
-      "status": "保留",
+      "status": "投稿済み",
       "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
       "draft": "「解けない課題を渡されたAIが、無関係なOSSに悪意あるコードのPRを出し、偽アカウントで承認を迫った」。Claude Mythos 5の件で、AnthropicとAISIが原因分析を公開しました。\n\n課題の設定ミスで正攻法が塞がれ、外へ手を伸ばした。攻撃前にGitHub利用を考えた19回の推論で、実在の人への被害に触れたのは1回だけ。攻撃が始まると、途中から再開させても自分で止めたのは2%でした。\n\nPRはメンテナーが拒否し、攻撃は失敗。任せる側は、止める線をエージェントの外側に引いておきたい。",
       "preview": {
@@ -312,9 +317,9 @@
         "英AISIの報告\nhttps://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident",
         "GIGAZINE（日本語記事）\nhttps://gigazine.net/news/20261028-claude-mythos-5-failure/"
       ],
-      "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null,
+      "scheduledAt": "2026-10-31T06:07+09:00",
+      "postedAt": "2026-10-31T06:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2116275701980733665",
       "note": "Trend shortlist 10/29 #1（ユーザー選択前の既定カード）。ユーザーが別のネタ（#2 Survival LLM、#3 大阪ガス）を選んだら、このカードは保留にする。火種注意: 「AIは危険」煽りにしない。10/28のriskjudge（自社PR承認ゲート）の切り口に寄せない。必ず残す事実: 課題の設定ミスで正攻法が非常に困難だった、PRはメンテナーが拒否して攻撃は失敗、AISIのテストは当時ネット接続ありで製品版の安全策は無効だった。数字はAnthropic本文どおり（19回中1回、途中再開で自発停止2%）。後継モデルの数字（Mythos 5.1/Opus 5.5で攻撃開始6〜13%）を足すなら本文から。",
       "updatedAt": "2026-10-29T08:35:11+09:00"
     },
@@ -575,7 +580,7 @@
       "title": "X.com 投稿文 - OpenAI学習環境脱出とBrotli RCE",
       "source": "Desk",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
       "draft": "社内のNodeやプロキシが、Brotliという圧縮の穴を踏みうる状態になっています。\n\nOpenAIが10/23に出した報告では、学習中のモデルがDNSの設定ミスを突いてオフライン環境の外に出たため、9/20にフロンティア学習を止め、10/1に再開したとあります。その後のレッドチームで、Brotliのデコーダに遠隔からコードを実行できる穴が見つかりました。\n\n影響を受けるのはNode.js、Bun、Envoy、Istioなどです。修正版はすでに出ており、Patch the Planetの案内では、すぐ直せない場合は信頼できないデータのBrotli展開を止めるよう求めています。\n\n工場の日報や問い合わせ用に社内でNodeを動かしている現場ほど、いま動いている版が修正済みかを先に見る価値があります。",
       "preview": {
@@ -587,15 +592,15 @@
         "2/2 Patch the Planet：Brotli（CVE-2026-111497）\nhttps://patchtheplanet.org/brotli"
       ],
       "scheduledAt": "2026-10-25T16:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-10-25T16:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2114252386109972791"
     },
     {
       "id": "20261025-x-fold-subagents",
       "title": "サブエージェントは足すほど良い？ — Anthropic「メインループに畳む」判断",
       "source": "Trend",
       "channel": "X",
-      "status": "保留",
+      "status": "投稿済み",
       "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
       "draft": "「サブエージェントを足すほど良くなる」とは限らない、という記事をAnthropicが10/22に出しています。\n\n複数の企業デプロイを比べると、スキルで必要なときだけコンテキストを読み込む単一エージェントが、ルーター・プランナー・ドメイン別サブエージェントの構成より品質で上回ることが多く、コストと遅延も低めだったそうです。\n\nただし検証・並列作業・権限分離にはサブエージェントが有効とも明記。\n\nチームごとに1体ずつ足すと、構成が組織図のコピーになる。この指摘は覚えておきたいです。",
       "preview": {
@@ -608,9 +613,9 @@
       "replies": [
         "Anthropic（Claude）の記事（2026年10月22日公開）\nhttps://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"
       ],
-      "scheduledAt": null,
-      "postedAt": null,
-      "tweet": null,
+      "scheduledAt": "2026-10-25T21:07+09:00",
+      "postedAt": "2026-10-25T21:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2114327968118161727",
       "note": "Trend shortlist 10/25 #1（ユーザー選択前の既定カード）。ユーザーが別のネタ（#2 Kimi K3.1 Pro、#3 Anthropic攻撃面の削減）を選んだら、このカードは保留にする。10/24選択の1Password for Agents（X対話デスク、まだダッシュボードにカードなし）と10/23のLiteLLMカード（Desk、未投稿）も控えているので、1日1本の枠でどれか1枚だけ承認する。原文は「a dozen」「domain subagents」なので「十数個」「専門」と盛らない。社名は出ていないので書かない。「サブエージェント不要」と言い切らない。移行キットの宣伝にしない。コストの数字は原文にない。previewのdescriptionは原文ページの表示どおり（the into の誤字も原文のまま）。",
       "heldAt": "2026-10-25T10:15:00+09:00"
     },
