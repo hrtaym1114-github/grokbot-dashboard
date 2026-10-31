@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261101-x-northflank-ai-key-abuse",
+      "title": "X.com 投稿文 - Northflank侵害でAI APIキー不正利用（LLMJacking）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://status.northflank.com",
+      "draft": "NorthflankにAIのAPIキーを置いていたら、今すぐ発行元で無効化・再発行を。\n\nNorthflankは侵害を受け「環境変数はすべて復号されたと考えて」と案内。預けたAIのAPIキーの不正利用も利用者から報告されています（侵入経路は未公表）。\n\n確認：AIプロバイダの利用量と請求に、覚えのない急増がないか。",
+      "preview": {
+        "text": "NorthflankにAIのAPIキーを置いていたら、今すぐ発行元で無効化・再発行を。\n\nNorthflankは侵害を受け「環境変数はすべて復号されたと考えて」と案内。預けたAIのAPIキーの不正利用も利用者から報告されています（侵入経路は未公表）。\n\n確認：AIプロバイダの利用量と請求に、覚えのない急増がないか。",
+        "url": "https://status.northflank.com"
+      },
+      "replies": [
+        "BleepingComputer: Northflank security breach leads to abuse of customers' AI API keys\nhttps://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/"
+      ],
+      "scheduledAt": "2026-11-01T08:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261101-x-altman-dram-local",
       "title": "X.com 投稿文 - アルトマン「個人PCにDRAMを積むのは配分としてひどい」とローカルLLM",
       "source": "Trend",
