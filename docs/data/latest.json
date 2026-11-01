@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261101-x-ai-training-robots-token",
+      "title": "X.com 投稿文 - robots.txt共通トークン __usage_ai-training（OpenAI/Google/MS対応予定）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://datatracker.ietf.org/doc/html/draft-kelley-aipref-training-preference-signal-00",
+      "draft": "robots.txt数行で、OpenAI・Google・MicrosoftへAI学習拒否を一括で伝える形に。\n\nUser-Agent: __usage_ai-training\nDisallow: /\n\nクロールは止めず、「*」は対象外。MSは2027/2/1、Googleは同年、OpenAIは数カ月内に対応予定。AnthropicのKevin Kelleyの個人ドラフトで、IETFで正式な地位はまだない。",
+      "preview": {
+        "text": "robots.txt数行で、OpenAI・Google・MicrosoftへAI学習拒否を一括で伝える形に。\n\nUser-Agent: __usage_ai-training\nDisallow: /\n\nクロールは止めず、「*」は対象外。MSは2027/2/1、Googleは同年、OpenAIは数カ月内に対応予定。AnthropicのKevin Kelleyの個人ドラフトで、IETFで正式な地位はまだない。",
+        "url": "https://datatracker.ietf.org/doc/html/draft-kelley-aipref-training-preference-signal-00"
+      },
+      "replies": [
+        "ITmedia NEWS\nhttps://www.itmedia.co.jp/news/article/2611/01/2000002776/"
+      ],
+      "scheduledAt": "2026-11-01T10:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261101-x-northflank-ai-key-abuse",
       "title": "X.com 投稿文 - Northflank侵害でAI APIキー不正利用（LLMJacking）",
       "source": "Radar",
