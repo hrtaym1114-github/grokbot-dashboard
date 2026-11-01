@@ -45,7 +45,7 @@
       "title": "X.com 投稿文 - アルトマン「個人PCにDRAMを積むのは配分としてひどい」とローカルLLM",
       "source": "Trend",
       "channel": "X",
-      "status": "未投稿",
+      "status": "承認",
       "url": "https://cheekypint.substack.com/p/why-sam-altman-is-against-a-single",
       "draft": "アルトマン氏「DRAMを各自のPCに置いて5%の時間しか使わないのは、世界全体の配分としてかなりひどい」。\n\nStripe共同創業者John Collisonのポッドキャストでの発言で、メモリの供給が限られる今はクラウドで稼働率を最大化したい、という文脈です。\n\nただ、図面や検査画像のように社外に出せないデータの置き場所は、稼働率だけでは決まりません。ローカルLLMを検討中なら、先に「外に出せないデータ」を書き出してから台数を考えるのがおすすめです。",
       "preview": {
@@ -54,7 +54,8 @@
         "siteName": "Cheeky Pint",
         "title": "Why Sam Altman is against a single superintelligence",
         "description": "Sam Altman, CEO of OpenAI, joins John to break down how models uncovered critical PHP vulnerabilities, why test-time compute unlocks massive agent swarms, and OpenAI’s internal experiments proving complex math problems like Navier-Stokes."
-      }
+      },
+      "scheduledAt": "2026-11-01T10:07+09:00"
     },
     {
       "id": "20261031-x-unread-code-trust",
