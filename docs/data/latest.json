@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261101-x-vercel-agent-desktop",
+      "title": "X.com 投稿文 - Vercel Labs「agent-desktop」（OSのアクセシビリティツリーでデスクトップ操作）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "draft": "AIエージェントが画面推測でなくOSのアクセシビリティツリーでデスクトップアプリを操るOSS「agent-desktop」をVercel Labsが公開。\n\nRust製、macOS/Windows/Linux対応、Apache-2.0。参照が安定、再試行も安全。\n\n確認：npm i -g agent-desktop → agent-desktop snapshot --app Finder -i で要素一覧",
+      "preview": {
+        "text": "AIエージェントが画面推測でなくOSのアクセシビリティツリーでデスクトップアプリを操るOSS「agent-desktop」をVercel Labsが公開。\n\nRust製、macOS/Windows/Linux対応、Apache-2.0。参照が安定、再試行も安全。\n\n確認：npm i -g agent-desktop → agent-desktop snapshot --app Finder -i で要素一覧",
+        "url": "https://github.com/vercel-labs/agent-desktop"
+      },
+      "replies": [
+        "GitHub: vercel-labs/agent-desktop\nhttps://github.com/vercel-labs/agent-desktop"
+      ],
+      "scheduledAt": "2026-11-01T17:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261101-x-chatgpt-codex-shared-limit",
       "title": "X.com 投稿文 - ChatGPTとCodexの利用枠共通化（12月〜）",
       "source": "Radar",
