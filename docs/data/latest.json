@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261101-x-chatgpt-codex-shared-limit",
+      "title": "X.com 投稿文 - ChatGPTとCodexの利用枠共通化（12月〜）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "draft": "12月からChatGPTとCodexの利用枠が共通に（Plus・Pro・Business）。\n\n消費はトークン単位で、モデルやタスク次第。Instantチャットは消費なし。上限時は待つ・上位プラン・クレジット購入。大半の人はリセット待ちが今より増えない見込み（OpenAI）。\n\n確認：設定→使用量で合算残量とリセット時刻を。",
+      "preview": {
+        "text": "12月からChatGPTとCodexの利用枠が共通に（Plus・Pro・Business）。\n\n消費はトークン単位で、モデルやタスク次第。Instantチャットは消費なし。上限時は待つ・上位プラン・クレジット購入。大半の人はリセット待ちが今より増えない見込み（OpenAI）。\n\n確認：設定→使用量で合算残量とリセット時刻を。",
+        "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+      },
+      "replies": [
+        "OpenAI Help Center: Understanding ChatGPT and Codex usage limits\nhttps://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+      ],
+      "scheduledAt": "2026-11-01T14:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261101-x-ai-training-robots-token",
       "title": "X.com 投稿文 - robots.txt共通トークン __usage_ai-training（OpenAI/Google/MS対応予定）",
       "source": "Radar",
