@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - AIエージェント向けの業務手順書（Agent Skills）の設計方法（風音屋）",
       "source": "Trend",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://techblog.kazaneya.com/20261030-agent-skills/",
       "draft": "風音屋TechBlog「AIエージェント向けの業務手順書（Agent Skills）の設計方法」。日程調整スキルを題材に8つのコツ。\n\n「水曜はノー会議デー」も規則だけでなく「集中作業や突発対応に充てるため」と背景まで書く。背景を知るAIは「水曜ですが例外にしますか」と相談できる。\n\n工場の作業標準書も「なぜ」が抜けると崩れる。手順書だけ渡した別のAIに試運転させる、は新人教育そのもの。",
       "preview": {
@@ -18,7 +18,8 @@
         "description": "風音屋（@Kazaneya_PR）のゆずたそ（@yuzutas0）です。 この記事では、AIエージェント向けの業務手順書「Agent Skills」の設計方法を紹介します。 実際に私が使っている「ミーティング日程調整」スキルを題材にして、8つのコツを解説します。"
       },
       "scheduledAt": "2026-11-02T08:07+09:00",
-      "postedAt": null
+      "postedAt": "2026-11-02T08:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2117030752361865605"
     },
     {
       "id": "20261102-note-siemens-jimtof-digital-twin-humanoid",
