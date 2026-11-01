@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261102-x-claude-ultra-no-5h-limit",
+      "title": "X.com 投稿文 - Claude Ultra（旧Max 20x）認証済みは5時間制限なし",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan",
+      "draft": "Claude Ultra（旧Max 20x）は認証済みなら5時間制限なし。Claude Codeやエージェントの長い作業も5時間で区切られない。\n\n月$200のまま自動移行。週上限は残る（Proの10倍、Fableは別枠）。APIクレジット月$200。未認証は一時制限。\n\n確認：設定→使用量に「Current session」バーがなければ認証済み。",
+      "preview": {
+        "text": "Claude Ultra（旧Max 20x）は認証済みなら5時間制限なし。Claude Codeやエージェントの長い作業も5時間で区切られない。\n\n月$200のまま自動移行。週上限は残る（Proの10倍、Fableは別枠）。APIクレジット月$200。未認証は一時制限。\n\n確認：設定→使用量に「Current session」バーがなければ認証済み。",
+        "url": "https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan"
+      },
+      "replies": [
+        "Claude Help Center: What is the Ultra plan?\nhttps://support.claude.com/en/articles/17728952-what-is-the-ultra-plan"
+      ],
+      "scheduledAt": "2026-11-02T09:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261102-x-kazaneya-agent-skills",
       "title": "X.com 投稿文 - AIエージェント向けの業務手順書（Agent Skills）の設計方法（風音屋）",
       "source": "Trend",
