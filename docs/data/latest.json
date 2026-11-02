@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261102-x-volta-ai-victim-ranking",
+      "title": "X.com 投稿文 - VOLTA：AIが被害者を「金になる順」に格付けする窃取型マルウェア（Cisco Talos）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "draft": "盗んだパスワードやセッション、鍵をAIが「金になる順」に格付けする窃取型マルウェア「VOLTA」（Talos報告）。\n\n検体にはOpenRouter経由のClaude Opus 4.6がハードコード、拒否されるとKimi K2→Gemini 2.5 Flashへ切り替え。\n\nTalos対策例：想定外のプロセスによるChromeの--headless起動を検知。",
+      "preview": {
+        "text": "盗んだパスワードやセッション、鍵をAIが「金になる順」に格付けする窃取型マルウェア「VOLTA」（Talos報告）。\n\n検体にはOpenRouter経由のClaude Opus 4.6がハードコード、拒否されるとKimi K2→Gemini 2.5 Flashへ切り替え。\n\nTalos対策例：想定外のプロセスによるChromeの--headless起動を検知。",
+        "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/"
+      },
+      "replies": [
+        "Cisco Talos: Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer\nhttps://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/"
+      ],
+      "scheduledAt": "2026-11-02T16:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261102-x-triggerdev-env-var-breach",
       "title": "X.com 投稿文 - Trigger.dev侵害、一部組織の環境変数に不正アクセス",
       "source": "Radar",
