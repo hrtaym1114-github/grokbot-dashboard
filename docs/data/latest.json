@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - Claude Ultra（旧Max 20x）認証済みは5時間制限なし",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan",
       "draft": "Claude Ultra（旧Max 20x）は認証済みなら5時間制限なし。Claude Codeやエージェントの長い作業も5時間で区切られない。\n\n月$200のまま自動移行。週上限は残る（Proの10倍、Fableは別枠）。APIクレジット月$200。未認証は一時制限。\n\n確認：設定→使用量に「Current session」バーがなければ認証済み。",
       "preview": {
@@ -18,8 +18,8 @@
         "Claude Help Center: What is the Ultra plan?\nhttps://support.claude.com/en/articles/17728952-what-is-the-ultra-plan"
       ],
       "scheduledAt": "2026-11-02T09:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-02T09:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2117045788232806600"
     },
     {
       "id": "20261102-x-kazaneya-agent-skills",
