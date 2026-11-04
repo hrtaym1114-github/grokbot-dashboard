@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261104-x-langflow-cve-auth-bypass-rce",
+      "title": "X.com 投稿文 - Langflow 1.12.8以前にCVSS 9.8×2（認証回避・RCE）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://www.ibm.com/support/pages/node/7294467",
+      "draft": "Langflow 1.0.0〜1.12.8に、認証不要で突けるCVSS 9.8の欠陥が2件（認証回避とRCE）。外部公開なら即更新を。\n\nIBMは1.13.0への更新を推奨。RCEの1経路はMCPツール列挙経由で認証不要。1.13.0は自動ログインも既定オフに。\n\n確認：バージョン、外部からの到達性、LANGFLOW_AUTO_LOGINの設定。",
+      "preview": {
+        "text": "Langflow 1.0.0〜1.12.8に、認証不要で突けるCVSS 9.8の欠陥が2件（認証回避とRCE）。外部公開なら即更新を。\n\nIBMは1.13.0への更新を推奨。RCEの1経路はMCPツール列挙経由で認証不要。1.13.0は自動ログインも既定オフに。\n\n確認：バージョン、外部からの到達性、LANGFLOW_AUTO_LOGINの設定。",
+        "url": "https://www.ibm.com/support/pages/node/7294467"
+      },
+      "replies": [
+        "IBM Security Bulletin: Langflow OSS is affected by multiple vulnerabilities\nhttps://www.ibm.com/support/pages/node/7294467"
+      ],
+      "scheduledAt": "2026-11-04T11:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261104-x-gha-pull-request-target-block",
       "title": "X.com 投稿文 - GitHub Actions pull_request_target 既定ブロック（12/2〜）",
       "source": "Radar",
