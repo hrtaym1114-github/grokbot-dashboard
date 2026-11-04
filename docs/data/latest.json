@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - GitHub Copilot Fusion GA（有料プラン期間限定30%引き）",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
       "draft": "Copilotのモデル代、Copilot Fusionなら有料プランは期間限定30%引き。GitHubによると、Fusion MaxはClaude Code（Opus 5.5 Max）と2点差以内の60点を約半分のAPIコストで。\n\n全プランで提供（VS Code、CLI、JetBrains等）。\n\n確認：モデルピッカーでFusionを選び、Standard/High/Maxで請求を比べる。",
       "preview": {
@@ -18,8 +18,8 @@
         "GitHub Changelog: Route and orchestrate models with GitHub Copilot Fusion\nhttps://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/"
       ],
       "scheduledAt": "2026-11-04T15:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-04T15:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2117861228492247449"
     },
     {
       "id": "20261104-x-langflow-cve-auth-bypass-rce",
