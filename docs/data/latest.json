@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261104-x-gha-pull-request-target-block",
+      "title": "X.com 投稿文 - GitHub Actions pull_request_target 既定ブロック（12/2〜）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2",
+      "draft": "12/2からGitHub Actionsは公開リポジトリのpull_request_targetを既定でブロック(11/2から延期)。fork PRでCIを回すなら要対応。\n\n11/10と11/17の1〜3時(JST)は予行で該当ワークフローが失敗。非公開・内部リポジトリとGHESは対象外。\n\n確認：Insightsで対象を見て、必要ならイベントポリシーで許可。",
+      "preview": {
+        "text": "12/2からGitHub Actionsは公開リポジトリのpull_request_targetを既定でブロック(11/2から延期)。fork PRでCIを回すなら要対応。\n\n11/10と11/17の1〜3時(JST)は予行で該当ワークフローが失敗。非公開・内部リポジトリとGHESは対象外。\n\n確認：Insightsで対象を見て、必要ならイベントポリシーで許可。",
+        "url": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2"
+      },
+      "replies": [
+        "GitHub Changelog: pull_request_target blocked by default December 2\nhttps://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2"
+      ],
+      "scheduledAt": "2026-11-04T10:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261102-x-volta-ai-victim-ranking",
       "title": "X.com 投稿文 - VOLTA：AIが被害者を「金になる順」に格付けする窃取型マルウェア（Cisco Talos）",
       "source": "Radar",
