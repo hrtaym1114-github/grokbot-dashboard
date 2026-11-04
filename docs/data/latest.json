@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261105-x-haiou-codex-prompt-adware",
+      "title": "X.com 投稿文 - Codex脱獄パックHaiou＝プロンプトアドウェア（Check Point Research）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://research.checkpoint.com/2026/free-the-model-sell-the-gateway-prompt-adware-hidden-in-jailbreak-bundles/",
+      "draft": "脱獄パック「Haiou」をCodexに入れるとhi/helloに作者のLLM中継広告が返る。Check Pointいわく「プロンプトアドウェア」。\n\nグローバル指示とSkillsを自然言語で改変、中身はAES-256-GCM暗号化。作者の犯罪関与の証拠はないとも。\n\n確認：他人のSkillsや設定パック導入後グローバル指示の差分を見る。",
+      "preview": {
+        "text": "脱獄パック「Haiou」をCodexに入れるとhi/helloに作者のLLM中継広告が返る。Check Pointいわく「プロンプトアドウェア」。\n\nグローバル指示とSkillsを自然言語で改変、中身はAES-256-GCM暗号化。作者の犯罪関与の証拠はないとも。\n\n確認：他人のSkillsや設定パック導入後グローバル指示の差分を見る。",
+        "url": "https://research.checkpoint.com/2026/free-the-model-sell-the-gateway-prompt-adware-hidden-in-jailbreak-bundles/"
+      },
+      "replies": [
+        "Check Point Research: Free the Model, Sell the Gateway: Prompt Adware hidden in Jailbreak Bundles\nhttps://research.checkpoint.com/2026/free-the-model-sell-the-gateway-prompt-adware-hidden-in-jailbreak-bundles/"
+      ],
+      "scheduledAt": "2026-11-05T08:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261105-x-gemini-personal-training",
       "title": "X.com 投稿文 - Gemini、個人アカウントはKeep Activityオンで会話が学習・人のレビュー対象（有料プランの例外記載なし）",
       "source": "Trend",
