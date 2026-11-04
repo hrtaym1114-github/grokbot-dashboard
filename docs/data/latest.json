@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261105-x-kimi-k3-1-pro-open-weights",
+      "title": "X.com 投稿文 - Moonshot Kimi K3.1 Pro オープンウェイト（2.8T MoE・1M文脈）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "draft": "総2.8T・1M文脈のMoEがオープンウェイトに。Moonshotが「Kimi K3.1 Pro」を公開（アクティブ104B、MXFP4のQAT）。\n\n公式発表値はTerminal-Bench 4.0で65.7、SWE Marathon v1.1で51.7。vLLM・SGLang推奨。ライセンスは独自で要確認。\n\n確認：自前運用なら、ライセンス条項と必要なGPU規模を先に読む。",
+      "preview": {
+        "text": "総2.8T・1M文脈のMoEがオープンウェイトに。Moonshotが「Kimi K3.1 Pro」を公開（アクティブ104B、MXFP4のQAT）。\n\n公式発表値はTerminal-Bench 4.0で65.7、SWE Marathon v1.1で51.7。vLLM・SGLang推奨。ライセンスは独自で要確認。\n\n確認：自前運用なら、ライセンス条項と必要なGPU規模を先に読む。",
+        "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+      },
+      "replies": [
+        "moonshotai/Kimi-K3.1-Pro model card\nhttps://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+      ],
+      "scheduledAt": "2026-11-05T09:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261105-x-haiou-codex-prompt-adware",
       "title": "X.com 投稿文 - Codex脱獄パックHaiou＝プロンプトアドウェア（Check Point Research）",
       "source": "Radar",
