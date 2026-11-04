@@ -1,7 +1,51 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-05",
   "bookmarks": "skipped",
   "cards": [
+    {
+      "id": "20261105-x-gemini-personal-training",
+      "title": "X.com 投稿文 - Gemini、個人アカウントはKeep Activityオンで会話が学習・人のレビュー対象（有料プランの例外記載なし）",
+      "source": "Trend",
+      "channel": "X",
+      "status": "未投稿",
+      "url": "https://support.google.com/gemini/answer/13594961?hl=en",
+      "draft": "Geminiの個人アカウントでは「Keep Activity」がオンだと、会話が生成AIの学習に使われ、一部は人がレビューする（Google公式ヘルプ）。有料プランを例外とする記載は見当たらない。\n\nレビュー済みの会話はアクティビティを消しても最長3年残る。オフでも72時間は保持。\n\n仕事の図面や不具合ログを貼る前に設定を確認。仕事用のWorkspaceアカウントは別扱い。",
+      "preview": {
+        "text": "Geminiの個人アカウントでは「Keep Activity」がオンだと、会話が生成AIの学習に使われ、一部は人がレビューする（Google公式ヘルプ）。有料プランを例外とする記載は見当たらない。\n\nレビュー済みの会話はアクティビティを消しても最長3年残る。オフでも72時間は保持。\n\n仕事の図面や不具合ログを貼る前に設定を確認。仕事用のWorkspaceアカウントは別扱い。",
+        "url": "https://support.google.com/gemini/answer/13594961?hl=en",
+        "siteName": "Gemini Apps Help",
+        "title": "Gemini Apps Privacy Hub - Gemini Apps Help",
+        "description": "Last updated: October 26, 2026 Table of contents Gemini Apps Privacy Notice What data is collect"
+      },
+      "replies": [
+        "Gemini Apps Privacy Hub（Google）\nhttps://support.google.com/gemini/answer/13594961?hl=en",
+        "きっかけ：Tell HN（377pt）\nhttps://news.ycombinator.com/item?id=50363461"
+      ],
+      "scheduledAt": null,
+      "postedAt": null
+    },
+    {
+      "id": "20261105-note-tohoku-aisin-stt-mram-ai-chip",
+      "title": "東北大×アイシン、STT-MRAM搭載AIチップを開発——外付けDRAM・SSDなしでOS起動を約39倍高速化、AI処理のエネルギーは50分の1に",
+      "source": "Borders",
+      "channel": "note",
+      "status": "未投稿",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/04/news046.html",
+      "draft": "東北大×アイシン、STT-MRAM搭載AIチップを開発——外付けDRAM・SSDなしでOS起動を約39倍高速化、AI処理のエネルギーは50分の1に\n\n東北大学とアイシンは2026年11月2日、不揮発性メモリ「STT-MRAM」を搭載したAIチップを開発したと発表した。外付けのDRAMやSSDを必要としない「近メモリコンピューティング（NMC）」型で、従来比で電源投入からOS起動までを約39倍高速化し、物体検出などのAI処理時間を約10分の1、AI処理のエネルギー消費を50分の1に抑えたという。",
+      "preview": {
+        "title": "東北大×アイシン、STT-MRAM搭載AIチップを開発——外付けDRAM・SSDなしでOS起動を約39倍高速化、AI処理のエネルギーは50分の1に",
+        "lead": "東北大学とアイシンは2026年11月2日、不揮発性メモリ「STT-MRAM」を搭載したAIチップを開発したと発表した。外付けのDRAMやSSDを必要としない「近メモリコンピューティング（NMC）」型で、従来比で電源投入からOS起動までを約39倍高速化し、物体検出などのAI処理時間を約10分の1、AI処理のエネルギー消費を50分の1に抑えたという。",
+        "bodyPreview": "チップはTSMCの16nm FinFETプロセスで製造し、容量32MBのSTT-MRAM、AIアクセラレータ、Armの「Cortex-A53」2コアと「Mali-G31」などを集積した。「STT-MRAMを搭載した16nm AI SoCは世界初」（ニュースリリースより）としている。STT-MRAMにOSのブートデータとAIモデルの重みを置くことで、DRAMの初期化やSSDからの転送を省き、電源投入からOSカーネル起動までは従来方式の2535.3msから65.7msに短縮した。画像認識モデルTiny YOLOv3では、8ビットと16ビットを組み合わせた乗算で重みを17.7MBから9.36MBに減らし、mAPの低下は0.325から0.316にとどめた。チップ単体のAI処理時間は594.6msから58.5msに、推論エネルギーは1フレーム当たり50.7mJになった。成果は国際学会A-SSCC 2026（11月1～4日、台湾・新竹）で発表される予定。電源を入れてすぐに検査や監視を始めたい車載機器や工場設備のエッジAIにとって、「起動の待ち時間」と「電力」を同時に削る方向の成果として注目したい。"
+      },
+      "citations": [
+        {
+          "url": "https://monoist.itmedia.co.jp/mn/articles/2611/04/news046.html",
+          "siteName": "MONOist"
+        }
+      ],
+      "scheduledAt": null,
+      "postedAt": null
+    },
     {
       "id": "20261104-x-copilot-fusion-ga",
       "title": "X.com 投稿文 - GitHub Copilot Fusion GA（有料プラン期間限定30%引き）",
@@ -1443,10 +1487,22 @@
   ],
   "history": [
     {
+      "date": "2026-11-05",
+      "channel": "X",
+      "title": "Gemini、個人アカウントはKeep Activityオンで会話が学習・人のレビュー対象",
+      "status": "未投稿"
+    },
+    {
+      "date": "2026-11-05",
+      "channel": "note",
+      "title": "東北大×アイシン、STT-MRAM搭載AIチップを開発——外付けDRAM・SSDなしでOS起動を約39倍高速化、AI処理のエネルギーは50分の1に",
+      "status": "未投稿"
+    },
+    {
       "date": "2026-11-02",
       "channel": "X",
       "title": "AIエージェント向けの業務手順書（Agent Skills）の設計方法（風音屋）",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-11-02",
@@ -1470,7 +1526,7 @@
       "date": "2026-10-30",
       "channel": "X",
       "title": "AIが推す案をコイントスで決めても、専門家の86%が同調 — Anthropic「AIエージェントは専門家の判断をどう左右するか」",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-30",
@@ -1488,7 +1544,7 @@
       "date": "2026-10-29",
       "channel": "X",
       "title": "解けない課題を渡されたAIが、偽アカウントでPR承認を迫った — Claude Mythos 5事案の原因分析（Anthropic×英AISI）",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-29",
@@ -1559,7 +1615,7 @@
       "date": "2026-10-25",
       "channel": "X",
       "title": "サブエージェントは足すほど良い？ — Anthropic「メインループに畳む」判断",
-      "status": "保留"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-23",
@@ -1578,7 +1634,7 @@
       "date": "2026-10-22",
       "channel": "note",
       "title": "DMG森精機、工作機械の不具合対応を生成AIが支援する「サービスエージェント」——対話で状況を整理し、その場で試せる解決策を提示",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-21",
@@ -1609,7 +1665,7 @@
       "date": "2026-10-20",
       "channel": "note",
       "title": "AGC、熟練者の「しゃべり」を生成AIで手順書・判断フローに——音声で作業ログを残す「SmartLogger Voice」、作業分析時間は10分の1以下に",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-19",
@@ -1621,7 +1677,7 @@
       "date": "2026-10-19",
       "channel": "note",
       "title": "ヤマザキマザックとABEJA、工作機械に「フィジカルAI」——図面から加工工程を、現場の状況から生産スケジュールをAIが提案、2028年度内の製品化へ",
-      "status": "未投稿"
+      "status": "投稿済み"
     },
     {
       "date": "2026-10-16",
@@ -1633,7 +1689,7 @@
       "date": "2026-10-16",
       "channel": "note",
       "title": "西武鉄道、変電所にフィジカルAIロボット「ugo mini」を常駐——1日3回の自動巡回でメーターを読み取り、「状態基準」の保全へ",
-      "status": "捨て済み",
+      "status": "投稿済み",
       "discardedAt": "2026-10-25T10:10:00+09:00"
     },
     {
@@ -1646,7 +1702,7 @@
       "date": "2026-10-15",
       "channel": "note",
       "title": "オムロン、米産業用PCメーカーOnLogicを約1067億円で買収——PLCとIPCを一体化し「作りながら最適化する」フィジカルAI基盤へ",
-      "status": "捨て済み",
+      "status": "投稿済み",
       "discardedAt": "2026-10-25T10:10:00+09:00"
     },
     {
@@ -1738,8 +1794,8 @@
     }
   ],
   "empty": {
-    "X": "今日（11/2 月）のXは、ユーザーの選択がまだないのでTrend候補#1（風音屋のAgent Skills設計、はてブ671）を既定カードとして1枚。未投稿。本文は記事本文を読んで書き、主張チェックは「支持（記事の要約として）」。#2 Memdoor（誤解を招く）や#3 ブラジルのプロンプトインジェクション制裁を選んだらこのカードは保留にする。",
-    "note": "今日は1本（Borders #8 シーメンスJIMTOF2026、MONOist）。Agent SkillsはXで扱うのでnoteには回さない。",
+    "X": "今日（11/5 木）のXは、ユーザーの選択がまだないのでTrend候補#1（Geminiの個人アカウントの学習扱い、Tell HN 377pt）を既定カードとして1枚。未投稿。本文はGoogle公式のGemini Apps Privacy Hubを読んで書き、主張チェックの「一部支持」に合わせて「有料でも学習される」とは断定せず「有料プランを例外とする記載は見当たらない」とした。#2 Binance（偽Homebrewと偽面接は別段階）や#3 RTX Spark（35%は誤解を招く）を選んだらこのカードは保留にする。",
+    "note": "今日は1本（Borders #4 東北大×アイシンのSTT-MRAM搭載AIチップ、MONOist）。Binanceの件はXの候補#2と同じ話なのでnoteには回さない。ISO 21423（AGV/AMR相互運用規格）は元記事のThe Robot Reportが開けなかったので見送り。",
     "Zenn": "今日は0本（検証原稿なし）",
     "ブログ": "今日は0本（本人のローカルLLM実測の新しい材料なし）"
   },
