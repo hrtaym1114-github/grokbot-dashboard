@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261105-x-llamacpp-b12127-metal",
+      "title": "X.com 投稿文 - llama.cpp b12127：Metalで出力がグラフのノード数に左右されなくなる（#31688）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12127",
+      "draft": "MacのMetalでローカルLLMを検証するなら、llama cpp b12127で同じ計算の出力がグラフのノード数に左右されなくなった。速度・品質は不変とPR。\n\nコマンドバッファ境界が融合ノード群の途中に入ると、融合されず丸めが変わっていた（#31688）。\n\n確認：b12127でブランチ間のA/B出力が一致するか見る。",
+      "preview": {
+        "text": "MacのMetalでローカルLLMを検証するなら、llama cpp b12127で同じ計算の出力がグラフのノード数に左右されなくなった。速度・品質は不変とPR。\n\nコマンドバッファ境界が融合ノード群の途中に入ると、融合されず丸めが変わっていた（#31688）。\n\n確認：b12127でブランチ間のA/B出力が一致するか見る。",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12127"
+      },
+      "replies": [
+        "llama.cpp release b12127\nhttps://github.com/ggml-org/llama.cpp/releases/tag/b12127"
+      ],
+      "scheduledAt": "2026-11-05T18:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261105-x-llamacpp-b12125-adreno-gemv",
       "title": "X.com 投稿文 - llama.cpp b12125：Adreno X2でf32/q5_KマルチカラムGEMVが既定に",
       "source": "Radar",
