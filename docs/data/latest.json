@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261106-x-copilot-cli-1-0-106-11-image-send",
+      "title": "X.com 投稿文 - Copilot CLI v1.0.106-11：消した画像が送られなくなる",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-11",
+      "draft": "Copilot CLIで、プロンプトから消した画像がまだ送られていた不具合が直った。v1.0.106-11。\n\nCtrl+U／K／Wで消した画像や、履歴呼び出しで差し替えた画像は、もうメッセージと一緒に送られない。Ctrl+Sでの一時退避もそのあと使える。\n\n確認：copilot --version が1.0.106-11以降か見て更新する。",
+      "preview": {
+        "text": "Copilot CLIで、プロンプトから消した画像がまだ送られていた不具合が直った。v1.0.106-11。\n\nCtrl+U／K／Wで消した画像や、履歴呼び出しで差し替えた画像は、もうメッセージと一緒に送られない。Ctrl+Sでの一時退避もそのあと使える。\n\n確認：copilot --version が1.0.106-11以降か見て更新する。",
+        "url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-11"
+      },
+      "replies": [
+        "GitHub Copilot CLI release v1.0.106-11\nhttps://github.com/github/copilot-cli/releases/tag/v1.0.106-11"
+      ],
+      "scheduledAt": "2026-11-06T10:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261106-x-gemini-omni-1-2-flash",
       "title": "X.com 投稿文 - Gemini Omni 1.2 Flash（15秒・価格30%引き・API/Cloud GA）",
       "source": "Radar",
