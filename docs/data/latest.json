@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - Moonshot Kimi K3.1 Pro オープンウェイト（2.8T MoE・1M文脈）",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
       "draft": "総2.8T・1M文脈のMoEがオープンウェイトに。Moonshotが「Kimi K3.1 Pro」を公開（アクティブ104B、MXFP4のQAT）。\n\n公式発表値はTerminal-Bench 4.0で65.7、SWE Marathon v1.1で51.7。vLLM・SGLang推奨。ライセンスは独自で要確認。\n\n確認：自前運用なら、ライセンス条項と必要なGPU規模を先に読む。",
       "preview": {
@@ -18,8 +18,8 @@
         "moonshotai/Kimi-K3.1-Pro model card\nhttps://huggingface.co/moonshotai/Kimi-K3.1-Pro"
       ],
       "scheduledAt": "2026-11-05T09:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-05T09:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2118132955164143672"
     },
     {
       "id": "20261105-x-haiou-codex-prompt-adware",
@@ -45,7 +45,7 @@
       "title": "X.com 投稿文 - Gemini、個人アカウントはKeep Activityオンで会話が学習・人のレビュー対象（有料プランの例外記載なし）",
       "source": "Trend",
       "channel": "X",
-      "status": "未投稿",
+      "status": "投稿済み",
       "url": "https://support.google.com/gemini/answer/13594961?hl=en",
       "draft": "Geminiの個人アカウントでは「Keep Activity」がオンだと、会話が生成AIの学習に使われ、一部は人がレビューする（Google公式ヘルプ）。有料プランを例外とする記載は見当たらない。\n\nレビュー済みの会話はアクティビティを消しても最長3年残る。オフでも72時間は保持。\n\n仕事の図面や不具合ログを貼る前に設定を確認。仕事用のWorkspaceアカウントは別扱い。",
       "preview": {
@@ -59,8 +59,9 @@
         "Gemini Apps Privacy Hub（Google）\nhttps://support.google.com/gemini/answer/13594961?hl=en",
         "きっかけ：Tell HN（377pt）\nhttps://news.ycombinator.com/item?id=50363461"
       ],
-      "scheduledAt": null,
-      "postedAt": null
+      "scheduledAt": "2026-11-05T09:07+09:00",
+      "postedAt": "2026-11-05T09:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2118132950554620086"
     },
     {
       "id": "20261105-note-tohoku-aisin-stt-mram-ai-chip",
