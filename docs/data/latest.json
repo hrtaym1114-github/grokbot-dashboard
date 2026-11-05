@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - llama.cpp b12125：Adreno X2でf32/q5_KマルチカラムGEMVが既定に",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12125",
       "draft": "Adreno X2（Snapdragon）でローカルLLMを回すなら、llama cpp b12125でMTP検証を速くする設定が既定に。\n\n中身はOpenCLのf32/q5_KマルチカラムGEMV（#31694）。PRの計測ではllama-speculative-simpleで、Qwen3.5-9B Q4_K_Mの生成が13.6→17.2 t/s。\n\n確認：b12125に更新し、同じ条件でt/sを比べる。",
       "preview": {
@@ -18,8 +18,8 @@
         "llama.cpp release b12125\nhttps://github.com/ggml-org/llama.cpp/releases/tag/b12125"
       ],
       "scheduledAt": "2026-11-05T17:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-05T17:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2118253747755442333"
     },
     {
       "id": "20261105-x-openai-images-2-6",
