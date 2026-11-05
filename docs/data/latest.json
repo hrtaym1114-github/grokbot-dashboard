@@ -26,7 +26,7 @@
       "title": "X.com 投稿文 - OpenAI GPT-6 Cyber（ExploitGym 48.5%、Daybreak Red）",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
       "draft": "OpenAIが「GPT-6 Cyber」を発表。ExploitGym 48.5%（前世代32.1%）。Daybreak Red承認顧客にAPI・Codexから段階拡大。\n\nFirefoxで未公開の高深刻度脆弱性81件を発見（多くはMozillaが修正済みとOpenAI）。対象外逸脱はデプロイ用プロンプトありで100%。\n\n確認：Daybreak申請とスコープ内拒否率を見る。",
       "preview": {
@@ -37,8 +37,8 @@
         "OpenAI: GPT-6 Cyber\nhttps://openai.com/index/introducing-gpt-6-cyber"
       ],
       "scheduledAt": "2026-11-06T08:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-06T08:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2118480334501404699"
     },
     {
       "id": "20261102-blog-local-llm-coding-context-length",
@@ -77,7 +77,7 @@
       "title": "X.com 投稿文 - Binance約63億ドル流出、入口は偽Homebrewと偽の採用面接の2段階（Binance公式）",
       "source": "Trend",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://www.binance.com/en/blog/community/3229153443759566763",
       "draft": "Binanceの約63億ドル流出、入口は1つではなかった（Binance公式の経緯説明）。\n\n6月：エンジニアがAIコーディングツールを入れようと検索し、改ざんされたHomebrewを導入。これは検知され、端末交換済み。\n9月：別のエンジニアが偽の採用面接で「課題」のリポジトリを実行。流出につながったのはこちら。\n\nツールは公式サイトから入れる。面接の課題は手元で実行しない。",
       "preview": {
@@ -92,7 +92,8 @@
         "報道：The Register\nhttps://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398"
       ],
       "scheduledAt": "2026-11-06T08:07+09:00",
-      "postedAt": null
+      "postedAt": "2026-11-06T08:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2118480329392656728"
     },
     {
       "id": "20261106-note-panasonic-t-rex-tactile-vla",
