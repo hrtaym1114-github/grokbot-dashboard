@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261105-x-openai-images-2-6",
+      "title": "X.com 投稿文 - OpenAI Images 2.6（50%高速、GIF、SVG、complexity）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "draft": "OpenAIの画像生成が50%速く。Images 2.6をChatGPT・Codex全プランとAPIで提供。\n\nGIF生成に対応。APIはSVG書き出しと画像マークアップ、速さのFlare（低品質で最短約6秒）と編集の一貫性のSunburst。complexityは手早い編集なら低。\n\n確認：既存の編集をcomplexity低で回し、時間と仕上がりを比べる。",
+      "preview": {
+        "text": "OpenAIの画像生成が50%速く。Images 2.6をChatGPT・Codex全プランとAPIで提供。\n\nGIF生成に対応。APIはSVG書き出しと画像マークアップ、速さのFlare（低品質で最短約6秒）と編集の一貫性のSunburst。complexityは手早い編集なら低。\n\n確認：既存の編集をcomplexity低で回し、時間と仕上がりを比べる。",
+        "url": "https://openai.com/index/introducing-images-2-6"
+      },
+      "replies": [
+        "OpenAI: Introducing Images 2.6\nhttps://openai.com/index/introducing-images-2-6"
+      ],
+      "scheduledAt": "2026-11-05T11:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261105-x-openai-linux-948-lpe",
       "title": "X.com 投稿文 - OpenAI自動パイプラインがLinux LPE 948件を検証・パッチ生成",
       "source": "Radar",
