@@ -26,7 +26,7 @@
       "title": "X.com 投稿文 - OpenAI自動パイプラインがLinux LPE 948件を検証・パッチ生成",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
       "draft": "更新が遅れたLinuxの低権限アカウントは、強い攻撃者には実質rootと同等とOpenAI。\n\nOpenAIによると、公開予定のサイバー用モデルが、SMEP/SMAP/KASLR有効の標準デスクトップで948件の権限昇格を検証し修正パッチも生成。APIコスト約121万ドル。\n\n確認：カーネル更新。隔離にFirecrackerやgVisorも。",
       "preview": {
@@ -37,8 +37,8 @@
         "OpenAI: A thousand fewer paths to root\nhttps://openai.com/index/a-thousand-fewer-paths-to-root"
       ],
       "scheduledAt": "2026-11-05T10:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-05T10:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2118148140369051905"
     },
     {
       "id": "20261105-x-kimi-k3-1-pro-open-weights",
