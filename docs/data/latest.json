@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261106-x-openai-gpt-6-cyber",
+      "title": "X.com 投稿文 - OpenAI GPT-6 Cyber（ExploitGym 48.5%、Daybreak Red）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "draft": "OpenAIが「GPT-6 Cyber」を発表。ExploitGym 48.5%（前世代32.1%）。Daybreak Red承認顧客にAPI・Codexから段階拡大。\n\nFirefoxで未公開の高深刻度脆弱性81件を発見（多くはMozillaが修正済みとOpenAI）。対象外逸脱はデプロイ用プロンプトありで100%。\n\n確認：Daybreak申請とスコープ内拒否率を見る。",
+      "preview": {
+        "text": "OpenAIが「GPT-6 Cyber」を発表。ExploitGym 48.5%（前世代32.1%）。Daybreak Red承認顧客にAPI・Codexから段階拡大。\n\nFirefoxで未公開の高深刻度脆弱性81件を発見（多くはMozillaが修正済みとOpenAI）。対象外逸脱はデプロイ用プロンプトありで100%。\n\n確認：Daybreak申請とスコープ内拒否率を見る。",
+        "url": "https://openai.com/index/introducing-gpt-6-cyber"
+      },
+      "replies": [
+        "OpenAI: GPT-6 Cyber\nhttps://openai.com/index/introducing-gpt-6-cyber"
+      ],
+      "scheduledAt": "2026-11-06T08:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261102-blog-local-llm-coding-context-length",
       "title": "ローカルLLMでコーディングは文脈長64kが分かれ目",
       "source": "Desk",
