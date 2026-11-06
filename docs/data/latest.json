@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - Copilot CLI v1.0.106-11：消した画像が送られなくなる",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-11",
       "draft": "Copilot CLIで、プロンプトから消した画像がまだ送られていた不具合が直った。v1.0.106-11。\n\nCtrl+U／K／Wで消した画像や、履歴呼び出しで差し替えた画像は、もうメッセージと一緒に送られない。Ctrl+Sでの一時退避もそのあと使える。\n\n確認：copilot --version が1.0.106-11以降か見て更新する。",
       "preview": {
@@ -18,8 +18,8 @@
         "GitHub Copilot CLI release v1.0.106-11\nhttps://github.com/github/copilot-cli/releases/tag/v1.0.106-11"
       ],
       "scheduledAt": "2026-11-06T10:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-06T10:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2118510528310173866"
     },
     {
       "id": "20261106-x-gemini-omni-1-2-flash",
