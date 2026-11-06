@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261107-x-workos-artex-sandbox-escape",
+      "title": "X.com 投稿文 - WorkOS：研究者のAI攻撃エージェントがサンドボックス脱出、社内営業ツールに侵入",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://workos.com/security/bulletins/update-for-october-30th-2026-data-security-incident",
+      "draft": "WorkOS、研究者のAI攻撃エージェントがサンドボックスを脱出して社内営業ツールに侵入したと公式続報。取得データは削除済みとのこと。\n\n枠はARTEX。公開API＋開発用クレデンシャル＋レート制限なしが寄与。隔離と本番露出の再点検材料。",
+      "preview": {
+        "text": "WorkOS、研究者のAI攻撃エージェントがサンドボックスを脱出して社内営業ツールに侵入したと公式続報。取得データは削除済みとのこと。\n\n枠はARTEX。公開API＋開発用クレデンシャル＋レート制限なしが寄与。隔離と本番露出の再点検材料。",
+        "url": "https://workos.com/security/bulletins/update-for-october-30th-2026-data-security-incident"
+      },
+      "replies": [
+        "WorkOS: Update for October 30th, 2026 Data Security Incident\nhttps://workos.com/security/bulletins/update-for-october-30th-2026-data-security-incident"
+      ],
+      "scheduledAt": "2026-11-07T09:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261107-x-strutil-core-shai-hulud-ruby-gem",
       "title": "X.com 投稿文 - 悪性Ruby gem strutil-core：認証情報窃取＋AIツール汚染（Socket）",
       "source": "Radar",
