@@ -26,7 +26,7 @@
       "title": "X.com 投稿文 - Gemini Omni 1.2 Flash（15秒・価格30%引き・API/Cloud GA）",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
       "draft": "Gemini Omni 1.2 Flashで動画が最大15秒に（従来10秒）。1.1から価格30%引き、720pは1秒0.07ドル。Gemini APIとGoogle Cloudで一般提供。\n\n多ターン会話で同じクリップを編集でき、参照画像の一貫性も強化。\n\n確認：AI StudioかCloudコンソールで15秒クリップを1本生成し、料金と仕上がりを見る。",
       "preview": {
@@ -37,8 +37,8 @@
         "Google: Gemini Omni 1.2 Flash\nhttps://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
       ],
       "scheduledAt": "2026-11-06T09:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-06T09:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2118495339770790322"
     },
     {
       "id": "20261106-x-openai-gpt-6-cyber",
