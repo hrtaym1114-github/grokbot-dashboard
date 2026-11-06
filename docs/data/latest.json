@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - 悪性Ruby gem strutil-core：認証情報窃取＋AIツール汚染（Socket）",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://socket.dev/blog/shai-hulud-descendant-malicious-ruby-gem",
       "draft": "悪性Ruby gem「strutil-core 1.0.1」はinstallした瞬間に認証情報ワームが走る。Socket調査。AIコーディングツールのMCPや設定も汚染する。\n\nShai-Hulud系の派生。依存プロジェクトや被害者は未確認。トークン失効でホーム削除のワイパー付き。\n\n確認：strutil-coreの有無。怪しいworkspace-tools MCPやSessionStartを消す。トークン失効はワイパー停止後に。",
       "preview": {
@@ -18,8 +18,8 @@
         "Socket: Shai-Hulud Descendant Surfaces in Malicious Ruby Gem That Steals Credentials and Poisons AI Tools\nhttps://socket.dev/blog/shai-hulud-descendant-malicious-ruby-gem"
       ],
       "scheduledAt": "2026-11-07T08:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-07T08:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2118842670076588212"
     },
     {
       "id": "20261106-x-copilot-cli-1-0-106-11-image-send",
