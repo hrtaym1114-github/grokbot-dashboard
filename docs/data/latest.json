@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261107-x-claude-code-dont-ask-again-secrets",
+      "title": "X.com 投稿文 - Claude Code「Don't Ask Again」がGitHub公開リポに秘密情報1,122件（Apiiro）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "draft": "Claude Codeの「Don't Ask Again」承認が、コマンドに書いたパスワードやAPIキーごと `.claude/settings.local.json` に残る。Apiiro調査で公開GitHubに秘密入りが1,122件。\n\n先にローテーション。履歴とforkも見る。コマンドに秘密を直書きしない。",
+      "preview": {
+        "text": "Claude Codeの「Don't Ask Again」承認が、コマンドに書いたパスワードやAPIキーごと `.claude/settings.local.json` に残る。Apiiro調査で公開GitHubに秘密入りが1,122件。\n\n先にローテーション。履歴とforkも見る。コマンドに秘密を直書きしない。",
+        "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+      },
+      "replies": [
+        "1/2 Apiiro: Coding agents leaking secrets on GitHub via “don’t ask again”\nhttps://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+        "2/2 The Hacker News（同件報道）\nhttps://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html"
+      ],
+      "scheduledAt": "2026-11-07T18:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261107-x-meta-muse-spaces-specialized-models",
       "title": "X.com 投稿文 - Meta Muse：spacesで自分用ツール作成＋Wonder特化モデル順次導入",
       "source": "Radar",
