@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261107-x-copilot-code-review-api-management",
+      "title": "X.com 投稿文 - Copilot code review：REST/GraphQL APIで設定管理が可能に",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+      "draft": "GitHub Copilot code reviewの設定が、REST・GraphQL APIでEnterprise方針からリポジトリ単位まで管理できるようになった。\n\nレビューとコメントに帰属・effort・skills/MCP出典のフィールドも追加。概要コメントはコンパクト化。管理者向けの運用自動化フック。",
+      "preview": {
+        "text": "GitHub Copilot code reviewの設定が、REST・GraphQL APIでEnterprise方針からリポジトリ単位まで管理できるようになった。\n\nレビューとコメントに帰属・effort・skills/MCP出典のフィールドも追加。概要コメントはコンパクト化。管理者向けの運用自動化フック。",
+        "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates"
+      },
+      "replies": [
+        "GitHub Changelog: Copilot code review API management and review overview updates\nhttps://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates"
+      ],
+      "scheduledAt": "2026-11-07T11:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261107-x-github-copilot-slack-teams-ga",
       "title": "X.com 投稿文 - GitHub @GitHub in Slack/Teams が一般提供開始",
       "source": "Radar",
