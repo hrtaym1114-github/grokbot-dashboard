@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - Copilot code review：REST/GraphQL APIで設定管理が可能に",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
       "draft": "GitHub Copilot code reviewの設定が、REST・GraphQL APIでEnterprise方針からリポジトリ単位まで管理できるようになった。\n\nレビューとコメントに帰属・effort・skills/MCP出典のフィールドも追加。概要コメントはコンパクト化。管理者向けの運用自動化フック。",
       "preview": {
@@ -18,8 +18,8 @@
         "GitHub Changelog: Copilot code review API management and review overview updates\nhttps://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates"
       ],
       "scheduledAt": "2026-11-07T11:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-07T11:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2118887924863479877"
     },
     {
       "id": "20261107-x-github-copilot-slack-teams-ga",
