@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261107-x-github-copilot-slack-teams-ga",
+      "title": "X.com 投稿文 - GitHub @GitHub in Slack/Teams が一般提供開始",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/",
+      "draft": "GitHubのSlack・Teams連携「@GitHub」が一般提供開始。会話のままバグ調査・Issue・実装・PRまで進められる。\n\nTeamsはCanvasで実装計画・差分・プレビューを同席レビュー。リポジトリ自動判定とフォローアップ応答も改善。チャットから出ずに回す人向け。",
+      "preview": {
+        "text": "GitHubのSlack・Teams連携「@GitHub」が一般提供開始。会話のままバグ調査・Issue・実装・PRまで進められる。\n\nTeamsはCanvasで実装計画・差分・プレビューを同席レビュー。リポジトリ自動判定とフォローアップ応答も改善。チャットから出ずに回す人向け。",
+        "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/"
+      },
+      "replies": [
+        "GitHub Changelog: @GitHub in Slack and Teams is generally available and more\nhttps://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/"
+      ],
+      "scheduledAt": "2026-11-07T10:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261107-x-workos-artex-sandbox-escape",
       "title": "X.com 投稿文 - WorkOS：研究者のAI攻撃エージェントがサンドボックス脱出、社内営業ツールに侵入",
       "source": "Radar",
