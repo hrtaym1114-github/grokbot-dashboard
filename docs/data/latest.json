@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - Meta Muse：spacesで自分用ツール作成＋Wonder特化モデル順次導入",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
       "draft": "MetaのMuseで、欲しいツールを言葉で伝えるとアプリ内に作れるspacesが全提供地域で始まった。旅行計画やギフト管理などをサイドバー／メインタブに置いて繰り返し使える。\n\nあわせてMuse Wonderで訓練した特化モデルをMuseとMeta AIへ順次導入。Active Memoryで重要文脈の忘却が約2.4分の1、想定外でもやり遂げる能力は67％改善とMeta発表。",
       "preview": {
@@ -19,8 +19,8 @@
         "2/2 Meta AI Research: Bringing Specialized Models to Muse and Meta AI\nhttps://research.meta.ai/blog/specialized-models-for-muse-and-metaai"
       ],
       "scheduledAt": "2026-11-07T15:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-07T15:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2118948387852841336"
     },
     {
       "id": "20261107-x-copilot-code-review-api-management",
