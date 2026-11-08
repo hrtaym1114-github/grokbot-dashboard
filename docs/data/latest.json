@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - llama.cpp b12195：SYCLでVRAM超過のバッファ確保を拒否",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.com/ggml-org/llama.cpp/pull/31285",
       "draft": "Intel GPUでローカルLLMを動かす人へ。llama cpp b12195で、SYCLで確保済みバッファの合計がGPUメモリを超える新規確保を拒否する修正。\n\n従来は1回の確保サイズのみ確認。修正PRには、32GiBのGPUに約45GiBのモデルを載せカーネルパニックが起きた報告あり。\n\nSYCL利用者は導入版がb12195以降か確認。",
       "preview": {
@@ -18,8 +18,8 @@
         "llama.cpp PR #31285\nhttps://github.com/ggml-org/llama.cpp/pull/31285"
       ],
       "scheduledAt": "2026-11-08T14:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-08T14:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2119295638227894697"
     },
     {
       "id": "20261108-x-opencode-v2-2-6-mcp-pool",
