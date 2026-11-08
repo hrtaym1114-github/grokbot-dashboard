@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261108-x-copilot-jetbrains-air-xcode",
+      "title": "X.com 投稿文 - GitHub Copilot：JetBrains Air対応、Xcode内蔵アシスタントは公開プレビュー",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2/",
+      "draft": "Copilot契約をJetBrains Airでも使えるように。複数のエージェントセッションを追跡し、ローカルかAir Teamsのクラウドでタスクを実行できます。\n\nXcode内蔵のコーディング支援にも対応。ただしこちらは公開プレビューで、Xcode 27.3 beta以降が必要です。\n\nXcode利用者は、導入版が対象か確認。",
+      "preview": {
+        "text": "Copilot契約をJetBrains Airでも使えるように。複数のエージェントセッションを追跡し、ローカルかAir Teamsのクラウドでタスクを実行できます。\n\nXcode内蔵のコーディング支援にも対応。ただしこちらは公開プレビューで、Xcode 27.3 beta以降が必要です。\n\nXcode利用者は、導入版が対象か確認。",
+        "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2/"
+      },
+      "replies": [
+        "GitHub Changelog: Copilot weekly releases — November 2\nhttps://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2/"
+      ],
+      "scheduledAt": "2026-11-08T15:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261108-x-llamacpp-b12195-sycl-vram",
       "title": "X.com 投稿文 - llama.cpp b12195：SYCLでVRAM超過のバッファ確保を拒否",
       "source": "Radar",
