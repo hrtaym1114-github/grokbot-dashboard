@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261108-x-opencode-v2-2-6-mcp-pool",
+      "title": "X.com 投稿文 - OpenCode v2.2.6：MCP接続をプロジェクト間で共有（pool: true）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.6",
+      "draft": "複数プロジェクトで同じMCPサーバーを使うとき、接続を共有して起動プロセスを減らせるように。\n\nOpenCode v2.2.6で、同じ設定のMCP接続をプロジェクト間で共有する機能が追加。利用は任意で、pool: trueを設定します。\n\n更新後、同じ設定のプロジェクトを開き、MCPプロセス数を確認。",
+      "preview": {
+        "text": "複数プロジェクトで同じMCPサーバーを使うとき、接続を共有して起動プロセスを減らせるように。\n\nOpenCode v2.2.6で、同じ設定のMCP接続をプロジェクト間で共有する機能が追加。利用は任意で、pool: trueを設定します。\n\n更新後、同じ設定のプロジェクトを開き、MCPプロセス数を確認。",
+        "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.6"
+      },
+      "replies": [
+        "OpenCode release v2.2.6\nhttps://github.com/anomalyco/opencode/releases/tag/v2.2.6"
+      ],
+      "scheduledAt": "2026-11-08T13:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261107-x-claude-code-dont-ask-again-secrets",
       "title": "X.com 投稿文 - Claude Code「Don't Ask Again」がGitHub公開リポに秘密情報1,122件（Apiiro）",
       "source": "Radar",
