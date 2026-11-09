@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261110-x-gpustack-ghsa-loopback-auth-bypass",
+      "title": "X.com 投稿文 - GPUStack：ループバック信頼の認証回避で未認証管理者",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/advisories/GHSA-gj9m-f8ph-pmhr",
+      "draft": "GPUStackを逆プロキシ経由で公開しているなら、認証なしで管理者になれる経路がある。ループバック扱いを突かれ、ユーザーやモデル、APIキーを操作できる状態になる。\n\n対象は2.2.0未満。2.2.0で修正。実害の報告あり。\n\n利用者は導入版が2.2.0以降か確認し、未更新なら先に認証必須設定を。",
+      "preview": {
+        "text": "GPUStackを逆プロキシ経由で公開しているなら、認証なしで管理者になれる経路がある。ループバック扱いを突かれ、ユーザーやモデル、APIキーを操作できる状態になる。\n\n対象は2.2.0未満。2.2.0で修正。実害の報告あり。\n\n利用者は導入版が2.2.0以降か確認し、未更新なら先に認証必須設定を。",
+        "url": "https://github.com/advisories/GHSA-gj9m-f8ph-pmhr"
+      },
+      "replies": [
+        "GitHub Advisory GHSA-gj9m-f8ph-pmhr\nhttps://github.com/advisories/GHSA-gj9m-f8ph-pmhr"
+      ],
+      "scheduledAt": "2026-11-10T10:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261110-x-claude-code-v2-1-321-fable-5-2",
       "title": "X.com 投稿文 - Claude Code v2.1.321：Fable 5.2が既定Fableモデル、1M・$8/$40",
       "source": "Radar",
