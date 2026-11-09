@@ -26,7 +26,7 @@
       "title": "X.com 投稿文 - fast-agent：serve既定が認証なし公開、--shellで未認証RCE",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.com/advisories/GHSA-9vhv-g5hf-m7m7",
       "draft": "fast-agentのserveをそのまま外向きで動かすと、認証なしでエージェントを操作できる。--shell付きなら、到達できる相手が任意のコマンドを実行できる状態になる。\n\n対象は0.7.20以前。0.7.21で修正。\n\n利用者は、公開中のserveの版と--shellの有無を確認。",
       "preview": {
@@ -37,8 +37,8 @@
         "GitHub Advisory GHSA-9vhv-g5hf-m7m7\nhttps://github.com/advisories/GHSA-9vhv-g5hf-m7m7"
       ],
       "scheduledAt": "2026-11-10T08:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-10T08:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2119929867420787011"
     },
     {
       "id": "20261108-x-copilot-jetbrains-air-xcode",
