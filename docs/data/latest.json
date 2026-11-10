@@ -3,6 +3,28 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261110-x-aws-nitro-sandboxes-eks-ecs-ec2",
+      "title": "X.com 投稿文 - AWS Nitro Sandboxes：EKS/ECS/EC2向けハードウェア隔離",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/",
+      "draft": "同じEC2上で、LLMが書いたコードをハードウェア隔離の仮想マシンで実行できるようになった。AWS Nitro SandboxesがEKS、ECS、軽量VM向けに提供開始。\n\n対象は大半のNitroベースEC2。全商用リージョン、追加料金なし。\n\n利用者は、対応機種と実行クラス isolated-sandbox などの指定を確認。",
+      "preview": {
+        "text": "同じEC2上で、LLMが書いたコードをハードウェア隔離の仮想マシンで実行できるようになった。AWS Nitro SandboxesがEKS、ECS、軽量VM向けに提供開始。\n\n対象は大半のNitroベースEC2。全商用リージョン、追加料金なし。\n\n利用者は、対応機種と実行クラス isolated-sandbox などの指定を確認。",
+        "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/"
+      },
+      "replies": [
+        "1/4 AWS What's New\nhttps://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/",
+        "2/4 EKS User Guide\nhttps://docs.aws.amazon.com/eks/latest/userguide/sandboxing.html",
+        "3/4 ECS Developer Guide\nhttps://docs.aws.amazon.com/AmazonECS/latest/developerguide/isolated-confidential-tasks.html",
+        "4/4 EC2 User Guide\nhttps://docs.aws.amazon.com/AWSEC2/latest/UserGuide/amazon-ec2-nitro-sandboxes.html"
+      ],
+      "scheduledAt": "2026-11-10T16:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261110-x-ollama-v0-40-16-ripple-preview",
       "title": "X.com 投稿文 - Ollama v0.40.16：Ripple Preview（65B）対応",
       "source": "Radar",
