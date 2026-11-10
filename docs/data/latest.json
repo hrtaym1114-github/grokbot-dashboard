@@ -26,7 +26,7 @@
       "title": "X.com 投稿文 - Claude Code v2.1.321：Fable 5.2が既定Fableモデル、1M・$8/$40",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
       "draft": "Claude CodeでFableを使う人向け。v2.1.321でClaude Fable 5.2が既定のFableモデルになり、コンテキストは1M。料金は入力8ドル・出力40ドル（100万トークンあたり）、キャッシュ読みは0.20ドル。\n\nAnthropicの価格ページでも同額。\n\nFable利用者は、導入版がv2.1.321以降かと料金設定を確認。",
       "preview": {
@@ -37,8 +37,8 @@
         "Claude Code release v2.1.321\nhttps://github.com/anthropics/claude-code/releases/tag/v2.1.321"
       ],
       "scheduledAt": "2026-11-10T09:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-10T09:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2119944980156608967"
     },
     {
       "id": "20261110-x-fast-agent-ghsa-serve-shell-rce",
