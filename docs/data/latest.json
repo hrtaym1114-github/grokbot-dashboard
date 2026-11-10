@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - Google AI Studio：Google Maps でアプリを組み立てられる",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/",
       "draft": "Google AI Studioで、Google Maps を使ったアプリを組み立てられるようになった。\n\nデモキーは個人のGoogleアカウント向け、カード不要。上限は1 APIあたり1日100回。Workspaceはデモキー対象外。本番は Cloud の課金アカウントが必要。\n\n利用者は、アカウント種別と対象API、1日100回の上限を確認。",
       "preview": {
@@ -20,8 +20,8 @@
         "3/3 Maps Demo Key\nhttps://developers.google.com/maps/demo-key"
       ],
       "scheduledAt": "2026-11-10T18:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-10T18:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2120080875740393689"
     },
     {
       "id": "20261110-x-aws-nitro-sandboxes-eks-ecs-ec2",
