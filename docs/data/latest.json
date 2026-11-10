@@ -9,9 +9,9 @@
       "channel": "X",
       "status": "承認",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
-      "draft": "Ollamaで65Bのコーディング向けモデルをそのまま起動できる。v0.40.16でRipple Previewに対応。Ricursive Intelligenceの65B denseで、ライセンスはApache 2.0。ライブラリ表記では約39〜46GB。\n\nベンチ数値は原典外のため省略。\n\n利用者は、ollama run ripple-preview で導入版と必要容量を確認。",
+      "draft": "Ollamaで65Bのコーディング向けモデルをそのまま起動できる。v0.40.16でRipple Previewに対応。Ricursive Intelligenceの65B denseで、ライセンスはApache 2.0。ライブラリ表記では約39〜46GB。\n\n利用者は、ollama run ripple-preview で導入版と必要容量を確認。",
       "preview": {
-        "text": "Ollamaで65Bのコーディング向けモデルをそのまま起動できる。v0.40.16でRipple Previewに対応。Ricursive Intelligenceの65B denseで、ライセンスはApache 2.0。ライブラリ表記では約39〜46GB。\n\nベンチ数値は原典外のため省略。\n\n利用者は、ollama run ripple-preview で導入版と必要容量を確認。",
+        "text": "Ollamaで65Bのコーディング向けモデルをそのまま起動できる。v0.40.16でRipple Previewに対応。Ricursive Intelligenceの65B denseで、ライセンスはApache 2.0。ライブラリ表記では約39〜46GB。\n\n利用者は、ollama run ripple-preview で導入版と必要容量を確認。",
         "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16"
       },
       "replies": [
