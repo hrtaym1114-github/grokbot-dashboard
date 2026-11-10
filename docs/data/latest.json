@@ -3,6 +3,27 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261111-x-notion-fireworks-ai-incident",
+      "title": "X.com 投稿文 - Notion：第三者AI（Fireworks AI）のセキュリティインシデント通知",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://www.notion.com/ja/help/security-incident-involving-a-third-party-ai-vendor",
+      "draft": "Notionが公式通知。Fireworks AIのインシデントで、全ワークスペースの1%未満に影響の可能性。\n\n流出の可能性があるのは、ラベルのないNotion AIチャット文字起こし。他のデータは影響なし。連絡がなければ対応は不要。\n\n利用者は、オーナーへの連絡の有無と、認証情報を貼っていないかを確認。",
+      "preview": {
+        "text": "Notionが公式通知。Fireworks AIのインシデントで、全ワークスペースの1%未満に影響の可能性。\n\n流出の可能性があるのは、ラベルのないNotion AIチャット文字起こし。他のデータは影響なし。連絡がなければ対応は不要。\n\n利用者は、オーナーへの連絡の有無と、認証情報を貼っていないかを確認。",
+        "url": "https://www.notion.com/ja/help/security-incident-involving-a-third-party-ai-vendor"
+      },
+      "replies": [
+        "1/3 Notion ヘルプ（日本語）\nhttps://www.notion.com/ja/help/security-incident-involving-a-third-party-ai-vendor",
+        "2/3 Notion Help\nhttps://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+        "3/3 Fireworks security bulletin\nhttps://fireworks.ai/security/bulletins/october-2026-security-incident-update"
+      ],
+      "scheduledAt": "2026-11-11T08:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261110-x-google-ai-studio-maps",
       "title": "X.com 投稿文 - Google AI Studio：Google Maps でアプリを組み立てられる",
       "source": "Radar",
