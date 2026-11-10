@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261110-x-ollama-v0-40-16-ripple-preview",
+      "title": "X.com 投稿文 - Ollama v0.40.16：Ripple Preview（65B）対応",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+      "draft": "Ollamaで65Bのコーディング向けモデルをそのまま起動できる。v0.40.16でRipple Previewに対応。Ricursive Intelligenceの65B denseで、ライセンスはApache 2.0。ライブラリ表記では約39〜46GB。\n\nベンチ数値は原典外のため省略。\n\n利用者は、ollama run ripple-preview で導入版と必要容量を確認。",
+      "preview": {
+        "text": "Ollamaで65Bのコーディング向けモデルをそのまま起動できる。v0.40.16でRipple Previewに対応。Ricursive Intelligenceの65B denseで、ライセンスはApache 2.0。ライブラリ表記では約39〜46GB。\n\nベンチ数値は原典外のため省略。\n\n利用者は、ollama run ripple-preview で導入版と必要容量を確認。",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16"
+      },
+      "replies": [
+        "Ollama release v0.40.16\nhttps://github.com/ollama/ollama/releases/tag/v0.40.16"
+      ],
+      "scheduledAt": "2026-11-10T12:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261110-x-llamacpp-b12238-oai-speech",
       "title": "X.com 投稿文 - llama.cpp b12238：OpenAI互換 /v1/audio/speech",
       "source": "Radar",
