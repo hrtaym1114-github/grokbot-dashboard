@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261110-x-llamacpp-b12238-oai-speech",
+      "title": "X.com 投稿文 - llama.cpp b12238：OpenAI互換 /v1/audio/speech",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12238",
+      "draft": "llama cppのサーバーで、OpenAI互換の音声合成APIが使えるように。b12238で /v1/audio/speech が追加され、既存のTTS処理へ渡す。\n\n形式はwavなど。mp3エンコードは非対応。\n\n利用者は、導入版がb12238以降かと、TTS用モデルを載せて呼び出せるか確認。",
+      "preview": {
+        "text": "llama cppのサーバーで、OpenAI互換の音声合成APIが使えるように。b12238で /v1/audio/speech が追加され、既存のTTS処理へ渡す。\n\n形式はwavなど。mp3エンコードは非対応。\n\n利用者は、導入版がb12238以降かと、TTS用モデルを載せて呼び出せるか確認。",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12238"
+      },
+      "replies": [
+        "llama.cpp release b12238\nhttps://github.com/ggml-org/llama.cpp/releases/tag/b12238"
+      ],
+      "scheduledAt": "2026-11-10T11:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261110-x-gpustack-ghsa-loopback-auth-bypass",
       "title": "X.com 投稿文 - GPUStack：ループバック信頼の認証回避で未認証管理者",
       "source": "Radar",
