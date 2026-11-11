@@ -3,6 +3,27 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261111-x-google-ai-edge-gallery-on-device-speech",
+      "title": "X.com 投稿文 - Google AI Edge Gallery：端末上の音声認識と音声合成",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/",
+      "draft": "Google AI Edge Galleryで、音声認識と音声合成を端末上・通信なしで使える。AndroidとiOSのアプリに入った。\n\nAndroidは ML Kit（100以上の言語、8声・21ロケール、モデルはOS側）。他は MediaPipe と LiteRT。Gemini Nano や Gemma 4 と組み合わせられる。\n\n利用者は、自分の端末向けの経路を確認。",
+      "preview": {
+        "text": "Google AI Edge Galleryで、音声認識と音声合成を端末上・通信なしで使える。AndroidとiOSのアプリに入った。\n\nAndroidは ML Kit（100以上の言語、8声・21ロケール、モデルはOS側）。他は MediaPipe と LiteRT。Gemini Nano や Gemma 4 と組み合わせられる。\n\n利用者は、自分の端末向けの経路を確認。",
+        "url": "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/"
+      },
+      "replies": [
+        "1/3 Google Developers Blog\nhttps://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/",
+        "2/3 Google AI Edge Gallery\nhttps://developers.google.com/edge/gallery",
+        "3/3 MediaPipe Tasks\nhttps://developers.google.com/edge/mediapipe/solutions"
+      ],
+      "scheduledAt": "2026-11-11T12:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261111-x-github-dependabot-alerts-inactive-repos",
       "title": "X.com 投稿文 - GitHub：非アクティブなリポジトリで Dependabot alerts を停止（12/8〜）",
       "source": "Radar",
