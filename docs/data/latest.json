@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - GitHub：非アクティブなリポジトリで Dependabot alerts を停止（12/8〜）",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories",
       "draft": "12月8日から、過去1年動きのない大半のGitHubリポジトリで Dependabot alerts が止まる。警告は消さずアーカイブされる。\n\n動きは、ブランチやタグへのpush、リポジトリ作成、alertsの有効化。pushか設定で再開でき、起算もやり直る。\n\n利用者は、最終アクティビティと alerts 設定を確認。",
       "preview": {
@@ -20,8 +20,8 @@
         "3/3 Enforced security configuration\nhttps://docs.github.com/code-security/how-tos/secure-at-scale/configure-organization-security/establish-complete-coverage/create-custom-configuration"
       ],
       "scheduledAt": "2026-11-11T10:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-11T10:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2120322467680178263"
     },
     {
       "id": "20261111-x-notion-fireworks-ai-incident",
