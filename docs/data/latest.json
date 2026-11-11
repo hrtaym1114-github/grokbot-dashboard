@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261111-x-opencode-v2-2-7-copilot-auto",
+      "title": "X.com 投稿文 - OpenCode v2.2.7：GitHub Copilot の Auto をモデル選択から選べる",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.7",
+      "draft": "OpenCode v2.2.7で、GitHub Copilot の Auto をモデル選択から選べるようになった。\n\nAuto の枠があるアカウントでは、ルーターがセッションごとにモデルを選び、割引が適用される。失敗時は既定のチャットモデルに戻る。\n\n利用者は、モデル選択に Auto が出るかを確認。",
+      "preview": {
+        "text": "OpenCode v2.2.7で、GitHub Copilot の Auto をモデル選択から選べるようになった。\n\nAuto の枠があるアカウントでは、ルーターがセッションごとにモデルを選び、割引が適用される。失敗時は既定のチャットモデルに戻る。\n\n利用者は、モデル選択に Auto が出るかを確認。",
+        "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.7"
+      },
+      "replies": [
+        "OpenCode v2.2.7\nhttps://github.com/anomalyco/opencode/releases/tag/v2.2.7"
+      ],
+      "scheduledAt": "2026-11-11T15:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261111-x-google-ai-edge-gallery-on-device-speech",
       "title": "X.com 投稿文 - Google AI Edge Gallery：端末上の音声認識と音声合成",
       "source": "Radar",
