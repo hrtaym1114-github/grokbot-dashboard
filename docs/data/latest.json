@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261111-x-llamacpp-b12259-kimi-k31-vision",
+      "title": "X.com 投稿文 - llama.cpp b12259：Kimi K3.1 の画像入力（vision）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12259",
+      "draft": "llama cppで、Kimi K3.1の画像入力が使えるようになった。b12259で vision 対応が入った。\n\n同じ変更で、Kimi K2.5と K3.1の前処理と projector MLP の修正も入っている。\n\n利用者は、導入版が b12259 以降かと、Kimi K3.1に画像を渡せるか確認。",
+      "preview": {
+        "text": "llama cppで、Kimi K3.1の画像入力が使えるようになった。b12259で vision 対応が入った。\n\n同じ変更で、Kimi K2.5と K3.1の前処理と projector MLP の修正も入っている。\n\n利用者は、導入版が b12259 以降かと、Kimi K3.1に画像を渡せるか確認。",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12259"
+      },
+      "replies": [
+        "llama.cpp release b12259\nhttps://github.com/ggml-org/llama.cpp/releases/tag/b12259"
+      ],
+      "scheduledAt": "2026-11-11T16:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261111-x-opencode-v2-2-7-copilot-auto",
       "title": "X.com 投稿文 - OpenCode v2.2.7：GitHub Copilot の Auto をモデル選択から選べる",
       "source": "Radar",
