@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - OpenCode v2.2.7：GitHub Copilot の Auto をモデル選択から選べる",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.7",
       "draft": "OpenCode v2.2.7で、GitHub Copilot の Auto をモデル選択から選べるようになった。\n\nAuto の枠があるアカウントでは、ルーターがセッションごとにモデルを選び、割引が適用される。失敗時は既定のチャットモデルに戻る。\n\n利用者は、モデル選択に Auto が出るかを確認。",
       "preview": {
@@ -18,8 +18,8 @@
         "OpenCode v2.2.7\nhttps://github.com/anomalyco/opencode/releases/tag/v2.2.7"
       ],
       "scheduledAt": "2026-11-11T15:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-11T15:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2120397956713197808"
     },
     {
       "id": "20261111-x-google-ai-edge-gallery-on-device-speech",
