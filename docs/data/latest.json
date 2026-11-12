@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261113-x-claude-code-v2-1-323-code-mode",
+      "title": "X.com 投稿文 - Claude Code バージョン 2.1.323：実験的な Code Mode（JavaScript でツール呼び出し）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+      "draft": "Claude Code バージョン 2.1.323で、実験的な Code Mode が追加された。Claude が JavaScript を書いてツールを呼び出す、オプトインの機能。\n\n公式の案内で有効化でき、組織では無効化もできる。\n\n利用者は、この版のリリースノートで有効化方法を確認。",
+      "preview": {
+        "text": "Claude Code バージョン 2.1.323で、実験的な Code Mode が追加された。Claude が JavaScript を書いてツールを呼び出す、オプトインの機能。\n\n公式の案内で有効化でき、組織では無効化もできる。\n\n利用者は、この版のリリースノートで有効化方法を確認。",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323"
+      },
+      "replies": [
+        "Claude Code リリース バージョン 2.1.323\nhttps://github.com/anthropics/claude-code/releases/tag/v2.1.323"
+      ],
+      "scheduledAt": "2026-11-13T09:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261112-x-botpsy-0-8b",
       "title": "X.com 投稿文 - BotPsy 0.8B：端末向けのツール呼び出しモデル（Apache 2.0）",
       "source": "Radar",
