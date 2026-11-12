@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261112-x-a2ui-1-0",
+      "title": "X.com 投稿文 - A2UI 1.0：初の安定版、双方向の関数呼び出し",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/",
+      "draft": "A2UIが初の安定版 1.0 になった。双方向の関数呼び出しが入り、予約や便の選択からその場で空席を確認できる。\n\n描画は React、Angular、Lit、Flutter、SwiftUI。Jetpack Compose はまだ 0.9.1。ウェブと Flutter は MCP Apps 内でも使える。\n\n利用者は、0.9 からの変更を公式の移行案内で確認。",
+      "preview": {
+        "text": "A2UIが初の安定版 1.0 になった。双方向の関数呼び出しが入り、予約や便の選択からその場で空席を確認できる。\n\n描画は React、Angular、Lit、Flutter、SwiftUI。Jetpack Compose はまだ 0.9.1。ウェブと Flutter は MCP Apps 内でも使える。\n\n利用者は、0.9 からの変更を公式の移行案内で確認。",
+        "url": "https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/"
+      },
+      "replies": [
+        "1/2 Google Developers Blog（A2UI 1.0）\nhttps://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/",
+        "2/2 9 からの移行案内\nhttps://github.com/a2ui-project/a2ui/blob/main/specification/v1_0/docs/evolution_guide.md"
+      ],
+      "scheduledAt": "2026-11-12T15:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261111-x-llamacpp-b12259-kimi-k31-vision",
       "title": "X.com 投稿文 - llama.cpp b12259：Kimi K3.1 の画像入力（vision）",
       "source": "Radar",
