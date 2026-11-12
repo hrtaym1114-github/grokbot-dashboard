@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - Aikido：奪われたGitHubアカウントからCIの秘密を盗む変更が数万リポジトリに",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://www.aikido.dev/blog/compromised-github-accounts-push-ci-secret-stealer-to-tens-of-thousands-of-repositories",
       "draft": "GitHubで、奪われたアカウントからCIの秘密を盗む変更が数万リポジトリに入った、とAikidoが報告。11月10日以降。Actionsの秘密やAI関連トークンも対象だという。\n\n目印は docs: dependency audit notes のプルリクエスト。\n\n利用者は、リポジトリを確認し、あれば秘密情報をローテーション。",
       "preview": {
@@ -18,8 +18,8 @@
         "Aikido Security（調査ブログ）\nhttps://www.aikido.dev/blog/compromised-github-accounts-push-ci-secret-stealer-to-tens-of-thousands-of-repositories"
       ],
       "scheduledAt": "2026-11-12T18:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-12T18:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2120805651354136615"
     },
     {
       "id": "20261112-x-gemini-decisions-api",
