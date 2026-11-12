@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - BotPsy 0.8B：端末向けのツール呼び出しモデル（Apache 2.0）",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://huggingface.co/blog/qvac/botpsy",
       "draft": "端末向け 0.8B モデル BotPsy が公開された。Qwen 3.5 の 0.8B を基にしたツール呼び出し用で、重みは Apache 2.0。llama cpp 向け GGUF（BF16、Q8、Q4）もある。\n\n英語向けで、小さいモデルなので誤りもある、と説明。\n\n利用者は、ライセンスと利用制限を確認したうえで GGUF を試せるか見る。",
       "preview": {
@@ -20,8 +20,8 @@
         "3/3 BotPsy-0.8B GGUF\nhttps://huggingface.co/qvac/BotPsy-0.8B-GGUFs"
       ],
       "scheduledAt": "2026-11-12T19:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-12T19:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2120820722876780769"
     },
     {
       "id": "20261112-x-aikido-github-ci-secret-stealer",
