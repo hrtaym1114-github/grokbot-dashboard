@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261112-x-aikido-github-ci-secret-stealer",
+      "title": "X.com 投稿文 - Aikido：奪われたGitHubアカウントからCIの秘密を盗む変更が数万リポジトリに",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://www.aikido.dev/blog/compromised-github-accounts-push-ci-secret-stealer-to-tens-of-thousands-of-repositories",
+      "draft": "GitHubで、奪われたアカウントからCIの秘密を盗む変更が数万リポジトリに入った、とAikidoが報告。11月10日以降。Actionsの秘密やAI関連トークンも対象だという。\n\n目印は docs: dependency audit notes のプルリクエスト。\n\n利用者は、リポジトリを確認し、あれば秘密情報をローテーション。",
+      "preview": {
+        "text": "GitHubで、奪われたアカウントからCIの秘密を盗む変更が数万リポジトリに入った、とAikidoが報告。11月10日以降。Actionsの秘密やAI関連トークンも対象だという。\n\n目印は docs: dependency audit notes のプルリクエスト。\n\n利用者は、リポジトリを確認し、あれば秘密情報をローテーション。",
+        "url": "https://www.aikido.dev/blog/compromised-github-accounts-push-ci-secret-stealer-to-tens-of-thousands-of-repositories"
+      },
+      "replies": [
+        "Aikido Security（調査ブログ）\nhttps://www.aikido.dev/blog/compromised-github-accounts-push-ci-secret-stealer-to-tens-of-thousands-of-repositories"
+      ],
+      "scheduledAt": "2026-11-12T18:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261112-x-gemini-decisions-api",
       "title": "X.com 投稿文 - Gemini Decisions API：マルチモーダルな選択・採点を1回で評価",
       "source": "Radar",
