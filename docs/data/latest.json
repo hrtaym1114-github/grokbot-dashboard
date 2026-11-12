@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261112-x-gemini-decisions-api",
+      "title": "X.com 投稿文 - Gemini Decisions API：マルチモーダルな選択・採点を1回で評価",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "draft": "Gemini Decisions APIが使えるようになった。テキスト、画像、音声、動画、PDFを入力に、はい/いいえ・選択・段階採点を最大1,000件まで1回で評価できる。\n\nモデルは Gemini Decision 1。確率と信頼度（0〜1）が返り、曖昧なときは別経路や人に回せる。\n\n利用者は、AI Studio のドキュメントを確認。",
+      "preview": {
+        "text": "Gemini Decisions APIが使えるようになった。テキスト、画像、音声、動画、PDFを入力に、はい/いいえ・選択・段階採点を最大1,000件まで1回で評価できる。\n\nモデルは Gemini Decision 1。確率と信頼度（0〜1）が返り、曖昧なときは別経路や人に回せる。\n\n利用者は、AI Studio のドキュメントを確認。",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+      },
+      "replies": [
+        "1/2 Google Blog（Gemini Decisions API）\nhttps://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+        "2/2 Decisions API ドキュメント\nhttps://aistudio.google.com/docs/decisions-api"
+      ],
+      "scheduledAt": "2026-11-12T16:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261112-x-a2ui-1-0",
       "title": "X.com 投稿文 - A2UI 1.0：初の安定版、双方向の関数呼び出し",
       "source": "Radar",
