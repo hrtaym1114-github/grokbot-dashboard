@@ -23,7 +23,7 @@
       "title": "X.com 投稿文 - Granite 4.1：実験的プレビュー LLMON（3B と 8B、Apache 2.0）",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
       "draft": "Granite 4.1（3B と 8B）の実験的プレビュー LLMON が公開された。指示・データ・要件をマークアップで区切る。重みは Apache 2.0。\n\n公式チャットテンプレートと JSON 変換ツールがある。本番利用向けではない、と説明。\n\n利用者は、ライセンスとプレビューの位置づけを確認し、重みを試せるか見る。",
       "preview": {
@@ -37,8 +37,8 @@
         "4/4 LLMON ツールキット\nhttps://github.com/generative-computing/llmon"
       ],
       "scheduledAt": "2026-11-13T10:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-13T10:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2121047243130314883"
     },
     {
       "id": "20261113-x-claude-code-v2-1-323-code-mode",
