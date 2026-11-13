@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261113-x-vercel-labs-ui-sdk",
+      "title": "X.com 投稿文 - Vercel Labs UI SDK：エージェント向け UI ライブラリ（ベータ、Apache 2.0）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/vercel-labs/ui",
+      "draft": "エージェント向け UI ライブラリ UI SDK が公開された。選択やポップアップなどの振る舞いを備え、React、Vue、Svelte、Solid、Web Components に対応。Apache 2.0。\n\n公式はベータで、一般提供前に変わりうる、と説明。\n\n利用者は、ベータの位置づけとライセンスを確認し、パッケージを試せるか見る。",
+      "preview": {
+        "text": "エージェント向け UI ライブラリ UI SDK が公開された。選択やポップアップなどの振る舞いを備え、React、Vue、Svelte、Solid、Web Components に対応。Apache 2.0。\n\n公式はベータで、一般提供前に変わりうる、と説明。\n\n利用者は、ベータの位置づけとライセンスを確認し、パッケージを試せるか見る。",
+        "url": "https://github.com/vercel-labs/ui"
+      },
+      "replies": [
+        "1/2 GitHub（UI SDK）\nhttps://github.com/vercel-labs/ui",
+        "2/2 UI SDK ドキュメント\nhttps://ui-sdk.dev/docs"
+      ],
+      "scheduledAt": "2026-11-13T13:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261113-blog-ollama-model-delete-target",
       "title": "Ollamaモデル削除は接続先を確かめてから",
       "source": "Desk",
