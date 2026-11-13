@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - Brave Search API：x402 でリクエストごとに支払い（アカウント・キー不要）",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://brave.com/blog/search-api-agentic-payments/",
       "draft": "Brave Search APIが、アカウントや API キーなしでリクエストごとに支払えるようになった。支払いは x402 で、Base 上の USDC。公式は 1 件 0.005 ドル。\n\nAnswers などは対象外。失敗した検索は課金されない、と説明。\n\n利用者は、公式の支払い条件を、いまの API キープランと照らして確認。",
       "preview": {
@@ -19,8 +19,8 @@
         "2/2 Brave Search API（エージェント支払いガイド）\nhttps://api-dashboard.search.brave.com/documentation/guides/agent-payments"
       ],
       "scheduledAt": "2026-11-13T15:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-13T15:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2121122690803380432"
     },
     {
       "id": "20261113-x-codex-0-168-0-model-providers",
