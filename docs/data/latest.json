@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - Codex バージョン 0.168.0：新しいチャットの既定プロバイダを選択",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
       "draft": "Codex バージョン 0.168.0で、新しいチャットの既定プロバイダを Sessions の Model providers から選べるようになった。組み込みに Ollama と LM Studio がある。\n\n既存や再開したチャットは、既定を変えても保存済みのプロバイダを使う。\n\n利用者は、導入版が 0.168.0 かと、その画面を確認。",
       "preview": {
@@ -18,8 +18,8 @@
         "Codex リリース バージョン 0.168.0\nhttps://github.com/openai/codex/releases/tag/rust-v0.168.0"
       ],
       "scheduledAt": "2026-11-13T14:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-13T14:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2121107641124667722"
     },
     {
       "id": "20261113-x-vercel-labs-ui-sdk",
