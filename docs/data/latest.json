@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261114-x-claude-code-v2-1-325-zstd",
+      "title": "X.com 投稿文 - Claude Code 2.1.325：zstd 応答復号のセキュリティ修正",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
+      "draft": "Claude Code バージョン 2.1.325が、zstd で圧縮された応答の復号に関するセキュリティ上の問題を修正した。\n\n公式は、影響の範囲をそれ以上は書いていない。\n\n利用者は、導入版が 2.1.325 かを claude --version で確認。",
+      "preview": {
+        "text": "Claude Code バージョン 2.1.325が、zstd で圧縮された応答の復号に関するセキュリティ上の問題を修正した。\n\n公式は、影響の範囲をそれ以上は書いていない。\n\n利用者は、導入版が 2.1.325 かを claude --version で確認。",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325"
+      },
+      "replies": [
+        "Claude Code リリース バージョン 2.1.325\nhttps://github.com/anthropics/claude-code/releases/tag/v2.1.325"
+      ],
+      "scheduledAt": "2026-11-14T08:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261113-x-realtimevad-0-0-5",
       "title": "X.com 投稿文 - RealtimeVAD 0.0.5：発話終了検出（アルファ）",
       "source": "Radar",
