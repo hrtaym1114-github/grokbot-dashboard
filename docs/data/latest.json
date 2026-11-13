@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261113-x-realtimevad-0-0-5",
+      "title": "X.com 投稿文 - RealtimeVAD 0.0.5：発話終了検出（アルファ）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/KoljaB/RealtimeVAD/releases/tag/v0.0.5",
+      "draft": "発話終了検出器 RealtimeVAD が公開された。Silero の判定に静けさの検査を足し、pause で取り消せる処理を先に始められる。MIT。公式はアルファで、API は変わりうる、と説明。\n\npause は語の隙間でも出る。\n\n利用者は、アルファの位置づけを確認したうえで、パッケージを入れて試せるか見る。",
+      "preview": {
+        "text": "発話終了検出器 RealtimeVAD が公開された。Silero の判定に静けさの検査を足し、pause で取り消せる処理を先に始められる。MIT。公式はアルファで、API は変わりうる、と説明。\n\npause は語の隙間でも出る。\n\n利用者は、アルファの位置づけを確認したうえで、パッケージを入れて試せるか見る。",
+        "url": "https://github.com/KoljaB/RealtimeVAD/releases/tag/v0.0.5"
+      },
+      "replies": [
+        "RealtimeVAD リリース バージョン 0.0.5\nhttps://github.com/KoljaB/RealtimeVAD/releases/tag/v0.0.5"
+      ],
+      "scheduledAt": "2026-11-13T16:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261113-x-brave-search-api-x402",
       "title": "X.com 投稿文 - Brave Search API：x402 でリクエストごとに支払い（アカウント・キー不要）",
       "source": "Radar",
