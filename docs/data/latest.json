@@ -26,7 +26,7 @@
       "title": "X.com 投稿文 - GitHub Copilot：一部モデルを12月14日に提供終了",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
       "draft": "GitHub Copilotの一部モデルが12月14日に全体験で提供終了。Claude Fable 5→5.2、Haiku 4.5→5.5、Gemini 3.8 Flash→Gemini 4 Hydrogen、Gemini 4 Argon→Gemini 4 Carbon、Grok 4.6→4.7。Kimi K3の代替は未発表。年額の個人契約では Haiku 4.5 は残る。\n\n確認: モデル選択に終了対象が残るか見る。",
       "preview": {
@@ -37,8 +37,8 @@
         "GitHub Changelog: Upcoming deprecation of selected GitHub Copilot models in December\nhttps://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"
       ],
       "scheduledAt": "2026-11-15T08:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-15T08:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2121741811094008209"
     },
     {
       "id": "20261114-x-claude-agent-sdk-0-3-325-archive",
