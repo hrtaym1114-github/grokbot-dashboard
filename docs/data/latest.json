@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261114-x-copilot-cli-1-0-111-regex",
+      "title": "X.com 投稿文 - Copilot CLI 1.0.111：企業管理のシェル権限ルールに正規表現",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/github/copilot-cli/releases/tag/v1.0.111",
+      "draft": "Copilot CLI バージョン 1.0.111 で、企業管理の Shell、Bash、PowerShell 権限ルールに正規表現が使えるようになった。\n\n公式の説明は、その追加まで。\n\n利用者は、導入版が 1.0.111 以降かと、管理中のシェル権限ルールを確認。",
+      "preview": {
+        "text": "Copilot CLI バージョン 1.0.111 で、企業管理の Shell、Bash、PowerShell 権限ルールに正規表現が使えるようになった。\n\n公式の説明は、その追加まで。\n\n利用者は、導入版が 1.0.111 以降かと、管理中のシェル権限ルールを確認。",
+        "url": "https://github.com/github/copilot-cli/releases/tag/v1.0.111"
+      },
+      "replies": [
+        "Copilot CLI リリース バージョン 1.0.111\nhttps://github.com/github/copilot-cli/releases/tag/v1.0.111"
+      ],
+      "scheduledAt": "2026-11-14T10:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261114-x-llama-cpp-v1-0-0-api",
       "title": "X.com 投稿文 - llama cpp バージョン 1.0.0：非推奨の公開 API を削除",
       "source": "Radar",
