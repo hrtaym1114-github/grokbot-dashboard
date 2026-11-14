@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - Claude Agent SDK 0.3.325：セッションの archive API",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.325",
       "draft": "Claude Agent SDK バージョン 0.3.325 で、セッションをアーカイブする archiveSession と、戻す unarchiveSession が追加された。listSessions と getSessionInfo が返す情報に、archived も付く。\n\n公式の説明は、その追加まで。\n\n利用者は、導入版が 0.3.325 かと、それらの名前を確認。",
       "preview": {
@@ -18,8 +18,8 @@
         "Claude Agent SDK リリース バージョン 0.3.325\nhttps://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.325"
       ],
       "scheduledAt": "2026-11-14T11:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-14T11:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2121424636819001405"
     },
     {
       "id": "20261114-x-copilot-cli-1-0-111-regex",
