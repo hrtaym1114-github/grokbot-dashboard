@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261115-x-litellm-v1-108-9-docker-cosign",
+      "title": "X.com 投稿文 - LiteLLM v1.108.9：Docker署名の検証手順",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.9",
+      "draft": "LiteLLM v1.108.9 のリリースノートに、Docker イメージの署名を検証する手順が載った。cosign で署名を確認する形。\n\n推奨は、固定したコミット hash の公開鍵を指定する方法。タグ指定は読みやすいが、タグ保護の設定が前提と説明。\n\nゲートウェイをコンテナで動かす人は、導入前に一度確認できる。",
+      "preview": {
+        "text": "LiteLLM v1.108.9 のリリースノートに、Docker イメージの署名を検証する手順が載った。cosign で署名を確認する形。\n\n推奨は、固定したコミット hash の公開鍵を指定する方法。タグ指定は読みやすいが、タグ保護の設定が前提と説明。\n\nゲートウェイをコンテナで動かす人は、導入前に一度確認できる。",
+        "url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.9"
+      },
+      "replies": [
+        "LiteLLM v1.108.9 リリースノート\nhttps://github.com/BerriAI/litellm/releases/tag/v1.108.9"
+      ],
+      "scheduledAt": "2026-11-15T10:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261115-x-project-zero-full-90",
       "title": "X.com 投稿文 - Google Project Zero：Full 90 の公開方針",
       "source": "Radar",
