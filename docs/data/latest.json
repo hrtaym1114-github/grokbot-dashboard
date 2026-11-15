@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - Google Project Zero：Full 90 の公開方針",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://projectzero.google/2026/11/disclosure-policy.html",
       "draft": "Google Project Zeroの公開が、11月13日から報告の90日後になる（Full 90）。修正後30日の展開猶予はなくなった。\n\n公式は、LLMで脆弱性の発見・悪用やパッチからの再現が速くなったため、と説明。2027年2月2日に60日、2028年1月3日に30日へ短縮する。\n\n確認: 方針ページで開始日と次の短縮日を見る。",
       "preview": {
@@ -18,8 +18,8 @@
         "Project Zero: Policy and Disclosure: 2026 Edition\nhttps://projectzero.google/2026/11/disclosure-policy.html"
       ],
       "scheduledAt": "2026-11-15T09:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-15T09:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2121756826085830773"
     },
     {
       "id": "20261115-x-copilot-models-dec-deprecation",
