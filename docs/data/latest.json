@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - Qwen Code v0.27.4：Auto Modeの危険操作に明示許可",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.4",
       "draft": "Qwen Code v0.27.4で、Auto Modeの危険な操作は明示的な許可が必須に。Full Accessの状態も見える形で表示されるようになった。Managed Agentのセッションは、許可したローカルディレクトリだけを使い、資格情報やパスは保存しない。\n\n確認: Auto Modeを使っているなら更新して、Full Accessの表示が出ていないか見る。",
       "preview": {
@@ -18,8 +18,8 @@
         "GitHub Release: QwenLM/qwen-code v0.27.4\nhttps://github.com/QwenLM/qwen-code/releases/tag/v0.27.4"
       ],
       "scheduledAt": "2026-11-16T12:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-16T12:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2122164605934055527"
     },
     {
       "id": "20261116-blog-ollama-concurrent-requests-limits",
