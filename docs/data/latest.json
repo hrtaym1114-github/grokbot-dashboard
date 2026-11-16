@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - Claude Code 2.1.326：Agent teams と Code Mode の併用",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
       "draft": "Claude Code バージョン 2.1.326 で、Agent teams が有効でも Code Mode をオンにできる。すでにオンなら、チームのセッションも Code Mode で始まる。\n\n--allowedTools、--disallowedTools、--tools の不完全なルールは、起動時に警告される。\n\n導入版が 2.1.326 かを claude --version で確認する。",
       "preview": {
@@ -18,8 +18,8 @@
         "Claude Code リリース バージョン 2.1.326\nhttps://github.com/anthropics/claude-code/releases/tag/v2.1.326"
       ],
       "scheduledAt": "2026-11-17T08:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-17T08:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2122466548631949353"
     },
     {
       "id": "20261116-x-qwen4-max-ga",
