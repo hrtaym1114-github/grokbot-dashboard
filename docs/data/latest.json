@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261116-x-qwen4-max-ga",
+      "title": "X.com 投稿文 - Qwen4-Max 一般提供：入力$1.5/出力$4.5（100万トークン）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://docs.qwencloud.com/changelog/models?model=qwen4-max-preview",
+      "draft": "AlibabaのQwen4-Maxが11/16に正式提供。価格は100万トークンあたり入力$1.5・出力$4.5（シンガポール。東京を含むGlobalは$1.413/$4.24）で、思考モードでも同額、入力長による段階料金なし。テキスト・画像・動画の理解、ツール呼び出し、構造化出力、明示キャッシュに対応し、OpenAI/Anthropic互換APIで呼べる。\n\n確認: 今のモデルのAPI単価と並べて、乗り換えコストを試算してみる。",
+      "preview": {
+        "text": "AlibabaのQwen4-Maxが11/16に正式提供。価格は100万トークンあたり入力$1.5・出力$4.5（シンガポール。東京を含むGlobalは$1.413/$4.24）で、思考モードでも同額、入力長による段階料金なし。テキスト・画像・動画の理解、ツール呼び出し、構造化出力、明示キャッシュに対応し、OpenAI/Anthropic互換APIで呼べる。\n\n確認: 今のモデルのAPI単価と並べて、乗り換えコストを試算してみる。",
+        "url": "https://docs.qwencloud.com/changelog/models?model=qwen4-max-preview"
+      },
+      "replies": [
+        "1/2 QwenCloud Model releases（qwen4-max, 2026-11-16）\nhttps://docs.qwencloud.com/changelog/models?model=qwen4-max-preview",
+        "2/2 QwenCloud Pricing\nhttps://docs.qwencloud.com/developer-guides/getting-started/pricing"
+      ],
+      "scheduledAt": "2026-11-16T16:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261116-x-qwen-code-v0-27-4-auto-mode",
       "title": "X.com 投稿文 - Qwen Code v0.27.4：Auto Modeの危険操作に明示許可",
       "source": "Radar",
