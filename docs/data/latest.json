@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261117-x-dgx-spark-hpc-developer-kit",
+      "title": "X.com 投稿文 - NVIDIA DGX Spark Developer Kit（SC26）：4台リング接続で最大700B級",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+      "draft": "机の上で、NVFP4 なら最大700B級を4台でデプロイできる構成が買える。NVIDIA の DGX Spark Developer Kit は、DGX Spark（GB10）最大4台を ConnectX-7 でリング接続し、スイッチ不要。4台でメモリ512GB、NVMe 20TB。例は DeepSeek V4.1。OEM と NVIDIA Marketplace で販売中。\n\n販売元を確認する。",
+      "preview": {
+        "text": "机の上で、NVFP4 なら最大700B級を4台でデプロイできる構成が買える。NVIDIA の DGX Spark Developer Kit は、DGX Spark（GB10）最大4台を ConnectX-7 でリング接続し、スイッチ不要。4台でメモリ512GB、NVMe 20TB。例は DeepSeek V4.1。OEM と NVIDIA Marketplace で販売中。\n\n販売元を確認する。",
+        "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/"
+      },
+      "replies": [
+        "1/2 NVIDIA Blog（2026-11-16）：DGX Spark Developer Kit\nhttps://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+        "2/2 GIGAZINE（2026-11-17、日本語参考）\nhttps://gigazine.net/news/20261117-dgx-spark-developer-kit/"
+      ],
+      "scheduledAt": "2026-11-17T16:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261117-x-copilot-customization-source-controls",
       "title": "X.com 投稿文 - GitHub Copilot：カスタマイズの出どころを制限する managed settings",
       "source": "Radar",
