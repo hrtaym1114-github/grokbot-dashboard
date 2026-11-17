@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - GitHub Copilot：カスタマイズの出どころを制限する managed settings",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
       "draft": "GitHub Copilot の企業管理者は、カスタマイズの出どころを制限できる。strictPluginOnlyCustomization で skills、custom agents、hooks、MCP servers、実行系拡張を止め、strictKnownMarketplaces で許可元も限定できる。対象は GHEC Business または Enterprise。\n\n管理設定でこの2つを確認する。",
       "preview": {
@@ -18,8 +18,8 @@
         "GitHub Changelog（2026-11-16）：Control where GitHub Copilot customizations come from\nhttps://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from"
       ],
       "scheduledAt": "2026-11-17T13:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-17T13:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2122542093193343266"
     },
     {
       "id": "20261117-x-kubeshark-mcp-cve-2026-129236",
