@@ -26,7 +26,7 @@
       "title": "X.com 投稿文 - Kubeshark MCP：start_kubeshark の引数インジェクション（CVE-2026-129236）",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.com/advisories/GHSA-8vf2-hxg5-crqh",
       "draft": "Kubeshark の MCP を使っているなら、53.4.0 以降へ。勧告（High、CVE-2026-129236）では、v53.1.0〜v53.3.0 の start_kubeshark で pod_regex がフラグとして解釈され得るとされる。--allow-destructive 利用時はイメージの差し替えにつながり得る。\n\n導入している版が 53.4.0 以降かを確認する。",
       "preview": {
@@ -39,8 +39,8 @@
         "3/3 Kubeshark リリース v53.4.0\nhttps://github.com/kubeshark/kubeshark/releases/tag/v53.4.0"
       ],
       "scheduledAt": "2026-11-17T12:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-17T12:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2122526905333407850"
     },
     {
       "id": "20261117-x-claude-code-v2-1-326-code-mode-teams",
