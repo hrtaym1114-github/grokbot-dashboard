@@ -3,6 +3,27 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261117-x-kubeshark-mcp-cve-2026-129236",
+      "title": "X.com 投稿文 - Kubeshark MCP：start_kubeshark の引数インジェクション（CVE-2026-129236）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/advisories/GHSA-8vf2-hxg5-crqh",
+      "draft": "Kubeshark の MCP を使っているなら、53.4.0 以降へ。勧告（High、CVE-2026-129236）では、v53.1.0〜v53.3.0 の start_kubeshark で pod_regex がフラグとして解釈され得るとされる。--allow-destructive 利用時はイメージの差し替えにつながり得る。\n\n導入している版が 53.4.0 以降かを確認する。",
+      "preview": {
+        "text": "Kubeshark の MCP を使っているなら、53.4.0 以降へ。勧告（High、CVE-2026-129236）では、v53.1.0〜v53.3.0 の start_kubeshark で pod_regex がフラグとして解釈され得るとされる。--allow-destructive 利用時はイメージの差し替えにつながり得る。\n\n導入している版が 53.4.0 以降かを確認する。",
+        "url": "https://github.com/advisories/GHSA-8vf2-hxg5-crqh"
+      },
+      "replies": [
+        "1/3 GitHub Advisory GHSA-8vf2-hxg5-crqh（High、CVE-2026-129236）\nhttps://github.com/advisories/GHSA-8vf2-hxg5-crqh",
+        "2/3 GitHub Advisory GHSA-gj7r-p794-hhq5（Medium、CVE-2026-129235。download_file の保存先未検証。同じく v53.4.0 で修正）\nhttps://github.com/advisories/GHSA-gj7r-p794-hhq5",
+        "3/3 Kubeshark リリース v53.4.0\nhttps://github.com/kubeshark/kubeshark/releases/tag/v53.4.0"
+      ],
+      "scheduledAt": "2026-11-17T12:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261117-x-claude-code-v2-1-326-code-mode-teams",
       "title": "X.com 投稿文 - Claude Code 2.1.326：Agent teams と Code Mode の併用",
       "source": "Radar",
