@@ -9,9 +9,9 @@
       "channel": "X",
       "status": "承認",
       "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
-      "draft": "GitHub Copilot の企業管理者は、カスタマイズの出どころを制限できる。strictPluginOnlyCustomization で skills、custom agents、hooks、MCP servers、実行系拡張を止めstrictKnownMarketplaces で許可元も限定できる。対象は GHEC の Business または Enterprise。\n\n管理設定でこの2つを確認する。",
+      "draft": "GitHub Copilot の企業管理者は、カスタマイズの出どころを制限できる。strictPluginOnlyCustomization で skills、custom agents、hooks、MCP servers、実行系拡張を止め、strictKnownMarketplaces で許可元も限定できる。対象は GHEC Business または Enterprise。\n\n管理設定でこの2つを確認する。",
       "preview": {
-        "text": "GitHub Copilot の企業管理者は、カスタマイズの出どころを制限できる。strictPluginOnlyCustomization で skills、custom agents、hooks、MCP servers、実行系拡張を止めstrictKnownMarketplaces で許可元も限定できる。対象は GHEC の Business または Enterprise。\n\n管理設定でこの2つを確認する。",
+        "text": "GitHub Copilot の企業管理者は、カスタマイズの出どころを制限できる。strictPluginOnlyCustomization で skills、custom agents、hooks、MCP servers、実行系拡張を止め、strictKnownMarketplaces で許可元も限定できる。対象は GHEC Business または Enterprise。\n\n管理設定でこの2つを確認する。",
         "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from"
       },
       "replies": [
