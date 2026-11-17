@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - OpenAI GPT-6.2 Astra / Sol：API価格と一般提供",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
       "draft": "GPT-6.2 Astra の API は 1M入力$8 / cached $0.40 / 出力$40。GPT-6 Astra より入力・出力20%安、cached 60%引き。Sol は GPT-6.1 Sol と同額。本日 Work / Codex（Plus〜Edu）と API で使える。Pro 200 に Sol の Ultrafast。Enterprise / Edu は管理者の有効化が必要。\n\nWork か Codex を確認する。",
       "preview": {
@@ -19,8 +19,8 @@
         "2/2 OpenAI API Pricing\nhttps://developers.openai.com/api/docs/pricing"
       ],
       "scheduledAt": "2026-11-18T08:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-18T08:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2122828936254218436"
     },
     {
       "id": "20261117-x-dgx-spark-hpc-developer-kit",
