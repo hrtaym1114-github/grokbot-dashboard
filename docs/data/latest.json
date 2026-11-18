@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261119-x-codex-0-170-0",
+      "title": "X.com 投稿文 - Codex 0.170.0：サンドボックス制限の修正と TUI 音声",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
+      "draft": "Codex 0.170.0 で、権限更新や子スレッドでサンドボックス制限が外れる不具合が直った。TUI の音声に WebRTC ネゴシエーションが入り、OpenTelemetry の HTTP 認証ヘッダーは自動更新される。MCP の OAuth 認証情報の競合も修正。同名 MCP サーバの環境横断利用は実験的。\n\n0.170.0 かを確認する。",
+      "preview": {
+        "text": "Codex 0.170.0 で、権限更新や子スレッドでサンドボックス制限が外れる不具合が直った。TUI の音声に WebRTC ネゴシエーションが入り、OpenTelemetry の HTTP 認証ヘッダーは自動更新される。MCP の OAuth 認証情報の競合も修正。同名 MCP サーバの環境横断利用は実験的。\n\n0.170.0 かを確認する。",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0"
+      },
+      "replies": [
+        "Codex リリース 0.170.0\nhttps://github.com/openai/codex/releases/tag/rust-v0.170.0"
+      ],
+      "scheduledAt": "2026-11-19T09:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261119-x-gemini-4-neon-ga",
       "title": "X.com 投稿文 - Gemini 4 Neon：API 価格と提供開始",
       "source": "Radar",
