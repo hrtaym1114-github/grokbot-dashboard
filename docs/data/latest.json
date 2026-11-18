@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261118-x-agent-framework-pypi-1-26-compromise",
+      "title": "X.com 投稿文 - PyPI の agent-framework 1.26.1 / 1.26.2：認証情報窃取の報告",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://socket.dev/blog/agent-framework-pypi-package-compromised-with-credential-stealer",
+      "draft": "agent-framework の 1.26.1 か 1.26.2 を入れているなら、削除して認証情報を入れ替える。Socket の報告では、起動時フックが認証情報や Azure トークンを外部へ送っていた。1.26.2 は Actions の OIDC も対象。PyPI ではこの2版が隔離され、最新は 1.26.0。\n\npip show agent-framework で確認する。",
+      "preview": {
+        "text": "agent-framework の 1.26.1 か 1.26.2 を入れているなら、削除して認証情報を入れ替える。Socket の報告では、起動時フックが認証情報や Azure トークンを外部へ送っていた。1.26.2 は Actions の OIDC も対象。PyPI ではこの2版が隔離され、最新は 1.26.0。\n\npip show agent-framework で確認する。",
+        "url": "https://socket.dev/blog/agent-framework-pypi-package-compromised-with-credential-stealer"
+      },
+      "replies": [
+        "1/2 Socket Research：agent-framework PyPI package compromised with credential stealer（2026-11-17）\nhttps://socket.dev/blog/agent-framework-pypi-package-compromised-with-credential-stealer",
+        "2/2 PyPI：agent-framework\nhttps://pypi.org/project/agent-framework/"
+      ],
+      "scheduledAt": "2026-11-18T12:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261118-blog-ollama-json-output-validation",
       "title": "OllamaのJSON出力は形式と内容を分けて検証",
       "source": "Desk",
