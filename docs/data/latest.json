@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261119-x-gemini-4-neon-ga",
+      "title": "X.com 投稿文 - Gemini 4 Neon：API 価格と提供開始",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "draft": "Gemini 4 Neon の API は 1Mトークンあたり入力$3、キャッシュ入力$0.15、出力$15。文脈は1Mトークン。無料枠では使えず、有料の Gemini API で本日から使える。Gemini for business、AI Pro / Ultra の Antigravity と Gemini アプリにも順次展開。\n\nAPI か AI Studio で gemini-4-neon を確認する。",
+      "preview": {
+        "text": "Gemini 4 Neon の API は 1Mトークンあたり入力$3、キャッシュ入力$0.15、出力$15。文脈は1Mトークン。無料枠では使えず、有料の Gemini API で本日から使える。Gemini for business、AI Pro / Ultra の Antigravity と Gemini アプリにも順次展開。\n\nAPI か AI Studio で gemini-4-neon を確認する。",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+      },
+      "replies": [
+        "1/2 Google Blog：Introducing Gemini 4 Neon\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+        "2/2 Gemini API Pricing（Gemini 4 Neon）\nhttps://aistudio.google.com/docs/pricing#gemini-4-neon"
+      ],
+      "scheduledAt": "2026-11-19T08:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261118-x-phoenix-ghsa-gfv3-m769-5xm3",
       "title": "X.com 投稿文 - Arize Phoenix：applyChatTemplate の書式文字列インジェクション（CVE-2026-53998）",
       "source": "Radar",
