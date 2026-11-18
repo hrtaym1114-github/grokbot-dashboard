@@ -7,7 +7,7 @@
       "title": "X.com 投稿文 - Arize Phoenix：applyChatTemplate の書式文字列インジェクション（CVE-2026-53998）",
       "source": "Radar",
       "channel": "X",
-      "status": "承認",
+      "status": "投稿済み",
       "url": "https://github.com/advisories/GHSA-gfv3-m769-5xm3",
       "draft": "Arize Phoenix を 15.7.0 未満なら、15.7.0 以降へ。勧告（Critical、CVE-2026-53998）で applyChatTemplate の書式文字列注入が 13.0.0〜15.7.0 未満で、既定は認証オフで無認証、認証オンでも全アカウントから環境変数や PHOENIX_SECRET を読めると説明。\n\npip show arize-phoenix で版を確認する。",
       "preview": {
@@ -20,8 +20,8 @@
         "3/3 Arize Phoenix リリース 15.7.0\nhttps://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v15.7.0"
       ],
       "scheduledAt": "2026-11-18T16:07+09:00",
-      "postedAt": null,
-      "tweet": null
+      "postedAt": "2026-11-18T16:07+09:00",
+      "tweet": "https://x.com/Amu_Lab__/status/2122949742560997564"
     },
     {
       "id": "20261118-x-opencode-v2-3-2-gpt62-cache",
