@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261118-x-opencode-v2-3-2-gpt62-cache",
+      "title": "X.com 投稿文 - OpenCode 2.3.2：GPT-6.2 のプロンプトキャッシュ修正",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.3.2",
+      "draft": "OpenCode 2.3.2 で GPT-6.2 のプロンプトキャッシュが効く。リリースノートによると、instructions 経由の毎ステップ未キャッシュ課金を、先頭の developer message に変えた（OpenAI/Copilot/Zen/Azure/OpenRouter）。Copilot の gpt-6.2-sol は約14,000→3トークン/ステップ。\n\n2.3.2 かを確認する。",
+      "preview": {
+        "text": "OpenCode 2.3.2 で GPT-6.2 のプロンプトキャッシュが効く。リリースノートによると、instructions 経由の毎ステップ未キャッシュ課金を、先頭の developer message に変えた（OpenAI/Copilot/Zen/Azure/OpenRouter）。Copilot の gpt-6.2-sol は約14,000→3トークン/ステップ。\n\n2.3.2 かを確認する。",
+        "url": "https://github.com/anomalyco/opencode/releases/tag/v2.3.2"
+      },
+      "replies": [
+        "OpenCode リリース v2.3.2\nhttps://github.com/anomalyco/opencode/releases/tag/v2.3.2"
+      ],
+      "scheduledAt": "2026-11-18T13:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261118-x-agent-framework-pypi-1-26-compromise",
       "title": "X.com 投稿文 - PyPI の agent-framework 1.26.1 / 1.26.2：認証情報窃取の報告",
       "source": "Radar",
