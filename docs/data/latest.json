@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261120-x-claude-code-v2-1-329-hooks-trust",
+      "title": "X.com 投稿文 - Claude Code 2.1.329：信頼ダイアログで hooks の宣言場所を表示",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "draft": "Claude Code 2.1.329 では、信頼ダイアログでフォルダの hooks の宣言場所が表示される。managed settings の hooks 読み込み失敗は警告され、/tasks には予約タスクと /loop が出る。設定ファイルが初期化される不具合と、macOS Keychain の繰り返しサインアウトも直った。\n\n2.1.329 かを確認する。",
+      "preview": {
+        "text": "Claude Code 2.1.329 では、信頼ダイアログでフォルダの hooks の宣言場所が表示される。managed settings の hooks 読み込み失敗は警告され、/tasks には予約タスクと /loop が出る。設定ファイルが初期化される不具合と、macOS Keychain の繰り返しサインアウトも直った。\n\n2.1.329 かを確認する。",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329"
+      },
+      "replies": [
+        "Claude Code リリース バージョン 2.1.329\nhttps://github.com/anthropics/claude-code/releases/tag/v2.1.329"
+      ],
+      "scheduledAt": "2026-11-20T09:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261120-x-todoist-mcp-cve-2026-76807",
       "title": "X.com 投稿文 - Todoist 公式 MCP：CVE-2026-76807（Critical）の DNS リバインディング",
       "source": "Radar",
