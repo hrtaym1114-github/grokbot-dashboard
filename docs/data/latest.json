@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261120-x-todoist-mcp-cve-2026-76807",
+      "title": "X.com 投稿文 - Todoist 公式 MCP：CVE-2026-76807（Critical）の DNS リバインディング",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/advisories/GHSA-833v-v58w-294h",
+      "draft": "Todoist 公式 MCP の HTTP サーバーを動かしているなら、10.3.3 以降へ。勧告（Critical、CVE-2026-76807、CVSS 9.3）では、利用者が開いたサイトからローカルの MCP 経由でタスクの作成や削除などができる。対象は 10.3.2 以下。stdio は対象外。\n\n導入版が 10.3.3 以降かを確認する。",
+      "preview": {
+        "text": "Todoist 公式 MCP の HTTP サーバーを動かしているなら、10.3.3 以降へ。勧告（Critical、CVE-2026-76807、CVSS 9.3）では、利用者が開いたサイトからローカルの MCP 経由でタスクの作成や削除などができる。対象は 10.3.2 以下。stdio は対象外。\n\n導入版が 10.3.3 以降かを確認する。",
+        "url": "https://github.com/advisories/GHSA-833v-v58w-294h"
+      },
+      "replies": [
+        "1/2 GitHub Advisory：GHSA-833v-v58w-294h（CVE-2026-76807）\nhttps://github.com/advisories/GHSA-833v-v58w-294h",
+        "2/2 npm：@doist/todoist-mcp\nhttps://www.npmjs.com/package/@doist/todoist-mcp"
+      ],
+      "scheduledAt": "2026-11-20T08:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261119-x-claude-code-v2-1-328-auto-mode",
       "title": "X.com 投稿文 - Claude Code 2.1.328：未設定時は auto mode で開始",
       "source": "Radar",
