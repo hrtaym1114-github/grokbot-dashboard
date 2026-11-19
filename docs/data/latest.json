@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261119-x-claude-code-v2-1-328-auto-mode",
+      "title": "X.com 投稿文 - Claude Code 2.1.328：未設定時は auto mode で開始",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+      "draft": "Claude Code 2.1.328 で、権限モード未設定なら auto mode 開始。Amazon Bedrock、Google Cloud Agent Platform、Microsoft Foundry、Claude apps gateway の Opus 4.6/Sonnet 4.6 も対象。mcp_tool に onFailure の block。/status と claude doctor がエンドポイント未設定を警告。\n\n版を確認する。",
+      "preview": {
+        "text": "Claude Code 2.1.328 で、権限モード未設定なら auto mode 開始。Amazon Bedrock、Google Cloud Agent Platform、Microsoft Foundry、Claude apps gateway の Opus 4.6/Sonnet 4.6 も対象。mcp_tool に onFailure の block。/status と claude doctor がエンドポイント未設定を警告。\n\n版を確認する。",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328"
+      },
+      "replies": [
+        "Claude Code リリース バージョン 2.1.328\nhttps://github.com/anthropics/claude-code/releases/tag/v2.1.328"
+      ],
+      "scheduledAt": "2026-11-19T13:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261119-x-mssql-mcp-cve-2026-63129",
       "title": "X.com 投稿文 - mssql-mcp：CVE-2026-63129（High）の SQL インジェクション",
       "source": "Radar",
