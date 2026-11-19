@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261119-x-mssql-mcp-cve-2026-63129",
+      "title": "X.com 投稿文 - mssql-mcp：CVE-2026-63129（High）の SQL インジェクション",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25",
+      "draft": "mssql-mcp で SQL Server をエージェントに触らせているなら、修正版へ。勧告（High、CVE-2026-63129）では、書き込み系ツールが tableName や whereClause や列名を T-SQL にそのまま埋め込んでいた。修正は core 0.6.0、reader / writer 0.5.0、server 0.6.0 以降。\n\n導入パッケージの版を確認する。",
+      "preview": {
+        "text": "mssql-mcp で SQL Server をエージェントに触らせているなら、修正版へ。勧告（High、CVE-2026-63129）では、書き込み系ツールが tableName や whereClause や列名を T-SQL にそのまま埋め込んでいた。修正は core 0.6.0、reader / writer 0.5.0、server 0.6.0 以降。\n\n導入パッケージの版を確認する。",
+        "url": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25"
+      },
+      "replies": [
+        "1/2 GitHub Advisory：GHSA-2m9m-6cr5-9x25（CVE-2026-63129）\nhttps://github.com/advisories/GHSA-2m9m-6cr5-9x25",
+        "2/2 npm：@connorbritain/mssql-mcp-core\nhttps://www.npmjs.com/package/@connorbritain/mssql-mcp-core"
+      ],
+      "scheduledAt": "2026-11-19T12:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261119-x-codex-0-170-0",
       "title": "X.com 投稿文 - Codex 0.170.0：サンドボックス制限の修正と TUI 音声",
       "source": "Radar",
