@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261120-x-codex-0-171-0",
+      "title": "X.com 投稿文 - Codex 0.171.0：Sol が既定、リモート実行が追加",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+      "draft": "Codex 0.171.0 では、モデルカタログに GPT-6.2 Sol と Astra が入り、Sol が既定になった。TUI のワークスペース（文書・画像プレビューとサブエージェント履歴）も既定で有効。非対話のリモート実行は codex exec --remote で、TUI には /rc と /remote が加わった。\n\n0.171.0 かを確認する。",
+      "preview": {
+        "text": "Codex 0.171.0 では、モデルカタログに GPT-6.2 Sol と Astra が入り、Sol が既定になった。TUI のワークスペース（文書・画像プレビューとサブエージェント履歴）も既定で有効。非対話のリモート実行は codex exec --remote で、TUI には /rc と /remote が加わった。\n\n0.171.0 かを確認する。",
+        "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0"
+      },
+      "replies": [
+        "Codex リリース 0.171.0\nhttps://github.com/openai/codex/releases/tag/rust-v0.171.0"
+      ],
+      "scheduledAt": "2026-11-20T13:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261120-x-mcp-python-sdk-cve-2026-115563",
       "title": "X.com 投稿文 - MCP Python SDK：CVE-2026-115563（High）の OAuth 認証情報の送信先",
       "source": "Radar",
