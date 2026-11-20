@@ -3,6 +3,27 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261121-x-inkling-2-mini",
+      "title": "X.com 投稿文 - Inkling 2 Mini：約20GBのオープンウェイト、Apache 2.0",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "draft": "Thinking Machines Lab が、メモリ約20GBのオープンウェイト Inkling 2 Mini を公開した。中間層を1トークンあたり3回回す looped transformer で、MoE は総 26.4B、アクティブ 3.4B。主な重みは NVFP4（末尾4層は MXFP8）。ライセンスは Apache 2.0。\n\nHugging Face で重みを確認する。",
+      "preview": {
+        "text": "Thinking Machines Lab が、メモリ約20GBのオープンウェイト Inkling 2 Mini を公開した。中間層を1トークンあたり3回回す looped transformer で、MoE は総 26.4B、アクティブ 3.4B。主な重みは NVFP4（末尾4層は MXFP8）。ライセンスは Apache 2.0。\n\nHugging Face で重みを確認する。",
+        "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+      },
+      "replies": [
+        "1/3 Thinking Machines Lab：Introducing Inkling 2 Mini\nhttps://thinkingmachines.ai/news/inkling-2-mini/",
+        "2/3 Hugging Face：Inkling 2 Mini（重み、Apache 2.0）\nhttps://huggingface.co/thinkingmachines/Inkling-2-Mini",
+        "3/3 Hugging Face：可変ループ研究版\nhttps://huggingface.co/thinkingmachines/TML-d24-varloop-research"
+      ],
+      "scheduledAt": "2026-11-21T08:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261120-x-codex-0-171-0",
       "title": "X.com 投稿文 - Codex 0.171.0：Sol が既定、リモート実行が追加",
       "source": "Radar",
