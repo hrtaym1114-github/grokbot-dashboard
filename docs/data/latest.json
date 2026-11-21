@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261121-x-claude-code-v2-1-330-compact-webfetch",
+      "title": "X.com 投稿文 - Claude Code 2.1.330：コンパクト直後のフリーズと WebFetch を修正",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+      "draft": "Claude Code 2.1.330 で、会話をコンパクト化した直後に最大数分フリーズする不具合が直った。WebFetch がフリーズしたり空の結果を返したりする不具合と、別セッションの worktree を削除してしまう不具合も修正。同時保存でユーザー設定が消える問題も直った。\n\n2.1.330 かを確認する。",
+      "preview": {
+        "text": "Claude Code 2.1.330 で、会話をコンパクト化した直後に最大数分フリーズする不具合が直った。WebFetch がフリーズしたり空の結果を返したりする不具合と、別セッションの worktree を削除してしまう不具合も修正。同時保存でユーザー設定が消える問題も直った。\n\n2.1.330 かを確認する。",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330"
+      },
+      "replies": [
+        "Claude Code リリース バージョン 2.1.330\nhttps://github.com/anthropics/claude-code/releases/tag/v2.1.330"
+      ],
+      "scheduledAt": "2026-11-21T12:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261121-x-inkling-2-mini",
       "title": "X.com 投稿文 - Inkling 2 Mini：約20GBのオープンウェイト、Apache 2.0",
       "source": "Radar",
