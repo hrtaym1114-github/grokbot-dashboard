@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261122-x-meta-muse-nebusec",
+      "title": "X.com 投稿文 - Meta Muse：NebuSec 研究デモ（会話・記憶の経路、修正済みと説明）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://nebusec.ai/research/meta-muse-credential-exposure/",
+      "draft": "AI アシスタントにページを読ませただけで、非公開の会話と記憶が承認なしで外に出る経路があった。NebuSec の Meta Muse に対する研究デモで示された。実利用者への攻撃ではなく、公開時点で修正済みだったと NebuSec は説明している。\n\nAI に外部ページを読ませるとき、記憶機能の扱いを見直す。",
+      "preview": {
+        "text": "AI アシスタントにページを読ませただけで、非公開の会話と記憶が承認なしで外に出る経路があった。NebuSec の Meta Muse に対する研究デモで示された。実利用者への攻撃ではなく、公開時点で修正済みだったと NebuSec は説明している。\n\nAI に外部ページを読ませるとき、記憶機能の扱いを見直す。",
+        "url": "https://nebusec.ai/research/meta-muse-credential-exposure/"
+      },
+      "replies": [
+        "1/2 NebuSec：Hacking Muse: Stealing Private Chats Through Browser Use\nhttps://nebusec.ai/research/meta-muse-credential-exposure/",
+        "2/2 NebuSec：Inside Meta Muse（技術詳細）\nhttps://nebusec.ai/research/inside-meta-muse/"
+      ],
+      "scheduledAt": "2026-11-22T08:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261121-x-claude-code-v2-1-330-compact-webfetch",
       "title": "X.com 投稿文 - Claude Code 2.1.330：コンパクト直後のフリーズと WebFetch を修正",
       "source": "Radar",
