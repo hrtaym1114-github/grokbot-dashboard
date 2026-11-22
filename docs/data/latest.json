@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261122-x-openrouter-provider-incidents",
+      "title": "X.com 投稿文 - OpenRouter：推論プロバイダーでのデータ処理事案（ZDR対象外・3社除外）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "draft": "OpenRouter でゼロデータ保持前提の125エンドポイントが外れ、プロバイダー3社も外された。一部プロバイダーでデータ侵害やデータポリシーが守られていない形跡があるとの報告を受け、予防除外も含む。OpenRouter 自体の侵害はなく、影響しうる顧客へ通知した。\n\n通知メールとプロバイダー設定を見る。",
+      "preview": {
+        "text": "OpenRouter でゼロデータ保持前提の125エンドポイントが外れ、プロバイダー3社も外された。一部プロバイダーでデータ侵害やデータポリシーが守られていない形跡があるとの報告を受け、予防除外も含む。OpenRouter 自体の侵害はなく、影響しうる顧客へ通知した。\n\n通知メールとプロバイダー設定を見る。",
+        "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+      },
+      "replies": [
+        "OpenRouter：Data Processing Incidents on Inference Providers\nhttps://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+      ],
+      "scheduledAt": "2026-11-22T16:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261122-x-meta-muse-nebusec",
       "title": "X.com 投稿文 - Meta Muse：NebuSec 研究デモ（会話・記憶の経路、修正済みと説明）",
       "source": "Radar",
