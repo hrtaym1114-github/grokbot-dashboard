@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261124-x-opencode-v2-4-0",
+      "title": "X.com 投稿文 - OpenCode 2.4.0：デスクトップ内蔵ブラウザーと /automation",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.4.0",
+      "draft": "内蔵ブラウザーで既存ブラウザーのログインと履歴を取り込み、同じページをエージェントが操作できる。/automation（タイマー・cron・MCP イベント）と generate_video を追加。画像ツールは generate_image に改名、「常に許可」は1回再確認。@latest や範囲指定は自動更新。\n\n2.4.0 かを確認する。",
+      "preview": {
+        "text": "内蔵ブラウザーで既存ブラウザーのログインと履歴を取り込み、同じページをエージェントが操作できる。/automation（タイマー・cron・MCP イベント）と generate_video を追加。画像ツールは generate_image に改名、「常に許可」は1回再確認。@latest や範囲指定は自動更新。\n\n2.4.0 かを確認する。",
+        "url": "https://github.com/anomalyco/opencode/releases/tag/v2.4.0"
+      },
+      "replies": [
+        "OpenCode リリース v2.4.0\nhttps://github.com/anomalyco/opencode/releases/tag/v2.4.0"
+      ],
+      "scheduledAt": "2026-11-24T08:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261123-blog-local-llm-evaluation-sheet",
       "title": "ローカルLLMの評価方法と採用前の記録シート",
       "source": "Desk",
