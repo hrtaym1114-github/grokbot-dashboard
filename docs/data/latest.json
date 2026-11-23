@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261124-x-claude-code-v2-1-331",
+      "title": "X.com 投稿文 - Claude Code 2.1.331：Bedrock 等のターミナルで Code Mode",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+      "draft": "Bedrock や Google Cloud の Agent Platform、Microsoft Foundry、Claude Platform on AWS のターミナルでも Code Mode が使える。claude doctor に API 疎通チェックが入り、壊れたローカルや WebSocket の MCP 応答で最大30分止まる不具合も直った。\n\nClaude Code が 2.1.331 かを確認する。",
+      "preview": {
+        "text": "Bedrock や Google Cloud の Agent Platform、Microsoft Foundry、Claude Platform on AWS のターミナルでも Code Mode が使える。claude doctor に API 疎通チェックが入り、壊れたローカルや WebSocket の MCP 応答で最大30分止まる不具合も直った。\n\nClaude Code が 2.1.331 かを確認する。",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331"
+      },
+      "replies": [
+        "Claude Code リリース バージョン 2.1.331\nhttps://github.com/anthropics/claude-code/releases/tag/v2.1.331"
+      ],
+      "scheduledAt": "2026-11-24T09:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261124-x-opencode-v2-4-0",
       "title": "X.com 投稿文 - OpenCode 2.4.0：デスクトップ内蔵ブラウザーと /automation",
       "source": "Radar",
