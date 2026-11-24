@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261125-x-copilot-cli-1-0-115",
+      "title": "X.com 投稿文 - Copilot CLI 1.0.115：モデル追加と Windows サンドボックス既定",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115",
+      "draft": "モデル選びで Gemini 4 Hydrogen（使えるとき Extra High）、GPT-6.2 Astra、MAI-Code-2-Flash が増えた。Windows のサンドボックスでパッケージ照会が既定で有効。ACP ではフォーム付きの確認質問が使え、/model でカスタムモデルを追加・管理できる。\n\ncopilot --version で 1.0.115 か確かめる。",
+      "preview": {
+        "text": "モデル選びで Gemini 4 Hydrogen（使えるとき Extra High）、GPT-6.2 Astra、MAI-Code-2-Flash が増えた。Windows のサンドボックスでパッケージ照会が既定で有効。ACP ではフォーム付きの確認質問が使え、/model でカスタムモデルを追加・管理できる。\n\ncopilot --version で 1.0.115 か確かめる。",
+        "url": "https://github.com/github/copilot-cli/releases/tag/v1.0.115"
+      },
+      "replies": [
+        "GitHub Copilot CLI リリース v1.0.115\nhttps://github.com/github/copilot-cli/releases/tag/v1.0.115"
+      ],
+      "scheduledAt": "2026-11-25T08:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261124-x-claude-code-v2-1-331",
       "title": "X.com 投稿文 - Claude Code 2.1.331：Bedrock 等のターミナルで Code Mode",
       "source": "Radar",
