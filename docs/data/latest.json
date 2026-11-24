@@ -3,6 +3,28 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261125-x-ternary-bonsai-2-5-27b",
+      "title": "X.com 投稿文 - PrismML Ternary Bonsai 2.5 27B：5.9GBのままエージェント実行を強化",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "draft": "同じ 5.9GB のまま、端末上でのエージェント実行や複数回のツール利用が強化されたと、PrismML が Ternary Bonsai 2.5（27B）を公開した。ベースは Qwen3.8 27B。前版の考えすぎや同じ処理の繰り返しにも対処したと説明している。重みは Apache 2.0 で Hugging Face に出ている。\n\n配布を確認する。",
+      "preview": {
+        "text": "同じ 5.9GB のまま、端末上でのエージェント実行や複数回のツール利用が強化されたと、PrismML が Ternary Bonsai 2.5（27B）を公開した。ベースは Qwen3.8 27B。前版の考えすぎや同じ処理の繰り返しにも対処したと説明している。重みは Apache 2.0 で Hugging Face に出ている。\n\n配布を確認する。",
+        "url": "https://prismml.com/news/bonsai-2-5-27b"
+      },
+      "replies": [
+        "1/4 PrismML：Introducing Ternary Bonsai 2.5 27B\nhttps://prismml.com/news/bonsai-2-5-27b",
+        "2/4 Hugging Face：Bonsai 2.5 27B コレクション（Apache 2.0）\nhttps://huggingface.co/collections/prism-ml/bonsai-25-27b",
+        "3/4 Hugging Face：Ternary-Bonsai-2.5-27B-GGUF\nhttps://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+        "4/4 Hugging Face：Ternary-Bonsai-2.5-27B-mlx-2bit\nhttps://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-mlx-2bit"
+      ],
+      "scheduledAt": "2026-11-25T09:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261125-x-copilot-cli-1-0-115",
       "title": "X.com 投稿文 - Copilot CLI 1.0.115：モデル追加と Windows サンドボックス既定",
       "source": "Radar",
