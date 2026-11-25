@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261126-x-ruflo-mcp-bridge-cve-2026-59726",
+      "title": "X.com 投稿文 - ruflo：既定 Docker Compose の MCP ブリッジ認証なし RCE（CVE-2026-59726）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/advisories/GHSA-c4hm-4h84-2cf3",
+      "draft": "既定の Docker Compose で公開した MCP ブリッジに、認証なしで届いた相手がコンテナ内でコマンドを実行できる。API キーの読み取りや学習データの改ざんも起きうる。対象は ruflo 3.16.3 未満。GitHub のアドバイザリに critical の CVE-2026-59726 として載った。\n\n公開範囲と修正版を確認する。",
+      "preview": {
+        "text": "既定の Docker Compose で公開した MCP ブリッジに、認証なしで届いた相手がコンテナ内でコマンドを実行できる。API キーの読み取りや学習データの改ざんも起きうる。対象は ruflo 3.16.3 未満。GitHub のアドバイザリに critical の CVE-2026-59726 として載った。\n\n公開範囲と修正版を確認する。",
+        "url": "https://github.com/advisories/GHSA-c4hm-4h84-2cf3"
+      },
+      "replies": [
+        "1/2 GitHub Advisory（GHSA-c4hm-4h84-2cf3 / CVE-2026-59726）\nhttps://github.com/advisories/GHSA-c4hm-4h84-2cf3",
+        "2/2 ruflo セキュリティリリース v3.16.3\nhttps://github.com/ruvnet/ruflo/releases/tag/v3.16.3"
+      ],
+      "scheduledAt": "2026-11-26T08:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261125-x-claude-code-v2-1-332",
       "title": "X.com 投稿文 - Claude Code 2.1.332：MCP スキルをスラッシュメニューから（beta）",
       "source": "Radar",
