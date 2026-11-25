@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261125-x-claude-code-v2-1-332",
+      "title": "X.com 投稿文 - Claude Code 2.1.332：MCP スキルをスラッシュメニューから（beta）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "draft": "MCP サーバーのスキルをスラッシュメニューから呼べる（beta）。表示は server:skill。読み込み時にスキルの shell を PreSkillShellCommand フックで拒否できる。worktree 移動・再開後の設定ファイルや rules の二重送信と、大量出力での停止も直った。\n\nClaude Code が 2.1.332 かを確認する。",
+      "preview": {
+        "text": "MCP サーバーのスキルをスラッシュメニューから呼べる（beta）。表示は server:skill。読み込み時にスキルの shell を PreSkillShellCommand フックで拒否できる。worktree 移動・再開後の設定ファイルや rules の二重送信と、大量出力での停止も直った。\n\nClaude Code が 2.1.332 かを確認する。",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332"
+      },
+      "replies": [
+        "Claude Code リリース バージョン 2.1.332\nhttps://github.com/anthropics/claude-code/releases/tag/v2.1.332"
+      ],
+      "scheduledAt": "2026-11-25T12:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261125-blog-rag-embedding-model-change",
       "title": "RAGの埋め込みモデル変更で作り直すもの",
       "source": "Desk",
