@@ -3,6 +3,27 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261126-x-google-workspace-mcp-cli-ga",
+      "title": "X.com 投稿文 - Google Workspace：公式 MCP サーバーと CLI が一般提供",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+      "draft": "公式の MCP サーバーと CLI で、Gmail など8サービスにエージェントをつなげられるようになった（一般提供）。2027年2月1日から、エージェントのアクセスは MCP 必須（技術的な強制開始）。4月1日から Scaled は無料枠超過が有料。未対応は Standard 上限で追加料金はない。\n\n公式の案内を確認する。",
+      "preview": {
+        "text": "公式の MCP サーバーと CLI で、Gmail など8サービスにエージェントをつなげられるようになった（一般提供）。2027年2月1日から、エージェントのアクセスは MCP 必須（技術的な強制開始）。4月1日から Scaled は無料枠超過が有料。未対応は Standard 上限で追加料金はない。\n\n公式の案内を確認する。",
+        "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html"
+      },
+      "replies": [
+        "1/3 Google Workspace Updates（公式、2026-11-24）\nhttps://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+        "2/3 Workspace MCP サーバーの設定ガイド\nhttps://developers.google.com/workspace/guides/configure-mcp-servers",
+        "3/3 Workspace CLI ガイド\nhttps://developers.google.com/workspace/guides/workspace-cli"
+      ],
+      "scheduledAt": "2026-11-26T09:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261126-x-ruflo-mcp-bridge-cve-2026-59726",
       "title": "X.com 投稿文 - ruflo：既定 Docker Compose の MCP ブリッジ認証なし RCE（CVE-2026-59726）",
       "source": "Radar",
