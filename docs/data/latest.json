@@ -3,6 +3,26 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261126-x-copilot-code-review-billing-org",
+      "title": "X.com 投稿文 - Copilot code review：未設定の請求先が12/30から組織に",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+      "draft": "12月30日から、未設定だとライセンス持ちの Copilot コードレビューは組織請求になる（Business / Enterprise、リポジトリの所属先）。今のままにするには、それまでにポリシーで Member を選ぶ。有料の AI Credits がない場合などは Member になる。支出が増える場合がある。\n\n設定を確認する。",
+      "preview": {
+        "text": "12月30日から、未設定だとライセンス持ちの Copilot コードレビューは組織請求になる（Business / Enterprise、リポジトリの所属先）。今のままにするには、それまでにポリシーで Member を選ぶ。有料の AI Credits がない場合などは Member になる。支出が増える場合がある。\n\n設定を確認する。",
+        "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization"
+      },
+      "replies": [
+        "1/2 GitHub Changelog（公式、2026-11-26 07:18 JST 公開）\nhttps://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+        "2/2 Configuring code review by GitHub Copilot\nhttps://docs.github.com/copilot/how-tos/copilot-on-github/set-up-copilot/configure-code-review"
+      ],
+      "scheduledAt": "2026-11-26T12:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261126-x-google-workspace-mcp-cli-ga",
       "title": "X.com 投稿文 - Google Workspace：公式 MCP サーバーと CLI が一般提供",
       "source": "Radar",
