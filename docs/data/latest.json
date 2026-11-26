@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261127-x-llama-cpp-v1-1-0",
+      "title": "X.com 投稿文 - llama cpp 1.1.0：新モデルと名前付き tool_choice、llama_batch 非推奨",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0",
+      "draft": "llama-server で名前付き tool_choice が通る。Inkling 2 系や Hy4 flash（220B、12B動作）が追加。Kokoro など音声モデルも増えた。量子化は bpw やサイズ目標から自動設定。Web UI は音声メッセージとエージェントトレースに対応。API は llama_batch が非推奨で llama_batch_ext へ。\n\n確認する。",
+      "preview": {
+        "text": "llama-server で名前付き tool_choice が通る。Inkling 2 系や Hy4 flash（220B、12B動作）が追加。Kokoro など音声モデルも増えた。量子化は bpw やサイズ目標から自動設定。Web UI は音声メッセージとエージェントトレースに対応。API は llama_batch が非推奨で llama_batch_ext へ。\n\n確認する。",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0"
+      },
+      "replies": [
+        "llama cpp リリース v1.1.0\nhttps://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0"
+      ],
+      "scheduledAt": "2026-11-27T08:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261126-x-qwen-code-v0-28-6",
       "title": "X.com 投稿文 - Qwen Code 0.28.6：承認待ちの一時停止とシェルのバックグラウンド移行",
       "source": "Radar",
