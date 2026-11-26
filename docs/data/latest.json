@@ -3,6 +3,25 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261126-x-qwen-code-v0-28-6",
+      "title": "X.com 投稿文 - Qwen Code 0.28.6：承認待ちの一時停止とシェルのバックグラウンド移行",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.6",
+      "draft": "承認や質問を待つあいだ、管理下のセッションは一時停止し、Harness 再起動のあとも再開できる。新しいプロンプトを送っても、実行中のシェルは止まらずバックグラウンドに移る。互換性のない変更として MessageRewriteMiddleware が削除された。\n\nQwen Code が 0.28.6 かを確認する。",
+      "preview": {
+        "text": "承認や質問を待つあいだ、管理下のセッションは一時停止し、Harness 再起動のあとも再開できる。新しいプロンプトを送っても、実行中のシェルは止まらずバックグラウンドに移る。互換性のない変更として MessageRewriteMiddleware が削除された。\n\nQwen Code が 0.28.6 かを確認する。",
+        "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.6"
+      },
+      "replies": [
+        "Qwen Code リリース v0.28.6\nhttps://github.com/QwenLM/qwen-code/releases/tag/v0.28.6"
+      ],
+      "scheduledAt": "2026-11-26T17:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261126-x-gemma4-tuning-hub",
       "title": "X.com 投稿文 - Gemma 4：ファインチューニング用ハブ（ガイド17本・スキル）",
       "source": "Radar",
