@@ -3,6 +3,27 @@
   "bookmarks": "skipped",
   "cards": [
     {
+      "id": "20261126-x-gemma4-tuning-hub",
+      "title": "X.com 投稿文 - Gemma 4：ファインチューニング用ハブ（ガイド17本・スキル）",
+      "source": "Radar",
+      "channel": "X",
+      "status": "承認",
+      "url": "https://gemma.ai/tuning/",
+      "draft": "Gemma 4 を自分のデータや音声・画像でファインチューンする手順が、ガイド17本と図40点以上にまとまった。LoRA、フルファインチューニング、チャットテンプレートに加え、エージェント用のスキルもある。12B は画像と音声の専用エンコーダーを置かない。\n\n公式の案内を確認する。",
+      "preview": {
+        "text": "Gemma 4 を自分のデータや音声・画像でファインチューンする手順が、ガイド17本と図40点以上にまとまった。LoRA、フルファインチューニング、チャットテンプレートに加え、エージェント用のスキルもある。12B は画像と音声の専用エンコーダーを置かない。\n\n公式の案内を確認する。",
+        "url": "https://gemma.ai/tuning/"
+      },
+      "replies": [
+        "1/3 Google Gemma の告知（2026-11-26 01:44 JST）\nhttps://x.com/googlegemma/status/2125631619692429690",
+        "2/3 Gemma 4 ファインチューニングハブ\nhttps://gemma.ai/tuning/",
+        "3/3 gemma-skills（gemma-trainer など）\nhttps://github.com/google-gemma/gemma-skills"
+      ],
+      "scheduledAt": "2026-11-26T16:07+09:00",
+      "postedAt": null,
+      "tweet": null
+    },
+    {
       "id": "20261126-x-copilot-code-review-billing-org",
       "title": "X.com 投稿文 - Copilot code review：未設定の請求先が12/30から組織に",
       "source": "Radar",
